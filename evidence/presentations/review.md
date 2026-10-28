@@ -175,7 +175,7 @@ What changes from a self-paced page: the viewer cannot stop, step or replay, so 
   - Brom 2018, read in the author's manuscript: 33 samples, N = 2,924.
   - Retention d+ = 0.387 (k = 18), comprehension 0.317 (k = 14), transfer 0.327 (k = 27), intrinsic motivation 0.255; perceived difficulty -0.208.
   - Pleasant meant warm, bright, saturated colours.
-  - Only 5 of the 33 samples (15.2%; read in the manuscript, not rechecked) changed colour alone; the rest added faces or both. No moderation by contrast type was found, and the authors say the mechanism is unclear and may be signalling.
+  - Only 5 of the 33 samples (15.2%) changed colour alone; 11 changed faces only, 13 both, and 4 combined designs (Table 3). Of seven moderators, contrast type included, none held after correction for multiple comparisons, and the test covered only the outcomes that varied enough; age gave provisional evidence on intrinsic motivation. The authors say the mechanism is unclear and may be signalling.
   - Wong 2020: retention g+ = 0.35, transfer 0.27, comprehension 0.29. Mutlu-Bayraktar 2024 found contradictory learning results but agreement on motivation and emotion; Desiron 2026 found heterogeneous designs that limit comparison.
 - Colour in data figures:
   - Harrower 2003 (ColorBrewer): schemes chosen by class number, data type (sequential, diverging, qualitative) and end use, projected included.

@@ -65,5 +65,5 @@ Two records are kept apart ([method](../README.md#method)): best evidence (a res
 - No study was found of accessibility advice (say every slide word aloud) against the redundancy result for blind or low-vision listeners.
 - No study was found of slide transitions, of an embedded clip in a live conference talk, of a live demo, or of build steps in front of a live audience.
 - No live-coding study found a learning gain over static code (Shah 2023); active live coding did not beat traditional live coding (Shah 2025).
-- Colour alone, without faces or shape, is 5 samples of 33 in the emotional-design meta-analysis (Brom 2018; manuscript, not rechecked); no isolated effect is established.
+- Colour alone, without faces or shape, is 5 samples of 33 in the emotional-design meta-analysis (Brom 2018, Table 3); no isolated effect is established.
 - No study of colour harmony and learning, of hue meaning on slides, or of projected colour at room distance was found.

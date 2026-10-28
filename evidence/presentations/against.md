@@ -62,7 +62,7 @@ This file gathers the evidence against the presentation rules: null results, dis
 
 ## Against colour claims
 
-- Emotional design: the colour-only subgroup is 5 of 33 samples (Brom 2018; manuscript, not rechecked); studies disagree on learning and agree on motivation (Mutlu-Bayraktar 2024); designs are too varied to compare (Desiron 2026). Wong 2020's updated values are a little smaller than Brom 2018's.
+- Emotional design: the colour-only subgroup is 5 of 33 samples (Brom 2018, Table 3); studies disagree on learning and agree on motivation (Mutlu-Bayraktar 2024); designs are too varied to compare (Desiron 2026). Wong 2020's updated values are a little smaller than Brom 2018's.
 - Colour as retrieval cue did not help (Meusel 2024); hue-signalled sections helped one test and not another (Clariana 2009).
 - Rainbow maps: a model found they can help some inference tasks (Reda 2021, secondary), so the ban is a default, not a law.
 - The rule of dark ground for projection has no support in the one experiment found (Greco 2008, secondary).
