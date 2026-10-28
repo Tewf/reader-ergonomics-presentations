@@ -31,7 +31,8 @@ and counts after the fact, and say so. The grey search was run to the protocol.
 
 On 2026-10-28, every line of the evidence files and shapes that carries a number was checked against its primary
 source, and every DOI in the bibliography was resolved. Of 72 numeric lines: 53 correct, 11 imprecise, 5 unverifiable,
-3 repeating a checked claim, 0 wrong.
+3 repeating a checked claim, 0 wrong. A second audit, on 2026-10-28, checked the 70 numeric lines added after the first:
+50 correct, 14 imprecise, 2 unverifiable, 4 repeats, 0 wrong, all corrected or narrowed.
 
 Every imprecise or unverifiable line was corrected, narrowed to what the source supports, or marked "(secondary)" or
 "not checked", here and in the shapes that repeat it. Claims without a number have not been audited this way, so such a
