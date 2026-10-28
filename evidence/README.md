@@ -48,7 +48,7 @@ source, and every DOI in the bibliography was resolved. Of 72 numeric lines: 53 
 The presentations review, its motion and colour questions included, was audited the same day: 79 numeric lines,
 54 correct, 9 imprecise, 10 unverifiable, 5 repeats and 1 wrong.
 
-On 2026-10-28, ten claims the audits could not verify were checked against the full texts through the university's access: 5 correct, 4 imprecise and 1 wrong, and the files were corrected to match.
+On 2026-10-28, seventeen claims the audits could not verify were checked against the full texts. The university's access gave the texts. The result: 9 correct, 6 imprecise, 1 wrong and 1 still unverifiable, and the files were corrected to match. Of the last seven, Savoy 2009 and Worthington 2015 were also confirmed by program against their PDFs.
 
 Every wrong, imprecise or unverifiable line was corrected, narrowed to what the source supports, or marked "(secondary)" or
 "not checked", here and in the shapes that repeat it. Claims without a number have not been audited this way, so such a

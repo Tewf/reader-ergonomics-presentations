@@ -169,7 +169,7 @@ Every work cited anywhere in this repository, once. The text cites `Author Year`
 | Kalyuga 2014 | Kalyuga, Sweller (2014). The redundancy principle in multimedia learning. In Cambridge Handbook of Multimedia Learning | https://doi.org/10.1017/CBO9781139547369.013 |
 | Kapoor 2023 | Kapoor, Narayanan (2023). Leakage and the reproducibility crisis in machine-learning-based science. Patterns 4(9), 100804 | https://doi.org/10.1016/j.patter.2023.100804 |
 | Karačić 2019 | Karačić, Dondio, Buljan, Hren, Marušić (2019). Languages for different health information readers: multitrait-multimethod content analysis of Cochrane systematic reviews textual summary formats. BMC Medical Research Methodology 19 | https://doi.org/10.1186/s12874-019-0716-x |
-| Kawasaki 2005 | Kawasaki (2005). The 10/20/30 rule of PowerPoint (blog; read only through secondary descriptions) | https://web.archive.org/web/20060104032042/http://blog.guykawasaki.com/2005/12/the_102030_rule.html |
+| Kawasaki 2005 | Kawasaki (2005). The 10/20/30 rule of PowerPoint (blog; archived copy read) | https://web.archive.org/web/20060104032042/http://blog.guykawasaki.com/2005/12/the_102030_rule.html |
 | Kerr 1998 | Kerr (1998). HARKing: hypothesizing after the results are known. Personality and Social Psychology Review 2(3) | https://doi.org/10.1207/s15327957pspr0203_4 |
 | Keshav 2007 | Keshav (2007). How to read a paper. ACM SIGCOMM Computer Communication Review 37(3) | https://doi.org/10.1145/1273445.1273458 |
 | Kidwell 2016 | Kidwell, Lazarević, Baranski, Hardwicke, Piechowski, Falkenberg, et al. (2016). Badges to acknowledge open practices: a simple, low-cost, effective method for increasing transparency. PLOS Biology 14(5), e1002456 | https://doi.org/10.1371/journal.pbio.1002456 |

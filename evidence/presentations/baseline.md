@@ -66,7 +66,7 @@ Grades: **convention** means a number agreed by a body or by practice, **measure
 4. Point at what you discuss; gesture to the figure (Hostetter 2011, Dargue 2019).
 5. Say what the evidence is and where it is weak.
 6. Leave time to take questions; a Q&A needs its own plan (Xu 2022).
-7. Handout: the paper or a document of its own, not the slides read as notes (Worthington 2015, secondary).
+7. Handout: the paper or a document of its own, not the slides read as notes (Worthington 2015).
 8. Test the room: read the farthest seat in rehearsal (TED 2026, example only).
 9. Describe a diagram aloud when its content is not in your words (Rector 2019); untested against the redundancy result (Adesope 2012).
 10. Show key points in step with what you say, and animate a change, not decoration (Liu 2022, Ito 2026; Beamer 2026).

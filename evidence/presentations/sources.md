@@ -46,7 +46,7 @@ Scores for the Q7 and Q8 round were read from the page or the PDF on 2026-10-28.
 | Duarte 2026 | grey, owner guide (tier 2) | prior pool | 2/2/0/0/0/0.5/0/0.5 = **5** (below 10) | review 6, position |
 | Reynolds 2008 | grey, book (tier 1), catalogue page only | prior pool; G12 | 3.5/3.5/1/1/0.5/1/0.5/1 = **12** | review 6 |
 | Anderson 2016 | grey, book (tier 1), catalogue page only | prior pool | 3.5/2.5/0.5/1/0/0.5/0.5/1 = **9.5** (below 10) | review 6 |
-| Kawasaki 2005 | grey, blog (tier 3), secondary only | prior pool | 2.5/2/0/1/0/0.5/0.5/0 = **6.5** (below 10) | review 6 |
+| Kawasaki 2005 | grey, blog (tier 3), archived post read | prior pool | 2.5/2/0/1/0/0.5/0.5/0 = **6.5** (below 10) | review 6 |
 | Beamer 2026 | grey, software manual (tier 1) | prior pool | 4/3/2/1/0/0.5/0.5/1 = **12** | review 4, 6, baseline, 7, 8 |
 | PechaKucha 2026 | grey, owner page (tier 2) | prior pool; G8 | 2.5/2/0/0/0/0.5/0.5/0.5 = **6** (below 10) | review 6, state of the art |
 | Ignite 2026 | grey, owner page (tier 2) | prior pool; G8 | 2/2/0/0/0/0.5/0.5/0.5 = **5.5** (below 10) | review 6, state of the art |
@@ -135,7 +135,7 @@ Scores for the Q7 and Q8 round were read from the page or the PDF on 2026-10-28.
 | Rowley-Jolivet 2005 | formal | prior pool | measured, descriptive | review 5 |
 | Rowley-Jolivet 2012 | formal | prior pool | measured, descriptive (secondary) | review 5 |
 | Root Kustritz 2014 | formal | snowball from Bramble 2026; F1 | supported with caveat (not randomised, one course) | review 2 |
-| Savoy 2009 | formal | prior pool | supported with caveat (secondary) | review 2 |
+| Savoy 2009 | formal | prior pool | supported with caveat (full text read) | review 2 |
 | Schneider 2018 | formal | prior pool | measured | review 1, 8 |
 | Sripradith 2023 | formal | prior pool; forward from Garner 2013 | supported with caveat | review 2 |
 | Sundararajan 2020 | formal | prior pool | measured | review 1 |
@@ -144,7 +144,7 @@ Scores for the Q7 and Q8 round were read from the page or the PDF on 2026-10-28.
 | Wilson 2007 | formal | prior pool | measured (review) | review 5 |
 | Wolfe 2023 | formal | prior pool; forward from Garner 2013 | supported with caveat (pilots) | review 2 |
 | Wolfe 2025 | formal | prior pool; forward from Garner 2013 | supported with caveat | review 2 |
-| Worthington 2015 | formal | prior pool | supported with caveat (not randomised) | review 2 |
+| Worthington 2015 | formal | prior pool | supported with caveat (not randomised; full text read) | review 2 |
 | Xu 2022 | formal | prior pool | measured, descriptive | review 5 |
 | Yue 2013 | formal | prior pool | supported with caveat | review 1 |
 | Zhu 2024 | formal | E4 | measured (meta-analysis, secondary) | review 0, 3 |
@@ -161,7 +161,7 @@ Scores for the Q7 and Q8 round were read from the page or the PDF on 2026-10-28.
 | Borland 2007 | formal | named in the question | convention (argued with examples; abstract) | review 8 |
 | Crameri 2020 | formal | named in the question | convention (argued, read in full; no experiment) | review 8 |
 | Nunez 2018 | formal | V2 | supported with caveat (title and listing only) | review 8 |
-| Liu 2018 | formal | G16 | measured (a user study; secondary) | review 8 |
+| Liu 2018 | formal | G16 | measured (a user study; full text read) | review 8 |
 | Reda 2021 | formal | G16 | measured (secondary) | review 8, against |
 | Petroff 2021 | formal | V2 | convention (title only) | review 8 |
 | Birch 2012 | formal | G17, G13 | measured, descriptive (title only) | review 8 |
@@ -187,7 +187,7 @@ Scores for the Q7 and Q8 round were read from the page or the PDF on 2026-10-28.
 | Ljubojevic 2014 | formal | M10 | supported with caveat (abstract) | review 7 |
 | Meij 2021 | formal | M1 | supported with caveat (abstract) | review 7 |
 | Bos 2025 | formal | M7 | supported with caveat (two sessions of about 20 students, no control; abstract) | review 7 |
-| Voorde 2024 | formal | M7 | convention, untested (a taxonomy by open coding; abstract) | review 7 |
+| Voorde 2024 | formal | M7 | convention, untested (a taxonomy by open coding; full text read) | review 7 |
 | Radmehr 2024 | formal | M7 | convention, untested (one case; abstract) | review 7 |
 | Zureick 2017 | formal | M8 | measured, descriptive (a survey, N = 439; abstract) | review 7 |
 | Li 2023 | formal | E13 | supported with caveat (n = 290; secondary) | review 7 |

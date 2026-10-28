@@ -66,7 +66,7 @@ Found with strings E1 to E6 (protocol.md, Garousi 2019 Guideline 2).
   - Alley 2007: two non-random comparisons of geology sections with earlier traditional ones. Scores rose (p < 0.001, then only p = .01), all bundled with active learning. Root Kustritz 2014: equal post-test, and only the traditional group fell at one month (self-selected groups, 31 traditional against 68 assertion-evidence).
   - Root Kustritz 2014: students chose their session, not randomised; equal post-test, and only the traditional group fell by one month.
 - Audit of real decks: Le Blanc 2025 (one UK medical school) found text-heavy slides (over 10 words) on screen 84.4% of the time, a mean of 38.3 words per slide.
-- Handouts and notes: Worthington 2015 (two semesters, not randomised) found provided slides had no effect on attendance and a worse result for students who took notes on them (secondary). Savoy 2009 found less retention of spoken content from PowerPoint talks (secondary).
+- Handouts and notes: Worthington 2015 (204 students, two semesters, not randomised) found provided slides had no effect on attendance and a worse exam result for students who took notes on them. Savoy 2009 (62 students) found 15% less retention of spoken content from PowerPoint talks, although students preferred PowerPoint.
 - Laptop notes: Mueller 2014 found worse conceptual answers; Urry 2019 (N = 142) did not reproduce the quiz difference.
 - Tufte 2003 and CAIB 2003 are argument and an accident report, not experiments (see against.md). Scores: Tufte 2003, 12.5 (not read); CAIB 2003, 18.5.
 
@@ -88,8 +88,8 @@ Found with strings E1 to E6 (protocol.md, Garousi 2019 Guideline 2).
 
 - Contrast: WCAG 2.2 (W3C 2023) sets 4.5:1 for text and 3:1 for large text, where large is 18 point or 14 point bold. Linked: [sufficient contrast](https://github.com/Tewf/reader-ergonomics/blob/master/principles/page/sufficient-contrast.md) and Piepenbrock 2013.
 - Section 508 (Access Board 2017): electronic content must meet WCAG 2.0 level A and AA (E205.4); non-web documents, which includes slide files, are exempt from four criteria.
-- Microsoft 2026 (8.5, example only): every slide gets a unique title, text at 18 point or larger, reading order set, alt text on visuals (guide not checked). Its checker flags missing titles, order and contrast on solid backgrounds only.
-- Display sizing: AVIXA 2016 (ANSI/INFOCOMM V202.01) sizes an image from the farthest viewer; a secondary account gives the analytic formula with an acuity factor of 3438 (the standard is paywalled, not checked).
+- Microsoft 2026 (8.5, example only): every slide gets a unique title, text at 18 point or larger, reading order set, alt text on visuals (read on the page). Its checker flags missing titles, order and contrast on solid backgrounds only.
+- Display sizing: AVIXA 2016 (ANSI/INFOCOMM V202.01) sizes an image from the farthest viewer. AVIXA's analytical calculator (now the 2026 edition) uses an acuity factor of 3438. The formula itself is in the paid standard (secondary, not checked).
 - Size research is for reading, not projection: Legge 2011 (fluent range), Rello 2016 (18 and 26 point on screen). No study of projected size and comprehension in a room was found.
 - Beamer 2026 itself says points mean little for projection; it counts lines per slide, 10 to 20.
 
@@ -109,10 +109,10 @@ Scores out of 20 are in sources.md. A source under 10 is named here only as an e
 - TED guidance (TED 2026, 9.5, example only): slides optional; one or two lines; legible from the farthest seat. Anderson 2016 (9.5, example only) is the book.
 - Duarte 2008 (11.5) and Duarte 2010 (10.5), scored from catalogue pages; Reynolds 2008 (12) argues for restrained slides. The glance test (Duarte 2026, 5, example only) has about 3 seconds and no evidence on the page.
 - Numeric rules, each a convention:
-  - Kawasaki 2005 (6.5, example only): 10 slides, 20 minutes, 30 point (secondary, not checked).
-  - Peyton Jones 1993: 6 or 7 things per slide, 17 point, no outline slide (guide not checked).
-  - Beamer 2026 (12): 20 to 40 words per frame, 80 at most (guide not checked).
-  - SSP 2026 (9, example only): title of 6 words, 6 lines of 7 words, type at least 1/40 of slide height (guide not checked).
+  - Kawasaki 2005 (6.5, example only): 10 slides, 20 minutes, 30 point (archived post read).
+  - Peyton Jones 1993: 6 or 7 things per slide, 17 point, no outline slide (read in the paper).
+  - Beamer 2026 (12): 20 to 40 words per frame, 80 at most (read in the guide, 5.1.3).
+  - SSP 2026 (9, example only): title of 6 words, 6 lines of 7 words, type at least 1/40 of slide height (read in the guide).
 - Pacing formats: PechaKucha 2026 (6) and Ignite 2026 (5.5) are examples only; the Lessig method is one word or picture per slide (secondary).
   - Liao 2020 (three classes): differences came mostly from choosing less material.
   - Warmuth 2021 (48 against 25 talks): higher immediate retention for presenters, no delayed difference.
@@ -121,7 +121,7 @@ Scores out of 20 are in sources.md. A source under 10 is named here only as an e
 - Accessibility: Rector 2019 (14; nine guidelines, no evidence cited); ACM 2026 (9.5, example only) derives from it.
   - Both ask the speaker to say every slide word aloud; this runs against Adesope 2012, and no study of blind or low-vision listeners was found.
 - Teaching centre: Bramble 2026 (11) recommends assertion-visual evidence, handouts for notes and 10-minute chunks (the rule against.md doubts); it names two studies by surname only.
-- Built-in tools: Designer reached 1 billion slides, the owner's claim (Microsoft 2019, 6.5, example only).
+- Built-in tools: Designer reached 1 billion slides by 2019, the owner's claim (Microsoft 2019, 6.5, example only; read on the blog).
 
 ## 7. Motion in a talk
 
@@ -145,7 +145,7 @@ What changes from a self-paced page: the viewer cannot stop, step or replay, so 
   - Shorter videos, an interleaved talking head, Khan-style tablet drawing and a fast, enthusiastic speaker were each more engaging.
   - Engagement is watching time and problem attempts, not learning.
 - Explainer video in the style of mathematical animation:
-  - Voorde 2024 coded YouTube maths videos into roles of dynamic visuals (number of roles not checked); Radmehr 2024 analysed one 3Blue1Brown video, over 3.3 million views, as a case.
+  - Voorde 2024 coded the visuals of a small sample of YouTube maths videos into seven role categories (four videos first, 25 to 50 visuals each). Radmehr 2024 analysed one 3Blue1Brown video, over 3.3 million views, as a case.
   - Bos 2025 (two sessions of about 20 calculus students, no control group): students learned from the videos and overestimated how much.
   - Naming a visual's learning goal went with better learning; a visual without a clear goal could hinder (abstract).
   - Pichler 2023 (thesis, 29, 42 and 30 viewers): an animation video and a slides-only video beat a slides-plus-professor video on the knowledge test.
@@ -182,7 +182,7 @@ What changes from a self-paced page: the viewer cannot stop, step or replay, so 
   - Borland 2007 and Crameri 2020 argue against the rainbow map. Crameri 2020 (read in full): jet-like maps can distort over 7% of the displayed data variation.
   - Its general estimate: 8% of men and 0.5% of women have a colour-vision deficiency.
   - Poor maps stay the default in software.
-  - Liu 2018 (secondary; the abstract gives no result per map): viridis gave consistently low error; a diverging scheme erred across its centre. Reda 2021 (secondary): rainbow maps can help some inference tasks (see against.md).
+  - Liu 2018 (56 subjects, full text): viridis gave consistently low error; the diverging blue-orange scheme erred when a comparison crossed its centre (Figure 6, p. 6; p. 8). Reda 2021 (secondary): rainbow maps can help some inference tasks (see against.md).
   - Position and length before colour: [draw relations](https://github.com/Tewf/reader-ergonomics/blob/master/principles/page/draw-relations.md).
 - Colour-vision deficiency: WCAG asks that colour not be the only cue (W3C 2023c). Wong 2011 is the source of a widely copied eight-colour palette (secondary). Rector 2019, ACM 2026 and Microsoft 2026 give the same rule for slides; ACM 2026 names a simulator.
 - Light against dark when projected:
@@ -194,13 +194,13 @@ What changes from a self-paced page: the viewer cannot stop, step or replay, so 
   - Schloss 2011: pairs of similar hue were rated more harmonious and preferred; strongly contrasting hue pairs were rated neither. Pair preference followed liking of each colour and lightness contrast.
   - Palmer 2010: liking for a colour follows the average liking of things that have that colour (abstract).
   - Both measure preference. No study of harmony and learning was found: harmony is preference only, on this search.
-  - Ethos3 2026 (2.5, example only) teaches wheels (complementary, analogous) and states that colour decides 90% of quick purchase judgments, with no source on the page (page not rechecked).
+  - Ethos3 2026 (2.5, example only) teaches wheels (complementary, analogous). It states that colour decides up to 90% of quick purchase judgments, citing a study named Impact of Color in Marketing without a working link (the link goes to a journal list).
 - Colour in natural images: Bramao 2011: colour aids object recognition, d = 0.28 overall. It is d = 0.43 for colour-diagnostic objects and d = 0.18, marginal (p = .06), for the rest; so keep photographs in their real colours.
 - Practice on slides (conventions):
   - Beamer 2026 (12): few colours, maximum contrast, darken bright colours on white, no decorative background shading.
   - Bramble 2026 (11): three colours, consistent by kind. SSP 2026 (9, example only): high contrast.
   - Duarte 2026 and Leonhard Center 2026: their pages say nothing on colour.
-  - Palettes: ScotGov 2024 (12.5) gives one colour per category in a fixed order, 3:1 against white, at most 4 colours per chart (guide not checked).
+  - Palettes: ScotGov 2024 (12.5) gives one colour per category in a fixed order, 3:1 against white, at most 4 colours per chart (guide not checked; source designsystem.gov.scot/guidance/charts/data-visualisation-colour-palettes).
   - EU 2023 (14): a rainbow map made a front that is not in the data.
   - Wilke 2019 (14.5): avoid encoding too much in colour, and design for colour-vision deficiency. Matplotlib 2026 (14.5): choose maps by lightness.
 - Carries over: colour as a signal and as a safe palette has support; pleasant colours help a little in lessons; harmony and hue meaning for a live audience are untested.

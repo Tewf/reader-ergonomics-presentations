@@ -67,11 +67,11 @@ This file gathers the evidence against the presentation rules: null results, dis
 - Rainbow maps: a model found they can help some inference tasks (Reda 2021, secondary), so the ban is a default, not a law.
 - The rule of dark ground for projection has no support in the one experiment found (Greco 2008, secondary).
 - Harmony: contrasting hue pairs, the "complementary" ones of the colour wheel, were rated less harmonious (Schloss 2011, secondary); preference is not comprehension.
-- Practice cites unsourced figures: a 90% claim for colour in quick judgments (Ethos3 2026, 2.5 of 20).
+- Practice cites weakly sourced figures: a 90% claim for colour in quick judgments, citing a study by name without a working link (Ethos3 2026, 2.5 of 20).
 - Old colour-versus-monochrome studies were excluded by Brom 2018 because the colours were arbitrary.
 
 ## Replications and notes
 
 - Laptop against longhand notes: the quiz difference did not replicate in a direct replication (Urry 2019).
-- Handout studies are not randomised (Worthington 2015).
+- Handout studies are not randomised (Worthington 2015, full text).
 - Practice pages report their own success: Designer, Ignite, PechaKucha, the memo, the assertion-evidence site. Of these, all but the memo (Bezos 2018, 10.5) score under 10 of 20.
