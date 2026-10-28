@@ -27,6 +27,15 @@ A grey source is scored on Garousi's 20 criteria, in eight groups. The `sources.
 The formal search of these two topics was narrative, with snowballing; their protocol files record its terms
 and counts after the fact, and say so. The grey search was run to the protocol.
 
+**Second rater.** A second rater re-scored, blind, every fifth grey source of the seven reviews in this repository
+and its sibling (38 of 175):
+
+- inclusion: the raters agreed for 89.5% of the sample, Cohen's kappa 0.46, unstable at this size (bootstrap 0.00 to 0.87);
+- totals: intraclass correlation ICC(A,1) 0.62, mean absolute difference 2.05 of 20, the second rater 1.8 points higher;
+- four sources moved from below 10 to above it, and each stays an example of practice;
+- the raters differed most on novelty, methodology and objectivity;
+- outlet tier was not scored blind, and the first rater kept only the eight subtotals.
+
 ## Audit
 
 On 2026-10-28, every line of the evidence files and shapes that carries a number was checked against its primary
