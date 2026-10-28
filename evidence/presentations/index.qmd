@@ -1,0 +1,5 @@
+---
+title: "Presentations: how to build slides and the spoken talk around them"
+---
+
+{{< include README.md >}}

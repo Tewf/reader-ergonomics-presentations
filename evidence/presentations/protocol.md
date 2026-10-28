@@ -1,0 +1,225 @@
+# Protocol
+
+This file records how the pool of sources for this topic was built, so that the search can be repeated.
+
+It follows Garousi 2019 for a multivocal literature review (MLR, defined in the [evidence README](../README.md)) in a lighter form.
+
+Garousi 2019 was written for software engineering. Its guidelines are applied here to presentations, a field with a large teaching and speaking practice beside its research. The formal pool predates the protocol, and this file says so.
+
+## 1. Why grey literature (Garousi Table 4, seven questions)
+
+| # | Question | Answer for presentations |
+|---|---|---|
+| 1 | Complex subject, not solvable by the formal literature alone | yes: speaker, room and format rules are mostly practice |
+| 2 | Lack of volume, quality or consensus of evidence | yes: few live-talk studies, bundled factors |
+| 3 | Context matters | yes: audience, length, room, field |
+| 4 | Goal to check research against practical experience | yes |
+| 5 | Goal to challenge practice rules with research | yes: 30 point, 10 minutes, 3 seconds |
+| 6 | Synthesis useful to both communities | yes |
+| 7 | Many practitioner sources | yes: every grey string returned speaker guides and workshops |
+
+Seven of seven are yes, so grey literature is included. The same seven answers hold for Q7 (motion) and Q8 (colour): palettes, builds, demos and video style are mostly practice, and the experiments are few and small.
+
+## 2. Questions
+
+- Q1 Does on-screen text that repeats the voice help or hurt, and which principles apply to a paced medium?
+- Q2 Does showing slides help, and which slide design helps?
+- Q3 What does the speaker add: gesture, face, enthusiasm?
+- Q4 What makes slides legible and accessible in a room?
+- Q5 How are talks built, and how do questions and discussion work?
+- Q6 What does practice recommend and adopt, and how does it compare with Q1 to Q5?
+- Q7 Motion in a talk: slide builds and transitions, animated diagrams, embedded video, explainer video in the style of mathematical animation, live demos and live coding, lecture-video design.
+  - Its core: what changes when a speaker paces the motion.
+- Q8 Colour: colour coding as a signal, emotional design with pleasant colours, colour in data figures, colour-vision deficiency and safe palettes, light against dark when projected, colour harmony, and what practice advises.
+
+## 3. Existing reviews (Guideline 2)
+
+| Id | String, as run | Results screened | Included |
+|---|---|---|---|
+| E1 | systematic review meta-analysis PowerPoint slides student learning outcomes | 10 | 0 |
+| E2 | meta-analysis multimedia learning principles review of reviews Mayer | 10 | 2 (Noetel 2022, Cromley 2025) |
+| E3 | systematic review scientific conference presentations oral presentation slides effectiveness | 9 | 1 (Blome 2017) |
+| E4 | meta-analysis instructor visibility lecture video learning outcomes 2022 2023 2024 | 10 | 3 (Polat 2022, Zhu 2024, Heidig 2024) |
+| E5 | scoping review slide design PowerPoint lectures higher education text density images | 9 | 0 (Le Blanc 2025 came through G4) |
+| E6 | meta-analysis teacher gestures learning students instruction | 9 | 0 |
+| E7 | `systematic review OR meta-analysis animation versus static slides presentation learning builds progressive disclosure` | 10 | 0 (animation reviews already held in the linked learning-science review) |
+| E8 | `meta-analysis video lectures learning higher education systematic review lecture video design` | 9 | 1 (Noetel 2021) |
+| E9 | `live coding versus static slides teaching programming study learning outcomes` | 9 | 2 (Shah 2023, Shah 2025) |
+| E10 | `Live Coding: A Review of the Literature Selvaraj ITiCSE 2021` | 9 | 1 (Selvaraj 2021) |
+| E11 | `systematic review color coding signaling multimedia learning color as cue meta-analysis` | 9 | 0 (Richter 2016, Schneider 2018 and Noetel 2022 already held) |
+| E12 | `experiment sequential bullet points reveal versus all at once slides recall learning "build" animation PowerPoint study` | 10 | 2 (Ito 2026, Liu 2022) |
+| E13 | `explainer video animation versus slides lecture learning engagement evidence whiteboard animation study` | 10 | 2 (Li 2023; Pichler 2023 as grey) |
+
+Engine for E, F and G strings: a general web search tool (one engine, US-based, returns a summary and links), run on 2026-10-28. E7 to E13 screened 66 results.
+
+## 4. Formal search
+
+- The formal pool was built by a narrative search plus snowballing (frame.md lists the terms), not by screening database counts. The counts below only describe the terms.
+- Query form: `https://api.openalex.org/works?filter=title_and_abstract.search:<terms>&per_page=1`, field `meta.count`, run 2026-10-28.
+- These ten were run with the words unquoted, so each count is "all words anywhere in title or abstract", not a phrase. The count for assertion-evidence is mostly noise from the two common words.
+
+| Terms | Count |
+|---|---|
+| multimedia learning principles | 4474 |
+| cognitive theory of multimedia learning | 3223 |
+| cognitive load theory | 12466 |
+| redundancy effect | 17159 |
+| assertion-evidence | 20927 |
+| instructor presence | 5778 |
+| gesture comprehension meta-analysis | 27 |
+| conference presentation genre | 824 |
+| conference presentation | 160781 |
+| discussion sessions | 68325 |
+
+- Not run: the other terms of frame.md (PowerPoint, slide design, pedagogical agent, split attention, modality, segmenting, the acronyms and the author names). The service answered HTTP 429 after these ten, with a retry delay of about five hours.
+- Snowballing: forward from Garner 2013 (41 citing records when listed in an earlier session; 4 kept: Wolfe 2023, Wolfe 2025, Alzayed 2023, Sripradith 2023). In this round, backward from Bramble 2026 (strings F1, F2 below): 2 kept (Alley 2007, Root Kustritz 2014).
+
+| Id | String, as run | Screened | Included |
+|---|---|---|---|
+| F1 | Diesel assertion-evidence geoscience lecture slides test scores study | 10 | 2 (Alley 2007, Root Kustritz 2014) |
+| F2 | Wolfe assertion-evidence slides computer science course exam scores study | 9 | 0 (no computer science exam study found) |
+
+### Formal search for Q7 and Q8 (2026-10-28)
+
+- OpenAlex, the database of the first round, answered HTTP 429 (daily budget used) for every request of this round, so its counts are missing for the new strings.
+- Two other databases that answer without an identity were used.
+  - ERIC (`https://api.ies.ed.gov/eric/`, field `numFound`): phrase and Boolean search over all fields, education only.
+  - The arXiv API (field `totalResults`): titles and abstracts, computer science and physics side. The first 10 results of each string, in the database's own order, were screened by title.
+- Not run: Scopus and Web of Science (no access); a database of the psychology of colour or of visualization papers outside arXiv. Visualization and colour-science work reached the pool through the grey strings and through citations, not through a database count.
+
+| Id | String, as run | Database | Count | Screened | New included |
+|---|---|---|---|---|---|
+| H1 | `"color coding" AND "multimedia learning"` | ERIC | 3 | 3 | 1 (Ozcelik 2009) |
+| H2 | `"emotional design" AND ("multimedia learning" OR "color" OR "colour")` | ERIC | 28 | 10 | 4 (Mutlu-Bayraktar 2024, Desiron 2026, Um 2012, Meusel 2024) |
+| H3 | `"pleasant colors" OR "warm colors" OR "aesthetic colors" OR "warm colours"` | ERIC | 17 | 10 | 0 |
+| H4 | `"video production" AND "engagement" AND (lecture OR MOOC OR "instructional video")` | ERIC | 4 | 4 | 0 (Guo 2014 already known) |
+| H5 | `"color" AND "signaling" AND ("meta-analysis" OR "systematic review")` | ERIC | 1 | 1 | 0 |
+| H6 | `("color vision deficiency" OR "color blindness" OR "colour blindness" OR "color-blind") AND (slides OR presentation OR visualization OR learning)` | ERIC | 75 | 10 | 0 (race-equity papers and single-course notes) |
+| H7 | `"background color" AND (learning OR slides OR presentation OR multimedia)` | ERIC | 14 | 10 | 1 (Clariana 2009) |
+| H8 | `"color" AND ("presentation slides" OR PowerPoint) AND (legibility OR contrast OR readability OR polarity)` | ERIC | 2 | 2 | 0 |
+| H9 | `"color harmony" OR "colour harmony"` | ERIC | 9 | 9 | 0 (art-class and interior-design items) |
+| H10 | `("dark mode" OR "dark background" OR "negative polarity") AND (reading OR slides OR presentation)` | ERIC | 4 | 4 | 0 |
+| M1 | `PowerPoint AND (animation OR animations OR "slide transitions" OR "progressive disclosure")` | ERIC | 58 | 10 | 2 (Miller 2011, Meij 2021) |
+| M2 | `"video lectures" AND ("systematic review" OR "meta-analysis")` | ERIC | 2 | 2 | 2 (Tharumalingam 2025, Kuang 2023) |
+| M3 | `"lecture video" AND (production OR "talking head" OR "picture-in-picture" OR "Khan Academy" OR "pen tablet")` | ERIC | 5 | 5 | 0 |
+| M4 | `"live coding"` | ERIC | 12 | 10 | 2 (Shah 2025, Lin 2022) |
+| M5 | `("live demonstration" OR "live demo" OR "classroom demonstration") AND lecture` | ERIC | 10 | 10 | 0 (classroom science demonstrations, no talk) |
+| M6 | `animation AND "meta-analysis" AND (multimedia OR learning)` | ERIC | 13 | 10 | 0 (animation reviews already held, linked) |
+| M7 | `"mathematical animation" OR "3Blue1Brown" OR "Manim"` | ERIC | 4 | 4 | 3 (Bos 2025, Voorde 2024, Radmehr 2024) |
+| M8 | `live AND recorded AND lecture AND (learning OR performance)` | ERIC | 38 | 10 | 1 (Zureick 2017) |
+| M9 | `animation AND pacing AND "learner control"` | ERIC | 5 | 5 | 2 (Tabbers 2009, Hatsidimitris 2012) |
+| M10 | `"embedded video" OR "video clips" AND (lecture OR presentation) AND learning` | ERIC | 38 | 10 | 1 (Ljubojevic 2014) |
+| V1 | `ti:"color map" OR abs:"rainbow colormap" OR abs:"rainbow color map"` | arXiv | 23 | 8 | 0 (mathematics and vision papers) |
+| V2 | `abs:"color vision deficiency" AND abs:visualization` | arXiv | 11 | 8 | 2 (Nunez 2018 through its preprint, Petroff 2021) |
+| V3 | `abs:"perceptually uniform" AND abs:colormap` | arXiv | 3 | 3 | 0 |
+
+- Totals for H, M, V: 158 results screened, 21 formal sources included.
+- Found by other routes: Brom 2018, Wong 2020, Plass 2014, Harrower 2003, Borland 2007, Crameri 2020 and Guo 2014 (all named in the question).
+- Also found by other routes: Brame 2016, Liu 2018, Reda 2021, Birch 2012, Wong 2011, Schloss 2011, Palmer 2010, Bramao 2011 and Greco 2008 (from grey strings and citations).
+- With E7 to E13 and the strings above, 43 formal sources were added in this round.
+- Snowballing: backward from Brom 2018 (read in the author's copy of the accepted manuscript) for the colour-only subgroup and the exclusions; backward from Crameri 2020 for the prevalence estimate. Forward snowballing was not run (no citation index without an identity).
+
+## 5. Grey search
+
+Types and producers, with the reason for each (Guideline 6):
+
+| Type | Producers | Why |
+|---|---|---|
+| Speaker guidance | TED and TEDx | the largest talk programme |
+| Conference and society speaker guides | scientific societies, ACM events, USENIX | the rules authors of papers receive |
+| Accessibility guides | ACM SIGACCESS, ACM events | access to a paced medium |
+| University teaching centres | UNB, others | rules for lecturers |
+| Practitioner books and sites | Duarte, Reynolds, Leonhard Center | the most read design advice |
+| Formats | PechaKucha, Ignite, Lessig method | pace fixed by rule |
+| Company practice | Amazon memos | replacing slides |
+
+Strings, N = 10 results screened per string (title and the engine's summary); pages opened in full are counted apart.
+
+| Id | String, as run | Screened | Opened | New included |
+|---|---|---|---|---|
+| G1 | TEDx speaker guide slides presentation tips | 9 | 1 | 0 (TED 2026 re-found) |
+| G2 | scientific conference oral presentation guidelines for speakers slides society | 10 | 1 | 1 (SSP 2026); IEEE guide not read, certificate error |
+| G3 | accessible presentation guidelines slides conference speakers | 10 | 1 | 1 (ACM 2026) |
+| G4 | teaching center lecture slides design principles evidence-based | 10 | 2 | 2 (Bramble 2026, Le Blanc 2025) |
+| G5 | assertion-evidence slide design workshop guide scientists | 10 | 1 | 0 (Leonhard Center 2026 re-found) |
+| G6 | Amazon six-page narrative memo meetings instead of PowerPoint study hall | 10 | 0 | 0 (Bezos 2018 re-found) |
+| G7 | how to give a good talk slides advice computer science researchers guide | 10 | 0 | 0 |
+| G8 | PechaKucha Ignite 20 slides format presentation learning effectiveness study | 10 | 3 | 3 formal (Liao 2020, Warmuth 2021, Bakcek 2020) |
+| G9 | Rector accessible presentation guide SIGACCESS slides speakers | 10 | 1 | 1 (Rector 2019) |
+| G10 | Lessig method presentation style one word per slide origin Takahashi | 10 | 0 | 0 |
+| G11 | ACM SIGPLAN OR USENIX OR NeurIPS conference talk instructions for speakers slides guidance | 40 | 0 | 0 |
+| G12 | Garr Reynolds Presentation Zen design principles restraint simplicity naturalness slides | 10 | 0 | 0 |
+| G13 | `colorblind safe palette slides presentation accessible colors guide` | 9 | 0 | 0 (a science-communication palette PDF was not reachable) |
+| G14 | `best colors for presentation slides dark background versus light background projector room lighting` | 9 | 1 | 1 (Schwabish 2014); a Tufte page on projection backgrounds returned HTTP 403, unread |
+| G15 | `color theory harmony complementary analogous palette for presentation slides designer advice` | 10 | 1 | 1 (Ethos3 2026) |
+| G16 | `rainbow colormap harmful viridis perceptually uniform scientific visualization guide` | 10 | 1 | 1 (EU 2023); Liu 2018 and Reda 2021 found |
+| G17 | `Okabe Ito colorblind friendly palette color universal design guide scientific figures` | 9 | 0 | 0 (the original page is gone; Wong 2011 found) |
+| G18 | `data visualisation colour guidance government analysis function palette categorical sequential diverging` | 9 | 1 | 1 (ScotGov 2024) |
+| G19 | `PowerPoint animation best practices presentation builds Morph transition when to use evidence` | 9 | 1 | 1 (Microsoft 2026b) |
+| G20 | `live demo conference talk advice pre-recorded video versus live demonstration technical presentation` | 10 | 2 | 2 (LornaJane 2017, Mozilla 2026) |
+| G21 | `Brame effective educational videos principles guidelines Vanderbilt Center for Teaching` | 10 | 0 | 0 (Brame 2016 taken as formal) |
+| G22 | `Grant Sanderson 3Blue1Brown Manim animation explain mathematics why animate talk interview process` | 10 | 1 | 1 (Sanderson 2026) |
+| G23 | `live coding in lectures and talks tips font size zoom practice typos instructors guide` | 9 | 1 | 1 (Nederbragt 2016) |
+| G24 | `embedding video clips in a conference presentation tips autoplay backup audio codec speaker guide` | 9 | 0 | 0 |
+| G25 | `slide transitions and animations distract audience presentation advice avoid fly-in effects` | 9 | 0 | 0 |
+| G26 | `lecture capture live versus recorded lectures advice for instructors recording talks pre-record` | 9 | 0 | 0 |
+| G27 | `color psychology meaning red green blue presentation slides evidence debunked cultural` | 10 | 0 | 0 |
+| G28 | `how many colors in a chart limit categorical palette direct labeling legend advice` | 10 | 0 | 0 (vendor design-system pages repeating one another) |
+| G29 | `legibility projected slides text and background color combinations study yellow on blue white on dark` | 9 | 0 | 0 (Greco 2008 found) |
+| G30 | `color blindness simulator tools Color Oracle Coblis check slides and figures before presenting` | 10 | 0 | 0 |
+| G31 | `use one accent color to highlight on slides gray everything else emphasis color presentation design` | 9 | 0 | 0 |
+
+- Added directly, not through a string: Wilke 2019 and Matplotlib 2026 (named practitioner references for colour in figures).
+- Also added directly: W3C 2023b and W3C 2023c (the WCAG criteria on moving content and on colour).
+- Pichler 2023 and Simpleshow 2021 came through E13.
+- Totals for G13 to G31: 179 results screened, 15 pages opened in full, 15 new grey sources (7 under 10 of 20). The advice on colour and animation in already scored sources was read again.
+  - Beamer 2026, Bramble 2026, Rector 2019, ACM 2026, Microsoft 2026, SSP 2026 and TED 2026 carry some.
+  - The pages of Duarte 2026 and Leonhard Center 2026 carry none.
+- Totals for G1 to G12: 149 results screened, 10 pages or abstracts opened in full, 8 new sources (4 grey, 4 formal). Duarte 2026 was also opened, for scoring only. E1 to E6 screened 57 results and F1, F2 19; the E and F strings added 8 formal sources.
+- Excluded without opening, by type: coach and template-vendor blogs (tier 3, repeating TED or Duarte); event listings and logistics pages; satire and course notes without authority; the same page found twice.
+- Seen, not retrieved: two IEEE conference guides (TLS certificate could not be verified; no workaround attempted); a Tufte page on projection backgrounds (HTTP 403); a science-communication colour PDF (no connection).
+
+## 6. Stopping rule (stated before the search)
+
+- **Effort bounded:** the top 10 results of each string (N = 10).
+- **Saturation:** stop after 3 consecutive strings that add no new concept (k = 3).
+- Applied: G10, G11 and G12 added no new concept (concepts: numeric size or text limits, sentence headlines, no slides, pacing, accessibility, handouts, Q&A, timing), so the search stopped after G12.
+- Q7 and Q8 round (G13 to G31): the rule was applied per question. Colour: G29, G30 and G31 added no new concept, so colour searching stopped after G31. Motion: G24, G25 and G26 added none, so it stopped after G26. Concepts found, in order:
+  - Colour, first part: lightness not hue (G13), room-light rule (G14), harmony wheels (G15), perceptually uniform maps (G16).
+  - Colour, second part: the Okabe-Ito palette (G17), palette limits and 3:1 for graphics (G18), meaning lists (G27), number of colours and direct labels (G28).
+  - Motion: Morph for meaning (G19), staged and recorded demos (G20), lecture-video design (G21), animation-led explanation (G22), live-coding mechanics (G23).
+- New concepts by string, first round:
+  - G2: limits on title and line length.
+  - G3: speak slide text aloud, describe visuals.
+  - G4: note-taking handouts.
+  - G8: outcome studies of fixed pacing.
+  - G9: share slides a week ahead, avoid animation.
+
+## 7. Selection
+
+- Include: a source that states a rule or gives evidence on Q1 to Q6, in English, a talk or lecture with slides as its unit.
+- Exclude: sources about posters or online meetings; pages that repeat another page; sources unreadable here. Video production is excluded as a craft (cameras, lighting) but included as design research (Guo 2014, Brame 2016).
+- For Q7 and Q8 also: colour-only studies of web pages, packaging or marketing (no listener, no slide); animation of pedagogical agents (covered under Q3 in the first round); sources that are vendor templates.
+- A grey source is scored (section 8); one under 10 is kept only as an example of practice.
+
+## 8. Quality of grey sources (Guideline 11, Table 7)
+
+- 20 criteria, each 1, 0.5 or 0: authority of the producer (4), methodology (6), objectivity (4), date (1), position among related sources (1), novelty (2), impact (1), outlet type (1).
+- Impact is read here as 1 when a count or derived guides were seen, 0.5 for evident wide use or an owner's claim, 0 otherwise.
+- Outlet is 1 for books, standards and reports, 0.5 for owner guides and annual reports, 0 for blogs.
+- Books known from a catalogue page only are scored on what that page shows; sources.md says so.
+- Threshold 10 of 20 (Garousi): 19 of 39 grey sources are under it (12 of 24 before the Q7 and Q8 round, 7 of 15 in it).
+
+## 9. Extraction and synthesis
+
+- Per source: producer, date, claim, number, evidence cited, limits.
+- Synthesis is narrative by question; each claim traces to a row of sources.md.
+
+## 10. Limits
+
+- A second rater re-scored 5 of this topic's grey sources blind ([method](../README.md#method)), before Q7 and Q8 were added: 4 of 5 decisions agree. The TEDx organiser guide scores 9.5 and 12.5, as the raters weighed an owner's account of its own format differently; it stays an example of practice. The sources added for Q7 and Q8 were scored by one rater only.
+- One search engine that personalises and changes; results of 2026-10-28 may not repeat.
+- Screening used titles and engine summaries; secondary numbers are marked "(secondary)".
+- Formal side: ten of the frame terms counted in the first round, the pool not screened from them. In the Q7 and Q8 round the counts come from ERIC and arXiv, not from OpenAlex, so they are not comparable with the first table.
+- Many Q7 and Q8 papers sit behind publisher paywalls; where only the abstract was read, sources.md says so, and numbers carried only by a search summary are marked "(secondary)".
+- Whether Richter 2016 and Schneider 2018 test colour as a moderator could not be settled: their full texts were not reachable, and only the abstracts and an archive description were read.

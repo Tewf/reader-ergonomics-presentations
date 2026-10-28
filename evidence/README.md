@@ -8,6 +8,7 @@ case against, baseline. Every work cited is listed once in the [bibliography](bi
 |---|---|
 | [academic-papers](academic-papers/) | how a research article is ordered, what the evidence says about that order, and what templates enforce |
 | [mathematical-writing](mathematical-writing/) | how a mathematical article and each proof in it should be laid out for the reader |
+| [presentations](presentations/) | how slides and the spoken talk around them are built so a listener, who cannot set the pace, understands and remembers |
 
 ## Method
 
@@ -24,8 +25,10 @@ A grey source is scored on Garousi's 20 criteria, in eight groups. The `sources.
 (of 4), M methodology (6), O objectivity (4), D date (1), P position among related sources (1), N novelty (2), I impact
 (1), T outlet tier (1). Below 10 of 20 it may illustrate what practice does, but it never supports a claim.
 
-The formal search of these two topics was narrative, with snowballing; their protocol files record its terms
-and counts after the fact, and say so. The grey search was run to the protocol.
+Each review keeps two records apart: **most adopted**, a practice record, and **best evidence**, a research record.
+Practice counts as evidence only where a study measured its effect. The formal search of these three topics was
+narrative, with snowballing; their protocol files record its terms and counts after the fact, and say so. The grey
+search was run to the protocol.
 
 **Second rater.** A second rater re-scored, blind, every fifth grey source of the seven reviews in this repository
 and its sibling (38 of 175):
@@ -42,7 +45,9 @@ On 2026-10-28, every line of the evidence files and shapes that carries a number
 source, and every DOI in the bibliography was resolved. Of 72 numeric lines: 53 correct, 11 imprecise, 5 unverifiable,
 3 repeating a checked claim, 0 wrong. A second audit, on 2026-10-28, checked the 70 numeric lines added after the first:
 50 correct, 14 imprecise, 2 unverifiable, 4 repeats, 0 wrong, all corrected or narrowed.
+The presentations review, its motion and colour questions included, was audited the same day: 79 numeric lines,
+54 correct, 9 imprecise, 10 unverifiable, 5 repeats and 1 wrong.
 
-Every imprecise or unverifiable line was corrected, narrowed to what the source supports, or marked "(secondary)" or
+Every wrong, imprecise or unverifiable line was corrected, narrowed to what the source supports, or marked "(secondary)" or
 "not checked", here and in the shapes that repeat it. Claims without a number have not been audited this way, so such a
 claim is only as good as the review that cites it.
