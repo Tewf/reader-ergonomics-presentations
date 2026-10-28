@@ -191,7 +191,7 @@ Every work cited anywhere in this repository, once. The text cites `Author Year`
 | Leonhard Center 2026 | Penn State Leonhard Center (undated, read 2026). Assertion-evidence approach (owner site) | https://www.assertion-evidence.com/ |
 | Leron 1983 | Leron (1983). Structuring mathematical proofs. American Mathematical Monthly. | https://doi.org/10.1080/00029890.1983.11971184 |
 | Leron 2013 | Leron, Zaslavsky (2013). Generic proving: reflections on scope and method. For the Learning of Mathematics 33(3), 24-30 | https://www.jstor.org/stable/43894858 |
-| Lessing 2025 | Lessing, Ogbonnaya (2025). Reasoning and proof in mathematics education: a systematic literature review. Discover Education 5 (not read; described in a search summary) | https://doi.org/10.1007/s44217-025-01016-1 |
+| Lessing 2025 | Lessing, Ogbonnaya (2025). Reasoning and proof in mathematics education: a systematic literature review. Discover Education 5 | https://doi.org/10.1007/s44217-025-01016-1 |
 | Levasseur 2006 | Levasseur, Sawyer (2006). Pedagogy meets PowerPoint: a research review of the effects of computer-generated slides in the classroom. Review of Communication | https://doi.org/10.1080/15358590600763383 |
 | Lew 2019 | Lew, Mejía-Ramos (2019). Linguistic conventions of mathematical proof writing at the undergraduate level. Journal for Research in Mathematics Education 50(2), 121-155 | https://doi.org/10.5951/jresematheduc.50.2.0121 |
 | Lew 2020 | Lew, Weber, Mejía Ramos (2020). Do generic proofs improve proof comprehension? Journal of Educational Research in Mathematics 30(S), 229-248 | https://doi.org/10.29275/jerm.2020.08.sp.1.229 |
@@ -275,7 +275,7 @@ Every work cited anywhere in this repository, once. The text cites `Author Year`
 | Plavén-Sigray 2017 | Plavén-Sigray, Matheson, Schiffler, Thompson (2017). The readability of scientific texts is decreasing over time. eLife 6 | https://doi.org/10.7554/eLife.27725 |
 | PLOS 2026 | PLOS Medicine (undated, read 2026). Revising your manuscript: author summary. Journal author instructions | https://journals.plos.org/plosmedicine/s/revising-your-manuscript |
 | Polat 2022 | Polat (2022). Instructors' presence in instructional videos: a systematic review. Education and Information Technologies 28, 8537-8569 | https://doi.org/10.1007/s10639-022-11532-4 |
-| Powell 2017 | Powell, Hebert, Cohen, Casa, Firmender (2017). A synthesis of mathematics writing: assessments, interventions, and surveys. Journal of Writing Research 8(3), 493-526 or 493-530 (not checked; abstract not found, counts from a search summary, secondary) | https://doi.org/10.17239/jowr-2017.08.03.04 |
+| Powell 2017 | Powell, Hebert, Cohen, Casa, Firmender (2017). A synthesis of mathematics writing: assessments, interventions, and surveys. Journal of Writing Research 8(3), 493-526 as printed on the article (Crossref lists 493-530) | https://doi.org/10.17239/jowr-2017.08.03.04 |
 | Radmehr 2024 | Radmehr, Turgut (2024). Learning more about derivative: leveraging online resources for varied realizations. ZDM - Mathematics Education 56(4), 589-604 | https://doi.org/10.1007/s11858-024-01564-0 |
 | Ramdas 2026 | Ramdas (undated, read 2026). Checklist for effectively writing papers in stat-ML. Carnegie Mellon University | https://www.stat.cmu.edu/~aramdas/checklists/aadi-paper-checklist.pdf |
 | Rector 2019 | Rector (2019). Accessible presentation guide. ACM SIGACCESS (page dated 7 March 2019, read 2026) | https://sigaccess.org/welcome-to-sigaccess/resources/accessible-presentation-guide/ |

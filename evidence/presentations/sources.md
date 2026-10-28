@@ -168,7 +168,7 @@ Scores for the Q7 and Q8 round were read from the page or the PDF on 2026-10-28.
 | Wong 2011 | formal | G17 | convention (journal column; title only, palette content secondary) | review 8 |
 | Schloss 2011 | formal | targeted lookup after G15 | measured (preference experiments; secondary) | review 8, against |
 | Palmer 2010 | formal | targeted lookup after G27 | measured (abstract) | review 8 |
-| Bramao 2011 | formal | targeted lookup after E11 | measured (meta-analysis, 35 experiments, N = 1,535; secondary) | review 8 |
+| Bramao 2011 | formal | targeted lookup after E11 | measured (meta-analysis, 35 experiments, N = 1,535) | review 8 |
 | Greco 2008 | formal | G14, G29 | measured (three experiments; secondary) | review 8, against |
 | Guo 2014 | formal | named in the question | measured, descriptive (observational, 6.9 million sessions; read in full) | review 7, against |
 | Noetel 2021 | formal | E8 | measured (105 randomised trials; abstract) | review 0, 7 |

@@ -21,7 +21,7 @@ Found with strings E1 to E6 (protocol.md, Garousi 2019 Guideline 2).
   - Brame 2016 (narrative review): manage load, raise engagement, promote active learning; Selvaraj 2021 reviews live coding (read as title and a summary only).
 - Colour (Q8), found with H1 to H10 and E11:
   - Brom 2018 (33 samples, N = 2,924), Wong 2020 (28 articles), Mutlu-Bayraktar 2024 (51 articles) and Desiron 2026 (35 studies) review emotional design with pleasant colours.
-  - Bramao 2011 (35 experiments, N = 1,535; secondary) reviews colour in object recognition.
+  - Bramao 2011 (35 experiments, N = 1,535) reviews colour in object recognition.
   - Richter 2016 and Schneider 2018 are signaling meta-analyses. Whether either analyses colour coding as a moderator was not settled: only abstracts and an archive description were read. The abstract of Richter 2016 names colour coding as an example of a signal; the archive description of its data lists "distinctiveness of signals" as a moderator, not signal type.
 - Not found by these strings: a review of slide builds or transitions, of live demos inside talks, of colour on projected slides, or of colour harmony and learning.
 - How this review differs: its unit is the talk, not the lesson, and it adds genre, legibility and practice.
@@ -38,7 +38,7 @@ Found with strings E1 to E6 (protocol.md, Garousi 2019 Guideline 2).
 - Yue 2013 (two experiments, college students, a narrated slide lesson): identical on-screen text and narration hurt recall and transfer.
   - A small discrepancy between text and voice did best; a large one did as badly as identical.
   - Learners preferred identical text and learned less from it.
-- Modality: Ginns 2005 is the meta-analysis. A secondary account says the effect appears under system pacing and reverses under self pacing (abstract not checked).
+- Modality: Ginns 2005 is the meta-analysis. Pacing moderates it (Table 2). Under system pacing d = 0.93 (k = 31). Under self pacing d = -0.14 (k = 7, 95% CI -0.32 to 0.04, which includes zero), so the effect disappears.
 - Segmenting: Rey 2019 (56 studies, 88 comparisons) found small to medium gains in retention and transfer; learners with high prior knowledge gained more in retention (abstract).
 - Signalling: Schneider 2018 and Richter 2016 (meta-analyses; see [learning science](https://github.com/Tewf/reader-ergonomics/blob/master/evidence/learning-science/review.md)). Coherence: Sundararajan 2020.
 - Carries over: a talk is system-paced, so these results are the nearest evidence, but no talk was studied in live rooms.
@@ -63,7 +63,7 @@ Found with strings E1 to E6 (protocol.md, Garousi 2019 Guideline 2).
   - Alzayed 2023: 108 students who built slides; lower workload with AE, understanding unchanged.
   - Sripradith 2023: 59 students; AE better on a grammar test.
 - Other tests of the design:
-  - Alley 2007: two of six geology sections, with fill-in notes and a graded activity; attendance and scores rose (p < 0.001), all bundled (abstract not checked). Root Kustritz 2014: equal post-test, and only the traditional group fell at one month (abstract not checked).
+  - Alley 2007: two non-random comparisons of geology sections with earlier traditional ones. Scores rose (p < 0.001, then only p = .01), all bundled with active learning. Root Kustritz 2014: equal post-test, and only the traditional group fell at one month (self-selected groups, 31 traditional against 68 assertion-evidence).
   - Root Kustritz 2014: students chose their session, not randomised; equal post-test, and only the traditional group fell by one month.
 - Audit of real decks: Le Blanc 2025 (one UK medical school) found text-heavy slides (over 10 words) on screen 84.4% of the time, a mean of 38.3 words per slide.
 - Handouts and notes: Worthington 2015 (two semesters, not randomised) found provided slides had no effect on attendance and a worse result for students who took notes on them (secondary). Savoy 2009 found less retention of spoken content from PowerPoint talks (secondary).
@@ -195,7 +195,7 @@ What changes from a self-paced page: the viewer cannot stop, step or replay, so 
   - Palmer 2010: liking for a colour follows the average liking of things that have that colour (abstract).
   - Both measure preference. No study of harmony and learning was found: harmony is preference only, on this search.
   - Ethos3 2026 (2.5, example only) teaches wheels (complementary, analogous) and states that colour decides 90% of quick purchase judgments, with no source on the page (page not rechecked).
-- Colour in natural images: Bramao 2011 (secondary): colour aids object recognition, d = 0.28 overall (abstract; the split by typical colour was not checked); so keep photographs in their real colours.
+- Colour in natural images: Bramao 2011: colour aids object recognition, d = 0.28 overall. It is d = 0.43 for colour-diagnostic objects and d = 0.18, marginal (p = .06), for the rest; so keep photographs in their real colours.
 - Practice on slides (conventions):
   - Beamer 2026 (12): few colours, maximum contrast, darken bright colours on white, no decorative background shading.
   - Bramble 2026 (11): three colours, consistent by kind. SSP 2026 (9, example only): high contrast.
