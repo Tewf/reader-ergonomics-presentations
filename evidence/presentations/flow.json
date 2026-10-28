@@ -1,0 +1,33 @@
+{
+  "title": "Presentations: how the pool of sources was built",
+  "columns": [
+    "Formal",
+    "Grey"
+  ],
+  "rows": [
+    [
+      "Returned by the strings",
+      "not recorded",
+      "not recorded"
+    ],
+    [
+      "Screened",
+      "not recorded",
+      "not recorded"
+    ],
+    [
+      "Included as new",
+      55,
+      19
+    ],
+    [
+      "Carried from the earlier pass",
+      52,
+      20
+    ]
+  ],
+  "total": [
+    "In the review",
+    146
+  ]
+}

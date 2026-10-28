@@ -6,12 +6,26 @@ This file lists the pool of sources behind the review, with how each was found a
 
 | Stage | Formal | Grey |
 |---|---|---|
-| Pool before the first MLR round (narrative search and snowballing) | 52 | 20 |
-| Found by strings E, F, G of the first round (protocol.md) | 12 | 4 |
-| Found by strings E7 to E13, H, M, V, G13 to G31 and other routes (Q7 and Q8 round) | 43 | 15 |
-| Pool now | 107 | 39 |
-| Grey at or above 10 of 20 | n/a | 20 |
-| Grey below 10 of 20 (examples of practice only) | n/a | 19 |
+| Returned by the strings | not recorded | not recorded |
+| Screened | not recorded | not recorded |
+| Included as new | 55 | 19 |
+| Carried from the earlier pass | 52 | 20 |
+| In the review | 107 | 39 |
+
+- Formal:
+  - 52 sources were in the pool before the first round of the review, built by narrative search and snowballing.
+  - The strings E, F and G of the first round found 12, and the second round (Q7 and Q8) found 43, which gives 55 as new.
+  - Returned and screened counts are given per string in the protocol, with no total by kind.
+- Grey:
+  - 20 sources were in the pool before the first round.
+  - The first round found 4 and the second round 15, which gives 19 as new.
+  - Of the 39 grey sources, 20 score at or above 10 of 20 and 19 score below it (examples of practice only).
+
+In the review: the presentations source rows of each kind, counted by script.
+
+The figure draws the stages of the table for presentations.
+
+![No returned or screened counts are recorded by kind. 55 formal and 19 grey sources were added, and 52 formal and 20 grey were carried, for 107 formal and 39 grey sources in the review, 146 in all.](flow.svg)
 
 - Strings: first round 6 existing-review (E), 2 follow-up (F), 12 grey (G); Q7 and Q8 round 7 existing-review (E7 to E13), 23 formal database strings (H, M, V), 19 grey (G13 to G31). That is 69 strings and 628 results screened in all (225 and 403).
 - Excluded without opening: blogs and template vendors (tier 3), event listings, repeats, papers on web pages, packaging and marketing colour. Seen, not read: two IEEE guides (certificate error), a Tufte page on projection backgrounds (HTTP 403), a science-communication colour PDF.
