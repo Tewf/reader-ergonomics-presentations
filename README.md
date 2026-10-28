@@ -1,5 +1,10 @@
 # Academic writing and presentations
 
+[![Checks, master](https://github.com/Tewf/academic-writing-and-presentations/actions/workflows/checks.yml/badge.svg?branch=master)](https://github.com/Tewf/academic-writing-and-presentations/actions/workflows/checks.yml?query=branch%3Amaster)
+[![Checks, papers and proofs](https://github.com/Tewf/academic-writing-and-presentations/actions/workflows/checks.yml/badge.svg?branch=academic-papers-and-proofs)](https://github.com/Tewf/academic-writing-and-presentations/actions/workflows/checks.yml?query=branch%3Aacademic-papers-and-proofs)
+[![Checks, presentations](https://github.com/Tewf/academic-writing-and-presentations/actions/workflows/checks.yml/badge.svg?branch=presentations)](https://github.com/Tewf/academic-writing-and-presentations/actions/workflows/checks.yml?query=branch%3Apresentations)
+[![Site](https://github.com/Tewf/academic-writing-and-presentations/actions/workflows/pages.yml/badge.svg)](https://tewf.github.io/academic-writing-and-presentations/)
+
 How to write research papers, mathematical articles and proofs, and how to build a presentation, so that they cost
 the reader or the listener as little as possible.
 
@@ -40,7 +45,11 @@ git clone https://github.com/Tewf/reader-ergonomics
 python3 reader-ergonomics/checks/run.py path/to/this/repository
 ```
 
-CI runs the same checks on every push; see [.github/workflows/checks.yml](.github/workflows/checks.yml).
+CI runs the same checks on every push to every branch, and a run fails on any error
+([checks.yml](.github/workflows/checks.yml)). The badges at the top are the last result on each branch: the proof that
+this repository obeys the standard it extends. Every push to master also renders the site,
+[tewf.github.io/academic-writing-and-presentations](https://tewf.github.io/academic-writing-and-presentations/)
+([pages.yml](.github/workflows/pages.yml)); it grows as the branches are merged.
 
 ## Licence
 

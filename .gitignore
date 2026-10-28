@@ -11,3 +11,5 @@ checks/out/
 
 /.quarto/
 **/*.quarto_ipynb
+# The standard checked out at build time for its stylesheet (pages.yml)
+_standard/
