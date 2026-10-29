@@ -1,7 +1,7 @@
 # Decisions
 
 The choices that shaped this repository, one record each, in the shape of reader-ergonomics'
-[decision record](https://github.com/Tewf/reader-ergonomics/blob/v1.7.0/shapes/decision-record.md). A record is never edited to change its decision; a new record replaces it.
+[decision record](https://github.com/Tewf/reader-ergonomics/blob/v1.9.0/shapes/decision-record.md). A record is never edited to change its decision; a new record replaces it.
 
 | Record | Decision |
 |---|---|

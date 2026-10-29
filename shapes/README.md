@@ -1,6 +1,6 @@
 # Shapes
 
-A **shape** is the fixed skeleton of one kind of document: every document of that kind has the same parts in the same order. These are the shapes particular to presentations. The general ones are in [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/tree/v1.7.0/shapes).
+A **shape** is the fixed skeleton of one kind of document: every document of that kind has the same parts in the same order. These are the shapes particular to presentations. The general ones are in [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/tree/v1.9.0/shapes).
 
 ## Contents
 

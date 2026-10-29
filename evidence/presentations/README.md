@@ -2,7 +2,7 @@
 
 Question: how should slides and the talk around them (research talk, conference presentation, lecture) be built so the listener understands and remembers what matters, given that a listener cannot set the pace or reread.
 
-Scope: only what changes when a speaker paces the medium and is part of it, including motion on slides and in video (strand 7) and colour (strand 8). Text on a page is covered elsewhere: [learning science](https://github.com/Tewf/reader-ergonomics/blob/v1.7.0/evidence/learning-science/review.md) (section 5, multimedia principles), [typography and layout](https://github.com/Tewf/reader-ergonomics/blob/v1.7.0/evidence/typography-and-layout/README.md), and the general principles in the [standard](https://github.com/Tewf/reader-ergonomics/blob/v1.7.0/standard.md).
+Scope: only what changes when a speaker paces the medium and is part of it, including motion on slides and in video (strand 7) and colour (strand 8). Text on a page is covered elsewhere: [learning science](https://github.com/Tewf/reader-ergonomics/blob/v1.9.0/evidence/learning-science/review.md) (section 5, multimedia principles), [typography and layout](https://github.com/Tewf/reader-ergonomics/blob/v1.9.0/evidence/typography-and-layout/README.md), and the general principles in the [standard](https://github.com/Tewf/reader-ergonomics/blob/v1.9.0/standard.md).
 
 Steps: [frame](frame.md) · [protocol](protocol.md) · [sources](sources.md) · [review](review.md) · [state of the art](state-of-the-art.md) · [position](position.md) · [against](against.md) · [baseline](baseline.md) · [bibliography](../bibliography.md)
 

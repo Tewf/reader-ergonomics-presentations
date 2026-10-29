@@ -2,7 +2,7 @@
 
 **Decision:** The example deck is shapes/example-talk.html, so that Quarto's rendering of shapes/talk.md cannot overwrite it.
 
-**Status:** accepted, 2026-10-29. **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/v1.7.0/shapes/decision-record.md).
+**Status:** accepted, 2026-10-29. **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/v1.9.0/shapes/decision-record.md).
 
 ## Context
 

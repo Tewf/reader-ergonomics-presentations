@@ -24,6 +24,32 @@ de chacun est un style à part, gardé par lui, qui modifie à son tour ce stand
 
 ![Ce standard contient une base, ce qu'est toute présentation, et trois contextes qui la modifient : l'exposé académique, la présentation d'affaires et l'exposé informel ; le style propre à chacun modifie à son tour tout le standard.](readme-scope.fr.svg)
 
+<details>
+<summary>Source Graphviz</summary>
+
+```dot
+// The scope of reader-ergonomics-presentations (fr): a base, contexts that override it, and a personal style.
+digraph scope {
+  graph [rankdir=BT, compound=true, nodesep=0.4, ranksep=0.55, bgcolor="white", pad=0.2, fontname="Inter"];
+  node  [shape=box, style="rounded,filled", fontname="Inter", fontsize=13, margin="0.2,0.1", penwidth=1.5, fontcolor="#1F2328"];
+  edge  [fontname="Inter", fontsize=11, color="#3D434B", fontcolor="#55575F", penwidth=1.3, arrowsize=0.8];
+  subgraph cluster_standard {
+    label=<<font point-size="11" color="#55575F">ce standard</font>>; labeljust=l;
+    style="rounded"; color="#6A6D77"; penwidth=1.2;
+    BASE [label=<<b>la base : ce qu'est une présentation</b><br/><font point-size="11" color="#55575F">un média rythmé, un orateur, une salle</font>>, fillcolor="#E8EEF8", color="#2F5DA8"];
+    A [label=<<b>l'exposé académique</b><br/><font point-size="11" color="#55575F">colloque, séminaire, soutenance</font>>, fillcolor="#E6F2EA", color="#2E7D4F"];
+    B [label=<<b>la présentation d'affaires</b><br/><font point-size="11" color="#55575F">pitch, vente, point de direction</font>>, fillcolor="#E6F2EA", color="#2E7D4F"];
+    C [label=<<b>l'exposé informel</b><br/><font point-size="11" color="#55575F">meetup, club, entre amis</font>>, fillcolor="#E6F2EA", color="#2E7D4F"];
+    {rank=same; A; B; C}
+  }
+  OWN [label=<<b>votre propre style</b><br/><font point-size="11" color="#55575F">gardé par vous</font>>, fillcolor="#FBEDE4", color="#B4541A", style="rounded,filled,dashed"];
+  A -> BASE [label=" modifie"]; B -> BASE; C -> BASE;
+  OWN -> B [lhead=cluster_standard, style=dashed, color="#6A6D77", label=" modifie à son tour"];
+}
+```
+
+</details>
+
 ## Contenu
 
 | Partie | Contient | État |
