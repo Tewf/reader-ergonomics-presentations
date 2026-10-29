@@ -81,7 +81,7 @@ Engine for E, F and G strings: a general web search tool (one engine, US-based, 
 
 ### Formal search for Q7 and Q8 (2026-10-28)
 
-- OpenAlex, the database of the first round, answered HTTP 429 (daily budget used) for every request of this round, so its counts are missing for the new strings.
+- OpenAlex, the database of the first round, answered HTTP 429 (daily budget used) for every request of this round. The new strings were counted there on 2026-10-29 instead, as quoted phrases (the table after the one below).
 - Two other databases that answer without an identity were used.
   - ERIC (`https://api.ies.ed.gov/eric/`, field `numFound`): phrase and Boolean search over all fields, education only.
   - The arXiv API (field `totalResults`): titles and abstracts, computer science and physics side. The first 10 results of each string, in the database's own order, were screened by title.
@@ -112,6 +112,50 @@ Engine for E, F and G strings: a general web search tool (one engine, US-based, 
 | V1 | `ti:"color map" OR abs:"rainbow colormap" OR abs:"rainbow color map"` | arXiv | 23 | 8 | 0 (mathematics and vision papers) |
 | V2 | `abs:"color vision deficiency" AND abs:visualization` | arXiv | 11 | 8 | 2 (Nunez 2018 through its preprint, Petroff 2021) |
 | V3 | `abs:"perceptually uniform" AND abs:colormap` | arXiv | 3 | 3 | 0 |
+
+The same strings in OpenAlex, counted on 2026-10-29 (H1 to H10 and M1 at 00:06 UTC, M2 to V3 at 10:12 UTC), each phrase quoted:
+
+| Id | OpenAlex count |
+|---|---|
+| H1 | 11 |
+| H2 | 279 |
+| H3 | 775 |
+| H4 | 43 |
+| H5 | 172 |
+| H6 | 969 |
+| H7 | 413 |
+| H8 | 305 |
+| H9 | 1 340 |
+| H10 | 489 |
+| M1 | 1 384 |
+| M2 | 35 |
+| M3 | 39 |
+| M4 | 1 220 |
+| M5 | 457 |
+| M6 | 66 |
+| M7 | 262 |
+| M8 | 1 225 |
+| M9 | 15 |
+| M10 | 824 |
+| V1 | 4 613 |
+| V2 | 83 |
+| V3 | 23 |
+
+The first-round terms were counted again the same day as quoted phrases, which a phrase count must be compared with; the
+counts in the first table are loose words and stay as they were:
+
+| Terms | OpenAlex count as a phrase |
+|---|---|
+| multimedia learning principles | 245 |
+| cognitive theory of multimedia learning | 1 428 |
+| cognitive load theory | 6 148 |
+| redundancy effect | 223 |
+| assertion-evidence | 78 |
+| instructor presence | 568 |
+| gesture AND comprehension AND meta-analysis | 27 |
+| conference presentation genre | 5 |
+| conference presentation | 26 127 |
+| discussion sessions | 3 302 |
 
 - Totals for H, M, V: 158 results screened, 21 formal sources included.
 - Found by other routes: Brom 2018, Wong 2020, Plass 2014, Harrower 2003, Borland 2007, Crameri 2020 and Guo 2014 (all named in the question).
