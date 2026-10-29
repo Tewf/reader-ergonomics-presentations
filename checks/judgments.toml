@@ -143,41 +143,6 @@ file = "c4495c65005b"
 answer = "One role: the evidence against the presentation rules, theme by theme (`## Against assertion-evidence`, `## Against the attention rule`). It stays whole."
 
 [[answer]]
-check = "logical-lines"
-path = "evidence/presentations/position.md"
-question = "122 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "6ccfaf554e9a"
-answer = "One role: the repository's position, what is known and not known, with the overrides each context makes (`## Known`, `## The business context: candidate overrides`). It stays whole, though the two context sections are the first candidates to split if a fourth context arrives."
-
-[[answer]]
-check = "logical-lines"
-path = "evidence/presentations/protocol.md"
-question = "532 lines, past the ceiling of 500. Review it: split it only into pieces that change separately and each stay whole, or state why it stays one file."
-file = "91a2df5f61c3"
-answer = "It stays one file: it is the single record of one search, and its parts are rounds appended in order (`## Q9 business presentations (added 2026-10-29)`, `## Q10 casual talks (added 2026-10-29)`), each repeating the same steps such as `### Stopping rule (stated before the search, applied after)`. Overshoots the ceiling by 32 lines; splitting per round is the natural seam if it grows."
-
-[[answer]]
-check = "logical-lines"
-path = "evidence/presentations/protocol.md"
-question = "385 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "91a2df5f61c3"
-answer = "One role: the record of how the pool of sources was built, `so that the search can be repeated`. It stays whole."
-
-[[answer]]
-check = "logical-lines"
-path = "evidence/presentations/review.md"
-question = "328 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "38a5a258bba1"
-answer = "One role: the reading of the literature strand by strand (`## 0. Existing reviews`, `## 8. Colour`), each strand ending in what carries over to a live talk. It stays whole."
-
-[[answer]]
-check = "logical-lines"
-path = "evidence/presentations/sources.md"
-question = "286 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "b7c19c5867fa"
-answer = "One role: the scored list of sources and how each was found (`## Grey sources`, `## Formal sources`). It stays whole."
-
-[[answer]]
 check = "co-change"
 path = "principles/talk/a-talk-is-not-a-paper.md"
 question = "changed together with reader-styles/README.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
@@ -185,53 +150,11 @@ file = "b2ca06c9bd62"
 answer = "Keep them apart: it is a principle (`[review, strand 5 and strand 6]`) and reader-styles/README.md lists contexts; their 3 shared commits (c00b630 the casual context, ebbb88d, d7c3a4f the release pin) are edits to a shared version link and a context, not shared content."
 
 [[answer]]
-check = "co-change"
-path = "evidence/presentations/baseline.md"
-question = "changed together with principles/slide/legible-in-the-room.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "d24ce7ac76e7"
-answer = "Keep them apart: baseline.md `names the deck a proposed presentation design must beat`, and legible-in-the-room.md is one rule that deck is held to. Their three shared commits are two release pins (ebbb88d, d7c3a4f) and the key rename 6fd6bed, where both cite the contrast page that became W3C 2023b: upkeep of one citation, not one fact held twice."
-
-[[answer]]
-check = "co-change"
-path = "evidence/presentations/review.md"
-question = "changed together with principles/slide/legible-in-the-room.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "38a5a258bba1"
-answer = "Keep them apart, with the link that exists: review.md `reviews the literature on presentations in strands`, and the principle cites its strands 4 and 8 by link. Their three shared commits are two release pins (ebbb88d, d7c3a4f) and the key rename 6fd6bed, where both cite the contrast page that became W3C 2023b; the rule and its evidence stay in their own folders."
-
-[[answer]]
-check = "document-mode"
-path = "evidence/presentations/position.md"
-question = "reads about equally as how-to and explanation: one mode per document?"
-file = "6ccfaf554e9a"
-answer = "One mode, understanding why (with look-up tables): `## Known` and `## Not known` state findings and the override tables compare rules; it never walks the reader through a task, which belongs to baseline.md."
-
-[[answer]]
 check = "name-content"
 path = "evidence/presentations/against.md"
 question = "the name 'against' and the opening are far apart in meaning (0.20): does the name predict the content?"
 file = "c4495c65005b"
 answer = "Yes: `# Evidence against and open controversies` is exactly what the name promises, and `against` is one step of the topic's fixed sequence listed in its README."
-
-[[answer]]
-check = "name-content"
-path = "evidence/presentations/position.md"
-question = "the name 'position' and the opening are far apart in meaning (0.16): does the name predict the content?"
-file = "6ccfaf554e9a"
-answer = "Yes: the opening says what is known, what is not, and what this repository adds, which is the position of the repository (`## Known`, `## Not known`); the name is short but is the step name used across the topic."
-
-[[answer]]
-check = "name-content"
-path = "evidence/presentations/review.md"
-question = "the name 'review' and the opening are far apart in meaning (0.18): does the name predict the content?"
-file = "38a5a258bba1"
-answer = "Yes: the opening says the file reviews the literature on presentations in strands, and the content is that review (`## 0. Existing reviews`, `## 1. Paced media: modality, redundancy, segmenting`)."
-
-[[answer]]
-check = "co-change"
-path = "evidence/presentations/review.md"
-question = "changed together with principles/talk/a-talk-is-not-a-paper.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "38a5a258bba1"
-answer = "Keep them apart: review.md is the evidence log the principle cites, and the principle links to it. They change together when a corrected source reaches a principle's limits, as the outline advice did (`Peyton Jones 1993: 6 or 7 things per slide`): a link, not shared content."
 
 [[answer]]
 check = "co-change"
@@ -246,3 +169,94 @@ path = "evidence/presentations/state-of-the-art.md"
 question = "the name 'state' and the opening are far apart in meaning (0.01): does the name predict the content?"
 file = "6e8a0203d6c1"
 answer = "Yes: the opening `# State of the art, per sub-question` names the file, and its two parts are the records it promises (`## Best evidence`, `## Most adopted`). The check compared only the first word of the file name, which is why the distance is low."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/presentations/position.md"
+question = "122 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "429e91c03be8"
+answer = "One role: the repository's position, what is known and not known, with the overrides each context makes (`## Known`, `## The business context: candidate overrides`). It stays whole, though the two context sections are the first candidates to split if a fourth context arrives."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/presentations/protocol.md"
+question = "532 lines, past the ceiling of 500. Review it: split it only into pieces that change separately and each stay whole, or state why it stays one file."
+file = "c5627684de4b"
+answer = "It stays one file: it is the single record of one search, and its parts are rounds appended in order (`## Q9 business presentations (added 2026-10-29)`, `## Q10 casual talks (added 2026-10-29)`), each repeating the same steps such as `### Stopping rule (stated before the search, applied after)`. Overshoots the ceiling by 32 lines; splitting per round is the natural seam if it grows."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/presentations/protocol.md"
+question = "385 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "c5627684de4b"
+answer = "One role: the record of how the pool of sources was built, `so that the search can be repeated`. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/presentations/review.md"
+question = "328 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "1deff1134b41"
+answer = "One role: the reading of the literature strand by strand (`## 0. Existing reviews`, `## 8. Colour`), each strand ending in what carries over to a live talk. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/presentations/sources.md"
+question = "286 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "c3e916bc9240"
+answer = "One role: the scored list of sources and how each was found (`## Grey sources`, `## Formal sources`). It stays whole."
+
+[[answer]]
+check = "co-change"
+path = "evidence/presentations/baseline.md"
+question = "changed together with principles/slide/legible-in-the-room.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "a5935ff43ae2"
+answer = "Keep them apart: baseline.md `names the deck a proposed presentation design must beat`, and legible-in-the-room.md is one rule that deck is held to. Their three shared commits are two release pins (ebbb88d, d7c3a4f) and the key rename 6fd6bed, where both cite the contrast page that became W3C 2023b: upkeep of one citation, not one fact held twice."
+
+[[answer]]
+check = "co-change"
+path = "evidence/presentations/review.md"
+question = "changed together with principles/slide/legible-in-the-room.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "1deff1134b41"
+answer = "Keep them apart, with the link that exists: review.md `reviews the literature on presentations in strands`, and the principle cites its strands 4 and 8 by link. Their three shared commits are two release pins (ebbb88d, d7c3a4f) and the key rename 6fd6bed, where both cite the contrast page that became W3C 2023b; the rule and its evidence stay in their own folders."
+
+[[answer]]
+check = "co-change"
+path = "evidence/presentations/review.md"
+question = "changed together with principles/talk/a-talk-is-not-a-paper.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "1deff1134b41"
+answer = "Keep them apart: review.md is the evidence log the principle cites, and the principle links to it. They change together when a corrected source reaches a principle's limits, as the outline advice did (`Peyton Jones 1993: 6 or 7 things per slide`): a link, not shared content."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/presentations/position.md"
+question = "reads about equally as how-to and explanation: one mode per document?"
+file = "429e91c03be8"
+answer = "One mode, understanding why (with look-up tables): `## Known` and `## Not known` state findings and the override tables compare rules; it never walks the reader through a task, which belongs to baseline.md."
+
+[[answer]]
+check = "name-content"
+path = "evidence/presentations/position.md"
+question = "the name 'position' and the opening are far apart in meaning (0.16): does the name predict the content?"
+file = "429e91c03be8"
+answer = "Yes: the opening says what is known, what is not, and what this repository adds, which is the position of the repository (`## Known`, `## Not known`); the name is short but is the step name used across the topic."
+
+[[answer]]
+check = "name-content"
+path = "evidence/presentations/review.md"
+question = "the name 'review' and the opening are far apart in meaning (0.18): does the name predict the content?"
+file = "1deff1134b41"
+answer = "Yes: the opening says the file reviews the literature on presentations in strands, and the content is that review (`## 0. Existing reviews`, `## 1. Paced media: modality, redundancy, segmenting`)."
+
+[[answer]]
+check = "co-change"
+path = "README.fr.md"
+question = "changed together with decisions/README.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "19bfea08d796"
+answer = "Keep them apart: the French front page has one row per part, with its count (`les choix qui ont façonné ce dépôt, un enregistrement chacun`), and decisions/README.md lists the records themselves. They change together when a record is added and the count moves: a link and a number, not shared content."
+
+[[answer]]
+check = "co-change"
+path = "README.md"
+question = "changed together with decisions/README.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "17b9b10e84bc"
+answer = "Keep them apart: the front page has one row per part, with its count (`the choices that shaped this repository, one record each`), and decisions/README.md lists the records themselves. They change together when a record is added and the count on the front page moves: a link and a number, not shared content."
