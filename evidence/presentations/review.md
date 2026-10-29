@@ -14,7 +14,7 @@ Found with strings E1 to E6 (protocol.md, Garousi 2019 Guideline 2).
 - Not found by this search: a review of slide-design factors in a live talk, of talk structure, or of projected legibility.
 - Seen in a summary, not retrieved, not included: a repository review of 31 PowerPoint studies; a 2025 review of teachers' gesture experiments.
 - Motion (Q7), found with E7 to E13:
-  - Animation against static pictures, self-paced: held in the [learning science review](https://github.com/Tewf/reader-ergonomics/blob/v1.9.0/evidence/learning-science/review.md) (animation section; overall d = 0.37 and g = 0.23, larger when the change is the thing to learn). Not repeated.
+  - Animation against static pictures, self-paced: held in the [learning science review](https://github.com/Tewf/reader-ergonomics/blob/v1.10.0/evidence/learning-science/review.md) (animation section; overall d = 0.37 and g = 0.23, larger when the change is the thing to learn). Not repeated.
   - Noetel 2021 (105 randomised trials, 7,776 students): video replacing other teaching g = 0.28, video added to it g = 0.80 (abstract).
   - Tharumalingam 2025 (24 studies, 110 effect sizes): faster video playback lowers test scores, at a cost that is small and often not significant at 1.5 times or slower (abstract).
   - Kuang 2023 (18 studies, 203 effect sizes): an instructor's guided gaze g = 0.33 and direct gaze g = 0.30 on learning (abstract).
@@ -40,7 +40,7 @@ Found with strings E1 to E6 (protocol.md, Garousi 2019 Guideline 2).
   - Learners preferred identical text and learned less from it.
 - Modality: Ginns 2005 is the meta-analysis. Pacing moderates it (Table 2). Under system pacing d = 0.93 (k = 31). Under self pacing d = -0.14 (k = 7, 95% CI -0.32 to 0.04, which includes zero), so the effect disappears.
 - Segmenting: Rey 2019 (56 studies, 88 comparisons) found small to medium gains in retention and transfer; learners with high prior knowledge gained more in retention (abstract).
-- Signalling: Schneider 2018 and Richter 2016 (meta-analyses; see [learning science](https://github.com/Tewf/reader-ergonomics/blob/v1.9.0/evidence/learning-science/review.md)). Coherence: Sundararajan 2020.
+- Signalling: Schneider 2018 and Richter 2016 (meta-analyses; see [learning science](https://github.com/Tewf/reader-ergonomics/blob/v1.10.0/evidence/learning-science/review.md)). Coherence: Sundararajan 2020.
 - Carries over: a talk is system-paced, so these results are the nearest evidence, but no talk was studied in live rooms.
 
 ## 2. Slide design
@@ -86,7 +86,7 @@ Found with strings E1 to E6 (protocol.md, Garousi 2019 Guideline 2).
 
 ## 4. Legibility at a distance
 
-- Contrast: WCAG 2.2 (W3C 2023b) sets 4.5:1 for text and 3:1 for large text, where large is 18 point or 14 point bold. Linked: [sufficient contrast](https://github.com/Tewf/reader-ergonomics/blob/v1.9.0/principles/page/sufficient-contrast.md) and Piepenbrock 2013.
+- Contrast: WCAG 2.2 (W3C 2023b) sets 4.5:1 for text and 3:1 for large text, where large is 18 point or 14 point bold. Linked: [sufficient contrast](https://github.com/Tewf/reader-ergonomics/blob/v1.10.0/principles/page/sufficient-contrast.md) and Piepenbrock 2013.
 - Section 508 (Access Board 2017): electronic content must meet WCAG 2.0 level A and AA (E205.4); non-web documents, which includes slide files, are exempt from four criteria.
 - Microsoft 2026d (8.5, example only): every slide gets a unique title, text at 18 point or larger, reading order set, alt text on visuals (read on the page). Its checker flags missing titles, order and contrast on solid backgrounds only.
 - Display sizing: AVIXA 2016 (ANSI/INFOCOMM V202.01) sizes an image from the farthest viewer. AVIXA's analytical calculator (now the 2026 edition) uses an acuity factor of 3438. The formula itself is in the paid standard (secondary, not checked).
@@ -183,11 +183,11 @@ What changes from a self-paced page: the viewer cannot stop, step or replay, so 
   - Its general estimate: 8% of men and 0.5% of women have a colour-vision deficiency.
   - Poor maps stay the default in software.
   - Liu 2018 (56 subjects, full text): viridis gave consistently low error; the diverging blue-orange scheme erred when a comparison crossed its centre (Figure 6, p. 6; p. 8). Reda 2021 (secondary): rainbow maps can help some inference tasks (see against.md).
-  - Position and length before colour: [draw relations](https://github.com/Tewf/reader-ergonomics/blob/v1.9.0/principles/page/draw-relations.md).
+  - Position and length before colour: [draw relations](https://github.com/Tewf/reader-ergonomics/blob/v1.10.0/principles/page/draw-relations.md).
 - Colour-vision deficiency: WCAG asks that colour not be the only cue (W3C 2023c). Wong 2011 is the source of a widely copied eight-colour palette (secondary). Rector 2019, ACM 2026 and Microsoft 2026d give the same rule for slides; ACM 2026 names a simulator.
 - Light against dark when projected:
   - Greco 2008 (three experiments, secondary): dark text on a light background was the most legible, on a laptop and projected under several room lights; pleasantness followed legibility.
-  - Positive polarity in general: [sufficient contrast](https://github.com/Tewf/reader-ergonomics/blob/v1.9.0/principles/page/sufficient-contrast.md).
+  - Positive polarity in general: [sufficient contrast](https://github.com/Tewf/reader-ergonomics/blob/v1.10.0/principles/page/sufficient-contrast.md).
   - Practice disagrees: TED 2026 says bold text on a dark ground; Beamer 2026 warns that inverse video fails in bright rooms.
   - Schwabish 2014 (5, example only) reports the usual advice of a dark ground in a dark room, and finds no reason given for it.
 - Colour harmony (art-school colour theory):

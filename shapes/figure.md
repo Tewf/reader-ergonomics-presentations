@@ -4,7 +4,7 @@ A figure or a diagram in any document of the family has this shape. Its parts: a
 
 ## When to use it
 
-- Wherever a page explains a relation, a set, a process or a quantity, which [draw relations](https://github.com/Tewf/reader-ergonomics/blob/v1.9.0/principles/page/draw-relations.md) asks to show drawn.
+- Wherever a page explains a relation, a set, a process or a quantity, which [draw relations](https://github.com/Tewf/reader-ergonomics/blob/v1.10.0/principles/page/draw-relations.md) asks to show drawn.
 - In a page read on GitHub or on a site. A file read in a terminal or by a model (AGENTS.md, llms.txt, a comment in code, a commit message) keeps a typed figure ([drawn from source](../principles/figure/drawn-from-source.md)).
 - For a diagram of relations, Graphviz ([decision 0007](../decisions/0007-diagrams-are-drawn-with-graphviz.md)). Inside a LaTeX document, TikZ.
 
@@ -47,7 +47,7 @@ Text is `#1F2328`, and a second line in a box is `#55575F`, both above 4.5:1 on 
 Write the `.dot`, then render it. The script stamps the SVG with the hash of its source, which `figure-source` checks. It also refreshes the folded copy under every image of the figure, and reader-ergonomics' `figure-source-inline` compares that copy with the file:
 
 ```sh
-python3 checks/render_figure.py path/to/figure.dot
+python3 <reader-ergonomics>/checks/figures/render_figure.py path/to/figure.dot
 ```
 
 ## Worked example
@@ -90,11 +90,14 @@ digraph how_a_figure_rule_spreads {
 
 ## What the checks verify
 
-| Check | Verifies |
-|---|---|
-| `typed-figure` | no figure is typed in characters outside the files listed as exempt |
-| `figure-alt` | no image's alt text is its file name or a word for its kind; reader-ergonomics' `figure-captions` fails an empty one |
-| `figure-source` | each SVG drawn from a `.dot` holds the hash of that source |
-| `figure-source-inline` (reader-ergonomics) | each such image has the source folded under it, equal to the file |
-| `figure-contrast` | each line has 3:1 against the page and its own fill, and no colour has an alpha channel |
-| `figure-judgment` | asks, per figure, about crossings, labels, grouping, the message and decoration |
+reader-ergonomics holds the program checks of figures, in its `checks/figures/`, so every repository of the family runs
+them; `figure-judgment` stays here, since its questions rest on this repository's figure principles.
+
+| Check | Where | Verifies |
+|---|---|---|
+| `typed-figure` | reader-ergonomics | no figure is typed in characters outside the files listed as exempt |
+| `figure-alt` | reader-ergonomics | no image's alt text is its file name or a word for its kind; `figure-captions` fails an empty one |
+| `figure-source` | reader-ergonomics | each SVG drawn from a `.dot` holds the hash of that source; a stale hash fails, a missing one warns |
+| `figure-source-inline` | reader-ergonomics | each such image has the source folded under it, equal to the file |
+| `figure-contrast` | reader-ergonomics | each line has 3:1 against the page and its own fill, and no colour has an alpha channel |
+| `figure-judgment` | this repository | asks, per figure, about crossings, labels, grouping, the message and decoration |

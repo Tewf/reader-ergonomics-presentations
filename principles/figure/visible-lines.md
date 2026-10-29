@@ -11,7 +11,7 @@
 
 - Give every outline and arrow a solid colour of 3:1 or more against the page and against the fill it borders, in both schemes.
 - Write colours without an alpha channel: an 8-digit hex is dropped by some renderers, and the line vanishes.
-- Text in a figure keeps the 4.5:1 of [sufficient contrast](https://github.com/Tewf/reader-ergonomics/blob/v1.9.0/principles/page/sufficient-contrast.md).
+- Text in a figure keeps the 4.5:1 of [sufficient contrast](https://github.com/Tewf/reader-ergonomics/blob/v1.10.0/principles/page/sufficient-contrast.md).
 
 ## Why
 

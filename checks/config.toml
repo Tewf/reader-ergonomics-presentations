@@ -39,21 +39,6 @@ exempt = ["evidence/bibliography.md"]
 stylesheets = ["shapes/example-talk.css"]
 surfaces = ["section"]   # a slide is a section, a surface the text sits on
 
-[typed_figure]
-exempt = ["*AGENTS.md", "*CLAUDE.md"]   # read by models and in terminals, where a typed figure reads as drawn
-
-[figure_alt]
-exempt = []
-
-[figure_source]
-exempt = []
-
-[figure_contrast]
-min_ratio = 3.0      # WCAG 2.2 success criterion 1.4.11, a standard's floor for lines that carry meaning
-page = "#ffffff"     # PROVISIONAL: the ground behind a figure; GitHub and Graphviz draw SVGs on white
-page_dark = "#222222"   # PROVISIONAL: the dark theme's ground on the site (Bootstrap darkly)
-exempt = []
-
 [figure_judgment]
 exempt = []
 
