@@ -21,6 +21,8 @@ This repository owns the visual: slides as before, and figures and diagrams in a
 
 Principles about figures enter only from question 11, once audited. Software-design's diagram review is linked, not reviewed again. A figure rule here applies to every repository of the family through its link, once the principles exist.
 
+The cost: every repository's figures now wait on this repository, on its review of question 11 and on its pace.
+
 ## See also
 
 [Decisions](README.md), [the review](../evidence/presentations/review.md), reader-ergonomics-software-design's [system diagrams review](https://github.com/Tewf/reader-ergonomics-software-design/tree/master/evidence/system-diagrams).

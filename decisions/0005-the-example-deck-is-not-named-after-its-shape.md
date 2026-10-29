@@ -20,6 +20,8 @@ The example deck is shapes/example-talk.html, with example-talk.css, listed as r
 
 No hand-made .html file may share its stem with a .md file in this repository.
 
+The cost: the example's name no longer matches its shape's, so a reader looking for talk.html finds example-talk.html instead.
+
 ## See also
 
 [Decisions](README.md); [The shapes](../shapes/).

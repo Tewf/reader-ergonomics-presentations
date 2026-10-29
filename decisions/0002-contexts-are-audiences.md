@@ -21,6 +21,8 @@ Each context is a file in reader-styles/, named by its audience (academic audien
 
 A context changes only what its evidence supports, and says so row by row. The extension contract needs no new mechanism.
 
+The cost: a talk to two audiences at once, such as a defence before a jury and guests, fits no single context.
+
 ## See also
 
 [Decisions](README.md); [The contexts](../reader-styles/).

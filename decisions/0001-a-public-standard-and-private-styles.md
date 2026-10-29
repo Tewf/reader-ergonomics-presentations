@@ -21,6 +21,8 @@ It holds the common ground of any presentation: principles, contexts, shapes and
 
 A principle enters only with evidence from the review. A personal preference, such as a deck framework or a palette, stays out. A test talk by one person tests the standard; it does not set it.
 
+The cost: a personal style carries no evidence of its own, and it can drift from the standard without anyone seeing it.
+
 ## See also
 
 [Decisions](README.md); [The contexts](../reader-styles/), [the standard](../standard.md).
