@@ -1,0 +1,29 @@
+# Checks of reader-ergonomics-presentations: the standard's config, merged with what this extension changes.
+# The deck checks live in local/; each threshold below is tunable and tagged PROVISIONAL until measured.
+extends = "reader-ergonomics"
+
+[standard_card]
+facets = ["pace", "slide", "talk"]
+
+[decks]
+files = ["shapes/*.html", "*.deck.html"]   # HTML decks: one <section> per slide
+exempt = []
+aside_classes = ["title", "backup", "questions"]   # slides that are not content slides
+
+[slide_words]
+max_words = 40   # PROVISIONAL: no study gives a number; Adesope 2012 argues for key terms over a script
+
+[deck_builds]
+min_items = 4    # PROVISIONAL: a list this long is shown point by point
+
+[slide_headlines]
+min_words = 4    # PROVISIONAL: shorter than this is a topic label, not a sentence
+
+[slide_type_size]
+min_px = 24      # PROVISIONAL: a convention; no study gives a minimum projected size
+
+[talk_structure]
+plan_within = 3  # the plan appears among the first slides
+
+[sufficient_contrast]
+stylesheets = ["shapes/example-talk.css"]

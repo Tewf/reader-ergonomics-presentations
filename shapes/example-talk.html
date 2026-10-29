@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Example deck: a slide should state its claim</title>
+<link rel="stylesheet" href="example-talk.css">
+</head>
+<body>
+<!-- The example deck of the talk shape (talk.md): one <section> per slide, speaker notes in <aside class="notes">.
+     Keys: right arrow or space for the next point or slide, left arrow to go back.
+     Its name differs from talk.md's on purpose: Quarto renders talk.md to talk.html, which would overwrite a deck of that name. -->
+
+<section class="title">
+  <h1>A slide should state its claim, not its topic</h1>
+  <p>Ten minutes, three rules from the evidence</p>
+  <aside class="notes">Say the point first: by the end, every slide you make will open with a sentence.</aside>
+</section>
+
+<section class="plan">
+  <h2>This talk makes three points in ten minutes</h2>
+  <ul>
+    <li>What the screen shows</li>
+    <li>What the headline says</li>
+    <li>When each point appears</li>
+  </ul>
+  <aside class="notes">The plan, said once. Come back to it at each section.</aside>
+</section>
+
+<section>
+  <h2>Words on screen should not repeat the voice</h2>
+  <figure>
+    <svg width="760" height="200" role="img" aria-label="The slide shows key terms; the voice says the sentence">
+      <rect x="10" y="20" width="340" height="160" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+      <text x="180" y="110" font-size="30" text-anchor="middle" fill="#1a1a1a">slide: key terms</text>
+      <rect x="410" y="20" width="340" height="160" fill="#ffffff" stroke="#0b5394" stroke-width="3"/>
+      <text x="580" y="110" font-size="30" text-anchor="middle" fill="#0b5394">voice: the sentence</text>
+    </svg>
+    <figcaption>Written text that repeats the voice adds nothing over text alone (Adesope 2012, measured).</figcaption>
+  </figure>
+  <aside class="notes">Point at the left box, then the right one. Say the whole sentence; the screen keeps only its terms.</aside>
+</section>
+
+<section>
+  <h2>A sentence headline with its evidence beat the default design</h2>
+  <figure>
+    <svg width="760" height="200" role="img" aria-label="A headline sentence above a graphic, against a topic and bullets">
+      <rect x="10" y="20" width="340" height="40" fill="#0b5394"/>
+      <rect x="10" y="80" width="340" height="100" fill="#ffffff" stroke="#0b5394" stroke-width="3"/>
+      <rect x="410" y="20" width="160" height="40" fill="#1a1a1a"/>
+      <rect x="410" y="80" width="340" height="16" fill="#1a1a1a"/>
+      <rect x="410" y="112" width="300" height="16" fill="#1a1a1a"/>
+      <rect x="410" y="144" width="320" height="16" fill="#1a1a1a"/>
+    </svg>
+    <figcaption>One controlled study of the whole bundle: sentence headline, graphic, fewer words (Garner 2013).</figcaption>
+  </figure>
+  <aside class="notes">Say what is not known: which part of the bundle does the work.</aside>
+</section>
+
+<section>
+  <h2>Points shown as you say them are easier to follow</h2>
+  <ul>
+    <li class="fragment">Show the first point</li>
+    <li class="fragment">Say it, then show the next</li>
+    <li class="fragment">The room reads what you say</li>
+    <li class="fragment">Recorded studies only, so far</li>
+  </ul>
+  <aside class="notes">Reveal each line as you say it. The evidence is from recorded narration (Liu 2022, Ito 2026).</aside>
+</section>
+
+<section class="point">
+  <h2>So state the claim, show the evidence, and say the rest</h2>
+  <aside class="notes">The point again, in the same words as the first slide.</aside>
+</section>
+
+<section class="questions">
+  <h2>Questions, and the evidence behind each slide</h2>
+  <ul>
+    <li><span class="mark">Backup:</span> the review behind each rule</li>
+  </ul>
+  <aside class="notes">Likely question: does this hold for an hour-long talk? Not known yet.</aside>
+</section>
+
+<script>
+  // One slide at a time; fragments are revealed one by one before the next slide.
+  const slides = [...document.querySelectorAll("section")];
+  let current = 0;
+  const show = (index) => { slides.forEach((s, i) => s.classList.toggle("current", i === index)); current = index; };
+  const next = () => {
+    const hidden = slides[current].querySelector(".fragment:not(.shown)");
+    if (hidden) hidden.classList.add("shown");
+    else if (current < slides.length - 1) show(current + 1);
+  };
+  const back = () => {
+    const shown = [...slides[current].querySelectorAll(".fragment.shown")].pop();
+    if (shown) shown.classList.remove("shown");
+    else if (current > 0) show(current - 1);
+  };
+  document.addEventListener("keydown", (event) => {
+    if (["ArrowRight", " ", "PageDown"].includes(event.key)) next();
+    if (["ArrowLeft", "PageUp"].includes(event.key)) back();
+  });
+  document.addEventListener("click", next);
+  show(0);
+</script>
+</body>
+</html>

@@ -47,6 +47,8 @@ jobs:
           key: fastembed-${{ hashFiles('standard/checks/meaning/requirements.txt') }}
       - name: Install the meaning tier
         run: pip install -r standard/checks/meaning/requirements.txt
+      - name: Test the deck checks of this repository
+        run: PYTHONPATH=standard/checks python3 -m unittest discover -s repository/checks -p "test_*.py"
       - name: Check the repository, tiers program and meaning
         run: python3 standard/checks/run.py repository --tiers program,meaning --judge flag
       - name: List the questions left for judgment

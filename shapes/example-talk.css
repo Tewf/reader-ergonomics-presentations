@@ -1,0 +1,14 @@
+/* Stylesheet of the example deck (example-talk.html): dark text on a light ground, large type, one slide at a time. */
+html, body { margin: 0; height: 100%; }
+body { color: #1a1a1a; background: #ffffff; font: 32px/1.4 system-ui, sans-serif; }
+section { display: none; box-sizing: border-box; height: 100vh; padding: 6vh 8vw; }
+section.current { display: block; }
+h1 { color: #1a1a1a; background: #ffffff; font-size: 56px; line-height: 1.2; margin: 0 0 4vh; }
+h2 { color: #1a1a1a; background: #ffffff; font-size: 44px; line-height: 1.25; margin: 0 0 4vh; }
+li { margin: 0.4em 0; }
+.fragment { visibility: hidden; }
+.fragment.shown { visibility: visible; }
+.mark { color: #0b5394; background: #ffffff; font-weight: 600; }
+figure { margin: 0; }
+figcaption { color: #333333; background: #ffffff; font-size: 26px; }
+aside.notes { display: none; }
