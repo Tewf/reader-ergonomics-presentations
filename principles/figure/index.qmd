@@ -1,0 +1,5 @@
+---
+title: "Figure: how a figure is drawn"
+---
+
+{{< include README.md >}}

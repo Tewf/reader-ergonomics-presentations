@@ -11,6 +11,7 @@ project:
     - "**/*.md"
     - shapes/example-talk.html
     - shapes/example-talk.css
+    - "**/*.dot"
 
 website:
   title: "Presentations"

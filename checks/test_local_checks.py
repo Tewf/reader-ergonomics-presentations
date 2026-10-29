@@ -184,5 +184,54 @@ class TestDeckChecksOnBrokenInput(unittest.TestCase):
             self.survive({"a.deck.html": "".join(generator.choice(pieces) for _ in range(generator.randint(0, 60)))})
 
 
+class TestFigureChecks(unittest.TestCase):
+    TYPED = "Intro.\n\n```text\n a ──▶ b\n```\n"
+
+    def test_typed_figure_flags_box_drawing_in_a_page(self):
+        found = run("typed_figure", {"README.md": self.TYPED})
+        self.assertEqual([(f.check, f.line, f.kind) for f in found], [("typed-figure", 3, "warning")])
+
+    def test_typed_figure_spares_exempt_files_and_code(self):
+        code = "```python\nprint('a ──▶ b')\n```\n"
+        self.assertEqual(run("typed_figure", {"AGENTS.md": self.TYPED, "notes/AGENTS.md": self.TYPED, "x.md": code}), [])
+
+    def test_figure_alt_flags_a_file_name_and_a_kind(self):
+        page = "![flow.svg](flow.svg)\n\n![Diagram](levels.svg)\n\n![flow](figures/flow.svg)\n"
+        self.assertEqual([f.line for f in run("figure_alt", {"a.md": page})], [1, 3, 5])
+
+    def test_figure_alt_accepts_a_sentence_and_leaves_empty_alt_to_the_standard(self):
+        page = "![Three levels, each depending on the one below.](where.svg)\n\n![](x.svg)\n"
+        self.assertEqual(run("figure_alt", {"a.md": page}), [])
+
+    def test_figure_source_checks_the_stamp_against_the_dot(self):
+        import hashlib
+        dot = "digraph g { a -> b }\n"
+        good = f"<?xml version='1.0'?>\n<!-- source-sha256: {hashlib.sha256(dot.encode()).hexdigest()} -->\n<svg></svg>"
+        self.assertEqual(run("figure_source", {"f.dot": dot, "f.svg": good}), [])
+        stale = run("figure_source", {"f.dot": dot + "// edited\n", "f.svg": good})
+        unstamped = run("figure_source", {"f.dot": dot, "f.svg": "<svg></svg>"})
+        self.assertEqual([len(stale), len(unstamped)], [1, 1])
+        self.assertEqual(run("figure_source", {"lone.svg": "<svg></svg>"}), [])
+
+    def test_figure_contrast_flags_faint_and_alpha_strokes(self):
+        svg = ('<svg><style>.box { fill: #FFFFFF; stroke: #10101459; }\n'
+               '@media (prefers-color-scheme: dark) { .box { fill: #1A1A20; stroke: #333333; } }</style>'
+               '<path stroke="#dddddd" fill="none"/><text fill="#eeeeee">x</text></svg>')
+        messages = [f.message for f in run("figure_contrast", {"f.svg": svg})]
+        self.assertEqual(len(messages), 4, messages)  # alpha; dark stroke vs page and vs fill; faint path vs page
+        self.assertTrue(any("alpha" in m for m in messages))
+
+    def test_figure_contrast_accepts_the_family_palette(self):
+        svg = ('<svg><style>.box { fill: #FFFFFF; stroke: #6A6D77; }\n'
+               '@media (prefers-color-scheme: dark) { .box { fill: #1A1A20; stroke: #9A9CA4; } }</style>'
+               '<path stroke="#2e7d4f" fill="#e6f2ea"/><polygon stroke="transparent" fill="white"/>'
+               '<polygon fill="#3d434b" stroke="#3d434b"/></svg>')  # an arrowhead: a solid shape
+        self.assertEqual(run("figure_contrast", {"f.svg": svg}), [])
+
+    def test_figure_judgment_asks_two_questions_per_figure(self):
+        found = run("figure_judgment", {"a.svg": "<svg/>", "b.svg": "<svg/>"})
+        self.assertEqual((len(found), {f.kind for f in found}), (4, {"judgment"}))
+
+
 if __name__ == "__main__":
     unittest.main()
