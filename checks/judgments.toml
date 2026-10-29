@@ -4,20 +4,6 @@
 
 [[answer]]
 check = "co-change"
-path = "checks/config.toml"
-question = "changed together with checks/local/_deck.py in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "677d55355f25"
-answer = "Keep them apart and let the code link to the config: `[decks]` holds the tunables that checks/local/_deck.py reads, and the standard asks tunables to live in config; they co-changed in 93d580e (the deck checks), 7051815 (fixes) and eb49412 (a deck slot setting)."
-
-[[answer]]
-check = "co-change"
-path = "checks/config.toml"
-question = "changed together with checks/local/slide_type_size.py in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "677d55355f25"
-answer = "Keep them apart: the `[slide_type_size]` table is the only place the threshold lives and checks/local/slide_type_size.py reads it; both changed in 93d580e, 7051815 and eb49412 because a check and its setting are born together."
-
-[[answer]]
-check = "co-change"
 path = "checks/local/_deck.py"
 question = "changed together with checks/test_local_checks.py in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
 file = "a035b2bf6852"
@@ -193,24 +179,10 @@ answer = "One role: the record of how the pool of sources was built, `so that th
 
 [[answer]]
 check = "logical-lines"
-path = "evidence/presentations/review.md"
-question = "328 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "1deff1134b41"
-answer = "One role: the reading of the literature strand by strand (`## 0. Existing reviews`, `## 8. Colour`), each strand ending in what carries over to a live talk. It stays whole."
-
-[[answer]]
-check = "logical-lines"
 path = "evidence/presentations/sources.md"
 question = "286 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
 file = "c3e916bc9240"
 answer = "One role: the scored list of sources and how each was found (`## Grey sources`, `## Formal sources`). It stays whole."
-
-[[answer]]
-check = "co-change"
-path = "evidence/presentations/review.md"
-question = "changed together with principles/talk/a-talk-is-not-a-paper.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "1deff1134b41"
-answer = "Keep them apart: review.md is the evidence log the principle cites, and the principle links to it. They change together when a corrected source reaches a principle's limits, as the outline advice did (`Peyton Jones 1993: 6 or 7 things per slide`): a link, not shared content."
 
 [[answer]]
 check = "document-mode"
@@ -227,25 +199,11 @@ file = "429e91c03be8"
 answer = "Yes: the opening says what is known, what is not, and what this repository adds, which is the position of the repository (`## Known`, `## Not known`); the name is short but is the step name used across the topic."
 
 [[answer]]
-check = "name-content"
-path = "evidence/presentations/review.md"
-question = "the name 'review' and the opening are far apart in meaning (0.18): does the name predict the content?"
-file = "1deff1134b41"
-answer = "Yes: the opening says the file reviews the literature on presentations in strands, and the content is that review (`## 0. Existing reviews`, `## 1. Paced media: modality, redundancy, segmenting`)."
-
-[[answer]]
 check = "co-change"
 path = "evidence/presentations/baseline.md"
 question = "changed together with principles/slide/legible-in-the-room.md in 4 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
 file = "a5935ff43ae2"
 answer = "Keep them apart: baseline.md `names the deck a proposed presentation design must beat`, and legible-in-the-room.md is one rule that deck is held to. Their three shared commits are two release pins (ebbb88d, d7c3a4f) and the key rename 6fd6bed, where both cite the contrast page that became W3C 2023b: upkeep of one citation, not one fact held twice."
-
-[[answer]]
-check = "co-change"
-path = "evidence/presentations/review.md"
-question = "changed together with principles/slide/legible-in-the-room.md in 4 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "1deff1134b41"
-answer = "Keep them apart, with the link that exists: review.md `reviews the literature on presentations in strands`, and the principle cites its strands 4 and 8 by link. Their three shared commits are two release pins (ebbb88d, d7c3a4f) and the key rename 6fd6bed, where both cite the contrast page that became W3C 2023b; the rule and its evidence stay in their own folders."
 
 [[answer]]
 check = "co-change"
@@ -276,13 +234,6 @@ file = "a5935ff43ae2"
 answer = "Keep them apart: the baseline is evidence and the principle cites it (`Colour is never the only cue`). They change together when a cited source is corrected or renamed, as Microsoft 2026d was: a citation, not shared content."
 
 [[answer]]
-check = "co-change"
-path = "evidence/presentations/review.md"
-question = "changed together with principles/slide/colour-as-a-signal.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "1deff1134b41"
-answer = "Keep them apart: the review holds the colour strand (`Colour-vision deficiency`) and the principle cites it. They change together when a cited source is corrected or renamed: a citation, not shared content."
-
-[[answer]]
 check = "document-mode"
 path = "evidence/figures/against.md"
 question = "reads about equally as explanation and how-to: one mode per document?"
@@ -309,20 +260,6 @@ path = "evidence/figures/frame.md"
 question = "the name 'frame' and the opening are far apart in meaning (0.18): does the name predict the content?"
 file = "a87084a81f7f"
 answer = "Yes: the opening `# Frame: the problem and its names` says what the file is, and it is the first step of the topic's fixed sequence, listed in its README."
-
-[[answer]]
-check = "co-change"
-path = "README.fr.md"
-question = "changed together with decisions/README.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "507bfc13f151"
-answer = "Keep them apart: the French front page has one row per part, with its count (`les choix qui ont façonné ce dépôt, un enregistrement chacun`), and decisions/README.md lists the records themselves. They change together when a record is added and the count moves: a link and a number, not shared content."
-
-[[answer]]
-check = "co-change"
-path = "README.md"
-question = "changed together with decisions/README.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "c9c0c60982ea"
-answer = "Keep them apart: the front page has one row per part, with its count (`the choices that shaped this repository, one record each`), and decisions/README.md lists the records themselves. They change together when a record is added and the count on the front page moves: a link and a number, not shared content."
 
 [[answer]]
 check = "logical-lines"
@@ -372,3 +309,178 @@ path = "evidence/figures/state-of-the-art.md"
 question = "the name 'state' and the opening are far apart in meaning (-0.01): does the name predict the content?"
 file = "ceb09a3f02e4"
 answer = "Yes: the opening `# State of the art, per sub-question` names the file, and its two parts are the records it promises (`## Best evidence`, `## Most adopted`). The check compared only the first word of the file name."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/presentations/review.md"
+question = "328 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "240c176d0387"
+answer = "One role: the reading of the literature strand by strand (`## 0. Existing reviews`, `## 8. Colour`), each strand ending in what carries over to a live talk. It stays whole."
+
+[[answer]]
+check = "co-change"
+path = "README.fr.md"
+question = "changed together with decisions/README.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "fe72375a1704"
+answer = "Keep them apart: the French front page has one row per part, with its count (`les choix qui ont façonné ce dépôt, un enregistrement chacun`), and decisions/README.md lists the records themselves. They change together when a record is added and the count moves: a link and a number, not shared content."
+
+[[answer]]
+check = "co-change"
+path = "README.md"
+question = "changed together with decisions/README.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "d67f5f32e067"
+answer = "Keep them apart: the front page has one row per part, with its count (`the choices that shaped this repository, one record each`), and decisions/README.md lists the records themselves. They change together when a record is added and the count on the front page moves: a link and a number, not shared content."
+
+[[answer]]
+check = "co-change"
+path = "checks/config.toml"
+question = "changed together with checks/local/_deck.py in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "645a5dcd4e7e"
+answer = "Keep them apart and let the code link to the config: `[decks]` holds the tunables that checks/local/_deck.py reads, and the standard asks tunables to live in config; they co-changed in 93d580e (the deck checks), 7051815 (fixes) and eb49412 (a deck slot setting)."
+
+[[answer]]
+check = "co-change"
+path = "checks/config.toml"
+question = "changed together with checks/local/slide_type_size.py in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "645a5dcd4e7e"
+answer = "Keep them apart: the `[slide_type_size]` table is the only place the threshold lives and checks/local/slide_type_size.py reads it; both changed in 93d580e, 7051815 and eb49412 because a check and its setting are born together."
+
+[[answer]]
+check = "co-change"
+path = "evidence/presentations/review.md"
+question = "changed together with principles/slide/colour-as-a-signal.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "240c176d0387"
+answer = "Keep them apart: the review holds the colour strand (`Colour-vision deficiency`) and the principle cites it. They change together when a cited source is corrected or renamed: a citation, not shared content."
+
+[[answer]]
+check = "co-change"
+path = "evidence/presentations/review.md"
+question = "changed together with principles/slide/legible-in-the-room.md in 4 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "240c176d0387"
+answer = "Keep them apart, with the link that exists: review.md `reviews the literature on presentations in strands`, and the principle cites its strands 4 and 8 by link. Their three shared commits are two release pins (ebbb88d, d7c3a4f) and the key rename 6fd6bed, where both cite the contrast page that became W3C 2023b; the rule and its evidence stay in their own folders."
+
+[[answer]]
+check = "co-change"
+path = "evidence/presentations/review.md"
+question = "changed together with principles/talk/a-talk-is-not-a-paper.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "240c176d0387"
+answer = "Keep them apart: review.md is the evidence log the principle cites, and the principle links to it. They change together when a corrected source reaches a principle's limits, as the outline advice did (`Peyton Jones 1993: 6 or 7 things per slide`): a link, not shared content."
+
+[[answer]]
+check = "name-content"
+path = "evidence/presentations/review.md"
+question = "the name 'review' and the opening are far apart in meaning (0.18): does the name predict the content?"
+file = "240c176d0387"
+answer = "Yes: the opening says the file reviews the literature on presentations in strands, and the content is that review (`## 0. Existing reviews`, `## 1. Paced media: modality, redundancy, segmenting`)."
+
+[[answer]]
+check = "document-mode"
+path = "principles/figure/drawn-from-source.md"
+question = "reads about equally as reference and how-to: one mode per document?"
+file = "5ba451ceead9"
+answer = "One mode, understanding why with a rule, like every principle file: a claim, what it asks, why, and the limits (`## What it asks`, `## Why`, `## Limits`). The how-to lines are the rule's own steps."
+
+[[answer]]
+check = "name-content"
+path = "standard.md"
+question = "the name 'standard' and the opening are far apart in meaning (0.16): does the name predict the content?"
+file = "a7e6d318f928"
+answer = "Yes: the opening `# The presentations standard` names the file, and the file is the card of that standard: how to use it, and every principle with its grade."
+
+[[answer]]
+check = "figure-judgment"
+path = "evidence/figures/flow.svg"
+question = "Layout and labels: do links cross where another layout would avoid it, is any part named only through a legend that labels could replace, and is membership shown by colour alone anywhere?"
+file = "181da19148b2"
+answer = "No: the stages are a real sequence, each labelled at its left (`Result blocks screened`), and nothing crosses; the two columns are named by their headers, not by colour."
+
+[[answer]]
+check = "figure-judgment"
+path = "evidence/figures/flow.svg"
+question = "Message and decoration: does the caption or alt text state the figure's one message, is a quantity shown by area or angle where position would do, and does any decoration distort a quantity or compete with the message?"
+file = "181da19148b2"
+answer = "Yes: the alt text gives the counts at each stage and the total (`New in the review`); numbers are printed, not shown by area, and nothing is decoration."
+
+[[answer]]
+check = "figure-judgment"
+path = "evidence/presentations/casual-coverage.svg"
+question = "Layout and labels: do links cross where another layout would avoid it, is any part named only through a legend that labels could replace, and is membership shown by colour alone anywhere?"
+file = "3ff48703d359"
+answer = "No: two boxes and one labelled link (`does not reach`); the gap is named in its box (`what it does not cover`), not shown by colour alone."
+
+[[answer]]
+check = "figure-judgment"
+path = "evidence/presentations/casual-coverage.svg"
+question = "Message and decoration: does the caption or alt text state the figure's one message, is a quantity shown by area or angle where position would do, and does any decoration distort a quantity or compete with the message?"
+file = "3ff48703d359"
+answer = "Yes: the alt text states the message, that no live casual talk with a measured outcome was found (`what it does not cover`); nothing is decoration."
+
+[[answer]]
+check = "figure-judgment"
+path = "evidence/presentations/flow.svg"
+question = "Layout and labels: do links cross where another layout would avoid it, is any part named only through a legend that labels could replace, and is membership shown by colour alone anywhere?"
+file = "ab6966481b41"
+answer = "Partly: nothing crosses and each row is labelled at its left, but an arrow runs from `Included as new` to `Carried from the earlier pass`, which are added, not passed through in turn, so the arrows suggest stages that are not there. That belongs to the shared flow script and is reported to its owner."
+
+[[answer]]
+check = "figure-judgment"
+path = "evidence/presentations/flow.svg"
+question = "Message and decoration: does the caption or alt text state the figure's one message, is a quantity shown by area or angle where position would do, and does any decoration distort a quantity or compete with the message?"
+file = "ab6966481b41"
+answer = "Yes: the alt text gives the counts and the total; numbers are printed, not shown by area, and nothing is decoration (`Included as new`)."
+
+[[answer]]
+check = "figure-judgment"
+path = "figures/how-to-use.svg"
+question = "Layout and labels: do links cross where another layout would avoid it, is any part named only through a legend that labels could replace, and is membership shown by colour alone anywhere?"
+file = "d5ecce06c90e"
+answer = "No: the steps run down one column with no crossing, the two branches are labelled where they leave the question (`who listens?`), and each outcome names its kind in its box, so colour is a second cue."
+
+[[answer]]
+check = "figure-judgment"
+path = "figures/how-to-use.svg"
+question = "Message and decoration: does the caption or alt text state the figure's one message, is a quantity shown by area or angle where position would do, and does any decoration distort a quantity or compete with the message?"
+file = "d5ecce06c90e"
+answer = "Yes: the alt text gives the four steps and what to do with each finding (`answer it in checks/judgments.toml`); no quantity is drawn and nothing is decoration."
+
+[[answer]]
+check = "figure-judgment"
+path = "figures/scope.fr.svg"
+question = "Layout and labels: do links cross where another layout would avoid it, is any part named only through a legend that labels could replace, and is membership shown by colour alone anywhere?"
+file = "9594c6e755c5"
+answer = "No: nothing crosses, each box and the overriding link are labelled where they sit (`modifie à son tour`), and membership is a drawn region (`ce standard`), with colour as a second cue."
+
+[[answer]]
+check = "figure-judgment"
+path = "figures/scope.fr.svg"
+question = "Message and decoration: does the caption or alt text state the figure's one message, is a quantity shown by area or angle where position would do, and does any decoration distort a quantity or compete with the message?"
+file = "9594c6e755c5"
+answer = "Yes: the French alt text states the message, that a personal style overrides the whole standard (`modifie à son tour`); no quantity is drawn and nothing is decoration."
+
+[[answer]]
+check = "figure-judgment"
+path = "figures/scope.svg"
+question = "Layout and labels: do links cross where another layout would avoid it, is any part named only through a legend that labels could replace, and is membership shown by colour alone anywhere?"
+file = "329eb816e9a5"
+answer = "No: nothing crosses, each box and the overriding link are labelled where they sit (`overrides in turn`), and membership is a drawn region (`this standard`), with colour as a second cue."
+
+[[answer]]
+check = "figure-judgment"
+path = "figures/scope.svg"
+question = "Message and decoration: does the caption or alt text state the figure's one message, is a quantity shown by area or angle where position would do, and does any decoration distort a quantity or compete with the message?"
+file = "329eb816e9a5"
+answer = "Yes: the alt text states the message, that a personal style overrides the whole standard (`overrides in turn`); no quantity is drawn and nothing is decoration."
+
+[[answer]]
+check = "figure-judgment"
+path = "shapes/example-figure.svg"
+question = "Layout and labels: do links cross where another layout would avoid it, is any part named only through a legend that labels could replace, and is membership shown by colour alone anywhere?"
+file = "5cb1f826a31c"
+answer = "No: the one dashed link curves past the base standard without crossing, every link is labelled where it runs (`proposes the check`), and each kind is named in its box (`every repository of the family`)."
+
+[[answer]]
+check = "figure-judgment"
+path = "shapes/example-figure.svg"
+question = "Message and decoration: does the caption or alt text state the figure's one message, is a quantity shown by area or angle where position would do, and does any decoration distort a quantity or compete with the message?"
+file = "5cb1f826a31c"
+answer = "Yes: the caption and the alt text state one message, how a rule reaches every repository (`every repository of the family`); nothing is decoration."
