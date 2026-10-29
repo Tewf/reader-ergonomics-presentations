@@ -2,7 +2,7 @@
 
 **Decision:** A diagram of relations in the family is written in Graphviz's dot language and kept beside the SVG it renders.
 
-**Status:** accepted, 2026-10-29, by the maintainer after a side-by-side comparison. **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/v1.12.0/shapes/decision-record.md).
+**Status:** accepted, 2026-10-29, by the maintainer after a side-by-side comparison. **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/v1.13.0/shapes/decision-record.md).
 
 ## Context
 
