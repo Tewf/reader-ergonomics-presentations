@@ -44,8 +44,8 @@ exempt = []
 
 [bibliography_keys]
 # A key names one work across the family (reader-ergonomics decision 0003); CI clones each name beside this repository.
-family = ["reader-ergonomics", "reader-ergonomics-academic", "reader-ergonomics-learning",
-          "reader-ergonomics-software-design", "reader-ergonomics-topic"]
+family = ["reader-ergonomics", "reader-ergonomics-academic", "reader-ergonomics-blueprint",
+          "reader-ergonomics-learning", "reader-ergonomics-software-design", "reader-ergonomics-topic"]
 shared_links = [
   "https://www.barbaraminto.com",   # one author's site for two works: the Minto 1987 book and the Minto 2026 training page
 ]
