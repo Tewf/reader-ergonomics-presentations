@@ -137,20 +137,6 @@ class TestDeckChecks(unittest.TestCase):
         self.assertEqual([finding.kind for finding in found], ["judgment"] * 3)
 
 
-class TestFigureWidth(unittest.TestCase):
-    def test_flags_a_text_figure_wider_than_the_column(self):
-        wide = "```text\n" + "node " + "x" * 70 + "\n```\n"
-        self.assertEqual(len(run("figure_width", {"a.md": "# A page\n\n" + wide})), 1)
-
-    def test_a_figure_with_descriptions_under_its_nodes_passes(self):
-        narrow = "```text\ntree\n ├─ a node\n │    its description, on the line below\n └─ another\n```\n"
-        self.assertEqual(run("figure_width", {"a.md": "# A page\n\n" + narrow}), [])
-
-    def test_code_with_a_language_is_left_alone(self):
-        code = "```python\n" + "x = " + "1 + " * 30 + "1\n```\n"
-        self.assertEqual(run("figure_width", {"a.md": "# A page\n\n" + code}), [])
-
-
 CHECKS = ("slide_words", "deck_builds", "slide_headlines", "slide_type_size", "talk_structure", "deck_judgment", "deck_scope")
 
 

@@ -47,8 +47,8 @@ Grades: **convention** means a number agreed by a body or by practice, **measure
 | At most about 40 words per slide, 80 as a ceiling | Beamer 2026; Garner 2013 (21 against 41) | convention; one study measured |
 | Not more than one slide per minute | Beamer 2026 | convention |
 | Headline states the claim as a sentence of at most two lines | Garner 2013; Alley 2013 | supported with caveat |
-| Each slide has a figure or table that is the evidence | Garner 2013; [draw relations](https://github.com/Tewf/reader-ergonomics/blob/v1.1.1/principles/page/draw-relations.md) | supported with caveat |
-| Words beside the figure they explain | [figure next to its text](https://github.com/Tewf/reader-ergonomics/blob/v1.1.1/principles/page/figure-next-to-its-text.md) | measured |
+| Each slide has a figure or table that is the evidence | Garner 2013; [draw relations](https://github.com/Tewf/reader-ergonomics/blob/v1.4.1/principles/page/draw-relations.md) | supported with caveat |
+| Words beside the figure they explain | [figure next to its text](https://github.com/Tewf/reader-ergonomics/blob/v1.4.1/principles/page/figure-next-to-its-text.md) | measured |
 | No decorative images without a purpose | Sundararajan 2020 | measured |
 | Alt text on every figure; reading order set | Rector 2019 (text equivalents for informative graphics); Microsoft 2026 (example only) | convention |
 | Colour is never the only cue: the slide stays readable in greyscale | W3C 2023c; Rector 2019; Microsoft 2026 | convention |

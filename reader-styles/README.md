@@ -1,6 +1,6 @@
 # Reader styles
 
-The [standard](https://github.com/Tewf/reader-ergonomics/blob/v1.1.1/standard.md) and the [principles](../principles/README.md) assume a general audience. A context says what moves when the audience is known. Each lists only overrides; everything else holds.
+The [standard](https://github.com/Tewf/reader-ergonomics/blob/v1.4.1/standard.md) and the [principles](../principles/README.md) assume a general audience. A context says what moves when the audience is known. Each lists only overrides; everything else holds.
 
 | File | The context |
 |---|---|
@@ -8,4 +8,4 @@ The [standard](https://github.com/Tewf/reader-ergonomics/blob/v1.1.1/standard.md
 | [business-decision-maker.md](business-decision-maker.md) | a pitch, a sales presentation or a decision deck, for someone who will decide |
 | [casual-audience.md](casual-audience.md) | a meetup, a club, a lightning talk or friends: a room that chose to come and can leave |
 
-The format is the [template](https://github.com/Tewf/reader-ergonomics/blob/v1.1.1/reader-styles/template.md) of reader-ergonomics.
+The format is the [template](https://github.com/Tewf/reader-ergonomics/blob/v1.4.1/reader-styles/template.md) of reader-ergonomics.

@@ -32,13 +32,6 @@ answer = "One role: the record of how the pool of sources was built, `so that th
 
 [[answer]]
 check = "logical-lines"
-path = "evidence/presentations/review.md"
-question = "328 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "4007d8364276"
-answer = "One role: the reading of the literature strand by strand (`## 0. Existing reviews`, `## 8. Colour`), each strand ending in what carries over to a live talk. It stays whole."
-
-[[answer]]
-check = "logical-lines"
 path = "evidence/presentations/sources.md"
 question = "286 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
 file = "b0f31faf5b68"
@@ -95,31 +88,10 @@ answer = "Keep them apart: the index and the frame are different roles, and the 
 
 [[answer]]
 check = "co-change"
-path = "evidence/README.md"
-question = "changed together with evidence/presentations/state-of-the-art.md in 4 commits (80% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "78e1f138150f"
-answer = "Keep them apart: evidence/README.md only indexes the topic; it shares 4 of 5 commits with state-of-the-art.md (ea5c834, e7661bd, 71e3ef1, 181eb9d) because each review round updated the index, and the file has no pin, the README it shares them with only describes the topic's files under `## Method`."
-
-[[answer]]
-check = "co-change"
-path = "principles/slide/claim-headline-with-evidence.md"
-question = "changed together with principles/talk/a-talk-is-not-a-paper.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "8793a744fc5b"
-answer = "Keep them apart: both are principles of one family and already link the same evidence (`[review, strand 2]`); they co-changed in 97af3a2, c00b630 (the casual context), ebbb88d and d7c3a4f, and a link between the files is not needed."
-
-[[answer]]
-check = "co-change"
 path = "principles/slide/claim-headline-with-evidence.md"
 question = "changed together with reader-styles/README.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
 file = "8793a744fc5b"
 answer = "Keep them apart: it is a principle and reader-styles/README.md is the context index, in a folder with the other contexts; the shared commits (97af3a2, c00b630, ebbb88d, d7c3a4f) are context edits and the release pin `v1.1.1`, and the principle already cites the evidence with `[review, strand 2]`."
-
-[[answer]]
-check = "co-change"
-path = "principles/talk/a-talk-is-not-a-paper.md"
-question = "changed together with reader-styles/README.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "e69726fb4293"
-answer = "Keep them apart: it is a principle (`[review, strand 5 and strand 6]`) and reader-styles/README.md lists contexts; their 3 shared commits (c00b630 the casual context, ebbb88d, d7c3a4f the release pin) are edits to a shared version link and a context, not shared content."
 
 [[answer]]
 check = "document-mode"
@@ -137,24 +109,10 @@ answer = "Yes: `# Evidence against and open controversies` is exactly what the n
 
 [[answer]]
 check = "name-content"
-path = "evidence/presentations/frame.md"
-question = "the name 'frame' and the opening are far apart in meaning (0.05): does the name predict the content?"
-file = "9cdbfb2e5099"
-answer = "Yes: `# Frame: the problem and its names` opens with the problem in one sentence and lists what research and practice call its parts, which is the framing step the name says."
-
-[[answer]]
-check = "name-content"
 path = "evidence/presentations/position.md"
 question = "the name 'position' and the opening are far apart in meaning (0.16): does the name predict the content?"
 file = "0b72550af0a1"
 answer = "Yes: the opening says what is known, what is not, and what this repository adds, which is the position of the repository (`## Known`, `## Not known`); the name is short but is the step name used across the topic."
-
-[[answer]]
-check = "name-content"
-path = "evidence/presentations/review.md"
-question = "the name 'review' and the opening are far apart in meaning (0.18): does the name predict the content?"
-file = "4007d8364276"
-answer = "Yes: the opening says the file reviews the literature on presentations in strands, and the content is that review (`## 0. Existing reviews`, `## 1. Paced media: modality, redundancy, segmenting`)."
 
 [[answer]]
 check = "name-content"
@@ -168,7 +126,7 @@ check = "deck-judgment"
 path = "shapes/example-talk.html"
 question = "Does any animation, video or live demo replace an explanation instead of adding to one?"
 file = "d4afebf86c03"
-answer = "No: the only motion is the list on the slide `Points shown as you say them are easier to follow` (`class=\"fragment\"`), which reveals lines that the notes say are spoken as they appear (`Reveal each line as you say it`); no video or demo exists to replace anything."
+answer = '''No: the only motion is the list on the slide `Points shown as you say them are easier to follow` (`class="fragment"`), which reveals lines that the notes say are spoken as they appear (`Reveal each line as you say it`); no video or demo exists to replace anything.'''
 
 [[answer]]
 check = "deck-judgment"
@@ -183,3 +141,73 @@ path = "shapes/example-talk.html"
 question = "Do the speaker notes plan gestures that point at what is said, rather than a reading of the slides?"
 file = "d4afebf86c03"
 answer = "Yes: the notes plan gestures and pacing (`Point at the left box, then the right one`, `Reveal each line as you say it`) and speech that adds to the slide (`Say what is not known`), not a reading of the slide text; a few notes such as `The plan, said once.` are thin but still do not read the slide."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/presentations/review.md"
+question = "328 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "037ae7d1dbf6"
+answer = "One role: the reading of the literature strand by strand (`## 0. Existing reviews`, `## 8. Colour`), each strand ending in what carries over to a live talk. It stays whole."
+
+[[answer]]
+check = "co-change"
+path = "evidence/README.md"
+question = "changed together with evidence/presentations/state-of-the-art.md in 4 commits (80% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "b12a75e5beae"
+answer = "Keep them apart: evidence/README.md only indexes the topic; it shares 4 of 5 commits with state-of-the-art.md (ea5c834, e7661bd, 71e3ef1, 181eb9d) because each review round updated the index, and the file has no pin, the README it shares them with only describes the topic's files under `## Method`."
+
+[[answer]]
+check = "co-change"
+path = "principles/slide/claim-headline-with-evidence.md"
+question = "changed together with principles/talk/a-talk-is-not-a-paper.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "e8ede5a91243"
+answer = "Keep them apart: both are principles of one family and already link the same evidence (`[review, strand 2]`); they co-changed in 97af3a2, c00b630 (the casual context), ebbb88d and d7c3a4f, and a link between the files is not needed."
+
+[[answer]]
+check = "co-change"
+path = "principles/talk/a-talk-is-not-a-paper.md"
+question = "changed together with reader-styles/README.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "486d0d688163"
+answer = "Keep them apart: it is a principle (`[review, strand 5 and strand 6]`) and reader-styles/README.md lists contexts; their 3 shared commits (c00b630 the casual context, ebbb88d, d7c3a4f the release pin) are edits to a shared version link and a context, not shared content."
+
+[[answer]]
+check = "name-content"
+path = "evidence/presentations/frame.md"
+question = "the name 'frame' and the opening are far apart in meaning (0.05): does the name predict the content?"
+file = "5afebf91de84"
+answer = "Yes: `# Frame: the problem and its names` opens with the problem in one sentence and lists what research and practice call its parts, which is the framing step the name says."
+
+[[answer]]
+check = "name-content"
+path = "evidence/presentations/review.md"
+question = "the name 'review' and the opening are far apart in meaning (0.18): does the name predict the content?"
+file = "037ae7d1dbf6"
+answer = "Yes: the opening says the file reviews the literature on presentations in strands, and the content is that review (`## 0. Existing reviews`, `## 1. Paced media: modality, redundancy, segmenting`)."
+
+[[answer]]
+check = "co-change"
+path = "evidence/README.md"
+question = "changed together with evidence/presentations/README.md in 6 commits (86% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "b12a75e5beae"
+answer = "Keep them apart: evidence/README.md indexes every topic and the shared method, while the topic README indexes one review's steps. Their shared commits are the review's milestones (71e3ef1 wrote it, e7661bd made it multivocal, ea5c834 added questions 7 and 8, 181eb9d its audit) and the two link pins (ebbb88d, d7c3a4f): an index following its content, not one fact in two places."
+
+[[answer]]
+check = "co-change"
+path = "evidence/README.md"
+question = "changed together with evidence/presentations/baseline.md in 7 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "b12a75e5beae"
+answer = "Keep them apart: the evidence README summarises the audits, while baseline.md holds the template the standard is compared against. They changed together at review milestones (71e3ef1, e7661bd, ea5c834, the audit 181eb9d, the full-text check 13c0eeb) and in the two link pins (ebbb88d, d7c3a4f), and neither repeats the other."
+
+[[answer]]
+check = "co-change"
+path = "evidence/README.md"
+question = "changed together with evidence/presentations/frame.md in 5 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "b12a75e5beae"
+answer = "Keep them apart: frame.md names one topic's problem and its terms, while the evidence README indexes the topics. Three shared commits are review milestones (71e3ef1, e7661bd, ea5c834) and two are the link pins (ebbb88d, d7c3a4f)."
+
+[[answer]]
+check = "co-change"
+path = "principles/slide/claim-headline-with-evidence.md"
+question = "changed together with reader-styles/README.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "e8ede5a91243"
+answer = "Keep them apart: the principle lists the contexts that change it, and the README indexes the contexts. Both changed when the standard was written (97af3a2) and when the casual context was added (c00b630), as any new context must touch both; the other two shared commits are the link pins (ebbb88d, d7c3a4f)."

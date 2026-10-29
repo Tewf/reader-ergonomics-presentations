@@ -2,12 +2,12 @@
 
 For anyone changing this repository, person or language model. To give a talk, read [standard.md](standard.md)
 instead; this file is about this repository only. It extends reader-ergonomics through the interface in that
-repository's [extending.md](https://github.com/Tewf/reader-ergonomics/blob/v1.1.1/extending.md), and relies on
+repository's [extending.md](https://github.com/Tewf/reader-ergonomics/blob/v1.4.1/extending.md), and relies on
 nothing else there.
 
 ## Before writing
 
-1. Read reader-ergonomics' [standard.md](https://github.com/Tewf/reader-ergonomics/blob/v1.1.1/standard.md), then this
+1. Read reader-ergonomics' [standard.md](https://github.com/Tewf/reader-ergonomics/blob/v1.4.1/standard.md), then this
    repository's [standard.md](standard.md). A principle that reader-ergonomics holds is linked, never restated here.
 2. A principle belongs here only when a talk changes it: the listener cannot set the pace, the room sets what is
    legible, the speaker is part of the medium.
@@ -17,7 +17,7 @@ nothing else there.
 
 ## Rules for claims
 
-- The rules for claims are reader-ergonomics' own ([its AGENTS.md](https://github.com/Tewf/reader-ergonomics/blob/v1.1.1/AGENTS.md#rules-for-claims)):
+- The rules for claims are reader-ergonomics' own ([its AGENTS.md](https://github.com/Tewf/reader-ergonomics/blob/v1.4.1/AGENTS.md#rules-for-claims)):
   a grade on every principle, `Author Year` in the text, one entry in [evidence/bibliography.md](evidence/bibliography.md),
   evidence against kept in `against.md`, "(secondary)" for a number read in a summary.
 - A new claim comes from the review in [evidence/presentations/](evidence/presentations/). A claim the review does not
