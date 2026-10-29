@@ -51,3 +51,4 @@ Each page's markdown source is served at the same path with a .md extension.
 - [Evidence](https://tewf.github.io/reader-ergonomics-presentations/evidence/README.md): one literature review per topic, with the evidence against
 - [Bibliography](https://tewf.github.io/reader-ergonomics-presentations/evidence/bibliography.md): every cited work, once
 - [Shapes](https://tewf.github.io/reader-ergonomics-presentations/shapes/README.md): skeletons for kinds of documents
+- [Decisions](https://tewf.github.io/reader-ergonomics-presentations/decisions/README.md): the choices this repository made, one record each
