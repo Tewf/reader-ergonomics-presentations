@@ -1,7 +1,7 @@
 # Presentations
 
-[![Checks against reader-ergonomics](https://github.com/Tewf/presentations/actions/workflows/checks.yml/badge.svg?branch=master)](https://github.com/Tewf/presentations/actions/workflows/checks.yml?query=branch%3Amaster)
-[![Site](https://github.com/Tewf/presentations/actions/workflows/pages.yml/badge.svg)](https://tewf.github.io/presentations/)
+[![Checks against reader-ergonomics](https://github.com/Tewf/reader-ergonomics-presentations/actions/workflows/checks.yml/badge.svg?branch=master)](https://github.com/Tewf/reader-ergonomics-presentations/actions/workflows/checks.yml?query=branch%3Amaster)
+[![Site](https://github.com/Tewf/reader-ergonomics-presentations/actions/workflows/pages.yml/badge.svg)](https://tewf.github.io/reader-ergonomics-presentations/)
 
 How to build a presentation so that the listener, or the reader of a deck, follows and remembers it at the least cost.
 
@@ -50,7 +50,7 @@ copied.
 
 ## Where it came from
 
-It began on 2026-10-28 as the talk half of academic-writing, and moved here on 2026-10-29 with its history. The two
+It began on 2026-10-28 as the talk half of reader-ergonomics-academic, and moved here on 2026-10-29 with its history. The two
 halves had grown apart: when they split, their reviews cited 147 and 225 works, and shared 2.
 
 ## Check it
@@ -61,10 +61,10 @@ python3 reader-ergonomics/checks/run.py path/to/this/repository
 ```
 
 CI runs the same checks on every push, and a run fails on any error
-([checks.yml](https://github.com/Tewf/presentations/blob/master/.github/workflows/checks.yml)). The badge at the top is
+([checks.yml](https://github.com/Tewf/reader-ergonomics-presentations/blob/master/.github/workflows/checks.yml)). The badge at the top is
 the last result on master. Every push to master also renders the site,
-[tewf.github.io/presentations](https://tewf.github.io/presentations/)
-([pages.yml](https://github.com/Tewf/presentations/blob/master/.github/workflows/pages.yml)).
+[tewf.github.io/reader-ergonomics-presentations](https://tewf.github.io/reader-ergonomics-presentations/)
+([pages.yml](https://github.com/Tewf/reader-ergonomics-presentations/blob/master/.github/workflows/pages.yml)).
 
 ## Licence
 

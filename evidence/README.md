@@ -29,7 +29,7 @@ narrative, with snowballing; their protocol files record its terms and counts af
 search was run to the protocol.
 
 **Second rater.** A second rater re-scored, blind, every fifth grey source of the seven reviews then in this repository,
-academic-writing and software-design-writing (38 of 175):
+reader-ergonomics-academic and software-design-writing (38 of 175):
 
 - inclusion: the raters agreed for 89.5% of the sample, Cohen's kappa 0.46, unstable at this size (bootstrap 0.00 to 0.87);
 - totals: intraclass correlation ICC(A,1) 0.62, mean absolute difference 2.05 of 20, the second rater 1.8 points higher;

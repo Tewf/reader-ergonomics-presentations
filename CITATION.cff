@@ -4,7 +4,7 @@ message: >-
   work-in-progress synthesis of published research, written with Claude, an AI
   assistant by Anthropic. It is not an official standard, not peer-reviewed,
   and not a new result.
-title: "presentations (work in progress, parked)"
+title: "reader-ergonomics-presentations (work in progress, parked)"
 abstract: >-
   How to build a presentation, academic or business, so that it is cheap
   to follow and to remember. An extension of reader-ergonomics: the
@@ -13,7 +13,7 @@ abstract: >-
 type: software
 authors:
   - name: "Tewf"
-repository-code: "https://github.com/Tewf/presentations"
+repository-code: "https://github.com/Tewf/reader-ergonomics-presentations"
 license:
   - Apache-2.0
   - CC-BY-4.0
