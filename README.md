@@ -25,11 +25,15 @@ presenting is a style of its own, kept by them, that overrides this standard in 
 
 ```text
 presentations
- ├─ the base: what a presentation is      a paced medium, a speaker, a room
+ ├─ the base: what a presentation is
+ │    a paced medium, a speaker, a room
  └─ contexts that override the base
-    ├─ the academic talk                  conference, seminar, defence
-    ├─ the business presentation          pitch, sale, executive briefing
-    └─ the casual talk                    meetup, club, friends
+    ├─ the academic talk
+    │    conference, seminar, defence
+    ├─ the business presentation
+    │    pitch, sale, executive briefing
+    └─ the casual talk
+         meetup, club, friends
 ```
 
 ## Contents

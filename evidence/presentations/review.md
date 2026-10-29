@@ -327,11 +327,15 @@ Search strings and scores are in [protocol](protocol.md) and [sources](sources.m
 A casual talk is informal and voluntary: a meetup or club talk, a lightning talk, a talk to friends or classmates, a popular-science talk, a project explained to non-specialists.
 
 ```text
-what the evidence covers                      what it does not cover
-
-text, recorded lectures, classroom   ──┐
-posts, surveys of attendees          ──┤──▶  a live casual talk, outcome measured
-online view counts of TED talks      ──┘      (none found)
+what the evidence covers
+  text, recorded lectures, classrooms
+  posts, surveys of attendees
+  online view counts of TED talks
+        │
+        ▼  does not reach
+what it does not cover
+  a live casual talk with a measured outcome
+  (none found)
 ```
 
 ### 10.0 Existing reviews

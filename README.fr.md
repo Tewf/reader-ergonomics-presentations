@@ -24,11 +24,15 @@ de chacun est un style à part, gardé par lui, qui modifie à son tour ce stand
 
 ```text
 présentations
- ├─ la base : ce qu'est une présentation    un média rythmé, un orateur, une salle
+ ├─ la base : ce qu'est une présentation
+ │    un média rythmé, un orateur, une salle
  └─ les contextes qui la modifient
-    ├─ l'exposé académique                  colloque, séminaire, soutenance
-    ├─ la présentation d'affaires           pitch, vente, point de direction
-    └─ l'exposé informel                    meetup, club, entre amis
+    ├─ l'exposé académique
+    │    colloque, séminaire, soutenance
+    ├─ la présentation d'affaires
+    │    pitch, vente, point de direction
+    └─ l'exposé informel
+         meetup, club, entre amis
 ```
 
 ## Contenu

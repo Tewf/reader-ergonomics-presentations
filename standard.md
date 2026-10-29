@@ -8,19 +8,15 @@ the pace or read again.
 ## How to use it
 
 ```text
- who listens?
-  ├─ a known audience ──▶ open its context in reader-styles/
-  │                            │
-  └─ unknown ──────────────────┤
-                               ▼
-                     start from the talk shape
-                               ▼
-                    build the deck to the principles
-                               ▼
-               python3 <reader-ergonomics>/checks/run.py .
-                               ├─▶ error     certain: fix it
-                               ├─▶ warning   fix it, or say why it is a false match
-                               └─▶ judgment  answer it in checks/judgments.toml
+ 1. who listens?
+      known   ──▶ open its context in reader-styles/
+      unknown ──▶ the base alone
+ 2. start from the talk shape
+ 3. build the deck to the principles
+ 4. python3 <reader-ergonomics>/checks/run.py .
+      error     certain: fix it
+      warning   fix it, or say why it is a false match
+      judgment  answer it in checks/judgments.toml
 ```
 
 1. **Name the audience.** A context overrides the base for its room: [academic audience](reader-styles/academic-audience.md)
