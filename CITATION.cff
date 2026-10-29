@@ -4,23 +4,21 @@ message: >-
   work-in-progress synthesis of published research, written with Claude, an AI
   assistant by Anthropic. It is not an official standard, not peer-reviewed,
   and not a new result.
-title: "academic-writing-and-presentations (work in progress)"
+title: "presentations (work in progress, parked)"
 abstract: >-
-  How to write research papers, mathematical articles and proofs, and how
-  to build presentations, so that they are cheap to read or to follow. An
-  extension of reader-ergonomics: the evidence and document shapes
-  particular to these genres.
+  How to build a presentation, academic or business, so that it is cheap
+  to follow and to remember. An extension of reader-ergonomics: the
+  evidence particular to presentations.
   Use it as a reading list and a starting point, not as an authority.
 type: software
 authors:
   - name: "Tewf"
-repository-code: "https://github.com/Tewf/academic-writing-and-presentations"
+repository-code: "https://github.com/Tewf/presentations"
 license:
   - Apache-2.0
   - CC-BY-4.0
 keywords:
-  - research papers
-  - mathematical writing
-  - proofs
   - presentations
+  - slides
+  - pitches
   - literature review

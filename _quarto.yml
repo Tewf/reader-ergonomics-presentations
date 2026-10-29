@@ -11,17 +11,15 @@ project:
     - "**/*.md"
 
 website:
-  title: "Academic writing and presentations"
-  site-url: "https://tewf.github.io/academic-writing-and-presentations/"
-  repo-url: "https://github.com/Tewf/academic-writing-and-presentations"
+  title: "Presentations"
+  site-url: "https://tewf.github.io/presentations/"
+  repo-url: "https://github.com/Tewf/presentations"
   repo-actions: [source, issue]
   page-navigation: true
   navbar:
     left:
       - text: Evidence
         href: evidence/index.qmd
-      - text: Shapes
-        href: shapes/index.qmd
       - text: Bibliography
         href: evidence/bibliography.md
     right:
