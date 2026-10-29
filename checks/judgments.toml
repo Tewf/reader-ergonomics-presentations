@@ -248,20 +248,6 @@ file = "1deff1134b41"
 answer = "Keep them apart, with the link that exists: review.md `reviews the literature on presentations in strands`, and the principle cites its strands 4 and 8 by link. Their three shared commits are two release pins (ebbb88d, d7c3a4f) and the key rename 6fd6bed, where both cite the contrast page that became W3C 2023b; the rule and its evidence stay in their own folders."
 
 [[answer]]
-check = "logical-lines"
-path = "evidence/figures/review.md"
-question = "84 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "669215247155"
-answer = "One role: the graded review of the figures literature, strand by strand (`existing reviews first, then layout, encoding, appeal`). Every part is a strand of one review, so it stays whole."
-
-[[answer]]
-check = "logical-lines"
-path = "evidence/figures/sources.md"
-question = "85 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "0de6ca5b6271"
-answer = "One role: the pool of the topic's sources (`how it was found, and how much weight it can carry`). The flow, the formal rows and the grey rows describe one pool, so it stays whole."
-
-[[answer]]
 check = "co-change"
 path = "evidence/README.md"
 question = "changed together with evidence/presentations/README.md in 6 commits (86% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
@@ -304,46 +290,11 @@ file = "310e57966707"
 answer = "One mode, understanding why: it gathers the evidence against the figure rules (`null results, disputed studies, and advice that a study contradicts`). It gives no procedure; what reads as how-to is the advice it tests."
 
 [[answer]]
-check = "document-mode"
-path = "evidence/figures/protocol.md"
-question = "reads about equally as reference and how-to: one mode per document?"
-file = "b7502fb44e2f"
-answer = "One mode, reference: the record of each search (`each string, with its date and count`), looked up or rerun. It reads as how-to only because a recorded search can be repeated."
-
-[[answer]]
-check = "document-mode"
-path = "evidence/figures/review.md"
-question = "reads about equally as reference and how-to: one mode per document?"
-file = "669215247155"
-answer = "One mode, understanding why, with look-up tables: graded findings by strand (`Each row carries the grade of what its source shows`). It gives no procedure; how to draw a figure belongs to the figure shape."
-
-[[answer]]
 check = "name-content"
 path = "evidence/figures/against.md"
 question = "the name 'against' and the opening are far apart in meaning (0.08): does the name predict the content?"
 file = "310e57966707"
 answer = "Yes: the opening `# Evidence against and open controversies` is what the name promises, and `against` is one step of the topic's fixed sequence listed in its README."
-
-[[answer]]
-check = "name-content"
-path = "evidence/figures/position.md"
-question = "the name 'position' and the opening are far apart in meaning (0.14): does the name predict the content?"
-file = "68b5714f3938"
-answer = "Yes: the file states what is known, what is not, and what this repository adds (`## Known`, `## Not known`), which is the position of the repository on figures."
-
-[[answer]]
-check = "name-content"
-path = "evidence/figures/protocol.md"
-question = "the name 'protocol' and the opening are far apart in meaning (0.19): does the name predict the content?"
-file = "b7502fb44e2f"
-answer = "Yes: the file is the protocol of the searches (`# Protocol`, `## Engine and date`); the check compares the name with the first sentence only."
-
-[[answer]]
-check = "name-content"
-path = "evidence/figures/state-of-the-art.md"
-question = "the name 'state' and the opening are far apart in meaning (-0.01): does the name predict the content?"
-file = "ad43557d9907"
-answer = "Yes: the opening `# State of the art, per sub-question` names the file, and its two parts are the records it promises (`## Best evidence`, `## Most adopted`). The check compared only the first word of the file name."
 
 [[answer]]
 check = "section-cohesion"
@@ -372,3 +323,52 @@ path = "README.md"
 question = "changed together with decisions/README.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
 file = "c9c0c60982ea"
 answer = "Keep them apart: the front page has one row per part, with its count (`the choices that shaped this repository, one record each`), and decisions/README.md lists the records themselves. They change together when a record is added and the count on the front page moves: a link and a number, not shared content."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/figures/review.md"
+question = "84 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "a0a46f88d52f"
+answer = "One role: the graded review of the figures literature, strand by strand (`existing reviews first, then layout, encoding, appeal`). Every part is a strand of one review, so it stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/figures/sources.md"
+question = "85 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "291fd193ce92"
+answer = "One role: the pool of the topic's sources (`how it was found, and how much weight it can carry`). The flow, the formal rows and the grey rows describe one pool, so it stays whole."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/figures/protocol.md"
+question = "reads about equally as reference and how-to: one mode per document?"
+file = "2f02d2da70a7"
+answer = "One mode, reference: the record of each search (`each string, with its date and count`), looked up or rerun. It reads as how-to only because a recorded search can be repeated."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/figures/review.md"
+question = "reads about equally as reference and how-to: one mode per document?"
+file = "a0a46f88d52f"
+answer = "One mode, understanding why, with look-up tables: graded findings by strand (`Each row carries the grade of what its source shows`). It gives no procedure; how to draw a figure belongs to the figure shape."
+
+[[answer]]
+check = "name-content"
+path = "evidence/figures/position.md"
+question = "the name 'position' and the opening are far apart in meaning (0.14): does the name predict the content?"
+file = "61312d813401"
+answer = "Yes: the file states what is known, what is not, and what this repository adds (`## Known`, `## Not known`), which is the position of the repository on figures."
+
+[[answer]]
+check = "name-content"
+path = "evidence/figures/protocol.md"
+question = "the name 'protocol' and the opening are far apart in meaning (0.19): does the name predict the content?"
+file = "2f02d2da70a7"
+answer = "Yes: the file is the protocol of the searches (`# Protocol`, `## Engine and date`); the check compares the name with the first sentence only."
+
+[[answer]]
+check = "name-content"
+path = "evidence/figures/state-of-the-art.md"
+question = "the name 'state' and the opening are far apart in meaning (-0.01): does the name predict the content?"
+file = "ceb09a3f02e4"
+answer = "Yes: the opening `# State of the art, per sub-question` names the file, and its two parts are the records it promises (`## Best evidence`, `## Most adopted`). The check compared only the first word of the file name."

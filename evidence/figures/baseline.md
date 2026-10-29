@@ -5,7 +5,7 @@ This file names the figure a proposed figure design must beat, and how the two w
 ## The baseline named
 
 - **Practice baseline:** the Urban Institute data visualization style guide (Urban 2025, updated 2025-08-27).
-- **Testable floor:** WCAG 2.2 success criteria 1.1.1 and 1.4.11 (W3C 2023e, W3C 2023g, W3C 2023f).
+- **Testable floor:** WCAG 2.2 success criteria 1.1.1 and 1.4.11 (W3C 2023e, W3C 2023g, W3C 2023a).
 - **Peer-reviewed counterpart:** Rougier 2014, ten simple rules for better figures.
 - **Null baseline:** the figure as most repositories draw it today: text art in a code block, no alternative text, no source line.
 - For diagrams of systems, the baseline stays the one held in system-diagrams (the C4 guidance and its review checklist).
@@ -31,7 +31,7 @@ This file names the figure a proposed figure design must beat, and how the two w
 | Colour restraint | yes (fewer than seven categories) | W3C 2023c (held); Song 2025 found colour raised credibility against grayscale and cartoon bars lowered it, so it does not support restraint |
 | Alternative text | yes | W3C 2023e, W3C 2026a |
 | Contrast of lines and fills | WCAG AA, text only | W3C 2023g adds 3:1 for graphics |
-| Drawn from source, not typed | not covered | W3C 2023f, Mermaid 2026c |
+| Drawn from source, not typed | not covered | W3C 2023a, Mermaid 2026c |
 | Crossings and angles | not covered | Purchase 1997, Huang 2008b |
 | Long description | not covered | W3C 2026a |
 

@@ -12,7 +12,7 @@ The research record and the practice record are kept apart, as in every topic ([
 | Q11b Grouping | Palmer 1992 | laboratory demonstrations of grouping by common region |
 | Q11c Appeal and performance | Thielsch 2019; Schlamann 2026 | meta-analyses, 25 and 31 studies, for interfaces |
 | Q11c Embellishment | Bateman 2010; Borgo 2012 | controlled experiments on charts, description and recall |
-| Q11d Reaching a figure without sight | W3C 2023e; W3C 2023f | a standard; not tested with readers |
+| Q11d Reaching a figure without sight | W3C 2023e; W3C 2023a | a standard; not tested with readers |
 | Q11d Reading by a language model | Zhong 2024 | 500 random graphs, text against image, one model |
 | Q11e Practice | none | no study of a style guide's rules was found |
 
@@ -23,4 +23,4 @@ The research record and the practice record are kept apart, as in every topic ([
 | Ten rules for better figures | Rougier 2014 | the reference most practice pages cite |
 | A stated message, direct labels, little decoration | Urban 2025; Datawrapper 2022 | newsroom and institute style guides |
 | A vocabulary of chart types by purpose | FT 2026 | a newsroom's public guide |
-| Diagrams drawn from source in documentation | GitHub 2026d; Mermaid 2026c | rendered in every Markdown file on GitHub |
+| Diagrams drawn from source in documentation | GitHub 2026e; Mermaid 2026c | rendered in every Markdown file on GitHub |

@@ -13,7 +13,7 @@ This file says what is known, what is not, and what this repository adds about f
 | Spatial compatibility between the data region and the legend shortened the time to read a graph (not verified: what compatible meant; not shown for direct labels) | supported with caveat | Huestegge 2011 |
 | Beauty gives a small, uneven gain in task performance of interfaces | measured | Thielsch 2019, Schlamann 2026 |
 | Holmes-style embellished charts were described as accurately and recalled better two to three weeks later (10 participants per recall condition, charts by one designer) | supported with caveat | Bateman 2010; Few 2011 restates it and criticises it |
-| WCAG 2.2 treats ASCII art as non-text content, so it needs a text alternative; box-drawing characters fall under it only by extension of the glossary definition | convention | W3C 2023f, W3C 2023e |
+| WCAG 2.2 treats ASCII art as non-text content, so it needs a text alternative; box-drawing characters fall under it only by extension of the glossary definition | convention | W3C 2023a, W3C 2023e |
 | Mermaid can write an accessible title and description into its SVG | convention | Mermaid 2026c |
 | GPT-4o answered most structure questions better from graph text than from an image alone (not cycle checks), on small random graphs | supported with caveat | Zhong 2024 |
 
@@ -38,7 +38,7 @@ This file says what is known, what is not, and what this repository adds about f
 ## Where the evidence is ignored by practice
 
 - Wide crossing angles are measured results that none of the four guides read names; a common scale for quantities is named only through one Cleveland and McGill link in FT 2026.
-- The accessibility standard already covers ASCII art; of the three tool pages read, GitHub 2026d and Quarto 2026 are silent on alt text for diagrams and Mermaid 2026c documents `accTitle` and `accDescr`.
+- The accessibility standard already covers ASCII art; of the three tool pages read, GitHub 2026e and Quarto 2026 are silent on alt text for diagrams and Mermaid 2026c documents `accTitle` and `accDescr`.
 
 ## What this strand adds
 

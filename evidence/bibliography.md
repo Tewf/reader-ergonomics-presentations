@@ -85,7 +85,7 @@ Every work cited anywhere in this repository, once. The text cites `Author Year`
 | Ginns 2005 | Ginns (2005). Meta-analysis of the modality effect. Learning and Instruction | https://doi.org/10.1016/j.learninstruc.2005.07.001 |
 | Ginns 2013 | Ginns, Martin, Marsh (2013). Designing instructional text in a conversational style: a meta-analysis. Educational Psychology Review 25(4), 445-472 | https://doi.org/10.1007/s10648-013-9228-0 |
 | GitHub 2022 | GitHub blog (2022). Include diagrams in your Markdown files with Mermaid | https://github.blog/developer-skills/github/include-diagrams-markdown-files-mermaid/ |
-| GitHub 2026d | GitHub (read 2026). Creating diagrams. GitHub Docs | https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams |
+| GitHub 2026e | GitHub (read 2026). Creating diagrams. GitHub Docs | https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams |
 | GitLab 2026 | GitLab (accessed 2026). Documentation style guide. GitLab Docs | https://docs.gitlab.com/development/documentation/styleguide/ |
 | Greco 2008 | Greco, Stucchi, Zavagno, Marino (2008). On the Portability of Computer-Generated Presentations: The Effect of Text-Background Color Combinations on Text Legibility. Human Factors: The Journal of the Human Factors and Ergonomics Society 50(5), 821-833 | https://doi.org/10.1518/001872008x354156 |
 | Guo 2014 | Guo, Kim, Rubin (2014). How video production affects student engagement. Proceedings of the first ACM conference on Learning @ scale conference, 41-50 | https://doi.org/10.1145/2556325.2566239 |
@@ -233,11 +233,11 @@ Every work cited anywhere in this repository, once. The text cites `Author Year`
 | Urban 2025 | Urban Institute (page updated 2025-08-27, read 2026). Data visualization style guide | https://urbaninstitute.github.io/graphics-styleguide/ |
 | Urry 2019 | Urry et al. (2019). Don't ditch the laptop just yet: a direct replication of Mueller and Oppenheimer (2014) Study 1 plus mini-meta-analyses. Preprint | https://doi.org/10.31234/osf.io/vqyw6 |
 | Voorde 2024 | ten Voorde, Piroi, Bos (2024). A taxonomy of didactic roles of dynamic visualization in animated mathematics videos. Teaching Mathematics and its Applications: An International Journal of the IMA 44(1), 47-67 | https://doi.org/10.1093/teamat/hrae007 |
+| W3C 2023a | W3C (2023). Web Content Accessibility Guidelines 2.2, W3C Recommendation | https://www.w3.org/TR/WCAG22/ |
 | W3C 2023b | W3C (2023). Web Content Accessibility Guidelines 2.2, success criterion 1.4.3 Contrast (Minimum) | https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html |
 | W3C 2023c | W3C (2023). Web Content Accessibility Guidelines 2.2, success criterion 1.4.1 Use of Color | https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html |
 | W3C 2023d | W3C (2023). Web Content Accessibility Guidelines 2.2, success criterion 2.2.2 Pause, Stop, Hide | https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html |
 | W3C 2023e | W3C (2023). WCAG 2.2, success criterion 1.1.1 Non-text content, Understanding | https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html |
-| W3C 2023f | W3C (2023). Web Content Accessibility Guidelines 2.2, glossary entries "non-text content" and "ASCII art" | https://www.w3.org/TR/WCAG22/#dfn-non-text-content |
 | W3C 2023g | W3C (2023). WCAG 2.2, success criterion 1.4.11 Non-text contrast, Understanding | https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast |
 | W3C 2026a | W3C Web Accessibility Initiative (page status: updated 2026-04-08, read 2026). Complex images, Images tutorial | https://www.w3.org/WAI/tutorials/images/complex/ |
 | Ware 2002 | Ware, Purchase, Colpoys, McGill (2002). Cognitive measurements of graph aesthetics. Information Visualization | https://doi.org/10.1057/palgrave.ivs.9500013 |

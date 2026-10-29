@@ -77,14 +77,14 @@ What the evidence covers, by outcome:
 
 | Source | Claim | Grade |
 |---|---|---|
-| W3C 2023f | WCAG 2.2 counts ASCII art as non-text content; its glossary defines ASCII art as a picture made by arranging characters, typically the 95 printable ASCII ones, so box-drawing characters fall under it only by extension | convention (a standard) |
+| W3C 2023a | WCAG 2.2 counts ASCII art as non-text content; its glossary defines ASCII art as a picture made by arranging characters, typically the 95 printable ASCII ones, so box-drawing characters fall under it only by extension | convention (a standard) |
 | W3C 2023e | A chart or diagram needs a short text alternative and a long one; the long one states type, summary, trends, and the data in a table where practical; a filename as alternative is a failure | convention (a standard) |
 | W3C 2026a | Complex images, flow charts among them, need a two-part alternative: a short description and a long description; the page shows three approaches to attach the long one (a link, a pointer in the alt text, a figure with a caption) and an aria-describedby example; the page has no flow chart example | convention (a standard) |
 | W3C 2023g | Parts of a graphic needed to understand it need 3:1 contrast against adjacent colours; text carrying the same information, decoration and essential presentation are exempt | convention (a standard) |
 | CUNY 2026 | ASCII art (the page is about memes and social posts) is not accessible to screen-reader users; turn it into an image with alt text | convention, untested |
 | Accessible Social 2026 (example only) | Assistive technology reads characters at face value and cannot tell a picture from text | convention, untested |
 | Mermaid 2026c | `accTitle` (one line) and `accDescr` (one or several lines) add SVG `title` and `desc` and the ARIA attributes, for every diagram type | convention (documented output, not tested with users) |
-| GitHub 2026d | Mermaid, GeoJSON, TopoJSON and ASCII STL render from fenced blocks in issues, discussions, pull requests, wikis and Markdown files; the page gives authors no alt-text guidance | convention |
+| GitHub 2026e | Mermaid, GeoJSON, TopoJSON and ASCII STL render from fenced blocks in issues, discussions, pull requests, wikis and Markdown files; the page gives authors no alt-text guidance | convention |
 | Quarto 2026 | Mermaid and Graphviz cells render natively for HTML and to PNG for print; the page lists label, caption and size options and no alt-text option | convention |
 | Zou 2024 | GPT-4 averaged 78% on TikZ and the text reports about 83% on TikZ and Graphviz, at least 17% above SVG; a different model, LLaVA-1.5-13b, reached 50.1% on rasterised Graphviz images (and 84.1% on rasterised SVG). The models differ, so it says nothing about text against image for one model | supported with caveat, different models |
 | Zhong 2024 | GPT-4o on 500 random graphs of 5 to 20 nodes, zero-shot, text (adjacency) against image alone: edge existence 96.2 against 74.6, node degree 75.8 against 55.8, shortest path 69.0 against 53.0, cycle check 96.2 against 97.0; the image together with the text scored close to the text alone on edge existence (96.4) and the authors report that visualisations can help, unevenly | supported with caveat, one drawing style |
