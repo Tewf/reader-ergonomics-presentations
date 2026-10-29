@@ -1,6 +1,6 @@
 # Shape: talk
 
-The shape of a spoken talk with slides: the point first, the plan, one section per claim, the point again, then the questions. The outline is format-neutral. It fits any slide tool, or none.
+The shape of a spoken talk with slides: the point first, the plan, one section per claim, the point again, then the questions. The outline is format-neutral. It fits any slide tool, or none. A filled example is [example-talk.html](example-talk.html), an HTML deck that passes every deck check.
 
 ## When to use it
 
