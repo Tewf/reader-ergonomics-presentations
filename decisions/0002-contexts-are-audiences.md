@@ -2,7 +2,7 @@
 
 **Decision:** Each context is a reader style named by its audience, so an academic talk, a business pitch and a casual talk override the base without a new mechanism.
 
-**Status:** accepted, 2026-10-29. **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/v1.13.0/shapes/decision-record.md).
+**Status:** accepted, 2026-10-29. **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/v1.18.2/shapes/decision-record.md).
 
 ## Context
 

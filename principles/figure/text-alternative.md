@@ -1,6 +1,6 @@
 # Text alternative
 
-**Claim:** beyond the alt text of reader-ergonomics' [figure next to its text](https://github.com/Tewf/reader-ergonomics/blob/v1.13.0/principles/page/figure-next-to-its-text.md), a figure of more than a few nodes has a long description of its parts and their relations. Its alt text reads each arrow in the direction the figure defines.
+**Claim:** beyond the alt text of reader-ergonomics' [figure next to its text](https://github.com/Tewf/reader-ergonomics/blob/v1.18.2/principles/page/figure-next-to-its-text.md), a figure of more than a few nodes has a long description of its parts and their relations. Its alt text reads each arrow in the direction the figure defines.
 
 - **Grade:** convention (a standard), untested with readers of documentation.
 - **Evidence:** [review, strand 4](../../evidence/figures/review.md).

@@ -4,7 +4,7 @@ A figure or a diagram in any document of the family has this shape. Its parts: a
 
 ## When to use it
 
-- Wherever a page explains a relation, a set, a process or a quantity, which [draw relations](https://github.com/Tewf/reader-ergonomics/blob/v1.13.0/principles/page/draw-relations.md) asks to show drawn.
+- Wherever a page explains a relation, a set, a process or a quantity, which [draw relations](https://github.com/Tewf/reader-ergonomics/blob/v1.18.2/principles/page/draw-relations.md) asks to show drawn.
 - In a page read on GitHub or on a site. A file read in a terminal or by a model (AGENTS.md, llms.txt, a comment in code, a commit message) keeps a typed figure ([drawn from source](../principles/figure/drawn-from-source.md)).
 - For a diagram of relations, Graphviz ([decision 0007](../decisions/0007-diagrams-are-drawn-with-graphviz.md)). Inside a LaTeX document, TikZ.
 
@@ -20,7 +20,7 @@ A figure or a diagram in any document of the family has this shape. Its parts: a
 | Folded source | the `.dot` copied under the image in a `<details>` block titled "Graphviz source", closed until clicked, so a reader can reuse the figure from the page | [drawn from source](../principles/figure/drawn-from-source.md) | convention (the maintainer's rule, 2026-10-29) |
 | Key | only when the notation is not obvious; labels sit on what they name | [label in place](../principles/figure/label-in-place.md) | supported with caveat |
 
-The drawing itself follows the rest of the group: reader-ergonomics' [sufficient contrast](https://github.com/Tewf/reader-ergonomics/blob/v1.13.0/principles/page/sufficient-contrast.md), [few crossings](../principles/figure/few-crossings.md), [group by region](../principles/figure/group-by-region.md), [position for quantities](../principles/figure/position-for-quantities.md) and [appeal after clarity](../principles/figure/appeal-after-clarity.md).
+The drawing itself follows the rest of the group: reader-ergonomics' [sufficient contrast](https://github.com/Tewf/reader-ergonomics/blob/v1.18.2/principles/page/sufficient-contrast.md), [few crossings](../principles/figure/few-crossings.md), [group by region](../principles/figure/group-by-region.md), [position for quantities](../principles/figure/position-for-quantities.md) and [appeal after clarity](../principles/figure/appeal-after-clarity.md).
 
 ## Colours
 

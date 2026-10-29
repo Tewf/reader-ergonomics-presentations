@@ -1,6 +1,6 @@
 # Drawn from source
 
-**Claim:** a figure drawn as reader-ergonomics' [draw relations](https://github.com/Tewf/reader-ergonomics/blob/v1.13.0/principles/page/draw-relations.md) asks is written in Graphviz: its `.dot` sits beside the SVG and the page that embeds it, folded under the image. Text figures stay only in files read in a terminal or by a model.
+**Claim:** a figure drawn as reader-ergonomics' [draw relations](https://github.com/Tewf/reader-ergonomics/blob/v1.18.2/principles/page/draw-relations.md) asks is written in Graphviz: its `.dot` sits beside the SVG and the page that embeds it, folded under the image. Text figures stay only in files read in a terminal or by a model.
 
 - **Grade:** convention, untested. The reasons are access and drift, not faster reading.
 - **Evidence:** [review, strand 4](../../evidence/figures/review.md); [position, Known](../../evidence/figures/position.md); [decision 0007](../../decisions/0007-diagrams-are-drawn-with-graphviz.md).

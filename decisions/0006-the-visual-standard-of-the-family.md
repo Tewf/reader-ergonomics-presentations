@@ -2,7 +2,7 @@
 
 **Decision:** This repository is also the family's standard for the visual: figures and diagrams in any document, not only slides.
 
-**Status:** accepted, 2026-10-29; its principles came from review question 11, in [principles/figure/](../principles/figure/README.md). **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/v1.13.0/shapes/decision-record.md).
+**Status:** accepted, 2026-10-29; its principles came from review question 11, in [principles/figure/](../principles/figure/README.md). **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/v1.18.2/shapes/decision-record.md).
 
 ## Context
 

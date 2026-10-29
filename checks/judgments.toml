@@ -346,132 +346,6 @@ file = "ffa749b6a720"
 answer = "Yes: the opening `# State of the art, per sub-question` names the file, and its two parts are the records it promises (`## Best evidence`, `## Most adopted`). The check compared only the first word of the file name."
 
 [[answer]]
-check = "logical-lines"
-path = "evidence/presentations/review.md"
-question = "330 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "ead65e555383"
-answer = "One role: the reading of the literature strand by strand (`## 0. Existing reviews`, `## 8. Colour`), each strand ending in what carries over to a live talk. It stays whole."
-
-[[answer]]
-check = "co-change"
-path = "evidence/README.md"
-question = "changed together with evidence/presentations/README.md in 6 commits (86% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "82421c42b04d"
-answer = "Keep them apart: evidence/README.md is the index of topics and the shared method (`One literature review per topic`), and the other file is one topic's own page. They changed together in merges and audits that moved counts in both, which a link already serves."
-
-[[answer]]
-check = "co-change"
-path = "evidence/README.md"
-question = "changed together with evidence/presentations/baseline.md in 7 commits (78% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "82421c42b04d"
-answer = "Keep them apart: evidence/README.md is the index of topics and the shared method (`One literature review per topic`), and the baseline is one step of one topic. They changed together in merges and audits across the evidence, not through shared content."
-
-[[answer]]
-check = "co-change"
-path = "evidence/README.md"
-question = "changed together with evidence/presentations/frame.md in 6 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "82421c42b04d"
-answer = "Keep them apart: evidence/README.md is the index of topics and the shared method (`One literature review per topic`), and the frame is one step of one topic. They changed together when a strand was added to the topic and the index named it."
-
-[[answer]]
-check = "co-change"
-path = "evidence/README.md"
-question = "changed together with principles/slide/colour-as-a-signal.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "82421c42b04d"
-answer = "Keep them apart: evidence/README.md has its own role (`One literature review per topic`) and principles/slide/colour-as-a-signal.md another. They changed together in passes that touched every file at once, the release-link raises and the sentence pass of 2026-10-29, not through shared content."
-
-[[answer]]
-check = "co-change"
-path = "evidence/presentations/baseline.md"
-question = "changed together with principles/slide/colour-as-a-signal.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "55ec0bf74ffd"
-answer = "Keep them apart: the baseline is evidence and the principle cites it (`Colour is never the only cue`). They change together when a cited source is corrected or renamed, as Microsoft 2026d was: a citation, not shared content."
-
-[[answer]]
-check = "co-change"
-path = "evidence/presentations/baseline.md"
-question = "changed together with principles/slide/legible-in-the-room.md in 4 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "55ec0bf74ffd"
-answer = "Keep them apart: baseline.md `names the deck a proposed presentation design must beat`, and legible-in-the-room.md is one rule that deck is held to. Their three shared commits are two release pins (ebbb88d, d7c3a4f) and the key rename 6fd6bed, where both cite the contrast page that became W3C 2023b: upkeep of one citation, not one fact held twice."
-
-[[answer]]
-check = "co-change"
-path = "evidence/presentations/frame.md"
-question = "changed together with principles/slide/colour-as-a-signal.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "b1fcae916740"
-answer = "Keep them apart: evidence/presentations/frame.md has its own role (`# Frame: the problem and its names`) and principles/slide/colour-as-a-signal.md another. They changed together in passes that touched every file at once, the release-link raises and the sentence pass of 2026-10-29, not through shared content."
-
-[[answer]]
-check = "co-change"
-path = "evidence/presentations/review.md"
-question = "changed together with principles/slide/colour-as-a-signal.md in 4 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "ead65e555383"
-answer = "Keep them apart: the review holds the colour strand (`Colour-vision deficiency`) and the principle cites it. They change together when a cited source is corrected or renamed: a citation, not shared content."
-
-[[answer]]
-check = "co-change"
-path = "evidence/presentations/review.md"
-question = "changed together with principles/slide/legible-in-the-room.md in 4 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "ead65e555383"
-answer = "Keep them apart, with the link that exists: review.md `reviews the literature on presentations in strands`, and the principle cites its strands 4 and 8 by link. Their three shared commits are two release pins (ebbb88d, d7c3a4f) and the key rename 6fd6bed, where both cite the contrast page that became W3C 2023b; the rule and its evidence stay in their own folders."
-
-[[answer]]
-check = "co-change"
-path = "evidence/presentations/review.md"
-question = "changed together with principles/talk/a-talk-is-not-a-paper.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "ead65e555383"
-answer = "Keep them apart: review.md is the evidence log the principle cites, and the principle links to it. They change together when a corrected source reaches a principle's limits, as the outline advice did (`Peyton Jones 1993: 6 or 7 things per slide`): a link, not shared content."
-
-[[answer]]
-check = "co-change"
-path = "principles/slide/claim-headline-with-evidence.md"
-question = "changed together with principles/talk/a-talk-is-not-a-paper.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "2b94e4438b76"
-answer = "Keep them apart: both are principles of one family and already link the same evidence (`[review, strand 2]`); they co-changed in 97af3a2, c00b630 (the casual context), ebbb88d and d7c3a4f, and a link between the files is not needed."
-
-[[answer]]
-check = "co-change"
-path = "principles/slide/claim-headline-with-evidence.md"
-question = "changed together with reader-styles/README.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "2b94e4438b76"
-answer = "Keep them apart: the principle is one rule (`**Claim:**`) and reader-styles/README.md lists the contexts that override rules. They change together when a release link moves in both, as the raise to v1.7.0 did: a version in a link, not shared content."
-
-[[answer]]
-check = "co-change"
-path = "principles/slide/colour-as-a-signal.md"
-question = "changed together with shapes/talk.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "4ab3df6eba01"
-answer = "Keep them apart: principles/slide/colour-as-a-signal.md has its own role (`**Claim:**`) and shapes/talk.md another. They changed together in passes that touched every file at once, the release-link raises and the sentence pass of 2026-10-29, not through shared content."
-
-[[answer]]
-check = "co-change"
-path = "principles/talk/a-talk-is-not-a-paper.md"
-question = "changed together with reader-styles/README.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "d23f74e1d9a1"
-answer = "Keep them apart: it is a principle (`[review, strand 5 and strand 6]`) and reader-styles/README.md lists contexts; their 3 shared commits (c00b630 the casual context, ebbb88d, d7c3a4f the release pin) are edits to a shared version link and a context, not shared content."
-
-[[answer]]
-check = "co-change"
-path = "principles/talk/a-talk-is-not-a-paper.md"
-question = "changed together with reader-styles/casual-audience.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "d23f74e1d9a1"
-answer = "Keep them apart: the principle is the base rule and the casual context overrides it (`one idea and no plan slide in a short slot`), the way a reader style overrides the standard. They change together when a source both cite is corrected; the override already links the principle."
-
-[[answer]]
-check = "name-content"
-path = "evidence/presentations/frame.md"
-question = "the name 'frame' and the opening are far apart in meaning (0.02): does the name predict the content?"
-file = "b1fcae916740"
-answer = "Yes: `# Frame: the problem and its names` opens with the problem in one sentence and lists what research and practice call its parts, which is the framing step the name says."
-
-[[answer]]
-check = "name-content"
-path = "evidence/presentations/review.md"
-question = "the name 'review' and the opening are far apart in meaning (0.18): does the name predict the content?"
-file = "ead65e555383"
-answer = "Yes: the opening says the file reviews the literature on presentations in strands, and the content is that review (`## 0. Existing reviews`, `## 1. Paced media: modality, redundancy, segmenting`)."
-
-[[answer]]
 check = "deck-judgment"
 path = "shapes/example-talk.html"
 question = "Does any animation, video or live demo replace an explanation instead of adding to one?"
@@ -493,62 +367,6 @@ file = "af6f6798d838"
 answer = "Yes: the notes plan gestures and pacing (`Point at the left box, then the right one`, `Reveal each line as you say it`) and speech that adds to the slide (`Say what is not known`), not a reading of the slide text; a few notes such as `The plan, said once.` are thin but still do not read the slide."
 
 [[answer]]
-check = "name-content"
-path = "standard.md"
-question = "the name 'standard' and the opening are far apart in meaning (0.18): does the name predict the content?"
-file = "8e1f836e8a3c"
-answer = "Yes: the opening `# The presentations standard` names the file, and the file is the card of that standard: how to use it, and every principle with its grade."
-
-[[answer]]
-check = "co-change"
-path = "README.fr.md"
-question = "changed together with decisions/README.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "1349f63bf04a"
-answer = "Keep them apart: the French front page has one row per part, with its count (`les choix qui ont façonné ce dépôt, un enregistrement chacun`), and decisions/README.md lists the records themselves. They change together when a record is added and the count moves: a link and a number, not shared content."
-
-[[answer]]
-check = "co-change"
-path = "README.md"
-question = "changed together with decisions/0001-a-public-standard-and-private-styles.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "3a1ac2135de3"
-answer = "Keep them apart: README.md has its own role (`the choices that shaped this repository, one record each`) and decisions/0001-a-public-standard-and-private-styles.md another. They changed together in passes that touched every file at once, the release-link raises and the sentence pass of 2026-10-29, not through shared content."
-
-[[answer]]
-check = "co-change"
-path = "README.md"
-question = "changed together with decisions/0002-contexts-are-audiences.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "3a1ac2135de3"
-answer = "Keep them apart: README.md has its own role (`the choices that shaped this repository, one record each`) and decisions/0002-contexts-are-audiences.md another. They changed together in passes that touched every file at once, the release-link raises and the sentence pass of 2026-10-29, not through shared content."
-
-[[answer]]
-check = "co-change"
-path = "README.md"
-question = "changed together with decisions/0004-pin-reader-ergonomics-at-a-release.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "3a1ac2135de3"
-answer = "Keep them apart: README.md has its own role (`the choices that shaped this repository, one record each`) and decisions/0004-pin-reader-ergonomics-at-a-release.md another. They changed together in passes that touched every file at once, the release-link raises and the sentence pass of 2026-10-29, not through shared content."
-
-[[answer]]
-check = "co-change"
-path = "README.md"
-question = "changed together with decisions/0005-the-example-deck-is-not-named-after-its-shape.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "3a1ac2135de3"
-answer = "Keep them apart: README.md has its own role (`the choices that shaped this repository, one record each`) and decisions/0005-the-example-deck-is-not-named-after-its-shape.md another. They changed together in passes that touched every file at once, the release-link raises and the sentence pass of 2026-10-29, not through shared content."
-
-[[answer]]
-check = "co-change"
-path = "README.md"
-question = "changed together with decisions/0006-the-visual-standard-of-the-family.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "3a1ac2135de3"
-answer = "Keep them apart: the front page lists each part (`the choices that shaped this repository, one record each`) and states the repository's scope; decision 0006 records why that scope widened to figures. They changed together when the scope and its status were corrected, and the page links the record."
-
-[[answer]]
-check = "co-change"
-path = "README.md"
-question = "changed together with decisions/README.md in 4 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "3a1ac2135de3"
-answer = "Keep them apart: the front page has one row per part, with its count (`the choices that shaped this repository, one record each`), and decisions/README.md lists the records themselves. They change together when a record is added and the count on the front page moves: a link and a number, not shared content."
-
-[[answer]]
 check = "co-change"
 path = "checks/config.toml"
 question = "changed together with checks/local/_deck.py in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
@@ -561,3 +379,185 @@ path = "checks/config.toml"
 question = "changed together with checks/local/slide_type_size.py in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
 file = "ca30d7131046"
 answer = "Keep them apart: the `[slide_type_size]` table is the only place the threshold lives and checks/local/slide_type_size.py reads it; both changed in 93d580e, 7051815 and eb49412 because a check and its setting are born together."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/presentations/review.md"
+question = "330 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "458eb6b49a9f"
+answer = "One role: the reading of the literature strand by strand (`## 0. Existing reviews`, `## 8. Colour`), each strand ending in what carries over to a live talk. It stays whole."
+
+[[answer]]
+check = "co-change"
+path = "README.fr.md"
+question = "changed together with decisions/README.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "af09f1e80d67"
+answer = "Keep them apart: the French front page has one row per part, with its count (`les choix qui ont façonné ce dépôt, un enregistrement chacun`), and decisions/README.md lists the records themselves. They change together when a record is added and the count moves: a link and a number, not shared content."
+
+[[answer]]
+check = "co-change"
+path = "README.md"
+question = "changed together with decisions/0001-a-public-standard-and-private-styles.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "3f7748b26e04"
+answer = "Keep them apart: README.md has its own role (`the choices that shaped this repository, one record each`) and decisions/0001-a-public-standard-and-private-styles.md another. They changed together in passes that touched every file at once, the release-link raises and the sentence pass of 2026-10-29, not through shared content."
+
+[[answer]]
+check = "co-change"
+path = "README.md"
+question = "changed together with decisions/0002-contexts-are-audiences.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "3f7748b26e04"
+answer = "Keep them apart: README.md has its own role (`the choices that shaped this repository, one record each`) and decisions/0002-contexts-are-audiences.md another. They changed together in passes that touched every file at once, the release-link raises and the sentence pass of 2026-10-29, not through shared content."
+
+[[answer]]
+check = "co-change"
+path = "README.md"
+question = "changed together with decisions/0004-pin-reader-ergonomics-at-a-release.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "3f7748b26e04"
+answer = "Keep them apart: README.md has its own role (`the choices that shaped this repository, one record each`) and decisions/0004-pin-reader-ergonomics-at-a-release.md another. They changed together in passes that touched every file at once, the release-link raises and the sentence pass of 2026-10-29, not through shared content."
+
+[[answer]]
+check = "co-change"
+path = "README.md"
+question = "changed together with decisions/0005-the-example-deck-is-not-named-after-its-shape.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "3f7748b26e04"
+answer = "Keep them apart: README.md has its own role (`the choices that shaped this repository, one record each`) and decisions/0005-the-example-deck-is-not-named-after-its-shape.md another. They changed together in passes that touched every file at once, the release-link raises and the sentence pass of 2026-10-29, not through shared content."
+
+[[answer]]
+check = "co-change"
+path = "README.md"
+question = "changed together with decisions/0006-the-visual-standard-of-the-family.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "3f7748b26e04"
+answer = "Keep them apart: the front page lists each part (`the choices that shaped this repository, one record each`) and states the repository's scope; decision 0006 records why that scope widened to figures. They changed together when the scope and its status were corrected, and the page links the record."
+
+[[answer]]
+check = "co-change"
+path = "README.md"
+question = "changed together with decisions/README.md in 4 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "3f7748b26e04"
+answer = "Keep them apart: the front page has one row per part, with its count (`the choices that shaped this repository, one record each`), and decisions/README.md lists the records themselves. They change together when a record is added and the count on the front page moves: a link and a number, not shared content."
+
+[[answer]]
+check = "co-change"
+path = "evidence/README.md"
+question = "changed together with evidence/presentations/README.md in 6 commits (86% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "e20824b10af0"
+answer = "Keep them apart: evidence/README.md is the index of topics and the shared method (`One literature review per topic`), and the other file is one topic's own page. They changed together in merges and audits that moved counts in both, which a link already serves."
+
+[[answer]]
+check = "co-change"
+path = "evidence/README.md"
+question = "changed together with evidence/presentations/baseline.md in 7 commits (78% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "e20824b10af0"
+answer = "Keep them apart: evidence/README.md is the index of topics and the shared method (`One literature review per topic`), and the baseline is one step of one topic. They changed together in merges and audits across the evidence, not through shared content."
+
+[[answer]]
+check = "co-change"
+path = "evidence/README.md"
+question = "changed together with evidence/presentations/frame.md in 6 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "e20824b10af0"
+answer = "Keep them apart: evidence/README.md is the index of topics and the shared method (`One literature review per topic`), and the frame is one step of one topic. They changed together when a strand was added to the topic and the index named it."
+
+[[answer]]
+check = "co-change"
+path = "evidence/README.md"
+question = "changed together with principles/slide/colour-as-a-signal.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "e20824b10af0"
+answer = "Keep them apart: evidence/README.md has its own role (`One literature review per topic`) and principles/slide/colour-as-a-signal.md another. They changed together in passes that touched every file at once, the release-link raises and the sentence pass of 2026-10-29, not through shared content."
+
+[[answer]]
+check = "co-change"
+path = "evidence/presentations/baseline.md"
+question = "changed together with principles/slide/colour-as-a-signal.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "5d91938c4af1"
+answer = "Keep them apart: the baseline is evidence and the principle cites it (`Colour is never the only cue`). They change together when a cited source is corrected or renamed, as Microsoft 2026d was: a citation, not shared content."
+
+[[answer]]
+check = "co-change"
+path = "evidence/presentations/baseline.md"
+question = "changed together with principles/slide/legible-in-the-room.md in 4 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "5d91938c4af1"
+answer = "Keep them apart: baseline.md `names the deck a proposed presentation design must beat`, and legible-in-the-room.md is one rule that deck is held to. Their three shared commits are two release pins (ebbb88d, d7c3a4f) and the key rename 6fd6bed, where both cite the contrast page that became W3C 2023b: upkeep of one citation, not one fact held twice."
+
+[[answer]]
+check = "co-change"
+path = "evidence/presentations/frame.md"
+question = "changed together with principles/slide/colour-as-a-signal.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "75e13594759d"
+answer = "Keep them apart: evidence/presentations/frame.md has its own role (`# Frame: the problem and its names`) and principles/slide/colour-as-a-signal.md another. They changed together in passes that touched every file at once, the release-link raises and the sentence pass of 2026-10-29, not through shared content."
+
+[[answer]]
+check = "co-change"
+path = "evidence/presentations/review.md"
+question = "changed together with principles/slide/colour-as-a-signal.md in 4 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "458eb6b49a9f"
+answer = "Keep them apart: the review holds the colour strand (`Colour-vision deficiency`) and the principle cites it. They change together when a cited source is corrected or renamed: a citation, not shared content."
+
+[[answer]]
+check = "co-change"
+path = "evidence/presentations/review.md"
+question = "changed together with principles/slide/legible-in-the-room.md in 4 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "458eb6b49a9f"
+answer = "Keep them apart, with the link that exists: review.md `reviews the literature on presentations in strands`, and the principle cites its strands 4 and 8 by link. Their three shared commits are two release pins (ebbb88d, d7c3a4f) and the key rename 6fd6bed, where both cite the contrast page that became W3C 2023b; the rule and its evidence stay in their own folders."
+
+[[answer]]
+check = "co-change"
+path = "evidence/presentations/review.md"
+question = "changed together with principles/talk/a-talk-is-not-a-paper.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "458eb6b49a9f"
+answer = "Keep them apart: review.md is the evidence log the principle cites, and the principle links to it. They change together when a corrected source reaches a principle's limits, as the outline advice did (`Peyton Jones 1993: 6 or 7 things per slide`): a link, not shared content."
+
+[[answer]]
+check = "co-change"
+path = "principles/slide/claim-headline-with-evidence.md"
+question = "changed together with principles/talk/a-talk-is-not-a-paper.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "2e5899ee7c4d"
+answer = "Keep them apart: both are principles of one family and already link the same evidence (`[review, strand 2]`); they co-changed in 97af3a2, c00b630 (the casual context), ebbb88d and d7c3a4f, and a link between the files is not needed."
+
+[[answer]]
+check = "co-change"
+path = "principles/slide/claim-headline-with-evidence.md"
+question = "changed together with reader-styles/README.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "2e5899ee7c4d"
+answer = "Keep them apart: the principle is one rule (`**Claim:**`) and reader-styles/README.md lists the contexts that override rules. They change together when a release link moves in both, as the raise to v1.7.0 did: a version in a link, not shared content."
+
+[[answer]]
+check = "co-change"
+path = "principles/slide/colour-as-a-signal.md"
+question = "changed together with shapes/talk.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "28a213c44d9e"
+answer = "Keep them apart: principles/slide/colour-as-a-signal.md has its own role (`**Claim:**`) and shapes/talk.md another. They changed together in passes that touched every file at once, the release-link raises and the sentence pass of 2026-10-29, not through shared content."
+
+[[answer]]
+check = "co-change"
+path = "principles/talk/a-talk-is-not-a-paper.md"
+question = "changed together with reader-styles/README.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "62eb23646c5a"
+answer = "Keep them apart: it is a principle (`[review, strand 5 and strand 6]`) and reader-styles/README.md lists contexts; their 3 shared commits (c00b630 the casual context, ebbb88d, d7c3a4f the release pin) are edits to a shared version link and a context, not shared content."
+
+[[answer]]
+check = "co-change"
+path = "principles/talk/a-talk-is-not-a-paper.md"
+question = "changed together with reader-styles/casual-audience.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "62eb23646c5a"
+answer = "Keep them apart: the principle is the base rule and the casual context overrides it (`one idea and no plan slide in a short slot`), the way a reader style overrides the standard. They change together when a source both cite is corrected; the override already links the principle."
+
+[[answer]]
+check = "name-content"
+path = "evidence/presentations/frame.md"
+question = "the name 'frame' and the opening are far apart in meaning (0.02): does the name predict the content?"
+file = "75e13594759d"
+answer = "Yes: `# Frame: the problem and its names` opens with the problem in one sentence and lists what research and practice call its parts, which is the framing step the name says."
+
+[[answer]]
+check = "name-content"
+path = "evidence/presentations/review.md"
+question = "the name 'review' and the opening are far apart in meaning (0.18): does the name predict the content?"
+file = "458eb6b49a9f"
+answer = "Yes: the opening says the file reviews the literature on presentations in strands, and the content is that review (`## 0. Existing reviews`, `## 1. Paced media: modality, redundancy, segmenting`)."
+
+[[answer]]
+check = "name-content"
+path = "standard.md"
+question = "the name 'standard' and the opening are far apart in meaning (0.18): does the name predict the content?"
+file = "a6661f64a856"
+answer = "Yes: the opening `# The presentations standard` names the file, and the file is the card of that standard: how to use it, and every principle with its grade."
