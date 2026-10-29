@@ -7,9 +7,9 @@ Ce dépôt étend [reader-ergonomics](https://github.com/Tewf/reader-ergonomics)
 principes que celui-ci contient sont liés, jamais recopiés. Ce dépôt n'ajoute que ce qu'un exposé change : l'auditeur
 ne règle pas le rythme et ne peut pas relire.
 
-> **État :** en cours. Le [standard](standard.md) compte neuf principes, deux contextes et la forme d'un exposé, avec
-> un diaporama d'exemple et des vérifications qui s'exécutent sur les diaporamas. Un troisième contexte, l'exposé
-> informel, est en cours de revue. Chaque partie sera testée sur de vrais exposés avant d'être tenue pour sûre. C'est
+> **État :** en cours. Le [standard](standard.md) compte neuf principes, trois contextes et la forme d'un exposé,
+> avec un diaporama d'exemple et sept vérifications qui s'exécutent sur les diaporamas. Il a été testé sur deux vrais
+> exposés, l'un académique, l'autre d'affaires, qui ont changé les vérifications ; un test informel est en cours. C'est
 > une lecture informelle de la recherche et de la pratique publiées : pas un standard officiel, pas une étude relue
 > par des pairs, pas un résultat nouveau.
 >
@@ -28,7 +28,7 @@ présentations
  └─ les contextes qui la modifient
     ├─ l'exposé académique                  colloque, séminaire, soutenance
     ├─ la présentation d'affaires           pitch, vente, point de direction
-    └─ l'exposé informel                    meetup, club, entre amis (en revue)
+    └─ l'exposé informel                    meetup, club, entre amis
 ```
 
 ## Contenu
@@ -37,7 +37,7 @@ présentations
 |---|---|---|
 | [standard.md](standard.md) | la fiche : comment utiliser le standard, et chaque principe avec son niveau de preuve | écrit |
 | [principles/](principles/) | neuf principes en trois groupes : rythme, diapositive, exposé | écrit ; pas encore testé sur un vrai exposé |
-| [reader-styles/](reader-styles/) | les contextes, écrits comme des auditoires : académique, affaires | écrit ; informel en revue |
+| [reader-styles/](reader-styles/) | les contextes, écrits comme des auditoires : académique, affaires, informel | écrit |
 | [shapes/](shapes/) | la forme d'un exposé, et un diaporama HTML d'exemple qui la suit | écrit |
 | [checks/](checks/) | sept vérifications qui s'exécutent sur les diaporamas HTML, avec leurs tests | écrit |
 | [decisions/](decisions/) | les choix qui ont façonné ce dépôt, un enregistrement chacun | cinq enregistrements |

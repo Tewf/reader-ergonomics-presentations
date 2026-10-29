@@ -8,9 +8,9 @@ How to build a presentation so that the listener, or the reader of a deck, follo
 It extends [reader-ergonomics](https://github.com/Tewf/reader-ergonomics). The principles, their grades and the checks
 live there and are not repeated here. This repository adds only what is particular to presentations.
 
-> **Status:** work in progress. The [standard](standard.md) has nine principles, two contexts and the shape of a talk,
-> with an example deck and checks that run on decks; a third context, the casual talk, is being reviewed. Each part is
-> to be tested on real talks before it is trusted. It is an informal reading of
+> **Status:** work in progress. The [standard](standard.md) has nine principles, three contexts and the shape of a
+> talk, with an example deck and seven checks that run on decks. It has been tested on two real talks, an academic and a
+> business one, which changed the checks; a casual test is under way. It is an informal reading of
 > published research and practice: not an official standard, not a peer-reviewed study, not a new result, and not a
 > claim to the state of the art.
 >
@@ -29,7 +29,7 @@ presentations
  └─ contexts that override the base
     ├─ the academic talk                  conference, seminar, defence
     ├─ the business presentation          pitch, sale, executive briefing
-    └─ the casual talk                    meetup, club, friends (being reviewed)
+    └─ the casual talk                    meetup, club, friends
 ```
 
 ## Contents
@@ -38,7 +38,7 @@ presentations
 |---|---|---|
 | [standard.md](standard.md) | the card: how to use the standard, and every principle with its grade | written |
 | [principles/](principles/) | nine principles in three groups: pace, slide, talk | written; not yet tested on a real talk |
-| [reader-styles/](reader-styles/) | the contexts, as audiences: academic, business | written; casual being reviewed |
+| [reader-styles/](reader-styles/) | the contexts, as audiences: academic, business, casual | written |
 | [shapes/](shapes/) | the talk shape, and an example deck in HTML that obeys it | written |
 | [checks/](checks/) | seven checks that run on HTML decks, with their tests | written |
 | [decisions/](decisions/) | the choices that shaped this repository, one record each | five records |

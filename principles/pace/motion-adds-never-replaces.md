@@ -5,7 +5,7 @@
 - **Grade:** supported with caveat.
 - **Evidence:** [review, strand 7](../../evidence/presentations/review.md); [position, Known and Not known](../../evidence/presentations/position.md).
 - **Check:** `deck-judgment` (judgment): for each clip, animation or demo, does an explanation come with it?
-- **Reader styles:** none changes it.
+- **Reader styles:** [casual audience](../../reader-styles/casual-audience.md) keeps it and adds a recorded fallback for a live demo.
 
 ## What it asks
 

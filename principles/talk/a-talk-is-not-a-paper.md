@@ -5,7 +5,7 @@
 - **Grade:** supported with caveat (descriptive genre research).
 - **Evidence:** [review, strand 5 and strand 6](../../evidence/presentations/review.md); [position, Known](../../evidence/presentations/position.md).
 - **Check:** `talk-structure` (heuristic): a point on the first slides, a plan slide, and the point repeated on the last slide; whether they say the same thing is judgment.
-- **Reader styles:** changed by [academic audience](../../reader-styles/academic-audience.md) (the slot) and [business decision maker](../../reader-styles/business-decision-maker.md) (answer first).
+- **Reader styles:** changed by [academic audience](../../reader-styles/academic-audience.md) (the slot), [business decision maker](../../reader-styles/business-decision-maker.md) (answer first) and [casual audience](../../reader-styles/casual-audience.md) (why care, first; one idea and no plan slide in a short slot).
 
 ## What it asks
 

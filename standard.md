@@ -24,7 +24,8 @@ the pace or read again.
 ```
 
 1. **Name the audience.** A context overrides the base for its room: [academic audience](reader-styles/academic-audience.md)
-   (a conference, a seminar, a defence) or [business decision maker](reader-styles/business-decision-maker.md).
+   (a conference, a seminar, a defence), [business decision maker](reader-styles/business-decision-maker.md) or
+   [casual audience](reader-styles/casual-audience.md) (a meetup, a club, friends).
 2. **Start from the [talk shape](shapes/talk.md)**, or from its example deck, [example-talk.html](shapes/example-talk.html).
 3. **Build to the principles** below, and to those of reader-ergonomics, which still hold.
 4. **Check:** the deck checks of `checks/local/` run with the standard's own, on every HTML deck named in

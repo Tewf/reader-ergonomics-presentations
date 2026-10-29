@@ -32,6 +32,7 @@ Each page's markdown source is served at the same path with a .md extension.
 - [Reader styles](https://tewf.github.io/reader-ergonomics-presentations/reader-styles/README.md): how a known reader changes the optimum
 - [Reader style: academic audience](https://tewf.github.io/reader-ergonomics-presentations/reader-styles/academic-audience.md)
 - [Reader style: business decision maker](https://tewf.github.io/reader-ergonomics-presentations/reader-styles/business-decision-maker.md)
+- [Reader style: casual audience](https://tewf.github.io/reader-ergonomics-presentations/reader-styles/casual-audience.md)
 
 ## Optional
 

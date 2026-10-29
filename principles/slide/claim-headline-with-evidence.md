@@ -5,7 +5,7 @@
 - **Grade:** supported with caveat (one controlled study of a bundle).
 - **Evidence:** [review, strand 2](../../evidence/presentations/review.md); [position, Known and Not known](../../evidence/presentations/position.md).
 - **Check:** `slide-headlines` (heuristic): a headline that is a topic phrase, or longer than two lines, is flagged; whether it states the claim is judgment.
-- **Reader styles:** the [business decision maker](../../reader-styles/business-decision-maker.md) row on a deck read alone relies on it; nothing changes.
+- **Reader styles:** the [business decision maker](../../reader-styles/business-decision-maker.md) row on a deck read alone relies on it; [casual audience](../../reader-styles/casual-audience.md) makes slides optional, and their rules hold when there are slides.
 
 ## What it asks
 
