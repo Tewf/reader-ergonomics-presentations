@@ -335,7 +335,7 @@ E16 returned nothing useful; E17 is the same query done correctly (zero results 
 | F3 | `Clingingsmith Shane training aspiring entrepreneurs to pitch experienced investors field experiment results` | web search | 9 | 1 (Clingingsmith 2018) |
 | F4 | `Bernstein Korteweg Laws attracting early-stage investors randomized field experiment team traction` | web search | 10 | 1 (Bernstein 2017) |
 | F5 | `Kanze Huang Conley Higgins "We ask men to win and women not to lose" venture capitalists questions Academy of Management Journal` | web search | 9 | 1 (Kanze 2018) |
-| F6 | `experiment conclusion first versus conclusion last message order comprehension recall business writing inverted pyramid bottom line up front study` | web search | 18 | 1 (Britt 2003, through a summary) |
+| F6 | `experiment conclusion first versus conclusion last message order comprehension recall business writing inverted pyramid bottom line up front study` | web search | 18 | 1 (Britt 2003; first seen through a summary, read in full on 2026-10-29) |
 | F7 | `Yates Orlikowski PowerPoint presentation and its corollaries: how genres shape communicative action in organizations` | web search | 20 | 1 (Yates 2007) |
 | F8 | `experiment written narrative memo versus bullet slides executives decision quality comprehension study business PowerPoint` | web search | 19 | 0 (opinion pieces only; no experiment found) |
 

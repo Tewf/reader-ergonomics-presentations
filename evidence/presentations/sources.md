@@ -242,7 +242,7 @@ Rows to append to sources.md. Grey scores give the eight subtotals in the order 
 | Clingingsmith 2018 | formal, randomised field experiment (abstract read) | F3 | measured, details unread | review 9b |
 | Bernstein 2017 | formal, randomised field experiment (full text) | F4 | measured | review 9b |
 | Kanze 2018 | formal, field study and experiment (abstract read) | F5 | measured | review 9b, 9d |
-| Britt 2003 | formal, three experiments (secondary, summary of abstract) | F6 | supported with caveat (short arguments) | review 9a |
+| Britt 2003 | formal, Experiments 1, 2, 3a and 3b (full text) | F6 | supported with caveat (short arguments) | review 9a |
 | Yates 2007 | formal, qualitative genre analysis (secondary) | F7 | supported with caveat | review 9c |
 | Clark 2008 | formal, survey of 24 angels (abstract read) | seed | supported with caveat | review 9a, 9b |
 | Chen 2009 | formal, lab experiment and field study (abstract read) | seed | supported with caveat | review 9b, 9d |

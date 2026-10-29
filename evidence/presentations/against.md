@@ -91,7 +91,7 @@ Section to append to against.md, in the same form.
 
 ### Against answer first and the pyramid
 
-- The evidence for claim-first order is on two-clause texts (Britt 2003, secondary), not on decks or talks.
+- The evidence for claim-first order is on two-clause texts (Britt 2003, full text), not on decks or talks; the speed gain held only when the claim was clearly marked.
 - Recall has a serial-position component, so putting a point last is not weak by default; no source for this was kept.
 - The BLUF standard's origin could not be read; what is said of it rests on secondary pages.
 - Minto 2026 and Millerd 2025 cite no study; both sell training or a book.
