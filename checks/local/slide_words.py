@@ -1,11 +1,13 @@
 """Slide words: a slide that shows more than `max_words` words puts the script on screen.
 
-The listener cannot read and listen at once (principle: no script on screen). Speaker notes are not counted.
+The listener cannot read and listen at once (principle: no script on screen). Speaker notes are not counted, nor
+numbers, nor the title and backup slides, which are not read during the talk.
 
 Heuristic: the threshold is PROVISIONAL in config. Time O(deck).
 """
 from __future__ import annotations
 
+import re
 import sys
 from pathlib import Path
 
@@ -22,7 +24,8 @@ def check(root: Path, config: dict) -> list[Finding]:
     findings = []
     for path in decks(root, config):
         for number, slide in enumerate(slides((root / path).read_text(encoding="utf-8", errors="replace"))[0], 1):
-            if len(slide.words) > limit:
-                findings.append(Finding(NAME, path, slide.line, f"slide {number} shows {len(slide.words)} words, past {limit}: "
+            words = [word for word in slide.words if re.search(r"[^\W\d_]", word)]  # a number is not a word of script
+            if not slide.classes & {"title", "backup"} and len(words) > limit:
+                findings.append(Finding(NAME, path, slide.line, f"slide {number} shows {len(words)} words, past {limit}: "
                                         "keep the key terms on screen and say the rest", "warning"))
     return findings

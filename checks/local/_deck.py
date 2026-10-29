@@ -41,11 +41,14 @@ class _DeckParser(HTMLParser):
         self.stack: list[str] = []
         self.styles: list[str] = []
         self.links: list[str] = []
+        self.inline: list[str] = []  # style attributes, read by the type-size check
         self._in_style = False
 
     def handle_starttag(self, tag, attrs):
         attributes = dict(attrs)
         classes = set((attributes.get("class") or "").split())
+        if attributes.get("style") and not self.notes_depth:
+            self.inline.append(attributes["style"])
         if tag == "link" and "stylesheet" in (attributes.get("rel") or ""):
             self.links.append(attributes.get("href") or "")
         if tag in VOID:
@@ -107,12 +110,16 @@ class _DeckParser(HTMLParser):
 
 
 def slides(text: str) -> tuple[list[Slide], list[str], list[str]]:
-    """The slides a room sees (innermost sections), the inline stylesheets, and the linked stylesheet paths."""
+    """The slides a room sees (innermost sections), the inline stylesheets, and the linked stylesheet paths.
+
+    The style attributes of elements come in as rules of a selector named "style attribute".
+    """
     parser = _DeckParser()
     parser.feed(text)
     parser.close()
     shown = [slide for slide in parser.slides if not slide.has_child_section]
-    return shown, parser.styles, parser.links
+    styles = parser.styles + [f"style attribute {{{declarations}}}" for declarations in parser.inline]
+    return shown, styles, parser.links
 
 
 def decks(root: Path, config: dict) -> list[str]:

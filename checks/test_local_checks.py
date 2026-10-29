@@ -90,6 +90,38 @@ class TestDeckChecks(unittest.TestCase):
         found = run("talk_structure", {"a.deck.html": deck(TITLE, f"<section><h2>Methods we compared today</h2><ul>{points}</ul></section>", QUESTIONS)})
         self.assertFalse(any("no plan" in finding.message for finding in found))
 
+    def test_slide_words_skips_numbers_and_title_slides(self):
+        figures = " ".join(str(n) for n in range(60))
+        found = run("slide_words", {"a.deck.html": deck(f'<section class="title"><h1>A title slide with credits</h1><p>{" ".join(["name"] * 60)}</p></section>',
+                                                       f"<section><h2>A table of sixty measured numbers</h2><p>{figures}</p></section>")})
+        self.assertEqual(found, [])
+
+    def test_deck_builds_leaves_a_plan_whole(self):
+        points = "".join(f"<li>part {n}</li>" for n in range(5))
+        self.assertEqual(run("deck_builds", {"a.deck.html": deck(TITLE, f'<section class="plan"><h2>Five parts in this talk</h2><ul>{points}</ul></section>')}), [])
+
+    def test_slide_headlines_flags_a_paragraph(self):
+        long = " ".join(["word"] * 20)
+        self.assertEqual(len(run("slide_headlines", {"a.deck.html": deck(TITLE, f"<section><h2>{long}</h2></section>", QUESTIONS)})), 1)
+
+    def test_slide_type_size_reads_vh_and_var(self):
+        style = ":root { --small: 1.5vh; } p { font-size: var(--small); } h2 { font-size: 5vh; }"
+        found = run("slide_type_size", {"a.deck.html": deck(TITLE, style=style)})
+        self.assertEqual(len(found), 1)  # 1.5vh is 16.2 px at 1080; 5vh is 54 px
+
+    def test_slide_type_size_reads_style_attributes(self):
+        found = run("slide_type_size", {"a.deck.html": deck(TITLE, '<section><h2>A small caption under it</h2><p style="font-size: 12px">tiny</p></section>')})
+        self.assertEqual(len(found), 1)
+
+    def test_slide_type_size_trusts_clamp(self):
+        self.assertEqual(run("slide_type_size", {"a.deck.html": deck(TITLE, style="p { font-size: clamp(24px, 2vh, 40px); }")}), [])
+
+    def test_deck_scope_flags_a_run_with_no_deck(self):
+        self.assertEqual(len(run("deck_scope", {"notes.md": "# No deck here"})), 1)
+
+    def test_deck_scope_is_quiet_when_a_deck_is_found(self):
+        self.assertEqual(run("deck_scope", {"a.deck.html": deck(TITLE)}), [])
+
     def test_deck_judgment_asks_three_questions_per_deck(self):
         found = run("deck_judgment", {"a.deck.html": deck(TITLE)})
         self.assertEqual([finding.kind for finding in found], ["judgment"] * 3)

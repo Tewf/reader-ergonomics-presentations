@@ -18,9 +18,11 @@ min_items = 4    # PROVISIONAL: a list this long is shown point by point
 
 [slide_headlines]
 min_words = 4    # PROVISIONAL: shorter than this is a topic label, not a sentence
+max_words = 15   # PROVISIONAL: longer than this is a paragraph, not a headline
 
 [slide_type_size]
 min_px = 24      # PROVISIONAL: a convention; no study gives a minimum projected size
+reference_height_px = 1080   # PROVISIONAL: vh sizes are read at this screen height, a 1080p projector
 
 [talk_structure]
 plan_within = 3  # the plan appears among the first slides
