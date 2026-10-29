@@ -24,8 +24,7 @@ python3 reader-ergonomics/checks/run.py my-talk
 ```
 
 Fix each error, fix or explain each warning, and answer the questions in `my-talk/checks/out/needs-judgment.md`. The
-same outline for any slide tool is [shapes/talk.md](shapes/talk.md). To disagree with a rule, open an issue here naming
-the rule and the evidence.
+same outline for any slide tool is [shapes/talk.md](shapes/talk.md). To make the shapes your own, or to disagree with a rule, follow reader-ergonomics' [Take your own version](https://github.com/Tewf/reader-ergonomics/blob/v1.18.2/README.md#take-your-own-version): a reader style, an extension or an issue, by what the disagreement is about.
 
 > **Status:** work in progress. The [standard](standard.md) has seventeen principles in four groups: nine for a talk, with
 > three contexts, the talk shape and an example deck; eight for a figure in any document, with the figure shape. Eight

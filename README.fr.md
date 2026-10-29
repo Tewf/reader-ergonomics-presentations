@@ -25,7 +25,7 @@ python3 reader-ergonomics/checks/run.py mon-expose
 
 Corrigez chaque erreur, corrigez ou expliquez chaque avertissement, et répondez aux questions de
 `mon-expose/checks/out/needs-judgment.md`. Le même plan, pour tout logiciel de présentation, est
-[shapes/talk.md](shapes/talk.md). Pour contester une règle, ouvrez une issue ici en nommant la règle et la preuve.
+[shapes/talk.md](shapes/talk.md). Pour faire vôtres ces formes, ou pour contester une règle, suivez la section [Take your own version](https://github.com/Tewf/reader-ergonomics/blob/v1.18.2/README.md#take-your-own-version) de reader-ergonomics : un style de lecteur, une extension ou une issue, selon l'objet du désaccord.
 
 > **État :** en cours. Le [standard](standard.md) compte dix-sept principes en quatre groupes : neuf pour un exposé,
 > avec trois contextes, la forme d'un exposé et un diaporama d'exemple ; huit pour une figure de tout document, avec la
