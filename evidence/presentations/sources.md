@@ -194,7 +194,7 @@ Scores for the Q7 and Q8 round were read from the page or the PDF on 2026-10-28.
 
 ## Q9 sources (added 2026-10-29)
 
-Rows to append to sources.md. Grey scores give the eight subtotals in the order authority / methodology / objectivity / date / position / novelty / impact / outlet, then the total of 20.
+Grey scores give the eight subtotals in the order authority / methodology / objectivity / date / position / novelty / impact / outlet, then the total of 20.
 
 ### Flow for Q9
 
@@ -252,7 +252,7 @@ Rows to append to sources.md. Grey scores give the eight subtotals in the order 
 | Cardon 2017 | formal, empirical test of 72 angels (full text) | summary of Chen 2009 string | supported with caveat | against 9f |
 | Yang 2021 | formal, 79 VC-project pairs, Chinese VC setting (abstract read) | summary of Chen 2009 string | supported with caveat | against 9f |
 
-Counted new: 18 formal rows, of which 16 are core and 2 (Cardon 2017, Yang 2021) are readings used only in against-q9.md (Cardon 2017: full text; Yang 2021: abstract). Held and linked, not re-reviewed: Kosslyn 2012, Garner 2013, Ginns 2005, Adesope 2012, Baker 2018, Rowley-Jolivet 2005.
+Counted new: 18 formal rows, of which 16 are core and 2 (Cardon 2017, Yang 2021) are readings used only in [against](against.md) (Cardon 2017: full text; Yang 2021: abstract). Held and linked, not re-reviewed: Kosslyn 2012, Garner 2013, Ginns 2005, Adesope 2012, Baker 2018, Rowley-Jolivet 2005.
 
 ### Seen, not retrieved or not read
 
@@ -268,3 +268,76 @@ Counted new: 18 formal rows, of which 16 are core and 2 (Cardon 2017, Yang 2021)
 | Challenger Sale figures (17%, 27%, 57% of the buying process) | search summary only, repeated by blogs | not used |
 | the books of Rackham, of Bryar and Carr, and of Dixon and Adamson (published in 1988, 2021 and 2011) | not read, no catalogue page opened | named only as origins |
 | the narrative meta-analyses of 1997, 2015 and 2016 named in the Q9 protocol | summary or metadata only | not used for numbers |
+
+## Q10 sources (added 2026-10-29)
+
+Grey scores give the eight subtotals in the order authority / methodology / objectivity / date / position / novelty / impact / outlet, then the total of 20.
+
+### Flow for Q10
+
+| Stage | Formal | Grey |
+|---|---|---|
+| Result blocks screened (strings) | 227 (E 86, F 141) | 84 |
+| ERIC titles screened | 57 | 0 |
+| Included as new | 17 | 4 |
+| Already held, linked not re-reviewed | see below | TED 2026, PechaKucha 2026, Ignite 2026, LornaJane 2017, Nederbragt 2016 |
+| Of the 4 grey, at or above 10 of 20 | | 0 |
+
+- Excluded without opening: language-learning pages that use TED talks as listening material; marketing surveys of content formats; template and AI slide-tool blogs.
+- Seen, not retrieved: see the last section.
+- Held and linked, not re-reviewed: Bakcek 2020, Liao 2020, Warmuth 2021, Shah 2023, Shah 2025, Savoy 2009, Baker 2018, Sundararajan 2020, Mayer 2014c, Kalyuga 2014.
+- Also held:  Noetel 2022, Zebregs 2015, Bradbury 2016, Wilson 2007, Guo 2014, Peyton Jones 1993, Garner 2013, Kosslyn 2012, Rowley-Jolivet 2005.
+
+### Grey sources
+
+| Key | Kind | Found via | Quality | Used in |
+|---|---|---|---|---|
+| ACM Local 2026 | grey, society guide for meetup organisers (tier 2), opened | G42 | 3/0.5/1.5/0/0.5/1/0.5/0.5 = **7.5** (below 10) | review 10e (example only) |
+| WooCommerce 2026 | grey, company community handbook (tier 2), opened | G42 | 2.5/0.5/1.5/0.5/0.5/0.5/0.5/0.5 = **7** (below 10) | review 10b, 10e (example only) |
+| PyCon 2026 | grey, compiled advice page (tier 3), opened | G41 | 1.5/1/2/0/1/0.5/0.5/0 = **6.5** (below 10) | review 10c, 10d, 10e (example only) |
+| Hilton 2022 | grey, practitioner blog (tier 3), opened | G42 | 1.5/0.5/1/1/0/0.5/0/0 = **4.5** (below 10) | review 10b, 10e (example only) |
+
+- Scoring notes:
+  - ACM Local 2026: undated, signed by a staff member of the society; it states that food raises attendance by 40% with no data, so objectivity is 1.5. It says a meetup talk need not be an academic paper presentation.
+  - WooCommerce 2026: a copyright line and no date or version; it cites no research and says good content matters more than polished delivery. The producer promotes its own community.
+  - PyCon 2026: the page names no producer; a repository account maintains it, and its compiler says they have no speaking experience. The advice comes from named community speakers, in posts from 2010 to 2011, and cites no data.
+  - Hilton 2022: dated 2022-09-27; the author's experience, no data.
+- No Q10 grey source reaches 10. All four are examples of practice. No formal claim in this review rests on them alone; review 10.5 does, and is graded convention, untested.
+
+### Formal sources
+
+| Key | Kind | Found via | Quality | Used in |
+|---|---|---|---|---|
+| McCarthy 2025 | formal, systematic review of 1,360 articles plus a survey of 45 educators (full text) | E19 | measured, descriptive | review 10a, 10f |
+| Dahlstrom 2014 | formal, narrative review (abstract read; full text not reached: bot checks) | F12 | supported with caveat | review 10c, 10f |
+| Zhou 2025 | formal, narrative review of about 140 works (first half of the text read) | E21 | supported with caveat | review 10c |
+| Banas 2011 | formal, review (secondary: summaries and reference lists) | E21 | supported with caveat | review 10c |
+| Garner 2006 | formal, study of curriculum-specific humour on retention and recall (secondary; design and result not verified: the abstract gives neither) | F14 | supported with caveat | review 10c |
+| Kaplan 1977 | formal, experiment on humorous examples (secondary) | F14 | supported with caveat | review 10c |
+| Suzuki 2014 | formal, experiment, 165 participants (secondary) | F14 | supported with caveat | review 10c |
+| Sugimoto 2013 | formal, observational, 1,202 talks (full text) | F10 | supported with caveat (observational) | review 10a, 10f |
+| Segal 2026 | formal, preprint, observational, 1,239 transcripts (abstract page read) | F9 | supported with caveat | review 10c, 10f |
+| Frank 2025 | formal, online experiment, 2,212 analysed (journal page read) | F15 | supported with caveat | review 10c |
+| Freiling 2024 | formal, survey experiment (secondary; N = 723 not verified: not in the abstract) | F15 | supported with caveat | review 10c, 10f |
+| Childers 2021 | formal, survey n = 124 and interviews n = 17 (abstract read) | F16 | supported with caveat | review 10a |
+| Hunsu 2016 | formal, meta-analysis (secondary; no abstract reached) | E24 | supported with caveat | review 10c |
+| Rey 2012 | formal, review and meta-analysis (secondary; abstract closed) | E25 | supported with caveat | review 10f |
+| Cheng 2026 | formal, multilevel meta-analysis (abstract read) | E25 | measured | review 10f |
+| Ginns 2013 | formal, meta-analysis (abstract read) | E26 | measured | review 10c |
+| Rakedzon 2017 | formal, text analysis of 5,000 pairs of abstracts and lay summaries (full text) | F18 | supported with caveat | review 10a |
+
+### Seen, not retrieved or not read
+
+| Item | Why | Effect |
+|---|---|---|
+| Official Ma thèse en 180 secondes documents (a file of the Université de Lorraine dated 2026; rules from Lyon dated 2019) | HTTP 404 on both | the University of Queensland rules and judging pages (UQ 2026) answer and were read as the primary source for the rules (180 seconds, one slide, no props) |
+| Fischer and Thies on what makes a good science story (JCOM) | the search gave an abstract; the downloaded file was an EPUB that could not be read | not used; the claim that narrative depth did not change story quality is unverified |
+| Springer pages of Cheng 2026, Childers 2021 | an anonymous request returned HTTP 200 with the abstract and its numbers (Ginns 2013 also loaded) | numbers are primary at abstract level |
+| Elsevier page of Hunsu 2016 | the page held no abstract text | effect sizes unread; "small but significant" comes from a summary and is not verified |
+| Gesture counts of TED talks (465 against 272) | a popular source, no method read | not used |
+| A language-style study of TED talk views (2021) and the Lancaster press note | summary only | not used |
+| Lightning-talk tips by Willison, Datawookie, Hackernoon, CIEP | seen in a summary, not opened | named only as practice that exists |
+| A study by Lichtschlag (2012): a canvas against a slide deck, in 15-minute talks | results not in the text retrieved | not used |
+| A thesis on science cafes in Dublin | summary only | not used; Childers 2021 used instead |
+| Claims on retention at six weeks by Martin (2006), McMorris (1997) and Kaplan and Pascoe, read secondhand | named in summaries | used only through Zhou 2025 and Kaplan 1977 as secondary |
+| Two studies of clickers, by Chien (2016) and Grzeskowiak (2015) | named in a summary | not used for numbers |

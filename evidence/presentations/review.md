@@ -290,7 +290,7 @@ Section to append to review.md. Table form: `| Source | Claim | Grade |`. Source
 
 ### 9.5 Practice (Q9e)
 
-Score table: sources-q9.md. Held: Duarte 2008 (11.5), Reynolds 2008 (12), Kawasaki 2005 (6.5, 10 slides, 20 minutes, 30 point), Minto 1987 (9.5).
+Score table: [sources](sources.md). Held: Duarte 2008 (11.5), Reynolds 2008 (12), Kawasaki 2005 (6.5, 10 slides, 20 minutes, 30 point), Minto 1987 (9.5).
 
 | Source | Practice | Grade |
 |---|---|---|
@@ -307,7 +307,7 @@ Score table: sources-q9.md. Held: Duarte 2008 (11.5), Reynolds 2008 (12), Kawasa
 
 ### 9.6 Against (Q9f)
 
-Detail in against-q9.md. In one line each:
+Detail in [against](against.md). In one line each:
 
 - Kernbach 2015 finds 18 constraining qualities of PowerPoint in business and education: cognitive, emotional and social.
 - Kosslyn 2012 finds flaws in business slides as in academic ones, and observers rarely name them.
@@ -318,4 +318,116 @@ Detail in against-q9.md. In one line each:
 ### What carries over to the base
 
 - Sentence headlines, one claim per slide, a figure as evidence (Garner 2013): nothing in Q9 contradicts them.
-- Business adds the decision, the person, the ask, the reader without a speaker; the candidates are in overrides-q9.md.
+- Business adds the decision, the person, the ask, the reader without a speaker; the candidates are in [position](position.md) (the business context).
+
+## 10. Casual talks (added 2026-10-29)
+
+Search strings and scores are in [protocol](protocol.md) and [sources](sources.md). Grades: measured, supported with caveat, convention (untested), not supported. "(secondary)" marks a number read only in a summary.
+
+A casual talk is informal and voluntary: a meetup or club talk, a lightning talk, a talk to friends or classmates, a popular-science talk, a project explained to non-specialists.
+
+```text
+what the evidence covers                      what it does not cover
+
+text, recorded lectures, classroom   ──┐
+posts, surveys of attendees          ──┤──▶  a live casual talk, outcome measured
+online view counts of TED talks      ──┘      (none found)
+```
+
+### 10.0 Existing reviews
+
+- No review, systematic or scoping, of casual talks, of lightning talks or of PechaKucha was found (E19, E22, E23, C1 to C3, C7).
+- The nearest are three reviews of parts of the problem: audience in science communication (McCarthy 2025), narrative (Dahlstrom 2014), humour in teaching (Zhou 2025).
+
+### 10.1 Audience (Q10a)
+
+| Source | Claim | Grade |
+|---|---|---|
+| McCarthy 2025 | Across 1,360 articles from five science-communication journals, only 4% defined their audience and 48% used a general, non-specified or "public" conception; the authors call this framing simplistic and tie it to the unfinished move away from deficit-model thinking | measured, descriptive |
+| McCarthy 2025 | Among the 23 of 45 responding educators who defined audience, 22% used a general framing against 48% in the literature; the sample is self-selected, so this is a hint, not proof that teaching is ahead | measured, descriptive |
+| Childers 2021 | Science-cafe attendees (survey n = 124, interviews n = 17) came for knowledge and learning, and for talking with other attendees and experts | supported with caveat |
+| Childers 2021 (reviewer's inference) | Attendees chose to come, and their stated motives were learning and company; that they are self-selected and that a "general" audience is rarely general is the reviewer's inference, not a finding | supported with caveat |
+| Rakedzon 2017 | In 5,000 abstract and lay-summary pairs from two PLOS journals, lay summaries held less jargon than abstracts but still more than the 2% the authors cite as recommended; the 98% threshold is from reading research, and the tool was validated on lecture transcripts too | supported with caveat |
+| Kalyuga 2014 (held; a handbook chapter on the redundancy principle, not on expertise reversal) | Support that helps novices can hurt experts (expertise reversal, which has its own chapter in the same handbook, not read here); a mixed room has both | supported with caveat (chapter) |
+| Noetel 2022 (held) | Design principles mattered more when the medium sets the pace; a talk is such a medium | measured |
+| Bradbury 2016, Wilson 2007 (held) | The claim that attention collapses after ten minutes has little primary support | supported with caveat |
+| Sugimoto 2013 | Online views of TED talks: academics drew more comments than other presenters; their view counts were not clearly higher; viewers may have been largely academics (a stated limit) | supported with caveat (observational) |
+
+- Nothing found compares voluntary with obliged attendance for the same talk.
+- No study tests the rule that a talk should state who it is for and what the audience knows; McCarthy 2025 only shows that 96% of papers never define their audience.
+
+### 10.2 Form: lightning talks and short fixed formats (Q10b)
+
+| Source | Claim | Grade |
+|---|---|---|
+| Bakcek 2020, Liao 2020, Warmuth 2021 (held) | The few studies of PechaKucha in class: one randomised trial found equal test scores (Bakcek 2020); a second found higher immediate retention for presenters but no delayed difference (Warmuth 2021); Liao 2020 found differences mostly from intentional selection of material | supported with caveat |
+| PechaKucha 2026, Ignite 2026 (held) | Ignite's home page states a mission of inspired connection, personal growth and communication skills; examples only (not verified: the PechaKucha about page returned only a JavaScript stub) | convention, untested |
+| ERIC C1 to C3 | 21 PechaKucha items, 5 lightning-talk items and 1 Ignite item: teaching reports and student surveys; none measures what an audience keeps | convention, untested |
+| Hilton 2022, WooCommerce 2026 (examples) | Organisers use short talks to lower the barrier for first-time speakers; this is a claim about speakers, not listeners | convention, untested |
+| Three Minute Thesis rules (UQ 2026) | Fixed time, one static slide, a jury scoring understanding and engagement; the programme pages report no outcome data | convention, untested |
+| Guo 2014 (held) | The six-minute video chunk comes from watching time, not learning | supported with caveat (observational) |
+
+- No study compares a lightning talk with a longer talk on the same content for a lay audience (G43).
+- What a short slot forces is cutting. Whether the cut helps the listener is unmeasured.
+
+### 10.3 Engagement: humour, narrative, personal tone, questions (Q10c)
+
+| Source | Claim | Grade |
+|---|---|---|
+| Zhou 2025 | In about 140 works, humour related to the content is linked to perceived learning, attention and rapport; actual learning gains are mixed; unrelated and aggressive humour is more variable or harmful; evidence is mostly self-report | supported with caveat |
+| Kaplan 1977, Suzuki 2014 (secondary) | Kaplan 1977: concept-related humour helped retention at six weeks, not immediate comprehension. Suzuki 2014 (165 participants): recognition, not recall, differed by condition (not verified: which condition, the abstract is cut off). Garner 2006 is dropped here: its abstract gives no result | supported with caveat |
+| Banas 2011 (secondary) | A four-decade review that centres on inconsistent findings and distinguishes types of humour | supported with caveat |
+| Cheng 2026, Sundararajan 2020 (held) | Interesting but irrelevant material lowers learning: g = -0.16 over 50 studies and 177 effect sizes (Cheng 2026: comprehension -0.19, recall -0.17, transfer -0.12); seductive details can hinder learning (Sundararajan 2020). Not verified: g = -0.33 over 68 effects, and which paper holds it (Rey 2012 abstract closed; Sundararajan abstract gives no figure) | measured for Cheng 2026 (meta-analysis, abstract read); supported with caveat for the rest |
+| Frank 2025 | In a survey experiment (2,212 analysed), mild humour raised mirth, and mirth predicted a scientist's likability (B = 0.48) and perceived legitimacy (B = 0.46); trust and credibility were not measured; mediation is correlational; one topic, one fictional scientist | supported with caveat |
+| Freiling 2024 (secondary) | In an experiment, gentle satire had no effect and harsh satire lowered perceived message credibility (not verified: N = 723 and the aggression mediator are not in the abstract) | supported with caveat |
+| Dahlstrom 2014 | Narratives offer increased comprehension, interest and engagement, and are intrinsically persuasive, with ethical considerations (abstract read). Not verified: recall, shorter reading times, the "twice as fast, twice as well" figure and the health-story meta-analysis (the body was behind a bot check) | supported with caveat |
+| Zebregs 2015 (held) | In health campaigns, statistical evidence moved beliefs and attitude more, narrative evidence moved intention | measured, in health |
+| Ginns 2013, Mayer 2014c (held) | A conversational, first-person style: d = 0.46 on friendliness and 0.62 on effective processing (reliable); 0.16 on learning assistance and 0.15 on interest (not reliable); retention d = 0.30, transfer d = 0.54; small, non-significant effects in studies longer than 35 minutes (not verified: that the studies are of text and recorded lessons) | measured for Ginns 2013 (meta-analysis, abstract read); supported with caveat (chapter) for Mayer 2014c |
+| Hunsu 2016 (secondary) | Audience-response questions in classes (not verified: no abstract was reached; a summary said small but significant gains, shrinking when the comparison is a lecture that already asks questions) | supported with caveat |
+| Segal 2026 | In 1,239 TED transcripts, clarity of explanation, scored by a language model (50 runs per transcript), predicted likes (beta = .339) and views (beta = .314) beyond duration, topic and scientific status; the model explained 22.5% of the variance in views; an observational preprint | supported with caveat |
+| Sugimoto 2013 | No significant rise in citations was found after a TED talk (uncontrolled before-after); the one exception, 2007, rested on 18 academics already rising | supported with caveat (observational) |
+
+- Views are a popularity count. They are not comprehension and not memory.
+- No experiment varies storytelling, humour or personal tone in a live talk to a voluntary lay audience.
+
+### 10.4 Slides or none (Q10d)
+
+| Source | Claim | Grade |
+|---|---|---|
+| Savoy 2009, Baker 2018 (held) | Slides were neutral on average (Baker 2018: g = 0.067, CI -0.103 to 0.236; K-12 gained, college did not); whether design decides is untested here (not verified: the Savoy 2009 abstract was never reached) | measured for Baker 2018 |
+| TED 2026 (held), PyCon 2026 (example) | Practice lets the speaker drop or cut slides: one or two lines, large type | convention, untested |
+| Three Minute Thesis rules (UQ 2026) | One slide, no props | convention, untested |
+| Shah 2023, Shah 2025 (held) | Live coding taught no more than static code (Shah 2023). Active live coding taught no more than traditional live coding but held engagement higher (Shah 2025) | measured |
+| Nederbragt 2016, LornaJane 2017 (held) vs PyCon 2026 | Practice differs: PyCon says never; LornaJane is wary and keeps demos for long slots; Nederbragt teaches by live coding in workshops | convention, untested |
+
+- No study of a talk given with no slides at all was found (F17).
+
+### 10.5 Practice (Q10e)
+
+All four sources score under 10 of 20 and are examples only.
+
+| Source | Claim | Grade |
+|---|---|---|
+| ACM Local 2026 (7.5) | A meetup talk need not be an academic paper presentation; topics and speakers need only be interesting; attendance rises 40% with food and drink (no data) | convention, untested |
+| WooCommerce 2026 (7) | Encourage audience members to try lightning talks; confirm a week before; check AV on the day; good content matters more than polished delivery | convention, untested |
+| Hilton 2022 (4.5) | Cap talks at 30 minutes; 10 to 15 minutes for first-timers; run Q&A as discussion and stop hostile questions; meetups suit entertaining and story-based talks | convention, untested |
+| PyCon 2026 (6.5) | Know the topic; skip the basics; build like a story; avoid forward references; limit code to about 10 lines per slide; rehearse aloud at least twice; run short rather than long | convention, untested |
+
+- Between two or three of the four: a short time box (Hilton, PyCon), a first-time speaker welcomed (Hilton, WooCommerce). Rehearsal aloud is in PyCon only; ACM has no time box and no rehearsal advice; WooCommerce has no rehearsal advice; Hilton and ACM do not state one idea.
+- None cites a study. Two (ACM, WooCommerce) are about organising, not about the talk.
+
+### 10.6 Against (Q10f)
+
+Detail in [against](against.md). In one line each:
+
+- "Use humour" meets mixed learning results and the seductive-details effect.
+- "Tell a story" meets Dahlstrom's ethical caution and, in health campaigns, Zebregs 2015 (the mixed health meta-analysis attributed to Dahlstrom is not verified).
+- "Avoid live demos" and "do live demos" are both advised; the controlled studies, in programming classes, show no learning gain either way.
+- Views of TED talks are read as success; they track clarity (scored by a language model), and no significant citation rise was found.
+- Short talks are praised; no study shows that listeners keep more.
+
+### What carries over to the base
+
+- Define the audience and what it knows (McCarthy 2025; Kalyuga 2014 is a chapter on redundancy, not on expertise reversal): in the base already.
+- Related, not decorative, material only (Sundararajan 2020): in the base.
+- The candidate casual overrides are in [position](position.md) (the casual context).

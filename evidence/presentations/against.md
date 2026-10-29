@@ -129,6 +129,72 @@ Section to append to against.md, in the same form.
 | 10 slides, 20 minutes, 30 point (Kawasaki 2005, held, 6.5) | no business study of slide count | convention, untested |
 | Team slide first or always | Bernstein 2017; DocSend 2022 | Team content: Bernstein agrees; DocSend counts presence, not position |
 
+## Against, for casual talks (added 2026-10-29)
+
+Each section: what practice says, what the evidence says, and what is left open.
+
+### Against "use humour"
+
+- Practice: PyCon says to use humour if you are funny (PyCon 2026); meetups suit entertaining talks (Hilton 2022).
+- Evidence: related humour is tied to perceived learning, attention and rapport, while gains in learning are mixed and mostly self-reported (Zhou 2025). Concept-related humour helped retention at six weeks, not immediate comprehension (Kaplan 1977, secondary).
+- Evidence against: interesting but irrelevant material lowers learning (Sundararajan 2020, held; Cheng 2026, g = -0.16 over 50 studies). Harsh satire, not gentle, lowered perceived message credibility (Freiling 2024, secondary).
+- Frank 2025 measured likability and perceived legitimacy, not trust or learning; its authors warn of backfire effects from satire and did not test harsh satire.
+- Open: whether a joke in a live talk helps a lay listener remember the point.
+
+### Against "tell a story"
+
+- Practice: stories are the default advice for lay audiences and for meetups.
+- Evidence for: narrative offers increased comprehension, interest and engagement (Dahlstrom 2014, abstract). Not verified: recall and the earlier text studies, which sit in the body.
+- Evidence against: the same review finds stories intrinsically persuasive, with ethical considerations (abstract). Not verified: a health-story meta-analysis, the difficulty of correcting stories with facts, and the human-scale gap, which sit in the body. In health campaigns, statistics moved belief and narrative moved intention (Zebregs 2015, held).
+- Open: whether a story helps a lay listener understand a mechanism, as against feel interested.
+
+### Against "avoid live demos" and against "do live demos"
+
+- Practice splits. PyCon says never do a live demo; LornaJane is wary and keeps demos for long slots; Nederbragt teaches by live coding in workshops (PyCon 2026, LornaJane 2017, Nederbragt 2016, held).
+- Evidence: live coding taught no more than static code, and active live coding taught no more than the traditional kind (Shah 2023, Shah 2025, held).
+- Both camps rest on experience. Neither is contradicted by a controlled study.
+- Open: whether a demo helps a lay audience, who were not tested in these studies (students were).
+
+### Against "TED views mean it works"
+
+- Practice: TED-style talks are the model for popular talks, and views stand for success.
+- Evidence: clarity scored by a language model predicted views and likes beyond topic and duration, but the model explained 22.5% of the variance in views, and the data are observational (Segal 2026, a preprint). No significant rise in citations was found after a TED talk (uncontrolled; Sugimoto 2013).
+- Views are not comprehension. The gesture counts quoted for popular talks come from a popular source with no method (seen, not used).
+- Open: what a viewer remembers a week later.
+
+### Against "attention fails at ten or thirty minutes"
+
+- Practice: caps at 30 minutes because audiences tire (Hilton 2022).
+- Evidence: the ten-minute figure has little primary support (Bradbury 2016, Wilson 2007, held).
+- The 30-minute cap is a courtesy to an evening audience. It is a convention, untested, and not wrong for being untested.
+
+### Against "short talks teach more"
+
+- Practice: lightning talks, 3-minute theses and PechaKucha are praised as disciplines for the speaker and for the listener.
+- Evidence: in class trials, PechaKucha gave equal test scores to a normal talk (Bakcek 2020, held); no trial compares a short talk with a long one on a lay audience (G43).
+- Open: whether the cut helps the listener or only the speaker.
+
+### Against "the general public"
+
+- Practice: popular talks are written for "the general public".
+- Evidence: 48% of science-communication articles use a general, non-specified or "public" framing, which the authors call simplistic, and only 4% define their audience (McCarthy 2025).
+- Attendees of science cafes came from learning and social motives (Childers 2021). That they are self-selected, and that a general audience is rarely the audience present, is the reviewer's inference.
+
+### Where practice contradicts held evidence (Q1 to Q9)
+
+| Practice | Held evidence | Status |
+|---|---|---|
+| "No more than 60 seconds on any slide" for lightning talks (PyCon 2026; the blog tips were not opened) | numeric slide rules are conventions (position.md) | agree: both untested |
+| Humour as a rule | coherence principle (Sundararajan 2020) | partly contradicts: unrelated humour is detail |
+| Story first | Q9: numbers for belief, story for intent (Zebregs 2015) | partly contradicts for a talk meant to inform |
+| Drop the outline slide | Peyton Jones 1993 says the same (not verified: not opened); untested | untested |
+| Ask the audience during the talk | Q5: Q&A research is descriptive | no contradiction; classes only (Hunsu 2016, secondary; not verified: no abstract was reached) |
+
+### Notes
+
+- Seven of the 17 new formal sources are secondary. A claim resting on a secondary number is graded no higher than supported with caveat unless a held full-text review carries it.
+- Casual-talk practice has no source at 10 of 20. The practice side of this strand is examples only.
+
 ## Replications and notes
 
 - Laptop against longhand notes: the quiz difference did not replicate in a direct replication (Urry 2019).

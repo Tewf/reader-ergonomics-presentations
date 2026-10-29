@@ -270,7 +270,7 @@ Strings, N = 10 results screened per string (title and the engine's summary); pa
 
 ## Q9 business presentations (added 2026-10-29)
 
-Rows to append to protocol.md. Numbering continues the strands E (E14 on), F (F3 on) and G (G32 on).
+Numbering continues the strands E (E14 on), F (F3 on) and G (G32 on).
 
 ### Table 4 for Q9 (Garousi seven questions)
 
@@ -299,7 +299,7 @@ Seven of seven are yes, so grey literature is included.
 
 - E, F and G strings: a general web search tool (one engine, US-based, returns a summary and links), run on 2026-10-29. A "screened" count is the number of result blocks returned; each block was read as a title plus the engine's summary.
 - Metadata and DOI checks: the public Crossref REST API (`api.crossref.org/works`), called with no identity and no `mailto`. Its answers confirm title, authors, journal, year and pages; they carry no abstract in most cases.
-- Pages opened one at a time. Eight opens failed (listed in section "Seen, not retrieved" of sources-q9.md). No sign-in, no CAPTCHA, no bypass was tried.
+- Pages opened one at a time. Eight opens failed (listed in section "Seen, not retrieved" of [sources](sources.md)). No sign-in, no CAPTCHA, no bypass was tried.
 
 ### Seed checks (not counted in the screening bound)
 
@@ -401,3 +401,132 @@ Totals: E 59, F 85, G 65 = 209 result blocks screened, plus 59 for the seeds.
 - Screening used titles and the engine's summaries. Numbers read only in a summary are marked "(secondary)".
 - Three of the formal sources (Chen 2009, Pollack 2012, Huang 2015) are paywalled; only abstracts were read. Brooks 2014's PNAS page sits behind a bot check that was not bypassed; the author copy in MIT DSpace was read in full.
 - Most investor studies are of US or UK angels, venture capitalists and televised pitches. Executive and board briefings have no study in this pool.
+
+## Q10 casual talks (added 2026-10-29)
+
+Numbering continues the strands E (E19 on), F (F9 on) and G (G38 on). ERIC strings are numbered C1 to C10.
+
+Casual talk, defined here: informal and voluntary; a meetup or club talk, a lightning talk, a talk to friends or classmates, a public or popular-science talk, a project explained to non-specialists.
+
+### Table 4 for Q10 (Garousi seven questions)
+
+| # | Question | Answer for casual talks |
+|---|---|---|
+| 1 | Complex subject, not solvable by the formal literature alone | yes: meetup, lightning and community-conference norms are practice |
+| 2 | Lack of volume, quality or consensus of evidence | yes: almost no study measures what a lay listener keeps from a live talk |
+| 3 | Context matters | yes: voluntary attendance, lay or mixed audience, short slots |
+| 4 | Goal to check research against practical experience | yes |
+| 5 | Goal to challenge practice rules with research | yes: "tell a story", "use humour", "no slides", "avoid live demos" |
+| 6 | Synthesis useful to both communities | yes |
+| 7 | Many practitioner sources | yes: organiser handbooks, speaker guides, competition rules |
+
+Seven of seven are yes, so grey literature is included.
+
+### Q10 questions
+
+- Q10a Audience: what changes when attendance is voluntary and the audience is lay or mixed (attention, prior knowledge, motivation)?
+- Q10b Form: lightning talks and short fixed formats (PechaKucha, Ignite, five-minute talks): what is measured, what is practice?
+- Q10c Engagement: humour, storytelling, questions to the audience, a personal tone: what is measured, in which settings?
+- Q10d Slides or none: talks with few or no slides, or with a live demo.
+- Q10e Practice: meetup and conference-organiser guides, speaker guides for community talks, each scored.
+- Q10f Against: where casual-talk practice contradicts the evidence held in Q1 to Q9.
+
+### Engine and date
+
+- E, F and G strings: a general web search tool (one engine, US-based, returns a summary and links), run on 2026-10-29. A "screened" count is the number of result blocks returned. Each block was read as a title plus the engine's summary.
+- ERIC (`https://api.ies.ed.gov/eric/`, field `numFound`): phrase and Boolean search, education only, run on 2026-10-29. Titles of the hits were screened.
+- Metadata checks: the public Crossref REST API, called with no identity and no `mailto`.
+- OpenAlex counts: attempted on 2026-10-29 and answered HTTP 429 (daily budget used, retry after about 13 hours). No OpenAlex count exists for Q10.
+- Pages opened one at a time. No sign-in, no CAPTCHA, no bypass was tried. Two publisher pages (Springer) redirected to an authorisation step and were not followed.
+
+### E: existing reviews (Guideline 2)
+
+| Id | String, as run | Screened | Included |
+|---|---|---|---|
+| E19 | `systematic review science communication public talks audience effects meta-analysis` | 9 | 1 (McCarthy 2025); a review of written science communication seen, not used (text, not talks) |
+| E20 | `meta-analysis humor in instruction learning effect` | 10 | 0 (older meta-analyses named in a special-issue summary) |
+| E21 | `Banas 2011 review of humor in educational settings four decades of research Communication Education` | 10 | 2 (Banas 2011 as secondary; Zhou 2025) |
+| E22 | `PechaKucha systematic review education students presentations` | 9 | 0 (no review exists in these results) |
+| E23 | `PechaKucha scoping review OR "systematic review" OR meta-analysis presentation format learning` | 9 | 0 (same result: primary studies only) |
+| E24 | `audience response systems clickers meta-analysis learning outcomes lecture questions to audience` | 10 | 1 (Hunsu 2016, secondary) |
+| E25 | `seductive details meta-analysis learning Rey 2012 Educational Research Review` | 9 | 2 (Rey 2012, secondary; Cheng 2026, abstract read); Sundararajan 2020 already held |
+| E26 | `personalization principle meta-analysis conversational style multimedia learning Ginns 2013 Mayer personalization effect` | 20 | 1 (Ginns 2013, abstract read); Mayer 2014c already held |
+
+### F: formal
+
+| Id | String, as run | Screened | Included |
+|---|---|---|---|
+| F9 | `what predicts TED talk views ratings analysis of TED talks study` | 9 | 1 (Segal 2026, a preprint) |
+| F10 | `Sugimoto Thelwall TED talk presenters scientists popularizing science characteristics impact PLoS ONE` | 9 | 1 (Sugimoto 2013, full text) |
+| F11 | `TED talks rhetorical analysis experiment persuasion audience gestures humor storytelling study views peer-reviewed` | 20 | 0 (no experiment; the gesture counts come from a popular source) |
+| F12 | `storytelling narrative science communication effect on understanding engagement experiment Dahlstrom` | 10 | 1 (Dahlstrom 2014, full text) |
+| F13 | `Fischer Thies science story good narrative transportation topic interest experiment` | 9 | 0 (abstract only through the engine; the full file could not be read) |
+| F14 | `experiment humor in persuasive speech or lecture recall comprehension randomized relevant humor Garner humor in pedagogy` | 18 | 3 (Garner 2006, Kaplan 1977, Suzuki 2014, all secondary) |
+| F15 | `humour in science communication public audiences study effects on perceived scientist credibility engagement Riesch OR Yeo` | 18 | 2 (Frank 2025 read on the journal page; Freiling 2024 secondary) |
+| F16 | `science café OR "public lecture" audience survey who attends motivations evaluation study public engagement events` | 10 | 1 (Childers 2021, abstract read) |
+| F17 | `talk without slides versus PowerPoint audience experiment recall engagement chalk talk blackboard study` | 9 | 0 (no study of a slide-free live talk) |
+| F18 | `jargon barrier science communication lay audience experiment comprehension public talk Sharon Baram-Tsabari` | 20 | 1 (Rakedzon 2017, full text) |
+| F19 | `vulgarisation scientifique conférence grand public revue de littérature effets sur le public` | 9 | 0 (French: course pages and essays; no evaluation study) |
+
+### C: ERIC
+
+| Id | String, as run | Count | Screened | Included |
+|---|---|---|---|---|
+| C1 | `"PechaKucha" OR "Pecha Kucha"` | 21 | 21 | 0 new (Liao 2020 and Warmuth 2021 already held; no review) |
+| C2 | `"lightning talk" OR "lightning talks"` | 5 | 5 | 0 (teaching reports) |
+| C3 | `"Ignite talk" OR "Ignite talks"` | 1 | 1 | 0 |
+| C4 | `"TED talk" OR "TED talks"` | 85 | 30 | 0 (language-learning uses of TED talks as material; one multimodal analysis) |
+| C5 | `"public lecture" AND science` | 5 | 0 | 0 (count only) |
+| C6 | `"instructional humor" OR "humor in teaching"` | 26 | 0 | 0 (count only; reviews reached through E20 and E21) |
+| C7 | `"science communication" AND ("public talk" OR "public lecture" OR "public engagement") AND ("systematic review" OR "meta-analysis")` | 0 | 0 | 0 |
+| C8 | `"five-minute" AND (presentation OR talk) AND (students)` | 13 | 0 | 0 (count only) |
+| C9 | `"live demonstration" AND "lecture"` | 6 | 0 | 0 (count only) |
+| C10 | `"vulgarisation scientifique"` | 0 | 0 | 0 (ERIC is English-language: zero says the engine is wrong for French, not that nothing exists) |
+
+### G: grey
+
+Types and producers (Guideline 6):
+
+| Type | Producers | Why |
+|---|---|---|
+| Organiser handbooks | a professional society, a company community programme, a meetup blogger | what organisers tell speakers |
+| Speaker guides | community conference advice pages, lightning-talk tips | what speakers tell each other |
+| Competition rules | Three Minute Thesis and its French form Ma thèse en 180 secondes | the best-known fixed short format for lay audiences |
+| Format owners | PechaKucha, Ignite, TED | already held in Q6, linked |
+
+| Id | String, as run | Screened | Opened | Included |
+|---|---|---|---|---|
+| G38 | `Three Minute Thesis 3MT study effects on doctoral students communication skills audience evaluation` | 19 | 0 | 0 (programme pages; no outcome study) |
+| G39 | `Ma thèse en 180 secondes règlement concours conseils jury critères` | 10 | 2 | 0 (the official PDFs opened returned HTTP 404; rules known only from the engine's summary) |
+| G40 | `how to give a lightning talk guide conference organisers speaker advice five minutes` | 10 | 0 | 0 (blog tips seen in a summary, not opened) |
+| G41 | `PyCon speaker guide talk proposal advice community conference speaker handbook audience beginners` | 18 | 1 | 1 (PyCon 2026) |
+| G42 | `meetup organizer guide how to find speakers format talk length Q&A community tech meetup handbook` | 9 | 3 | 3 (ACM Local 2026, WooCommerce 2026, Hilton 2022) |
+| G43 | `Three Minute Thesis OR "lightning talk" OR "short presentation" time limit audience comprehension experiment short versus long talk retention` | 18 | 0 | 0 (no controlled comparison of short against long talks) |
+
+Totals: E 86, F 141, G 84 = 311 result blocks screened, plus 57 ERIC titles.
+
+### Stopping rule (stated before the search, applied after)
+
+- Effort bound: about 80 results screened in all.
+- Saturation: stop a family after two consecutive strings add no new included source.
+- Applied:
+  - E: E22 and E23 added none, and the next string (E24) added one; the PechaKucha strand saturated on "no review exists".
+  - F: F16 added one, F17 and F19 added none; F18 added one. Not saturated.
+  - G: G38 to G40 added none in a row, then G41 and G42 added four. The practice strand did not saturate.
+- The effort bound was exceeded (311 against 80), as in Q9, because each string returns about ten blocks and 25 strings were needed to touch six sub-questions. A family stopped when each of Q10a to Q10f had at least one source or a recorded "none found".
+- Consequence: Q10 is a first pass. Organiser guides of public-engagement bodies and the primary studies of Q10c (humour, storytelling) behind the secondary reads would likely add sources.
+
+### Selection
+
+- Include: a source in English that states a rule or gives evidence on Q10a to Q10f. It is about a talk, a lecture or a short presentation to a voluntary or lay audience, or about the device itself: humour, narrative, personal tone, audience questions.
+- Exclude: language-learning uses of TED talks as listening material; marketing surveys of content formats; pages with no producer.
+- Quality: grey sources scored on the 20 criteria of section 8 of protocol.md; under 10 of 20 serves as an example of practice only.
+
+### Limits
+
+- One reviewer, no second rater for these scores.
+- One personalising search engine; results of 2026-10-29 may not repeat.
+- Screening used titles and the engine's summaries. Numbers read only in a summary are marked "(secondary)".
+- Seven of the 17 new formal sources are secondary. An anonymous request to the Springer pages of Cheng 2026 and Childers 2021 returned their abstracts.
+- The studies of humour, narrative and personal tone are of text, recorded lectures, screenshots of posts or surveys, not of live talks to voluntary audiences.
+- No query returned a study that measures what a lay audience keeps from a live casual talk.

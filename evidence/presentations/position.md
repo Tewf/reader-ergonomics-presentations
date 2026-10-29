@@ -118,6 +118,51 @@ The base is "what a presentation is". The academic talk and the business present
 - Sales presentations: one owner account of a call study, no result on presenting.
 - Colour, motion and font size for business: no difference found against the base.
 
+## The casual context: candidate overrides (added 2026-10-29)
+
+The base is "what a presentation is", and the casual talk is its third context, after the academic and the business ones.
+
+This section lists what the casual context changes and what it leaves alone. Few rules change; each says why, and the weakest are marked.
+
+What a casual talk is: see [the review, section 10](review.md).
+
+### Overrides
+
+| Base rule (academic talk) | Casual override | Evidence | Grade |
+|---|---|---|---|
+| The audience shares the field's terms; prior knowledge is assumed | Assume none: say who the talk is for, define every term before its first use, and prefer a plain word to a technical one | McCarthy 2025 (audience seldom defined, "general public" framing); Rakedzon 2017 (lay summaries still above the 2% limit; the tool was also validated on lecture transcripts); Kalyuga 2014 (held; a chapter on redundancy, not on expertise reversal) | supported with caveat; the jargon limit comes from reading research; no source tests assuming none |
+| The audience stays; the talk starts with the problem and its background | The audience can leave and chose to come: open with why a non-specialist should care, in the first minute, before any background | Childers 2021 (attendees came for learning and company); Dahlstrom 2014 (narrative raises interest); no test of an opening | convention, untested |
+| Evidence is a result with its method; narrative is a framing device | A story is a legitimate carrier of the content for a lay audience: a person, a problem, what happened | Dahlstrom 2014 (comprehension, interest and engagement; recall and reading times not verified); Zebregs 2015 (held; health only; narrative moved intention, statistics moved belief) | supported with caveat |
+| Material not on the point is cut (coherence) | Humour or an anecdote is allowed when it is tied to the point; unrelated humour is cut like any other detail | Zhou 2025 (related humour helps perceived learning, rapport); Kaplan 1977, Suzuki 2014 (secondary; delayed retention, recognition); Sundararajan 2020 (held) | supported with caveat; affect is clear, learning mixed |
+| The slot is fixed by the conference; the talk fills it | The slot may be very short (3 to 10 minutes) and is a hard limit: one idea, no outline slide, nothing that needs a second idea to be understood | Bakcek 2020 (held; equal test scores); the competition rules and four guides (all examples); no test against a longer talk | convention, untested |
+| Slides support the talk | Slides are optional: none, one, or a few; a live demo is a choice with a stated risk | TED 2026; Baker 2018 (held; slides neutral on average, g = 0.067 with a CI through zero; K-12 gained); Savoy 2009 (not verified: abstract never reached); Shah 2023 (held; live code taught no more than static); PyCon 2026 (example; never do a live demo) | convention, untested for none; measured for "neutral on average" (Baker 2018) |
+| Questions come at the end | In a small room, questions may be taken during the talk, as discussion; the speaker repeats each question | Hunsu 2016 (secondary; not verified: no abstract was reached); Hilton 2022, PyCon 2026 (examples) | supported with caveat (classes); convention for talks |
+
+- Weakest rows: the opening, the short slot and slides-optional. Each has no test on a casual talk.
+- Strongest rows: assume no prior knowledge, and humour tied to the point. Each rests on reviews, though of text, recordings or posts.
+- The story row is the one practice and the evidence agree on, and the evidence is from text and health messages.
+
+### Rules that do not change
+
+| Base rule | Why it holds in a casual talk |
+|---|---|
+| One claim per slide; sentence headline stating the claim; a figure as the evidence | Garner 2013 (held); the guides above ask for the same, less text and one thought per slide |
+| Words on screen add to the voice, not repeat it | Adesope 2012 (held; spoken plus written text beat spoken alone only for low prior knowledge, system-paced and picture-free material, and equalled written alone; it did not test adding against repeating), Noetel 2022 (held); nothing in Q10 contradicts it |
+| Contrast, legible type, colour never the only cue | A cafe or a classroom is still a room with a back row; W3C 2023, Rector 2019 (held) |
+| Say where the evidence is weak | A lay audience cannot check; McCarthy 2025 counts a "general public" framing as simplistic |
+| Rehearse aloud and time it; test the room and the file | Guides agree (PyCon 2026, WooCommerce 2026); preparedness was the best supported cue in Q9 |
+| A conversational, first-person voice | Ginns 2013 and Mayer 2014c (held); the base already asks for a spoken, personal tone, so the casual talk differs in degree only |
+| Segment long material | Rey 2019 (held); a casual slot is short, so the rule rarely applies |
+| Gesture and pointing | Dargue 2019, Hostetter 2011 (held); no casual-specific test |
+
+### Not overridden, because no evidence was found
+
+- A talk with no slides: no study compares it with slides.
+- A lightning talk against a longer talk for the same content: no study.
+- Talks among friends or classmates: no study found beyond classroom PechaKucha trials.
+- Colour, motion and font size for casual talks: no difference found against the base.
+- Popularity as a goal: neither Segal 2026 nor Sugimoto 2013 measures learning.
+
 ## What this review did not verify
 
 - Cromley 2025 and Zhu 2024 numbers come from a summary (secondary). Books Duarte 2008, Duarte 2010, Reynolds 2008, Anderson 2016, Minto 1987 and Tufte 2003 were scored from catalogue pages or not read.
