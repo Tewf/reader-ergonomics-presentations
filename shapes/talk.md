@@ -8,6 +8,7 @@ The shape of a spoken talk with slides: the point first, the plan, one section p
 - Not for a deck read without a speaker: the [business decision maker](../reader-styles/business-decision-maker.md) style says how that changes.
 - Inside a fixed slot, cut material to fit it. Do not speed up ([academic audience](../reader-styles/academic-audience.md)).
 - Length is a convention: Beamer 2026 advises not more than one slide per minute, and Kawasaki 2005 advises 10 slides in 20 minutes (both conventions, untested).
+- A short slot, 3 to 10 minutes, as in a lightning talk: one idea, and no plan slide; say the point at the start and at the end ([casual audience](../reader-styles/casual-audience.md); convention, untested). Declare the slot in the deck, `<html data-minutes="5">`, so the checks apply it.
 
 ## How each part maps to the evidence
 

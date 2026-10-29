@@ -122,6 +122,16 @@ class TestDeckChecks(unittest.TestCase):
     def test_deck_scope_is_quiet_when_a_deck_is_found(self):
         self.assertEqual(run("deck_scope", {"a.deck.html": deck(TITLE)}), [])
 
+    def test_talk_structure_needs_no_plan_in_a_short_slot(self):
+        body = "<section><h2>One idea said in five minutes</h2></section>"
+        short = run("talk_structure", {"a.deck.html": '<html data-minutes="5">' + deck(TITLE, body, QUESTIONS) + "</html>"})
+        long = run("talk_structure", {"a.deck.html": '<html data-minutes="20">' + deck(TITLE, body, QUESTIONS) + "</html>"})
+        self.assertFalse(any("no plan" in finding.message for finding in short))
+        self.assertTrue(any("no plan" in finding.message for finding in long))
+
+    def test_slide_type_size_reads_the_font_shorthand(self):
+        self.assertEqual(len(run("slide_type_size", {"a.deck.html": deck(TITLE, style="p { font: 600 15px/1.2 sans-serif; }")})), 1)
+
     def test_deck_judgment_asks_three_questions_per_deck(self):
         found = run("deck_judgment", {"a.deck.html": deck(TITLE)})
         self.assertEqual([finding.kind for finding in found], ["judgment"] * 3)

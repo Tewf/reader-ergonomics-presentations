@@ -1,6 +1,6 @@
 """Slide type size: a font size below `min_px` in a deck's stylesheets is hard to read from the back of a room.
 
-Read in the deck's inline <style> and in the local stylesheets it links. Sizes in px, pt (4/3 px) and vh (a hundredth of
+Read in the deck's inline <style> and in the local stylesheets it links. Sizes in font-size or in the font shorthand, in px, pt (4/3 px) and vh (a hundredth of
 `reference_height_px`, a 1080p projector by default) are compared; a `var(--name)` is resolved from the custom
 properties the same stylesheets declare. em, rem and % are relative and left alone, as is text inside SVG. Rules for
 speaker notes (selectors naming "notes") are left out.
@@ -21,7 +21,7 @@ NAME = "slide-type-size"
 EXACT = False
 RULE = re.compile(r"([^{}]+)\{([^{}]*)\}")
 SIZE = re.compile(r"([\d.]+)\s*(px|pt|vh)\b")
-FONT_SIZE = re.compile(r"font-size\s*:\s*([^;]+)")
+FONT_SIZE = re.compile(r"(?<![\w-])font(?:-size)?\s*:\s*([^;]+)")  # font-size, or the size in the font shorthand
 CUSTOM = re.compile(r"(--[\w-]+)\s*:\s*([^;]+)")
 VAR = re.compile(r"var\(\s*(--[\w-]+)\s*(?:,\s*([^)]+))?\)")
 

@@ -42,11 +42,17 @@ class _DeckParser(HTMLParser):
         self.styles: list[str] = []
         self.links: list[str] = []
         self.inline: list[str] = []  # style attributes, read by the type-size check
+        self.minutes: float | None = None  # the slot, from data-minutes on <html> or <body>
         self._in_style = False
 
     def handle_starttag(self, tag, attrs):
         attributes = dict(attrs)
         classes = set((attributes.get("class") or "").split())
+        if tag in ("html", "body") and attributes.get("data-minutes"):
+            try:
+                self.minutes = float(attributes["data-minutes"])
+            except ValueError:
+                pass
         if attributes.get("style") and not self.notes_depth:
             self.inline.append(attributes["style"])
         if tag == "link" and "stylesheet" in (attributes.get("rel") or ""):
@@ -120,6 +126,14 @@ def slides(text: str) -> tuple[list[Slide], list[str], list[str]]:
     shown = [slide for slide in parser.slides if not slide.has_child_section]
     styles = parser.styles + [f"style attribute {{{declarations}}}" for declarations in parser.inline]
     return shown, styles, parser.links
+
+
+def slot_minutes(text: str) -> float | None:
+    """The length of the slot a deck declares, `<html data-minutes=\"5\">`, in minutes; None when it declares none."""
+    parser = _DeckParser()
+    parser.feed(text)
+    parser.close()
+    return parser.minutes
 
 
 def decks(root: Path, config: dict) -> list[str]:
