@@ -11,3 +11,4 @@ The choices that shaped this repository, one record each, in the shape of reader
 | [0004: Pin reader-ergonomics at a release](0004-pin-reader-ergonomics-at-a-release.md) | CI checks out reader-ergonomics by the commit of a release, and the text links name the same release. |
 | [0005: The example deck is not named after its shape](0005-the-example-deck-is-not-named-after-its-shape.md) | The example deck is shapes/example-talk.html, so that Quarto's rendering of shapes/talk.md cannot overwrite it. |
 | [0006: The visual standard of the family](0006-the-visual-standard-of-the-family.md) | This repository is also the family's standard for the visual: figures and diagrams in any document, not only slides. |
+| [0007: Diagrams are drawn with Graphviz](0007-diagrams-are-drawn-with-graphviz.md) | A diagram of relations in the family is written in Graphviz's dot language and kept beside the SVG it renders. |
