@@ -1,6 +1,6 @@
 # Principles
 
-The principles of a presentation, in three groups. Each follows the format of the [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/v1.0.0/standard.md) principles.
+The principles of a presentation, in three groups. Each follows the format of the [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/v1.1.1/standard.md) principles.
 
 | Group | What it covers |
 |---|---|

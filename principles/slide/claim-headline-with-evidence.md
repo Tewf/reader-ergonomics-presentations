@@ -12,7 +12,7 @@
 - Write the headline as a sentence of at most two lines that says what the slide shows.
 - Make the evidence a graphic or a table, placed with the words that explain it.
 - Give each slide one claim. Leave out decorative images (Sundararajan 2020).
-- Use the figure principles of the standard: [draw relations](https://github.com/Tewf/reader-ergonomics/blob/v1.0.0/principles/page/draw-relations.md) and [figure next to its text](https://github.com/Tewf/reader-ergonomics/blob/v1.0.0/principles/page/figure-next-to-its-text.md).
+- Use the figure principles of the standard: [draw relations](https://github.com/Tewf/reader-ergonomics/blob/v1.1.1/principles/page/draw-relations.md) and [figure next to its text](https://github.com/Tewf/reader-ergonomics/blob/v1.1.1/principles/page/figure-next-to-its-text.md).
 
 ## Why
 

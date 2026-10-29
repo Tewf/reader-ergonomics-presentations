@@ -55,7 +55,7 @@ Decide what goes on the slides and what goes in the speaker's voice so that a li
 - Research on demonstration: **live coding** against **static-code examples**, **demonstration**, **explainer video**, **whiteboard animation**.
 - Practice: **builds** or **build steps**, **progressive disclosure**, **reveal**, **fly-in**, **transition**, **Morph**, **embedded clip**, **live demo**, **staged** or **live-looking demo**, **screencast**, **talking head**, **Khan-style** tablet video, **3Blue1Brown style**, **Manim** (the library behind it).
 - Acronyms and authors tried: CTML, CLT, MOOC, ALC and TLC; Guo, Brame, Tabbers, Liu, Shah, Selvaraj, Sanderson.
-- Animation against static pictures in a self-paced page is held in the [learning science review](https://github.com/Tewf/reader-ergonomics/blob/v1.0.0/evidence/learning-science/review.md) (animation section) and is not reviewed again here.
+- Animation against static pictures in a self-paced page is held in the [learning science review](https://github.com/Tewf/reader-ergonomics/blob/v1.1.1/evidence/learning-science/review.md) (animation section) and is not reviewed again here.
 
 ## Colour (Q8): names
 
@@ -65,7 +65,7 @@ Decide what goes on the slides and what goes in the speaker's voice so that a li
 - Research on viewers: **color-vision deficiency (CVD)**, **color blindness**, **positive** and **negative polarity**, **color harmony**, **color preference**, **ecological valence theory**.
 - Practice: **palette**, **color scheme**, **accent colour**, **color wheel** (**complementary**, **analogous**, **triadic**), **dark mode**, **inverse video**, **colour-safe** or **colourblind-friendly** palette, **Okabe-Ito** or **Wong** palette, **viridis**, **#EndRainbow**, **ColorBrewer**.
 - Acronyms and authors tried: CVD, WCAG 1.4.1, CIELAB; Ozcelik, Plass, Brom, Wong, Harrower, Brewer, Borland, Crameri, Okabe, Greco, Palmer, Schloss.
-- Contrast ratio and positive polarity are held in [sufficient contrast](https://github.com/Tewf/reader-ergonomics/blob/v1.0.0/principles/page/sufficient-contrast.md); position and length before colour is held in [draw relations](https://github.com/Tewf/reader-ergonomics/blob/v1.0.0/principles/page/draw-relations.md); the colour-by-kind preference is in the [visual-relational reader style](https://github.com/Tewf/reader-ergonomics/blob/v1.0.0/reader-styles/visual-relational.md). None is reviewed again.
+- Contrast ratio and positive polarity are held in [sufficient contrast](https://github.com/Tewf/reader-ergonomics/blob/v1.1.1/principles/page/sufficient-contrast.md); position and length before colour is held in [draw relations](https://github.com/Tewf/reader-ergonomics/blob/v1.1.1/principles/page/draw-relations.md); the colour-by-kind preference is in the [visual-relational reader style](https://github.com/Tewf/reader-ergonomics/blob/v1.1.1/reader-styles/visual-relational.md). None is reviewed again.
 
 ## Search terms tried, three ways
 

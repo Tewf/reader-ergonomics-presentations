@@ -28,5 +28,9 @@ reference_height_px = 1080   # PROVISIONAL: vh sizes are read at this screen hei
 plan_within = 3  # the plan appears among the first slides
 short_slot_minutes = 10   # PROVISIONAL: the casual context's short slot (3 to 10 minutes) needs no plan slide
 
+[readable_measure]
+stylesheets = []   # the standard's site.css is not in this repository; its site borrows it at build time
+
 [sufficient_contrast]
 stylesheets = ["shapes/example-talk.css"]
+surfaces = ["section"]   # a slide is a section, a surface the text sits on
