@@ -10,8 +10,7 @@
 ## What it asks
 
 - Draw a group as a box around its members, or join its members by a line.
-- Give one colour to one kind of thing, the same across the document, as [colour as a signal](../slide/colour-as-a-signal.md) asks on a slide.
-- Keep the figure readable in greyscale.
+- Colour follows [colour as a signal](../slide/colour-as-a-signal.md): one colour per kind of thing, never the only cue.
 
 ## Why
 

@@ -80,14 +80,13 @@ measured, supported with caveat, convention, not supported. Each principle state
 | Principle | Claim | Grade |
 |---|---|---|
 | [Appeal after clarity](principles/figure/appeal-after-clarity.md) | decoration stays only when it carries the message and alters no quantity; polish comes after the other figure rules hold, and never replaces them. | supported with caveat (the meta-analyses are measured, for interfaces) |
-| [Drawn from source](principles/figure/drawn-from-source.md) | a page read on GitHub or on a site draws its figures from source files, a Graphviz `.dot` kept beside each SVG, and does not type them as text art. Text figures stay only in files read in a terminal or by a model. | convention, untested. The reasons are access and drift, not faster reading |
+| [Drawn from source](principles/figure/drawn-from-source.md) | a figure drawn as reader-ergonomics' [draw relations](https://github.com/Tewf/reader-ergonomics/blob/v1.13.0/principles/page/draw-relations.md) asks is written in Graphviz: its `.dot` sits beside the SVG and the page that embeds it, folded under the image. Text figures stay only in files read in a terminal or by a model. | convention, untested. The reasons are access and drift, not faster reading |
 | [Few crossings](principles/figure/few-crossings.md) | in a node-link diagram, links cross as little as possible, and crossings that remain meet near a right angle. | supported with caveat (small samples; one study against) |
 | [Group by region](principles/figure/group-by-region.md) | what belongs together is shown by a bounded region or a joining line, with colour as a second cue and never the only one. | supported with caveat (laboratory evidence) |
 | [Label in place](principles/figure/label-in-place.md) | each node and link is labelled where it sits; a legend is used only when direct labels do not fit. | supported with caveat; for direct labels, mainly convention |
 | [One message](principles/figure/one-message.md) | a figure has one message, and its title or caption states it. | supported with caveat |
 | [Position for quantities](principles/figure/position-for-quantities.md) | a figure that shows a quantity shows it by position on a common scale, or by length, before angle or area. | measured, for charts |
-| [Text alternative](principles/figure/text-alternative.md) | every figure has a short text alternative that says what it shows, and a complex figure also has a long description; a filename or a caption alone does not count. | convention (a standard), untested with readers of documentation |
-| [Visible lines](principles/figure/visible-lines.md) | lines, arrows, borders and fills that carry meaning have at least 3:1 contrast against what lies next to them. | convention (a standard) |
+| [Text alternative](principles/figure/text-alternative.md) | beyond the alt text of reader-ergonomics' [figure next to its text](https://github.com/Tewf/reader-ergonomics/blob/v1.13.0/principles/page/figure-next-to-its-text.md), a figure of more than a few nodes has a long description of its parts and their relations. Its alt text reads each arrow in the direction the figure defines. | convention (a standard), untested with readers of documentation |
 
 <!-- principles:end -->
 

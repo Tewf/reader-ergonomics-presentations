@@ -1,10 +1,10 @@
 # Drawn from source
 
-**Claim:** a page read on GitHub or on a site draws its figures from source files, a Graphviz `.dot` kept beside each SVG, and does not type them as text art. Text figures stay only in files read in a terminal or by a model.
+**Claim:** a figure drawn as reader-ergonomics' [draw relations](https://github.com/Tewf/reader-ergonomics/blob/v1.13.0/principles/page/draw-relations.md) asks is written in Graphviz: its `.dot` sits beside the SVG and the page that embeds it, folded under the image. Text figures stay only in files read in a terminal or by a model.
 
 - **Grade:** convention, untested. The reasons are access and drift, not faster reading.
 - **Evidence:** [review, strand 4](../../evidence/figures/review.md); [position, Known](../../evidence/figures/position.md); [decision 0007](../../decisions/0007-diagrams-are-drawn-with-graphviz.md).
-- **Check:** `typed-figure` (exact): a code block of box-drawing characters outside the exempt files; `figure-source` (exact): each SVG drawn from a `.dot` names the hash of the source it was rendered from.
+- **Check:** reader-ergonomics' `typed-figure` and `figure-source`, which its draw relations names; this principle adds the tool, the place of the source, the folded copy and the exempt files.
 - **Reader styles:** none changes it.
 
 ## What it asks

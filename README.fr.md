@@ -9,8 +9,8 @@ et, pour toute la famille de dépôts, comment dessiner une figure ou un diagram
 Ce dépôt étend [reader-ergonomics](https://github.com/Tewf/reader-ergonomics). Les principes, leurs niveaux de preuve
 et les vérifications y vivent et ne sont pas répétés ici. Ce dépôt n'ajoute que ce qui est propre aux présentations.
 
-> **État :** en cours. Le [standard](standard.md) compte dix-huit principes en quatre groupes : neuf pour un exposé,
-> avec trois contextes, la forme d'un exposé et un diaporama d'exemple ; neuf pour une figure de tout document, avec la
+> **État :** en cours. Le [standard](standard.md) compte dix-sept principes en quatre groupes : neuf pour un exposé,
+> avec trois contextes, la forme d'un exposé et un diaporama d'exemple ; huit pour une figure de tout document, avec la
 > forme d'une figure. Huit vérifications s'exécutent ici, sept sur les diaporamas HTML et une question de jugement par
 > figure. Les vérifications des diaporamas ont été essayées sur trois diaporamas de test, académique, d'affaires et
 > informel, qui les ont changées ; ces diaporamas ne sont pas publics, et aucun principe n'a été testé sur un auditoire.
@@ -60,7 +60,7 @@ digraph scope {
 | Partie | Contient | État |
 |---|---|---|
 | [standard.md](standard.md) | la fiche : comment utiliser le standard, et chaque principe avec son niveau de preuve | écrit |
-| [principles/](principles/) | dix-huit principes en quatre groupes : rythme, diapositive, exposé, figure | écrit ; essayé sur trois diaporamas de test, pas testé sur un auditoire |
+| [principles/](principles/) | dix-sept principes en quatre groupes : rythme, diapositive, exposé, figure | écrit ; essayé sur trois diaporamas de test, pas testé sur un auditoire |
 | [reader-styles/](reader-styles/) | les contextes, écrits comme des auditoires : académique, affaires, informel | écrit |
 | [shapes/](shapes/) | la forme d'un exposé avec un diaporama HTML d'exemple, et la forme d'une figure avec un exemple rédigé | écrit |
 | [checks/](checks/) | huit vérifications, sept sur les diaporamas HTML et une question de jugement par figure, avec leurs tests ; les vérifications des figures par programme sont celles de reader-ergonomics | écrit |

@@ -30,14 +30,13 @@ Each page's markdown source is served at the same path with a .md extension.
 ## Figure: how a figure is drawn
 
 - [Appeal after clarity](https://tewf.github.io/reader-ergonomics-presentations/principles/figure/appeal-after-clarity.md): decoration stays only when it carries the message and alters no quantity; polish comes after the other figure rules hold, and never replaces them.
-- [Drawn from source](https://tewf.github.io/reader-ergonomics-presentations/principles/figure/drawn-from-source.md): a page read on GitHub or on a site draws its figures from source files, a Graphviz `.dot` kept beside each SVG, and does not type them as text art. Text figures stay only in files read in a terminal or by a model.
+- [Drawn from source](https://tewf.github.io/reader-ergonomics-presentations/principles/figure/drawn-from-source.md): a figure drawn as reader-ergonomics' [draw relations](https://github.com/Tewf/reader-ergonomics/blob/v1.13.0/principles/page/draw-relations.md) asks is written in Graphviz: its `.dot` sits beside the SVG and the page that embeds it, folded under the image. Text figures stay only in files read in a terminal or by a model.
 - [Few crossings](https://tewf.github.io/reader-ergonomics-presentations/principles/figure/few-crossings.md): in a node-link diagram, links cross as little as possible, and crossings that remain meet near a right angle.
 - [Group by region](https://tewf.github.io/reader-ergonomics-presentations/principles/figure/group-by-region.md): what belongs together is shown by a bounded region or a joining line, with colour as a second cue and never the only one.
 - [Label in place](https://tewf.github.io/reader-ergonomics-presentations/principles/figure/label-in-place.md): each node and link is labelled where it sits; a legend is used only when direct labels do not fit.
 - [One message](https://tewf.github.io/reader-ergonomics-presentations/principles/figure/one-message.md): a figure has one message, and its title or caption states it.
 - [Position for quantities](https://tewf.github.io/reader-ergonomics-presentations/principles/figure/position-for-quantities.md): a figure that shows a quantity shows it by position on a common scale, or by length, before angle or area.
-- [Text alternative](https://tewf.github.io/reader-ergonomics-presentations/principles/figure/text-alternative.md): every figure has a short text alternative that says what it shows, and a complex figure also has a long description; a filename or a caption alone does not count.
-- [Visible lines](https://tewf.github.io/reader-ergonomics-presentations/principles/figure/visible-lines.md): lines, arrows, borders and fills that carry meaning have at least 3:1 contrast against what lies next to them.
+- [Text alternative](https://tewf.github.io/reader-ergonomics-presentations/principles/figure/text-alternative.md): beyond the alt text of reader-ergonomics' [figure next to its text](https://github.com/Tewf/reader-ergonomics/blob/v1.13.0/principles/page/figure-next-to-its-text.md), a figure of more than a few nodes has a long description of its parts and their relations. Its alt text reads each arrow in the direction the figure defines.
 
 ## Reader styles
 

@@ -1,10 +1,10 @@
 # Text alternative
 
-**Claim:** every figure has a short text alternative that says what it shows, and a complex figure also has a long description; a filename or a caption alone does not count.
+**Claim:** beyond the alt text of reader-ergonomics' [figure next to its text](https://github.com/Tewf/reader-ergonomics/blob/v1.13.0/principles/page/figure-next-to-its-text.md), a figure of more than a few nodes has a long description of its parts and their relations. Its alt text reads each arrow in the direction the figure defines.
 
 - **Grade:** convention (a standard), untested with readers of documentation.
 - **Evidence:** [review, strand 4](../../evidence/figures/review.md).
-- **Check:** `figure-alt` (exact): every image in a page has alt text that is not empty and not a file name.
+- **Check:** reader-ergonomics' `figure-alt`, exact for the short alternative, which its figure next to its text names; whether a complex figure has its long description is not checked.
 - **Reader styles:** none changes it.
 
 ## What it asks

@@ -9,8 +9,8 @@ whole family of repositories, also how to draw a figure or a diagram.
 It extends [reader-ergonomics](https://github.com/Tewf/reader-ergonomics). The principles, their grades and the checks
 live there and are not repeated here. This repository adds only what is particular to presentations.
 
-> **Status:** work in progress. The [standard](standard.md) has eighteen principles in four groups: nine for a talk, with
-> three contexts, the talk shape and an example deck; nine for a figure in any document, with the figure shape. Eight
+> **Status:** work in progress. The [standard](standard.md) has seventeen principles in four groups: nine for a talk, with
+> three contexts, the talk shape and an example deck; eight for a figure in any document, with the figure shape. Eight
 > checks run here, seven on HTML decks and one judgment per figure. The deck checks were tried on three test decks, an
 > academic, a business and a casual one, which changed them; those decks are not public, and no principle has been
 > tested on listeners. It is an informal reading of
@@ -60,7 +60,7 @@ digraph scope {
 | Part | Holds | State |
 |---|---|---|
 | [standard.md](standard.md) | the card: how to use the standard, and every principle with its grade | written |
-| [principles/](principles/) | eighteen principles in four groups: pace, slide, talk, figure | written; tried on three test decks, not tested on listeners |
+| [principles/](principles/) | seventeen principles in four groups: pace, slide, talk, figure | written; tried on three test decks, not tested on listeners |
 | [reader-styles/](reader-styles/) | the contexts, as audiences: academic, business, casual | written |
 | [shapes/](shapes/) | the talk shape with an example deck in HTML, and the figure shape with a worked example | written |
 | [checks/](checks/) | eight checks, seven on HTML decks and one judgment per figure, with their tests; the program checks of figures are reader-ergonomics' own | written |
