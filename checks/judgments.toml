@@ -117,9 +117,9 @@ answer = "Keep them apart: evidence/README.md indexes every topic and the shared
 [[answer]]
 check = "co-change"
 path = "evidence/README.md"
-question = "changed together with evidence/presentations/baseline.md in 7 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+question = "changed together with evidence/presentations/baseline.md in 7 commits (88% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
 file = "b12a75e5beae"
-answer = "Keep them apart: the evidence README summarises the audits, while baseline.md holds the template the standard is compared against. They changed together at review milestones (71e3ef1, e7661bd, ea5c834, the audit 181eb9d, the full-text check 13c0eeb) and in the two link pins (ebbb88d, d7c3a4f), and neither repeats the other."
+answer = "Keep them apart: the evidence README summarises the audits, while baseline.md holds the template the standard is compared against. They changed together at review milestones (71e3ef1, e7661bd, ea5c834, the audit 181eb9d, the full-text check 13c0eeb) and in the two link pins (ebbb88d, d7c3a4f), and neither repeats the other. The share fell to 88% when baseline.md alone took a key rename (6fd6bed)."
 
 [[answer]]
 check = "co-change"
@@ -211,3 +211,17 @@ path = "evidence/presentations/review.md"
 question = "the name 'review' and the opening are far apart in meaning (0.18): does the name predict the content?"
 file = "3ab94f00ada5"
 answer = "Yes: the opening says the file reviews the literature on presentations in strands, and the content is that review (`## 0. Existing reviews`, `## 1. Paced media: modality, redundancy, segmenting`)."
+
+[[answer]]
+check = "co-change"
+path = "evidence/presentations/baseline.md"
+question = "changed together with principles/slide/legible-in-the-room.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "d24ce7ac76e7"
+answer = "Keep them apart: baseline.md `names the deck a proposed presentation design must beat`, and legible-in-the-room.md is one rule that deck is held to. Their three shared commits are two release pins (ebbb88d, d7c3a4f) and the key rename 6fd6bed, where both cite the contrast page that became W3C 2023b: upkeep of one citation, not one fact held twice."
+
+[[answer]]
+check = "co-change"
+path = "evidence/presentations/review.md"
+question = "changed together with principles/slide/legible-in-the-room.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "38a5a258bba1"
+answer = "Keep them apart, with the link that exists: review.md `reviews the literature on presentations in strands`, and the principle cites its strands 4 and 8 by link. Their three shared commits are two release pins (ebbb88d, d7c3a4f) and the key rename 6fd6bed, where both cite the contrast page that became W3C 2023b; the rule and its evidence stay in their own folders."
