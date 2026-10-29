@@ -406,7 +406,7 @@ Totals: E 59, F 85, G 65 = 209 result blocks screened, plus 59 for the seeds.
 
 Numbering continues the strands E (E19 on), F (F9 on) and G (G38 on). ERIC strings are numbered C1 to C10.
 
-Casual talk, defined here: informal and voluntary; a meetup or club talk, a lightning talk, a talk to friends or classmates, a public or popular-science talk, a project explained to non-specialists.
+What a casual talk is, for this search: see [the review, section 10](review.md).
 
 ### Table 4 for Q10 (Garousi seven questions)
 
