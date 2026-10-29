@@ -6,6 +6,7 @@ project:
     - "**/*.md"
     - "!checks/"
   resources:
+    - llms.txt
     - LICENSE
     - LICENSES/
     - "**/*.md"
