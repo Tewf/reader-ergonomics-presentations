@@ -22,18 +22,7 @@ ne règle pas le rythme et ne peut pas relire.
 Une base, et des contextes qui la modifient, comme un style de lecteur modifie le standard. La manière de présenter
 de chacun est un style à part, gardé par lui, qui modifie à son tour ce standard.
 
-```text
-présentations
- ├─ la base : ce qu'est une présentation
- │    un média rythmé, un orateur, une salle
- └─ les contextes qui la modifient
-    ├─ l'exposé académique
-    │    colloque, séminaire, soutenance
-    ├─ la présentation d'affaires
-    │    pitch, vente, point de direction
-    └─ l'exposé informel
-         meetup, club, entre amis
-```
+![Ce standard contient une base, ce qu'est toute présentation, et trois contextes qui la modifient : l'exposé académique, la présentation d'affaires et l'exposé informel ; le style propre à chacun modifie à son tour tout le standard.](figures/scope.fr.svg)
 
 ## Contenu
 

@@ -1,0 +1,19 @@
+// How to use the presentations standard: four steps, and what to do with each kind of finding.
+digraph how_to_use {
+  graph [rankdir=TB, nodesep=0.4, ranksep=0.55, bgcolor="white", pad=0.2, fontname="Inter"];
+  node  [shape=box, style="rounded,filled", fontname="Inter", fontsize=13, margin="0.2,0.1", penwidth=1.5, fontcolor="#1F2328"];
+  edge  [fontname="Inter", fontsize=11, color="#3D434B", fontcolor="#55575F", penwidth=1.3, arrowsize=0.8];
+  Q [shape=diamond, style="filled", fillcolor="#FFFFFF", color="#3D434B", label=<<b>1. who listens?</b>>, margin="0.05,0.05"];
+  CTX [label=<open its context<br/><font point-size="11" color="#55575F">in reader-styles/</font>>, fillcolor="#E6F2EA", color="#2E7D4F"];
+  BASEONLY [label=<the base alone>, fillcolor="#E6F2EA", color="#2E7D4F"];
+  S2 [label=<<b>2. start from the talk shape</b>>, fillcolor="#FFFFFF", color="#3D434B"];
+  S3 [label=<<b>3. build the deck to the principles</b>>, fillcolor="#FFFFFF", color="#3D434B"];
+  S4 [label=<<b>4. run the checks</b><br/><font point-size="11" color="#55575F">python3 &lt;reader-ergonomics&gt;/checks/run.py .</font>>, fillcolor="#FFFFFF", color="#3D434B"];
+  E [label=<<b>error</b><br/><font point-size="11" color="#55575F">certain: fix it</font>>, fillcolor="#FBEDE4", color="#B4541A"];
+  W [label=<<b>warning</b><br/><font point-size="11" color="#55575F">fix it, or say why it is false</font>>, fillcolor="#FBEDE4", color="#B4541A", style="rounded,filled,dashed"];
+  J [label=<<b>judgment</b><br/><font point-size="11" color="#55575F">answer it in checks/judgments.toml</font>>, fillcolor="#E8EEF8", color="#2F5DA8"];
+  Q -> CTX [label=" known"]; Q -> BASEONLY [label=" unknown"];
+  CTX -> S2; BASEONLY -> S2; S2 -> S3; S3 -> S4;
+  S4 -> E; S4 -> W; S4 -> J;
+  {rank=same; E; W; J}
+}

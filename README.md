@@ -23,18 +23,7 @@ live there and are not repeated here. This repository adds only what is particul
 One base, and contexts that override it, the way a reader style overrides the standard. Anyone's own way of
 presenting is a style of its own, kept by them, that overrides this standard in turn.
 
-```text
-presentations
- ├─ the base: what a presentation is
- │    a paced medium, a speaker, a room
- └─ contexts that override the base
-    ├─ the academic talk
-    │    conference, seminar, defence
-    ├─ the business presentation
-    │    pitch, sale, executive briefing
-    └─ the casual talk
-         meetup, club, friends
-```
+![This standard holds a base, what any presentation is, and three contexts that override it: the academic talk, the business presentation and the casual talk; a person's own style overrides the whole standard in turn.](figures/scope.svg)
 
 ## Contents
 

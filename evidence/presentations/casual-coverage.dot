@@ -1,0 +1,9 @@
+// What the casual-talk evidence covers, and the case it does not reach.
+digraph casual_coverage {
+  graph [rankdir=LR, nodesep=0.4, ranksep=0.55, bgcolor="white", pad=0.2, fontname="Inter"];
+  node  [shape=box, style="rounded,filled", fontname="Inter", fontsize=13, margin="0.2,0.1", penwidth=1.5, fontcolor="#1F2328"];
+  edge  [fontname="Inter", fontsize=11, color="#3D434B", fontcolor="#55575F", penwidth=1.3, arrowsize=0.8];
+  COV [label=<<b>what the evidence covers</b><br/><font point-size="11" color="#55575F">text, recorded lectures, classrooms<br/>posts, surveys of attendees<br/>online view counts of TED talks</font>>, fillcolor="#E6F2EA", color="#2E7D4F"];
+  GAP [label=<<b>what it does not cover</b><br/><font point-size="11" color="#55575F">a live casual talk with a measured outcome<br/>(none found)</font>>, fillcolor="#FFFFFF", color="#6A6D77", style="rounded,filled,dashed"];
+  COV -> GAP [style=dashed, color="#6A6D77", label=" does not reach"];
+}
