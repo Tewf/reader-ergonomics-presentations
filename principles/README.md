@@ -1,6 +1,6 @@
 # Principles
 
-The principles of a presentation come in three groups. Those of a figure, in any document of the family, form a fourth. Each follows the format of the [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/v1.11.0/standard.md) principles.
+The principles of a presentation come in three groups. Those of a figure, in any document of the family, form a fourth. Each follows the format of the [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/v1.12.0/standard.md) principles.
 
 | Group | What it covers |
 |---|---|

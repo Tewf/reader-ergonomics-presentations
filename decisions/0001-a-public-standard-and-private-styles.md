@@ -2,7 +2,7 @@
 
 **Decision:** A person's own way of presenting stays in a style of their own that overrides this repository, which holds the common ground of any presentation.
 
-**Status:** accepted, 2026-10-29; extended by [0006](0006-the-visual-standard-of-the-family.md). **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/v1.11.0/shapes/decision-record.md).
+**Status:** accepted, 2026-10-29; extended by [0006](0006-the-visual-standard-of-the-family.md). **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/v1.12.0/shapes/decision-record.md).
 
 ## Context
 

@@ -10,7 +10,7 @@
 ## What it asks
 
 - State the one thing to remember in the first minutes (Peyton Jones 1993; TED 2026, example only).
-- Show the plan, as an organiser. The rule is [overview first](https://github.com/Tewf/reader-ergonomics/blob/v1.11.0/principles/document/overview-first.md).
+- Show the plan, as an organiser. The rule is [overview first](https://github.com/Tewf/reader-ergonomics/blob/v1.12.0/principles/document/overview-first.md).
 - Return to the point at the end of each section, and end on it.
 - Split long material into segments (Rey 2019).
 - Do not read the paper aloud: its structure is not the talk's.
