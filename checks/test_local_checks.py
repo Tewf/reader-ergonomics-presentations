@@ -127,5 +127,52 @@ class TestDeckChecks(unittest.TestCase):
         self.assertEqual([finding.kind for finding in found], ["judgment"] * 3)
 
 
+CHECKS = ("slide_words", "deck_builds", "slide_headlines", "slide_type_size", "talk_structure", "deck_judgment", "deck_scope")
+
+
+class TestDeckChecksOnBrokenInput(unittest.TestCase):
+    """Error paths: no check may crash on a deck a person or a tool might really produce."""
+
+    def survive(self, files: dict[str, str | bytes]) -> None:
+        for check in CHECKS:
+            with self.subTest(check=check):
+                with tempfile.TemporaryDirectory() as folder:
+                    root = Path(folder)
+                    for name, content in files.items():
+                        (root / name).parent.mkdir(parents=True, exist_ok=True)
+                        (root / name).write_bytes(content if isinstance(content, bytes) else content.encode("utf-8"))
+                    self.assertIsInstance(load(check).check(root, CONFIG), list)
+
+    def test_unclosed_tags(self):
+        self.survive({"a.deck.html": "<section><h2>A headline left open<ul><li>one<li>two<section><p>nested"})
+
+    def test_missing_and_remote_stylesheets(self):
+        self.survive({"a.deck.html": '<link rel="stylesheet" href="gone.css"><link rel="stylesheet" href="https://example.org/x.css">' + TITLE})
+
+    def test_a_deck_without_slides(self):
+        self.survive({"a.deck.html": "<html><body><p>No section at all</p></body></html>"})
+
+    def test_bytes_that_are_not_utf8(self):
+        self.survive({"a.deck.html": b"<section><h2>Caf\xe9 au lait, encoded in latin-1</h2></section>"})
+
+    def test_css_that_does_not_parse(self):
+        self.survive({"a.deck.html": deck(TITLE, style="p { font-size: ; } } { h2 font-size 3vh; :root { --x: var(--x); } p { font-size: var(--x); }")})
+
+    def test_nested_sections_count_as_their_innermost_slides(self):
+        from _deck import slides
+        shown = slides("<section><section><h2>First vertical slide</h2></section><section><h2>Second one</h2></section></section>")[0]
+        self.assertEqual([slide.title for slide in shown], ["First vertical slide", "Second one"])
+
+    def test_random_fragments_never_crash_a_check(self):
+        """A seeded fuzz: random mixes of the tags and styles a deck uses (a property test without a dependency)."""
+        import random
+        pieces = ["<section>", "</section>", "<h2>", "</h2>", "<ul>", "<li>", "</li>", '<li class="fragment">', "text words",
+                  '<aside class="notes">', "</aside>", "<style>p { font-size: 1vh; }</style>", '<p style="font-size: 9px">',
+                  "<svg><text>x</text></svg>", "<script>let a = '<section>';</script>", "&amp;", "<", ">", '"', "\u00e9"]
+        generator = random.Random(2026)
+        for _ in range(40):
+            self.survive({"a.deck.html": "".join(generator.choice(pieces) for _ in range(generator.randint(0, 60)))})
+
+
 if __name__ == "__main__":
     unittest.main()
