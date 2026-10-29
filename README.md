@@ -9,8 +9,8 @@ It extends [reader-ergonomics](https://github.com/Tewf/reader-ergonomics). The p
 live there and are not repeated here. This repository adds only what is particular to presentations.
 
 > **Status:** work in progress. The [standard](standard.md) has nine principles, three contexts and the shape of a
-> talk, with an example deck and seven checks that run on decks. It has been tested on two real talks, an academic and a
-> business one, which changed the checks; a casual test is under way. It is an informal reading of
+> talk, with an example deck and seven checks that run on decks. It has been tested on three real talks, an academic, a
+> business and a casual one, which changed the checks. It is an informal reading of
 > published research and practice: not an official standard, not a peer-reviewed study, not a new result, and not a
 > claim to the state of the art.
 >
@@ -46,7 +46,7 @@ presentations
 | [shapes/](shapes/) | the talk shape, and an example deck in HTML that obeys it | written |
 | [checks/](checks/) | seven checks that run on HTML decks, with their tests | written |
 | [decisions/](decisions/) | the choices that shaped this repository, one record each | seven records |
-| [evidence/](evidence/) | one multivocal review in nine questions, from the voice and the slide to motion, colour and business presentations; 172 works | written, audited |
+| [evidence/](evidence/) | two multivocal reviews: presentations, in ten questions from the voice and the slide to motion, colour, business and casual talks; and figures, how a figure or a diagram is drawn (question 11); 258 works | written, audited |
 
 ## What a presentation adds, and what it does not
 

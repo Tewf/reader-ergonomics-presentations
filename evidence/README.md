@@ -1,12 +1,13 @@
 # Evidence
 
-One literature review, on one topic, in the steps reader-ergonomics uses for its own
+One literature review per topic, in the steps reader-ergonomics uses for its own
 [evidence](https://github.com/Tewf/reader-ergonomics/tree/v1.4.1/evidence): frame, review, state of the art, position, the
 case against, baseline. Every work cited is listed once in the [bibliography](bibliography.md).
 
 | Topic | Question |
 |---|---|
 | [presentations](presentations/) | how slides and the spoken talk around them are built so a listener, who cannot set the pace, understands and remembers; since 2026-10-29 also business presentations (question 9) |
+| [figures](figures/) | how a figure or a diagram is drawn, in any document of the family, so that a reader gets its message, reaches it without sight, and trusts it (question 11) |
 
 ## Method
 
@@ -24,9 +25,11 @@ A grey source is scored on Garousi's 20 criteria, in eight groups. The `sources.
 (1), T outlet tier (1). Below 10 of 20 it may illustrate what practice does, but it never supports a claim.
 
 Each review keeps two records apart: **most adopted**, a practice record, and **best evidence**, a research record.
-Practice counts as evidence only where a study measured its effect. The formal search of this topic was
-narrative, with snowballing; their protocol files record its terms and counts after the fact, and say so. The grey
-search was run to the protocol.
+Practice counts as evidence only where a study measured its effect.
+
+The formal search of the presentations topic was
+narrative, with snowballing; its protocol file records the terms and counts after the fact, and says so. The grey
+search was run to the protocol. The figures topic ran both searches to its protocol.
 
 **Second rater.** A second rater re-scored, blind, every fifth grey source of the seven reviews then in this repository,
 reader-ergonomics-academic and software-design-writing (38 of 175):
@@ -47,6 +50,9 @@ PDFs.
 The business strand (question 9) was audited on 2026-10-29: 89 lines, 64 claims and 25 references, of which 67 correct,
 16 imprecise, 5 unverifiable and 1 wrong. Ten of its sources wait for a reading in full text, since their full texts
 are paywalled.
+
+The figures topic (question 11) was audited on 2026-10-29: 183 lines, of which 116 correct, 56 imprecise, 8
+unverifiable and 3 wrong. One withdrawn grey source was removed with every line that cited it.
 
 Every wrong, imprecise or unverifiable line was corrected, narrowed to what the source supports, or marked "(secondary)"
 or "not verified". Claims without a number have not been audited this way, so such a claim is only as good as the review

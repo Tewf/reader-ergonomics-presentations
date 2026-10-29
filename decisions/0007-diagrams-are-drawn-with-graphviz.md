@@ -12,7 +12,7 @@ That choice rested on how a figure is published, not on how it reads. So five to
 
 ## Decision
 
-Graphviz (dot) is the default for diagrams of relations: boxes and arrows, levels, dependencies. The `.dot` source sits beside the `.svg` it renders, and the page embeds the SVG with a text alternative. Three other tools keep one job each:
+Graphviz (dot) is the default for diagrams of relations: boxes and arrows, levels, dependencies. The `.dot` source sits beside the `.svg` it renders, and the page embeds the SVG with a [text alternative](../evidence/figures/frame.md#terms). Three other tools keep one job each:
 
 - TikZ, for a figure inside a LaTeX document such as the academic report templates, where boxes are placed by hand;
 - the family's flow script, for the counts of a literature search;

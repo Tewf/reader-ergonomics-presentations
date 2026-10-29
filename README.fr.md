@@ -8,8 +8,8 @@ principes que celui-ci contient sont liés, jamais recopiés. Ce dépôt n'ajout
 ne règle pas le rythme et ne peut pas relire.
 
 > **État :** en cours. Le [standard](standard.md) compte neuf principes, trois contextes et la forme d'un exposé,
-> avec un diaporama d'exemple et sept vérifications qui s'exécutent sur les diaporamas. Il a été testé sur deux vrais
-> exposés, l'un académique, l'autre d'affaires, qui ont changé les vérifications ; un test informel est en cours. C'est
+> avec un diaporama d'exemple et sept vérifications qui s'exécutent sur les diaporamas. Il a été testé sur trois vrais
+> exposés, académique, d'affaires et informel, qui ont changé les vérifications. C'est
 > une lecture informelle de la recherche et de la pratique publiées : pas un standard officiel, pas une étude relue
 > par des pairs, pas un résultat nouveau.
 >
@@ -45,7 +45,7 @@ présentations
 | [shapes/](shapes/) | la forme d'un exposé, et un diaporama HTML d'exemple qui la suit | écrit |
 | [checks/](checks/) | sept vérifications qui s'exécutent sur les diaporamas HTML, avec leurs tests | écrit |
 | [decisions/](decisions/) | les choix qui ont façonné ce dépôt, un enregistrement chacun | sept enregistrements |
-| [evidence/](evidence/) | une revue multivocale en neuf questions ; 172 travaux | écrite, auditée |
+| [evidence/](evidence/) | deux revues multivocales : les présentations, en dix questions, et les figures, comment dessiner une figure ou un diagramme (question 11) ; 258 travaux | écrites, auditées |
 
 La version anglaise, [README.md](README.md), fait foi.
 

@@ -1,0 +1,5 @@
+---
+title: "Figures: how to draw a figure or a diagram for a reader"
+---
+
+{{< include README.md >}}

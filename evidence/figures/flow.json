@@ -1,0 +1,28 @@
+{
+  "title": "Figures: how the pool of sources was built",
+  "columns": [
+    "Formal",
+    "Grey"
+  ],
+  "rows": [
+    [
+      "Strings run",
+      21,
+      10
+    ],
+    [
+      "Result blocks screened",
+      258,
+      176
+    ],
+    [
+      "Included as new",
+      35,
+      15
+    ]
+  ],
+  "total": [
+    "New in the review",
+    50
+  ]
+}
