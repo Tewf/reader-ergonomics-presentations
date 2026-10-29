@@ -20,4 +20,4 @@ For a chart or a diagram, WCAG 2.2 asks for two alternatives, a short one and a 
 ## Limits
 
 - The standard is not tested with readers of documentation, and no study of long descriptions for node-link diagrams was found.
-- Mermaid writes `accTitle` and `accDescr` into its SVG (Mermaid 2026c); GitHub's page on diagrams gives no alt-text guidance (GitHub 2026e).
+- Mermaid writes `accTitle` and `accDescr` into its SVG (Mermaid 2026c); GitHub's page on diagrams gives no alt-text guidance (GitHub 2026 diagrams).

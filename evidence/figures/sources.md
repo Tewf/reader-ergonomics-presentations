@@ -77,7 +77,7 @@ Evidence grade is the grade of what the source shows. "Read" says how: full text
 | W3C 2023a | grey, standard glossary (tier 1), opened | known address | 4/3.5/3.5/1/1/1/1/1 = **16** | review 4 |
 | W3C 2026a | grey, standards-body tutorial (tier 1), opened | known address | 4/3/3.5/0.5/1/0.5/1/1 = **14.5** | review 4 |
 | Mermaid 2026c | grey, tool documentation (tier 2), opened | G48 | 3/2.5/3/0.5/0.5/1/1/0.5 = **12** | review 4 |
-| GitHub 2026e | grey, platform documentation (tier 2), opened | known address | 3.5/2.5/3/0.5/0.5/0.5/1/0.5 = **12** | review 4 |
+| GitHub 2026 diagrams | grey, platform documentation (tier 2), opened | known address | 3.5/2.5/3/0.5/0.5/0.5/1/0.5 = **12** | review 4 |
 | Quarto 2026 | grey, tool documentation (tier 2), opened | G49 | 3/2.5/3/0.5/0.5/0.5/0.5/0.5 = **11** | review 4 |
 | Urban 2025 | grey, institute style guide (tier 2), opened | G47 | 3.5/2/3.5/1/1/1/0.5/0.5 = **13** | review 5, baseline |
 | FT 2026 | grey, newsroom chart-choice poster (tier 2), opened | G47 | 3.5/1.5/3/0/1/0.5/1/0.5 = **11** | review 5 |

@@ -38,7 +38,7 @@ This file says what is known, what is not, and what this repository adds about f
 ## Where the evidence is ignored by practice
 
 - Wide crossing angles are measured results that none of the four guides read names; a common scale for quantities is named only through one Cleveland and McGill link in FT 2026.
-- The accessibility standard already covers ASCII art; of the three tool pages read, GitHub 2026e and Quarto 2026 are silent on alt text for diagrams and Mermaid 2026c documents `accTitle` and `accDescr`.
+- The accessibility standard already covers ASCII art; of the three tool pages read, GitHub 2026 diagrams and Quarto 2026 are silent on alt text for diagrams and Mermaid 2026c documents `accTitle` and `accDescr`.
 
 ## What this strand adds
 

@@ -77,7 +77,7 @@ Seven of seven are yes, so [grey literature](../README.md#method) is included.
 | G52 | `Nature Methods Points of View Bang Wong salience OR layout OR "design of data figures" visualization column` | 19 | 0 (columns seen in summaries only) |
 | G53 | `Economist "Mistakes, we've drawn a few" chart mistakes graphic detail OR Datawrapper chart design principles annotate title direct labels` | 19 | 1 (Datawrapper 2022) |
 
-Opened by their known address, outside any string: W3C 2023e, W3C 2023a (the WCAG 2.2 text), W3C 2026a, GitHub 2026e. Europa 2023 and Zhong 2024 were named in the F17 and F19 result lists, and Singh 2024 and Ye 2025 in F31.
+Opened by their known address, outside any string: W3C 2023e, W3C 2023a (the WCAG 2.2 text), W3C 2026a, GitHub 2026 diagrams. Europa 2023 and Zhong 2024 were named in the F17 and F19 result lists, and Singh 2024 and Ye 2025 in F31.
 
 ## Stopping rule, applied
 

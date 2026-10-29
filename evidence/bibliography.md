@@ -85,7 +85,7 @@ Every work cited anywhere in this repository, once. The text cites `Author Year`
 | Ginns 2005 | Ginns (2005). Meta-analysis of the modality effect. Learning and Instruction | https://doi.org/10.1016/j.learninstruc.2005.07.001 |
 | Ginns 2013 | Ginns, Martin, Marsh (2013). Designing instructional text in a conversational style: a meta-analysis. Educational Psychology Review 25(4), 445-472 | https://doi.org/10.1007/s10648-013-9228-0 |
 | GitHub 2022 | GitHub blog (2022). Include diagrams in your Markdown files with Mermaid | https://github.blog/developer-skills/github/include-diagrams-markdown-files-mermaid/ |
-| GitHub 2026e | GitHub (read 2026). Creating diagrams. GitHub Docs | https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams |
+| GitHub 2026 diagrams | GitHub (read 2026). Creating diagrams. GitHub Docs | https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams |
 | GitLab 2026 | GitLab (accessed 2026). Documentation style guide. GitLab Docs | https://docs.gitlab.com/development/documentation/styleguide/ |
 | Greco 2008 | Greco, Stucchi, Zavagno, Marino (2008). On the Portability of Computer-Generated Presentations: The Effect of Text-Background Color Combinations on Text Legibility. Human Factors: The Journal of the Human Factors and Ergonomics Society 50(5), 821-833 | https://doi.org/10.1518/001872008x354156 |
 | Guo 2014 | Guo, Kim, Rubin (2014). How video production affects student engagement. Proceedings of the first ACM conference on Learning @ scale conference, 41-50 | https://doi.org/10.1145/2556325.2566239 |

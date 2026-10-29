@@ -23,4 +23,4 @@ The research record and the practice record are kept apart, as in every topic ([
 | Ten rules for better figures | Rougier 2014 | the reference most practice pages cite |
 | A stated message, direct labels, little decoration | Urban 2025; Datawrapper 2022 | newsroom and institute style guides |
 | A vocabulary of chart types by purpose | FT 2026 | a newsroom's public guide |
-| Diagrams drawn from source in documentation | GitHub 2026e; Mermaid 2026c | rendered in every Markdown file on GitHub |
+| Diagrams drawn from source in documentation | GitHub 2026 diagrams; Mermaid 2026c | rendered in every Markdown file on GitHub |
