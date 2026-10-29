@@ -70,6 +70,65 @@ This file gathers the evidence against the presentation rules: null results, dis
 - Practice cites weakly sourced figures: a 90% claim for colour in quick judgments, citing a study by name without a working link (Ethos3 2026, 2.5 of 20).
 - Old colour-versus-monochrome studies were excluded by Brom 2018 because the colours were arbitrary.
 
+## Against, for business presentations (added 2026-10-29)
+
+Section to append to against.md, in the same form.
+
+### Against slides in organisations
+
+- Kernbach 2015: a systematic review finds 18 constraining qualities of PowerPoint in business and education, grouped as cognitive, emotional and social; the number of papers was not read.
+- Kosslyn 2012 (held): violations of perception and memory principles occur in every field, business included; observers often fail to spot them or to say what is wrong, so critique by eye is unreliable.
+- Tufte 2003 (held) is an essay; Tufte 2022 reports a company's move away from slides on his own site, with no data (5 of 20).
+- Baker 2018 (held) shows no average harm from PowerPoint in teaching, so "slides are bad" is not supported even here.
+- Segel 2010 notes the slide show as one of seven genres of narrative visualisation, which does not condemn it.
+
+### Against the memo
+
+- Bezos 2018 and Tufte 2022 are claims by the practitioners about their own practice.
+- No experiment compares memo and deck. F8 returned opinion pieces that agree with one another and cite no measure.
+- The Amazon rule bundles format, silent reading, writing time and expected discussion; a benefit cannot be put on the format alone.
+- Bezos 2018 says memo quality varies widely, which is a report that the format alone does not make the thinking.
+
+### Against answer first and the pyramid
+
+- The evidence for claim-first order is on two-clause texts (Britt 2003, secondary), not on decks or talks.
+- Recall has a serial-position component, so putting a point last is not weak by default; no source for this was kept.
+- The BLUF standard's origin could not be read; what is said of it rests on secondary pages.
+- Minto 2026 and Millerd 2025 cite no study; both sell training or a book.
+
+### Against passion and for it
+
+- Chen 2009: preparedness, not passion, went with funding. Practice advice to "show passion" is not supported by that paper.
+- Yang 2021: enthusiasm and preparedness both raised willingness to invest (79 pairs, Chinese VC setting). Cardon 2017 found enthusiasm, preparedness and commitment behave as distinct cues, which sits against treating them as one passion construct (inference; the abstract does not mention Chen 2009).
+- Pollack 2012 uses funded pitches only, so the sample is cut on the outcome.
+
+### Against pitching on merit
+
+- Brooks 2014: identical content persuaded more from a male presenter; attractiveness helped men only. A rule "the content carries the pitch" is not supported.
+- Kanze 2018: the questions themselves differed by presenter gender, and prevention-focused questions went with less funding.
+- Clark 2008: angels were unaware of the influence of delivery on their ratings.
+- These results describe bias. A presentation standard can prepare for them; it cannot remove them.
+
+### Against reading the practice counts
+
+- DocSend 2026 is the owner's data on decks shared through its product (the page says so); the 2022 article does not describe how its sample was drawn.
+- The two owner figures (just under three minutes in 2022, 2 minutes 42 seconds on an undated page) differ in sample and date, so they are not a trend.
+- The 3 minutes 44 seconds figure of 2015 is repeated widely and was only seen as a search summary (not used).
+- Sequoia 2019 offers an anecdote of one success as its evidence.
+- Huthwaite 2026 is an interview with the originator of SPIN on the training company's own blog.
+
+### Where practice contradicts held evidence (Q1 to Q8)
+
+| Practice | Held evidence | Verdict |
+|---|---|---|
+| Dense text on investor decks, read alone | Redundancy effects (Adesope 2012, Yue 2013) hold for system-paced material | not a contradiction: a deck read alone is self-paced (Ginns 2005) |
+| Memos replace slides because bullets hide weak reasoning | Baker 2018: no average difference; Garner 2013: assertion-evidence slides beat bullets | partial: the held evidence says the slide design matters, not the medium |
+| "Show passion" | Chen 2009: preparedness | practice runs ahead of, and partly against, the evidence |
+| "The content speaks for itself" | Clark 2008; Brooks 2014 | evidence against the practice |
+| Consulting action titles | Garner 2013 | agree |
+| 10 slides, 20 minutes, 30 point (Kawasaki 2005, held, 6.5) | no business study of slide count | convention, untested |
+| Team slide first or always | Bernstein 2017; DocSend 2022 | Team content: Bernstein agrees; DocSend counts presence, not position |
+
 ## Replications and notes
 
 - Laptop against longhand notes: the quiz difference did not replicate in a direct replication (Urry 2019).

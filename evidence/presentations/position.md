@@ -78,6 +78,46 @@ This file says what is known, what is not, and what this repository adds about p
 - For motion and colour it separates what a speaker-paced room changes from what a self-paced page already settled, and names the studies still missing.
 - It gives checklist items for builds, video, demos and colour with a grade each (baseline.md).
 
+## The business context: candidate overrides (added 2026-10-29)
+
+The base is "what a presentation is". The academic talk and the business presentation each override it, the way a reader style overrides the standard. This file lists what the business context changes, and what it leaves alone. Few rules change, and each says why.
+
+### Overrides
+
+| Base rule (academic talk) | Business override | Evidence | Grade |
+|---|---|---|---|
+| Build up: background, method, result; one thing to remember in the first minutes | Open with the answer and the ask: the recommendation, the decision wanted, then the support (pyramid, SCQ for the setup) | Britt 2003 (short arguments, secondary); Minto 2026, Millerd 2025 (practice); Clark 2008 (angels judged clarity and structure) | convention for decks and talks; supported with caveat for short texts |
+| The audience judges the claim by method and evidence | Content is chosen for the decider's criteria: the team, the preparedness behind the numbers, the market; show readiness to answer | Bernstein 2017 (team drove interest, secondary); Chen 2009, Pollack 2012 (preparedness); DocSend 2022 (team slide in 100% of decks, successful or not: a prevalence count, not evidence that it decides) | measured for the screening stage; supported with caveat otherwise |
+| The speaker's delivery is secondary to content | Treat the presenter as part of the pitch: angels weighed delivery without saying so (Clark 2008) and presenter gender and attractiveness moved choice (Brooks 2014); rehearse delivery as content | Clark 2008; Brooks 2014 | supported with caveat (angels); measured (Brooks 2014, US pitch competitions) |
+| Plan the Q&A as questions about the work | Plan the Q&A as part of the decision; expect prevention-focused questions and prepare promotion-focused answers | Kanze 2018 | measured |
+| Slides support a spoken talk; words on screen add to the voice, not repeat it | For a deck read without a speaker, the deck is a document: sentence headlines carry the claim for a reader who scans in about three minutes, and fuller text on a slide is allowed | Yates 2007 (secondary); Ginns 2005 and Adesope 2012 (held; system pacing only); DocSend 2022 (sample not stated) | inference, partly unread sources (Yates 2007 and Ginns 2005 not verified); untested on decks |
+| A fixed slot (conference, defence) sets the length | The reader's or the room's time sets the length; design the first slides to stand alone | DocSend 2022 (just under three minutes; unsuccessful decks left at 2:13; sample not stated) | descriptive, owner's data, sample not stated |
+| Slides are the default medium | A written narrative read at the start of the meeting is an accepted alternative for decision meetings | Bezos 2018 (held, 10.5); Tufte 2022 (5, example only) | convention, untested |
+| Evidence is shown as the figure of the result | Pair the number with a short case where the aim is action; numbers for belief, story for intent | Zebregs 2015 (health setting); no business test | supported with caveat (health), untested in business |
+
+- Weakest rows: the memo and the story-with-number rows. Each has no test in business.
+- Strongest row: the team and preparedness content, with a randomised field experiment behind it (Bernstein 2017), though it concerns the first screen of an email.
+- The order row is the one the practice sources agree on and no business study tests.
+
+### Rules that do not change
+
+| Base rule | Why it holds in business |
+|---|---|
+| Sentence headline stating the claim, a figure as the evidence | Garner 2013 (held). Consulting action titles already agree; nothing in Q9 contradicts it |
+| One claim per slide; no decorative images | Held (Sundararajan 2020); Millerd 2025 says the same as practice |
+| Contrast, colour not the only cue, legible type | Held (W3C 2023, Rector 2019); an investor's screen is still a screen |
+| Say the evidence and where it is weak | A buyer or an investor also asks; preparedness is what persuaded in Chen 2009 and Pollack 2012 |
+| Rehearse; test the room and the file | Preparedness is the best supported cue in Q9b |
+| A handout is a document of its own, not the slides read as notes | Said to agree with Yates 2007 (not verified: only a bibliographic record was reached): the leave-behind is a genre, built for reading |
+| Gesture and pointing | No business test; the held evidence (Hostetter 2011) is not specific to academic talks |
+| Segment long material | Held (Rey 2019); no business test |
+
+### Not overridden, because no evidence was found
+
+- Executive and board briefings: no study; practice sources are an Army standard that could not be read and a company letter.
+- Sales presentations: one owner account of a call study, no result on presenting.
+- Colour, motion and font size for business: no difference found against the base.
+
 ## What this review did not verify
 
 - Cromley 2025 and Zhu 2024 numbers come from a summary (secondary). Books Duarte 2008, Duarte 2010, Reynolds 2008, Anderson 2016, Minto 1987 and Tufte 2003 were scored from catalogue pages or not read.

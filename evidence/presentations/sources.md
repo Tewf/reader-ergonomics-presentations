@@ -191,3 +191,80 @@ Scores for the Q7 and Q8 round were read from the page or the PDF on 2026-10-28.
 | Radmehr 2024 | formal | M7 | convention, untested (one case; abstract) | review 7 |
 | Zureick 2017 | formal | M8 | measured, descriptive (a survey, N = 439; abstract) | review 7 |
 | Li 2023 | formal | E13 | supported with caveat (n = 290; secondary) | review 7 |
+
+## Q9 sources (added 2026-10-29)
+
+Rows to append to sources.md. Grey scores give the eight subtotals in the order authority / methodology / objectivity / date / position / novelty / impact / outlet, then the total of 20.
+
+### Flow for Q9
+
+| Stage | Formal | Grey |
+|---|---|---|
+| Result blocks screened (strings) | 144 (E 59, F 85) | 65 |
+| Result blocks screened (seed lookups) | 59 | 0 |
+| Included as new | 18 | 7 |
+| Already held, linked not re-reviewed | Kosslyn 2012 | Minto 1987, Bezos 2018, Tufte 2003, Kawasaki 2005, Duarte 2008 |
+| Of the 7 grey, at or above 10 of 20 | | 1 |
+
+- Excluded without opening: template-vendor and AI slide-tool blogs; duplicate pages; pages with no producer; crowdfunding and business-plan studies with no presentation.
+- Seen, not retrieved: see the last section.
+
+### Grey sources
+
+| Key | Kind | Found via | Quality | Used in |
+|---|---|---|---|---|
+| DocSend 2022 | grey, news report of company data (tier 2), read in a trade-press article | G32 | 3/3/1.5/1/0.5/1.5/1/0.5 = **12** | review 9b, 9c |
+| DocSend 2026 | grey, owner report page (tier 2) | G32 | 3/1/1/0/0.5/0.5/0.5/0.5 = **7** (below 10) | review 9c (example only) |
+| Sequoia 2019 | grey, owner guide (tier 2) | G36 | 3.5/1/1/0.5/0.5/1/0.5/0.5 = **8.5** (below 10) | review 9b, 9e (example only) |
+| Minto 2026 | grey, author site (tier 2) | direct | 3.5/0.5/0/0.5/0.5/0.5/0.5/0.5 = **6.5** (below 10) | review 9a (example only) |
+| Huthwaite 2026 | grey, owner interview (tier 2) | G37 | 3/1.5/0/1/0.5/1/1/0.5 = **8.5** (below 10) | review 9b, 9e (example only) |
+| Tufte 2022 | grey, owner page of a critic (tier 2) | G35 | 2/0.5/0/1/0/0.5/0.5/0.5 = **5** (below 10) | review 9c (example only) |
+| Millerd 2025 | grey, trainer's blog (tier 3) | G34 | 1.5/0.5/0.5/1/0/0/0/0 = **3.5** (below 10) | review 9a, 9e (example only) |
+
+- Scoring notes:
+  - DocSend 2022: a count of 320 decks for slide content only, the sample for viewing times not stated and the method not published; the owner sells deck sharing, so objectivity is 1.5.
+  - Sequoia 2019: the only evidence on the page is one anecdote about a company; the page was published 2019-03-15 and modified 2025-03-13. The date criterion stays at 0.5 (the same value as before, so the total is unchanged).
+  - Huthwaite 2026: the interviewee originated SPIN and the training company hosts the page (trademark ownership not checked).
+  - Tufte 2022: reports a claim by two former Amazon leaders, from their book (not read), on a site that sells Tufte's seminars.
+  - Millerd 2025: no firm named in it wrote a source; it describes consulting practice from the outside.
+- No Q9 source reached the score of a government or standards document. Only one of the seven new grey sources clears 10, and it is a count, not a method.
+
+### Formal sources
+
+| Key | Kind | Found via | Quality | Used in |
+|---|---|---|---|---|
+| Kalvapalle 2024 | formal, review of 252 papers (abstract read) | E14 | measured, descriptive | review 9b |
+| Ferrati 2021 | formal, systematic review (secondary: summary of abstract) | E14 | measured, descriptive | review 9b |
+| Zebregs 2015 | formal, meta-analysis (abstract read) | E15 | measured | review 9d |
+| Kernbach 2015 | formal, systematic review (abstract read) | E17 | measured, descriptive | review 9f |
+| Segel 2010 | formal, design-space study (author PDF read; the critique of it is secondary) | E18 | convention (taxonomy) | review 9d |
+| Kosara 2013 | formal, essay and research agenda (secondary) | E18 | convention, untested | review 9d |
+| Clingingsmith 2018 | formal, randomised field experiment (abstract read) | F3 | measured, details unread | review 9b |
+| Bernstein 2017 | formal, randomised field experiment (secondary) | F4 | measured | review 9b |
+| Kanze 2018 | formal, field study and experiment (abstract read) | F5 | measured | review 9b, 9d |
+| Britt 2003 | formal, three experiments (secondary, summary of abstract) | F6 | supported with caveat (short arguments) | review 9a |
+| Yates 2007 | formal, qualitative genre analysis (secondary) | F7 | supported with caveat | review 9c |
+| Clark 2008 | formal, survey of 24 angels (abstract read) | seed | supported with caveat | review 9a, 9b |
+| Chen 2009 | formal, lab experiment and field study (abstract read) | seed | supported with caveat | review 9b, 9d |
+| Pollack 2012 | formal, observational, 113 funded pitches (abstract read) | seed | supported with caveat | review 9b |
+| Brooks 2014 | formal, field study and two experiments (abstract and full text read) | seed | measured | review 9b, 9d |
+| Huang 2015 | formal, three studies (abstract read) | seed | supported with caveat | review 9b |
+| Cardon 2017 | formal, empirical test of 72 angels (abstract read) | summary of Chen 2009 string | supported with caveat | against 9f |
+| Yang 2021 | formal, 79 VC-project pairs, Chinese VC setting (abstract read) | summary of Chen 2009 string | supported with caveat | against 9f |
+
+Counted new: 18 formal rows, of which 16 are core and 2 (Cardon 2017, Yang 2021) are abstract readings used only in against-q9.md. Held and linked, not re-reviewed: Kosslyn 2012, Garner 2013, Ginns 2005, Adesope 2012, Baker 2018, Rowley-Jolivet 2005.
+
+### Seen, not retrieved or not read
+
+| Item | Why | Effect |
+|---|---|---|
+| PNAS article full text (Brooks 2014) | HTTP 403; the repository mirror asks for a bot check, which was not passed | the numbers 90 pitches, 36% and 60% were read in the author copy (MIT DSpace) |
+| Journal of Finance full text (Bernstein 2017) | metadata request answered HTTP 429; no further attempt | 4,500 investors and about 17,000 emails are secondary |
+| Management Science full text (Clingingsmith 2018) | HTTP 403 | coefficients unread; only the abstract's four-hypothesis claim is used |
+| Academy of Management Journal text (Chen 2009, Kanze 2018) and ETP text (Pollack 2012) | paywalled | sample sizes of Chen 2009 unread; Kanze counts (140 VCs, 189 entrepreneurs) secondary |
+| AR 25-50, the US Army correspondence regulation | the official PDF link in a reference page returned 404 | BLUF origin rests on secondary pages; nothing quoted from it |
+| Y Combinator seed-deck guide | the page returned a title and no body | no YC claim is used |
+| DocSend's press release of 2021, and its study of 2015 (the 3 minutes 44 seconds figure) | one request timed out; the 2015 study was seen only as a search summary | the 2:44 and 3:44 figures are not used as findings |
+| Challenger Sale figures (17%, 27%, 57% of the buying process) | search summary only, repeated by blogs | not used |
+| the books of Rackham, of Bryar and Carr, and of Dixon and Adamson (published in 1988, 2021 and 2011) | not read, no catalogue page opened | named only as origins |
+| the narrative meta-analyses of 1997, 2015 and 2016 named in the Q9 protocol | summary or metadata only | not used for numbers |

@@ -223,3 +223,137 @@ Strings, N = 10 results screened per string (title and the engine's summary); pa
 - Formal side: ten of the frame terms counted in the first round, the pool not screened from them. In the Q7 and Q8 round the counts come from ERIC and arXiv, not from OpenAlex, so they are not comparable with the first table.
 - Many Q7 and Q8 papers sit behind publisher paywalls; where only the abstract was read, sources.md says so, and numbers carried only by a search summary are marked "(secondary)".
 - Whether Richter 2016 and Schneider 2018 test colour as a moderator could not be settled: their full texts were not reachable, and only the abstracts and an archive description were read.
+
+## Q9 business presentations (added 2026-10-29)
+
+Rows to append to protocol.md. Numbering continues the strands E (E14 on), F (F3 on) and G (G32 on).
+
+### Table 4 for Q9 (Garousi seven questions)
+
+| # | Question | Answer for business presentations |
+|---|---|---|
+| 1 | Complex subject, not solvable by the formal literature alone | yes: slide conventions of firms, accelerators and sales methods are practice |
+| 2 | Lack of volume, quality or consensus of evidence | yes: investor decisions have a literature; slide form, memo against deck and executive briefings have almost none |
+| 3 | Context matters | yes: investor, buyer, executive and board decide on different things |
+| 4 | Goal to check research against practical experience | yes |
+| 5 | Goal to challenge practice rules with research | yes: passion, "answer first", "no slides" |
+| 6 | Synthesis useful to both communities | yes |
+| 7 | Many practitioner sources | yes: consulting guides, accelerator guides, deck-hosting data, sales training firms |
+
+Seven of seven are yes, so grey literature is included.
+
+### Q9 questions
+
+- Q9a Structure: answer first (pyramid principle, BLUF, action titles, the SCQ frame) against the academic build-up. What is measured, what is only practice?
+- Q9b Decision audiences: what investors, buyers and executives decide on; perceived passion and preparedness; the presenter against the content.
+- Q9c Formats: slide deck against written memo; the deck read without a speaker; how pitch decks are read.
+- Q9d Persuasion and attention: what the evidence on persuasion, storytelling and data storytelling supports in a business setting.
+- Q9e Practice: consulting conventions, sales methods, accelerator guides, design-firm guides.
+- Q9f Against: critiques of slides in organisations, and where business practice contradicts Q1 to Q8.
+
+### Engine and date
+
+- E, F and G strings: a general web search tool (one engine, US-based, returns a summary and links), run on 2026-10-29. A "screened" count is the number of result blocks returned; each block was read as a title plus the engine's summary.
+- Metadata and DOI checks: the public Crossref REST API (`api.crossref.org/works`), called with no identity and no `mailto`. Its answers confirm title, authors, journal, year and pages; they carry no abstract in most cases.
+- Pages opened one at a time. Eight opens failed (listed in section "Seen, not retrieved" of sources-q9.md). No sign-in, no CAPTCHA, no bypass was tried.
+
+### Seed checks (not counted in the screening bound)
+
+Each seed was looked up, then its page or abstract opened where open.
+
+| Seed | Exists | Says what was cited | Read how |
+|---|---|---|---|
+| Clark 2008 | yes, Venture Capital 10(3), 257-279 | yes: 24 UK angels rated 3 pitches on 32 aspects; delivery factors weighed most; angels unaware | abstract (IDEAS page) |
+| Chen 2009 | yes, AMJ 52(1), 199-214 | yes, with a twist: preparedness, not passion, went with funding | abstract (indexed copy) |
+| Pollack 2012 | yes, ETP 36(5), 915-939 | yes: televised pitches, preparedness to legitimacy to funding | abstract (Crossref record text) |
+| Brooks 2014 | yes, PNAS 111(12), 4427-4431 | yes, and it adds attractiveness: helped men, not women | abstract and full text (author copy, MIT DSpace) |
+| Huang 2015 | yes, ASQ 60(4), 634-670 | partly: it is about investors' gut feel, not about presentations | abstract (Crossref record text) |
+| Kosslyn 2012 | yes, already held | yes: 140 slideshows, 137 rules; research slides no better than business slides overall | abstract and results summary (open access page, first 100,000 characters) |
+
+Seed searches returned 59 result blocks (Chen two strings of 10, Clark 10, Brooks 10, Pollack 9, Huang 10).
+
+### E: existing reviews (Guideline 2)
+
+| Id | String, as run | Engine | Screened | Included |
+|---|---|---|---|---|
+| E14 | `systematic review entrepreneurial pitch investor decision making pitch presentation literature review` | web search | 9 | 2 (Kalvapalle 2024, Ferrati 2021) |
+| E15 | `meta-analysis narrative persuasion versus statistical evidence storytelling effect size` | web search | 10 | 1 (Zebregs 2015); Shen, Braddock and Allen meta-analyses seen, not opened |
+| E16 | `Kernbach Eppler Bresciani PowerPoint constraining qualities literature review organizations decision making` | web search | 10 | 0 (wrong query: unrelated pages) |
+| E17 | `Kernbach Bresciani Eppler "Slip-sliding-away" review literature constraining qualities PowerPoint Business and Professional Communication Quarterly` | web search | 10 | 1 (Kernbach 2015) |
+| E18 | `data storytelling narrative visualization review Segel Heer genres; Kosara Mackinlay storytelling next step visualization evidence` | web search | 20 | 2 (Segel 2010, Kosara 2013) |
+
+E16 returned nothing useful; E17 is the same query done correctly (zero results meant the query was wrong).
+
+### F: formal
+
+| Id | String, as run | Engine | Screened | Included |
+|---|---|---|---|---|
+| F3 | `Clingingsmith Shane training aspiring entrepreneurs to pitch experienced investors field experiment results` | web search | 9 | 1 (Clingingsmith 2018) |
+| F4 | `Bernstein Korteweg Laws attracting early-stage investors randomized field experiment team traction` | web search | 10 | 1 (Bernstein 2017) |
+| F5 | `Kanze Huang Conley Higgins "We ask men to win and women not to lose" venture capitalists questions Academy of Management Journal` | web search | 9 | 1 (Kanze 2018) |
+| F6 | `experiment conclusion first versus conclusion last message order comprehension recall business writing inverted pyramid bottom line up front study` | web search | 18 | 1 (Britt 2003, through a summary) |
+| F7 | `Yates Orlikowski PowerPoint presentation and its corollaries: how genres shape communicative action in organizations` | web search | 20 | 1 (Yates 2007) |
+| F8 | `experiment written narrative memo versus bullet slides executives decision quality comprehension study business PowerPoint` | web search | 19 | 0 (opinion pieces only; no experiment found) |
+
+Also found, and not included, since only a title or a summary was read:
+
+- Allen and Preiss: a meta-analysis of narrative against statistics (1997);
+- Shen and colleagues: a meta-analysis of narrative in health messages (2015; 25 studies, N = 9,330);
+- Braddock and Dillard: a meta-analysis of narrative persuasion (2016);
+- Elsbach and Kramer: a study of Hollywood pitch meetings (2003);
+- Mitteness and colleagues: a study of angels and perceived passion (2012).
+
+ Cardon 2017 and Yang 2021 are included as abstract readings for the passion debate.
+
+Forward and backward snowballing: not run (no citation index without an identity). Cardon 2017 and Yang 2021 came from the summary of the Chen 2009 string.
+
+### G: grey
+
+Types and producers (Guideline 6):
+
+| Type | Producers | Why |
+|---|---|---|
+| Deck-hosting data | DocSend (Dropbox) | the only large count of how decks are read |
+| Investor guides | Sequoia, Y Combinator | what founders are told to show |
+| Consulting practice | StrategyU, Minto International | action titles, storyline, pyramid |
+| Company practice | Amazon letter, Tufte's page on it | memo instead of slides |
+| Sales methods | Huthwaite (SPIN), Challenger | what sellers present and ask |
+| Military writing standard | US Army correspondence regulation | origin of BLUF |
+
+| Id | String, as run | Engine | Screened | Opened | Included |
+|---|---|---|---|---|---|
+| G32 | `DocSend pitch deck interest study how long investors spend reading pitch deck seconds` | web search | 9 | 3 | 2 (DocSend 2022, DocSend 2026) |
+| G33 | `Army Regulation 25-50 bottom line up front BLUF correspondence writing standard` | web search | 10 | 2 | 0 (the regulation itself was not reachable) |
+| G34 | `consulting slide conventions action title ghost deck storyline McKinsey Bain BCG how consultants write slides` | web search | 10 | 1 | 1 (Millerd 2025); no firm's own document found |
+| G35 | `Bryar Carr Working Backwards Amazon narrative six-page memo silent reading meeting PowerPoint banned` | web search | 9 | 2 | 1 (Tufte 2022); Bezos 2018 re-found |
+| G36 | `Sequoia Capital pitch deck template Y Combinator how to build your seed round pitch deck guide` | web search | 9 | 2 | 1 (Sequoia 2019); the Y Combinator page returned a title only |
+| G37 | `Rackham SPIN Selling research 35,000 sales calls Huthwaite; Challenger Sale Gartner research buyers` | web search | 18 | 1 | 1 (Huthwaite 2026); Challenger figures stayed secondary |
+
+Added directly, not through a string: Minto 2026 (the author's site, opened to check the pyramid and SCQ claims).
+
+Totals: E 59, F 85, G 65 = 209 result blocks screened, plus 59 for the seeds.
+
+### Stopping rule (stated before the search, applied after)
+
+- Effort bound: about 80 results screened in all.
+- Saturation: stop a family after two consecutive strings add no new included source.
+- Applied:
+  - E: E16 added none, E17 added one. Not saturated.
+  - F: F8 added none, F7 added one. Not saturated.
+  - G: G33 added none, G34 added one. Not saturated.
+- The effort bound was exceeded (209 against 80), because each string returns about ten result blocks and 21 strings were needed to touch six sub-questions. No family stopped on saturation. Each stopped when every sub-question Q9a to Q9f had at least one source or a recorded "none found".
+- Consequence: Q9 is a first pass. A second pass on consulting firms' own documents and on accelerator guides would likely add sources.
+
+### Selection
+
+- Include: a source that states a rule or gives evidence on Q9a to Q9f, in English, about a pitch, a sales or executive presentation, a deck or a memo as its unit.
+- Exclude: entrepreneurship studies of crowdfunding pages or business plans read without a presentation; template vendors and AI slide-tool blogs repeating one another; pages with no producer.
+- Quality: grey sources scored on the 20 criteria of section 8 of protocol.md; a source under 10 serves as an example of practice only.
+
+### Limits
+
+- One reviewer, no second rater for these scores.
+- One personalising search engine; results of 2026-10-29 may not repeat.
+- Screening used titles and the engine's summaries. Numbers read only in a summary are marked "(secondary)".
+- Three of the formal sources (Chen 2009, Pollack 2012, Huang 2015) are paywalled; only abstracts were read. Brooks 2014's PNAS page sits behind a bot check that was not bypassed; the author copy in MIT DSpace was read in full.
+- Most investor studies are of US or UK angels, venture capitalists and televised pitches. Executive and board briefings have no study in this pool.

@@ -204,3 +204,118 @@ What changes from a self-paced page: the viewer cannot stop, step or replay, so 
   - EU 2023 (14): a rainbow map made a front that is not in the data.
   - Wilke 2019 (14.5): avoid encoding too much in colour, and design for colour-vision deficiency. Matplotlib 2026 (14.5): choose maps by lightness.
 - Carries over: colour as a signal and as a safe palette has support; pleasant colours help a little in lessons; harmony and hue meaning for a live audience are untested.
+
+## 9. Business presentations (added 2026-10-29)
+
+Section to append to review.md. Table form: `| Source | Claim | Grade |`. Sources under 10 of 20 are examples of practice only. Found with strings E14 to E18, F3 to F8, G32 to G37 (protocol.md).
+
+### 9.0 Existing reviews
+
+- Kalvapalle 2024 reviews 252 papers on entrepreneurial pitching since 1986 (abstract).
+  - The field splits into work centred on the entrepreneur and work centred on the investor.
+  - The communicative process between them is called undertheorised by the authors.
+- Ferrati 2021 reviews the criteria equity investors use: 894 papers screened, 53 analysed, 208 criteria grouped into 35 categories, 11 classes and 4 domains.
+- Kernbach 2015 reviews the literature on PowerPoint in business and education; the findings are in 9.6.
+- Not found: a review of business presentations as a form (slides, memo, briefing), of executive or board briefings, or of the sales presentation.
+- Held and not repeated: Kosslyn 2012, Garner 2013, Ginns 2005, Adesope 2012, Baker 2018, Rowley-Jolivet 2005.
+
+### 9.1 Structure (Q9a)
+
+| Source | Claim | Grade |
+|---|---|---|
+| Minto 2026 (6.5, example only) | the pyramid: one point at the top, ideas grouped under it; the SCQ frame (situation, complication, question) names the question in the reader's mind; the page cites no study | convention, untested |
+| Millerd 2025 (3.5, example only) | consulting decks use sentence titles that state the takeaway, a top-down storyline, and a ghost deck (titles first) to test the argument before the data | convention, untested |
+| Britt 2003 (secondary) | in three experiments on two-clause arguments, claim-first texts were read faster and recalled more accurately than reason-first texts | supported with caveat: short texts, not talks |
+| Garner 2013 (held) | sentence headline plus a graphic beat topic phrase over bullets, d = 0.81 on an essay and 0.89 delayed; students, not buyers or investors | supported with caveat, linked |
+| Kosslyn 2012 (held; abstract read) | 140 web-posted slideshows: violations were common in every field; business slideshows (32) were not significantly different overall; their raw violation rate is higher than research on compatibility (0.53 against 0.15, strict scoring), perceptual organisation and over-determined rules, none of them tested | measured, descriptive |
+| Clark 2008 | angels commented on clarity, structure and information amount in three pitches (24 raters) | supported with caveat: small sample |
+| Rowley-Jolivet 2005 (held) | academic talks open differently from papers (44 talks) | measured, descriptive, linked |
+| (gap) | no experiment compares answer-first with background-first for a business talk or deck; BLUF's origin in an Army regulation could not be read | not tested |
+
+- The base build-up (background, method, result) is the academic genre's habit; the evidence for answer first is a short-text effect plus convention.
+- The regulation behind BLUF (AR 25-50) was not retrieved; its text is not quoted anywhere here.
+
+### 9.2 Decision audiences (Q9b)
+
+| Source | Claim | Grade |
+|---|---|---|
+| Clark 2008 | 24 UK angels rated three oral pitches on 32 aspects: higher overall presentation scores went with more interest; delivery style weighed most; angels gave market, product and funding as reasons and seemed unaware of the effect | supported with caveat |
+| Chen 2009 | in a lab experiment and a field study, VCs' funding decisions followed perceived preparedness, not perceived passion (abstract) | supported with caveat: sample sizes unread |
+| Cardon 2017 | 72 angels, 133 live pitches (1,995 evaluations): preparedness raised evaluations; enthusiasm, preparedness and commitment behave as distinct cues (abstract) | supported with caveat |
+| Yang 2021 | 79 VC and project pairs in a Chinese VC setting: enthusiasm and preparedness both raised willingness to invest (abstract) | supported with caveat |
+| Pollack 2012 | 113 funded pitches from 14 Shark Tank and 84 Dragons' Den episodes: preparedness raised perceived legitimacy, which raised the amount funded | supported with caveat: televised, funded pitches only |
+| Brooks 2014 | across three pitch competitions and two experiments, the same pitch content was more persuasive from a male presenter; attractiveness helped men, not women (abstract) | measured |
+| Brooks 2014 | 90 videoed pitches; voice-swap experiment favoured male-voiced plans (68%) (full text, author copy) | measured |
+| Kanze 2018 | in a field study of live Q&A, investors asked men promotion-focused and women prevention-focused questions; each added prevention-focused question went with less money raised; in an experiment, promotion-focused answers raised funding (regulatory focus) | measured |
+| Bernstein 2017 (secondary) | an email experiment with about 4,500 investors: information on the founding team raised interest; traction and lead investors did not, on average; experienced investors responded to the team only | measured (screening stage only) |
+| Huang 2015 | angels used intuition more than analysis, and their emphasis on judging the entrepreneur predicted very profitable ventures four years later (abstract) | supported with caveat: not a study of pitches |
+| Clingingsmith 2018 | pitch training was assigned at random at four elevator-pitch competitions; the abstract says the data support the four hypotheses of an investor real-option model; coefficients unread | measured, details unread |
+| Sequoia 2019 (8.5, example only) | ten sections: purpose, problem, solution, why now, market, competition, business model, team, financials, vision; the only evidence is an anecdote | convention, untested |
+| Huthwaite 2026 (8.5, example only) | the SPIN sales method rests on question types (situation, problem, implication, need-payoff); the originator states a large call study, and the page offers no result on presenting | convention; the study is the originator's account |
+| (gap) | no study of executive or board briefings, or of what a buyer decides on in a presentation, was found | not tested |
+
+- Investors weigh the person and the preparation, and say they weigh the content. The same evidence (Clark 2008, Brooks 2014) says the presenter cannot be separated from the pitch.
+- Passion is the contested cue: Chen 2009 against Yang 2021, with Cardon 2017 saying the cues are separable.
+
+### 9.3 Formats (Q9c)
+
+| Source | Claim | Grade |
+|---|---|---|
+| Bezos 2018 (held, 10.5) | no slides at Amazon; six-page narrative memos read silently at the start of a meeting; quality varies; no outcome data | convention, untested |
+| Tufte 2022 (5, example only) | two former Amazon leaders say the memo format is highly effective; the page is a seminar seller's promotion and gives no data | convention, untested |
+| (gap) | no experiment compares a memo with a deck for comprehension or decision quality (F8 returned opinion only) | not tested |
+| DocSend 2022 (12) | 320 decks (sample for slide content only; the sample for viewing times is not stated): a deck got just under three minutes; unsuccessful decks were abandoned after 2 minutes 13 seconds; the team slide appeared in 100% of decks; about a quarter had financials, none of the unsuccessful ones; product and business model drew the most attention | descriptive, owner's data, sample not stated |
+| DocSend 2026 (7, example only) | an average of 2 minutes 42 seconds per deck; investors spent 88% more time on the competition section; sample not stated | convention (example of practice; owner figure, sample not stated) |
+| Yates 2007 (secondary) | a chapter on the PowerPoint presentation and its corollary genres (not verified: only a bibliographic record was reached, so whether a printed deck loses the talk is unread) | supported with caveat |
+| Ginns 2005 (held) | the modality effect depends on pacing (not verified: d = 0.93 under system pacing and d = -0.14 under self pacing could not be reached; the publisher abstract is closed) | measured, linked |
+| Adesope 2012 (held) | spoken plus written text equals written alone; the advantage over spoken-only text holds for low prior knowledge, system-paced and picture-free material; a reader without a speaker has no voice to repeat | measured, linked |
+
+- A deck read alone is self-paced. The held evidence on repeating the voice was gathered under system pacing, so it does not bind a deck read at the reader's own speed. This is an inference from held sources, untested on decks.
+- A deck read in under three minutes (DocSend 2022) is a scan, so what the headline of each slide says is most of what is read. Untested; the headline result (Garner 2013) is for a spoken talk.
+
+### 9.4 Persuasion and attention (Q9d)
+
+| Source | Claim | Grade |
+|---|---|---|
+| Zebregs 2015 | in a meta-analysis (health campaigns), statistical evidence had the stronger effect on beliefs and attitude, narrative evidence on intention | measured, in health |
+| Chen 2009 | read as a persuasion analysis: perceived preparedness, not passion, persuaded VCs | supported with caveat |
+| Brooks 2014 | delivery features unrelated to content (voice gender, looks) moved persuasion | measured |
+| Kanze 2018 | the regulatory focus of a reply (promotion-focused or prevention-focused) to an investor's question changed funding | measured |
+| Segel 2010 | seven genres of narrative visualisation, one of them the slide show; the taxonomy came from 58 items (author PDF read); (secondary) a later paper calls it prescriptive when it was meant as generative | convention (taxonomy) |
+| Kosara 2013 (secondary) | argues that data presentation with storytelling elements deserves research of its own, because stories aid memory | convention, untested here |
+| (gap) | no study tested storytelling or data storytelling in a pitch, sales call or briefing; the narrative against statistics evidence is from health | not tested |
+
+- What is supported: preparedness persuades; statistics move beliefs, stories move intention (health setting).
+- What is not supported in business: a claim that storytelling closes deals, or that passion does.
+
+### 9.5 Practice (Q9e)
+
+Score table: sources-q9.md. Held: Duarte 2008 (11.5), Reynolds 2008 (12), Kawasaki 2005 (6.5, 10 slides, 20 minutes, 30 point), Minto 1987 (9.5).
+
+| Source | Practice | Grade |
+|---|---|---|
+| Millerd 2025 (3.5) | action titles, storyline read from titles alone, ghost deck | convention |
+| Minto 2026 (6.5) | pyramid and SCQ; used by "all of the major consulting firms" (the page's claim) | convention |
+| Sequoia 2019 (8.5) | ten-section pitch outline; values clear thinking over polish | convention |
+| DocSend 2022 (12) | team slide in every deck; short reading time | descriptive, owner's data, sample not stated |
+| Huthwaite 2026 (8.5) | SPIN question sequence; originator's account of 35,000 calls | convention |
+| Bezos 2018 (10.5) | memo instead of slides | convention |
+
+- Only one of the seven new grey sources reaches 10 of 20, and it is a count. The rest are examples of practice.
+- No firm's own document (McKinsey, Bain, BCG) was found; the consulting conventions come from a trainer and an author site.
+- Accelerator guides: Sequoia read; Y Combinator's page returned no body. Design-firm guides: held (Duarte, Ethos3).
+
+### 9.6 Against (Q9f)
+
+Detail in against-q9.md. In one line each:
+
+- Kernbach 2015 finds 18 constraining qualities of PowerPoint in business and education: cognitive, emotional and social.
+- Kosslyn 2012 finds flaws in business slides as in academic ones, and observers rarely name them.
+- Practice says "passion"; Chen 2009 found preparedness, and the matter is open (Yang 2021).
+- Practice says content decides; Clark 2008 and Brooks 2014 say delivery and presenter weigh in unnoticed.
+- Practice says memos beat slides; no study compares them.
+
+### What carries over to the base
+
+- Sentence headlines, one claim per slide, a figure as evidence (Garner 2013): nothing in Q9 contradicts them.
+- Business adds the decision, the person, the ask, the reader without a speaker; the candidates are in overrides-q9.md.
