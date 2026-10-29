@@ -2,7 +2,7 @@
 
 **Decision:** CI checks out reader-ergonomics by the commit of a release, and the text links name the same release.
 
-**Status:** accepted, 2026-10-29. **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/v1.10.0/shapes/decision-record.md).
+**Status:** accepted, 2026-10-29. **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/v1.11.0/shapes/decision-record.md).
 
 ## Context
 
@@ -23,4 +23,4 @@ An upstream change breaks nothing here until the pin is raised on purpose, in on
 
 ## See also
 
-[Decisions](README.md); [The workflow](../.github/workflows/checks.yml), reader-ergonomics' [extending.md](https://github.com/Tewf/reader-ergonomics/blob/v1.10.0/extending.md).
+[Decisions](README.md); [The workflow](../.github/workflows/checks.yml), reader-ergonomics' [extending.md](https://github.com/Tewf/reader-ergonomics/blob/v1.11.0/extending.md).

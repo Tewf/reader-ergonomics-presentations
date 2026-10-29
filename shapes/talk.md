@@ -23,9 +23,9 @@ The outline fits any slide tool, or none. Its filled example is [example-talk.ht
 | Part | What it does | Evidence | Grade |
 |---|---|---|---|
 | Title slide stating the point | gives the one thing to remember in the first minutes | Peyton Jones 1993, TED 2026 (example only) | convention, untested |
-| The plan | tells the listener the parts, as an organiser | [overview first](https://github.com/Tewf/reader-ergonomics/blob/v1.10.0/principles/document/overview-first.md); Rowley-Jolivet 2005 (talks open differently from papers) | measured for organisers; supported with caveat for talks |
+| The plan | tells the listener the parts, as an organiser | [overview first](https://github.com/Tewf/reader-ergonomics/blob/v1.11.0/principles/document/overview-first.md); Rowley-Jolivet 2005 (talks open differently from papers) | measured for organisers; supported with caveat for talks |
 | One section per claim: sentence headline | states the claim of each slide | Garner 2013 | supported with caveat |
-| One section per claim: evidence | shows a figure or table placed with the words that explain it | Garner 2013; [draw relations](https://github.com/Tewf/reader-ergonomics/blob/v1.10.0/principles/page/draw-relations.md) | supported with caveat |
+| One section per claim: evidence | shows a figure or table placed with the words that explain it | Garner 2013; [draw relations](https://github.com/Tewf/reader-ergonomics/blob/v1.11.0/principles/page/draw-relations.md) | supported with caveat |
 | What to say on each slide | adds to the slide and does not repeat it | Adesope 2012, Yue 2013 | measured |
 | Points shown as spoken | builds a figure in step with the voice | Liu 2022, Ito 2026 | supported with caveat (recorded narration only) |
 | Gesture | points at what is said | Hostetter 2011, Dargue 2019 | measured |
@@ -40,8 +40,8 @@ No part of this shape has been tested against another talk structure on listener
 
 | Part | Principle |
 |---|---|
-| Title slide stating the point; the plan; the point again | [a talk is not a paper](../principles/talk/a-talk-is-not-a-paper.md), [overview first](https://github.com/Tewf/reader-ergonomics/blob/v1.10.0/principles/document/overview-first.md) |
-| Sentence headline and its evidence | [claim headline with evidence](../principles/slide/claim-headline-with-evidence.md), [figure next to its text](https://github.com/Tewf/reader-ergonomics/blob/v1.10.0/principles/page/figure-next-to-its-text.md) |
+| Title slide stating the point; the plan; the point again | [a talk is not a paper](../principles/talk/a-talk-is-not-a-paper.md), [overview first](https://github.com/Tewf/reader-ergonomics/blob/v1.11.0/principles/document/overview-first.md) |
+| Sentence headline and its evidence | [claim headline with evidence](../principles/slide/claim-headline-with-evidence.md), [figure next to its text](https://github.com/Tewf/reader-ergonomics/blob/v1.11.0/principles/page/figure-next-to-its-text.md) |
 | What to say on each slide | [no script on screen](../principles/pace/no-script-on-screen.md) |
 | Builds, clips and demos | [reveal with the voice](../principles/pace/reveal-with-the-voice.md), [motion adds, never replaces](../principles/pace/motion-adds-never-replaces.md) |
 | Type, contrast and colour on every slide | [legible in the room](../principles/slide/legible-in-the-room.md), [colour as a signal](../principles/slide/colour-as-a-signal.md) |

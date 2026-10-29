@@ -4,7 +4,7 @@ A figure or a diagram in any document of the family has this shape. Its parts: a
 
 ## When to use it
 
-- Wherever a page explains a relation, a set, a process or a quantity, which [draw relations](https://github.com/Tewf/reader-ergonomics/blob/v1.10.0/principles/page/draw-relations.md) asks to show drawn.
+- Wherever a page explains a relation, a set, a process or a quantity, which [draw relations](https://github.com/Tewf/reader-ergonomics/blob/v1.11.0/principles/page/draw-relations.md) asks to show drawn.
 - In a page read on GitHub or on a site. A file read in a terminal or by a model (AGENTS.md, llms.txt, a comment in code, a commit message) keeps a typed figure ([drawn from source](../principles/figure/drawn-from-source.md)).
 - For a diagram of relations, Graphviz ([decision 0007](../decisions/0007-diagrams-are-drawn-with-graphviz.md)). Inside a LaTeX document, TikZ.
 

@@ -14,7 +14,7 @@
 - Use few colours: at most 4 colours per chart, one per category, in a fixed order (ScotGov 2024, convention).
 - For ordered data, choose a map by lightness, such as viridis, not a rainbow-like map (Crameri 2020; Matplotlib 2026).
 - Keep photographs in their real colours (Bramao 2011).
-- Show position and length before colour: [draw relations](https://github.com/Tewf/reader-ergonomics/blob/v1.10.0/principles/page/draw-relations.md).
+- Show position and length before colour: [draw relations](https://github.com/Tewf/reader-ergonomics/blob/v1.11.0/principles/page/draw-relations.md).
 
 ## Why
 
