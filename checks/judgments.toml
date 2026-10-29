@@ -52,27 +52,6 @@ file = "086f37deecc5"
 answer = "Yes: `# State of the art, per sub-question` states the two records kept apart, `## Best evidence` and `## Most adopted`; the check read only the first word of the filename, `state`, which is why the distance is low."
 
 [[answer]]
-check = "deck-judgment"
-path = "shapes/example-talk.html"
-question = "Does any animation, video or live demo replace an explanation instead of adding to one?"
-file = "d4afebf86c03"
-answer = '''No: the only motion is the list on the slide `Points shown as you say them are easier to follow` (`class="fragment"`), which reveals lines that the notes say are spoken as they appear (`Reveal each line as you say it`); no video or demo exists to replace anything.'''
-
-[[answer]]
-check = "deck-judgment"
-path = "shapes/example-talk.html"
-question = "Is colour anywhere the only cue that tells two things apart, or does a data colour map run out of perceptual order?"
-file = "d4afebf86c03"
-answer = "No: on the slide `Words on screen should not repeat the voice` the two boxes also differ by their labels (`slide: key terms`, `voice: the sentence`), the headline-versus-bullets figure differs by shape (a graphic box against three bars), and the deck has no data colour map."
-
-[[answer]]
-check = "deck-judgment"
-path = "shapes/example-talk.html"
-question = "Do the speaker notes plan gestures that point at what is said, rather than a reading of the slides?"
-file = "d4afebf86c03"
-answer = "Yes: the notes plan gestures and pacing (`Point at the left box, then the right one`, `Reveal each line as you say it`) and speech that adds to the slide (`Say what is not known`), not a reading of the slide text; a few notes such as `The plan, said once.` are thin but still do not read the slide."
-
-[[answer]]
 check = "co-change"
 path = "evidence/README.md"
 question = "changed together with evidence/presentations/state-of-the-art.md in 4 commits (80% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
@@ -554,3 +533,31 @@ path = "README.md"
 question = "changed together with decisions/README.md in 4 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
 file = "25e859dd03a8"
 answer = "Keep them apart: the front page has one row per part, with its count (`the choices that shaped this repository, one record each`), and decisions/README.md lists the records themselves. They change together when a record is added and the count on the front page moves: a link and a number, not shared content."
+
+[[answer]]
+check = "deck-judgment"
+path = "shapes/example-talk.html"
+question = "Does any animation, video or live demo replace an explanation instead of adding to one?"
+file = "af6f6798d838"
+answer = "No: the only motion is the list on the slide `Points shown as you say them are easier to follow` (`class=\"fragment\"`), which reveals lines that the notes say are spoken as they appear (`Reveal each line as you say it`); no video or demo exists to replace anything."
+
+[[answer]]
+check = "deck-judgment"
+path = "shapes/example-talk.html"
+question = "Is colour anywhere the only cue that tells two things apart, or does a data colour map run out of perceptual order?"
+file = "af6f6798d838"
+answer = "No: on the slide `Words on screen should not repeat the voice` the two boxes also differ by their labels (`slide: key terms`, `voice: the sentence`), the headline-versus-bullets figure differs by shape (a graphic box against three bars), and the deck has no data colour map."
+
+[[answer]]
+check = "deck-judgment"
+path = "shapes/example-talk.html"
+question = "Do the speaker notes plan gestures that point at what is said, rather than a reading of the slides?"
+file = "af6f6798d838"
+answer = "Yes: the notes plan gestures and pacing (`Point at the left box, then the right one`, `Reveal each line as you say it`) and speech that adds to the slide (`Say what is not known`), not a reading of the slide text; a few notes such as `The plan, said once.` are thin but still do not read the slide."
+
+[[answer]]
+check = "co-change"
+path = "README.md"
+question = "changed together with decisions/0006-the-visual-standard-of-the-family.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "25e859dd03a8"
+answer = "Keep them apart: the front page lists each part (`the choices that shaped this repository, one record each`) and states the repository's scope; decision 0006 records why that scope widened to figures. They changed together when the scope and its status were corrected, and the page links the record."

@@ -16,8 +16,8 @@ A figure or a diagram in any document of the family has this shape. Its parts: a
 | Drawing | the SVG, rendered from the source and embedded in the page | [drawn from source](../principles/figure/drawn-from-source.md) | convention, untested |
 | Alt text | says the message in one sentence, for a reader without sight | [text alternative](../principles/figure/text-alternative.md) | convention (a standard) |
 | Long description | lists the parts and how they relate, under the figure, when it has more than a few nodes | [text alternative](../principles/figure/text-alternative.md) | convention (a standard) |
-| Source | the `.dot` file, beside the SVG and the page that embeds it, named after that page (`standard-how-to-use.dot`); a model and a later editor read it |
-| Folded source | the `.dot` copied under the image in a `<details>` block titled "Graphviz source", closed until clicked, so a reader can reuse the figure from the page | maintainer's rule, 2026-10-29 | convention | [drawn from source](../principles/figure/drawn-from-source.md) | convention, untested |
+| Source | the `.dot` file, beside the SVG and the page that embeds it, named after that page (`standard-how-to-use.dot`); a model and a later editor read it | [drawn from source](../principles/figure/drawn-from-source.md) | convention, untested |
+| Folded source | the `.dot` copied under the image in a `<details>` block titled "Graphviz source", closed until clicked, so a reader can reuse the figure from the page | [drawn from source](../principles/figure/drawn-from-source.md) | convention (the maintainer's rule, 2026-10-29) |
 | Key | only when the notation is not obvious; labels sit on what they name | [label in place](../principles/figure/label-in-place.md) | supported with caveat |
 
 The drawing itself follows the rest of the group: [visible lines](../principles/figure/visible-lines.md), [few crossings](../principles/figure/few-crossings.md), [group by region](../principles/figure/group-by-region.md), [position for quantities](../principles/figure/position-for-quantities.md) and [appeal after clarity](../principles/figure/appeal-after-clarity.md).
