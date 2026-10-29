@@ -16,7 +16,7 @@ A figure or a diagram in any document of the family has this shape. Its parts: a
 | Drawing | the SVG, rendered from the source and embedded in the page | [drawn from source](../principles/figure/drawn-from-source.md) | convention, untested |
 | Alt text | says the message in one sentence, for a reader without sight | [text alternative](../principles/figure/text-alternative.md) | convention (a standard) |
 | Long description | lists the parts and how they relate, under the figure, when it has more than a few nodes | [text alternative](../principles/figure/text-alternative.md) | convention (a standard) |
-| Source | the `.dot` file, same name, beside the SVG; a model and a later editor read it | [drawn from source](../principles/figure/drawn-from-source.md) | convention, untested |
+| Source | the `.dot` file, beside the SVG and the page that embeds it, named after that page (`standard-how-to-use.dot`); a model and a later editor read it | [drawn from source](../principles/figure/drawn-from-source.md) | convention, untested |
 | Key | only when the notation is not obvious; labels sit on what they name | [label in place](../principles/figure/label-in-place.md) | supported with caveat |
 
 The drawing itself follows the rest of the group: [visible lines](../principles/figure/visible-lines.md), [few crossings](../principles/figure/few-crossings.md), [group by region](../principles/figure/group-by-region.md), [position for quantities](../principles/figure/position-for-quantities.md) and [appeal after clarity](../principles/figure/appeal-after-clarity.md).
@@ -34,6 +34,12 @@ Each kind of thing gets one colour, the same in every figure of a document. Each
 | a link that may be used | none | `#6A6D77`, dashed | 5.16:1 |
 
 Text is `#1F2328`, and a second line in a box is `#55575F`, both above 4.5:1 on every fill. The font is Inter.
+
+## Three things to check by eye
+
+- An arrow drawn to a frame (a Graphviz cluster) can render as a stub with its label adrift: draw it between two nodes.
+- A note that applies to several nodes is joined to each of them, not to one.
+- The alt text reads each arrow in the direction the figure defines it: if `u -> v` means "v uses u", say so.
 
 ## Render
 

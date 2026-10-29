@@ -7,7 +7,7 @@ the pace or read again.
 
 ## How to use it
 
-![Four steps: ask who listens and open their context, or keep the base alone; start from the talk shape; build the deck to the principles; run the checks, then fix each error, fix or explain each warning, and answer each judgment.](figures/how-to-use.svg)
+![Four steps: ask who listens and open their context, or keep the base alone; start from the talk shape; build the deck to the principles; run the checks, then fix each error, fix or explain each warning, and answer each judgment.](standard-how-to-use.svg)
 
 1. **Name the audience.** A context overrides the base for its room: [academic audience](reader-styles/academic-audience.md)
    (a conference, a seminar, a defence), [business decision maker](reader-styles/business-decision-maker.md) or

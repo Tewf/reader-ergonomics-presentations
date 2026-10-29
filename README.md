@@ -23,7 +23,7 @@ live there and are not repeated here. This repository adds only what is particul
 One base, and contexts that override it, the way a reader style overrides the standard. Anyone's own way of
 presenting is a style of its own, kept by them, that overrides this standard in turn.
 
-![This standard holds a base, what any presentation is, and three contexts that override it: the academic talk, the business presentation and the casual talk; a person's own style overrides the whole standard in turn.](figures/scope.svg)
+![This standard holds a base, what any presentation is, and three contexts that override it: the academic talk, the business presentation and the casual talk; a person's own style overrides the whole standard in turn.](readme-scope.svg)
 
 ## Contents
 

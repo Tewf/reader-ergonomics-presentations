@@ -10,7 +10,7 @@
 ## What it asks
 
 - Write a diagram of relations in Graphviz's dot language, render it to SVG, and embed the SVG in the page.
-- Keep the `.dot` beside the SVG, under the same name. A model, a terminal and a later editor read the source; a person reads the drawing.
+- Keep the `.dot` beside the SVG, under the same name, beside the page that embeds it and named after it; a folder of figures would group files by type. A model, a terminal and a later editor read the source; a person reads the drawing.
 - Keep a text figure only where no drawing can be shown: AGENTS.md, llms.txt, a comment in code, a commit message. The exempt files are listed in `checks/config.toml`.
 - Render with `python3 checks/render_figure.py FILE.dot`, which stamps the SVG with the hash of its source.
 
