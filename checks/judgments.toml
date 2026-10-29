@@ -1,0 +1,185 @@
+# Answers to the questions the checks leave for judgment (see checks/framework/judgment.py).
+# An answer holds while its file is unchanged: `file` is the first 12 hex characters of the file's
+# SHA-256 when the answer was given, and an edit to the file asks the question again.
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/presentations/against.md"
+question = "114 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "7d33d19eebfc"
+answer = "One role: the evidence against the presentation rules, theme by theme (`## Against assertion-evidence`, `## Against the attention rule`). It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/presentations/position.md"
+question = "122 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "4ee92bb51315"
+answer = "One role: the repository's position, what is known and not known, with the overrides each context makes (`## Known`, `## The business context: candidate overrides`). It stays whole, though the two context sections are the first candidates to split if a fourth context arrives."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/presentations/protocol.md"
+question = "532 lines, past the ceiling of 500. Review it: split it only into pieces that change separately and each stay whole, or state why it stays one file."
+file = "2248a892b0ca"
+answer = "It stays one file: it is the single record of one search, and its parts are rounds appended in order (`## Q9 business presentations (added 2026-10-29)`, `## Q10 casual talks (added 2026-10-29)`), each repeating the same steps such as `### Stopping rule (stated before the search, applied after)`. Overshoots the ceiling by 32 lines; splitting per round is the natural seam if it grows."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/presentations/protocol.md"
+question = "385 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "2248a892b0ca"
+answer = "One role: the record of how the pool of sources was built, `so that the search can be repeated`. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/presentations/review.md"
+question = "328 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "349340499cd8"
+answer = "One role: the reading of the literature strand by strand (`## 0. Existing reviews`, `## 8. Colour`), each strand ending in what carries over to a live talk. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/presentations/sources.md"
+question = "286 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "a4c038278fd5"
+answer = "One role: the scored list of sources and how each was found (`## Grey sources`, `## Formal sources`). It stays whole."
+
+[[answer]]
+check = "co-change"
+path = "checks/config.toml"
+question = "changed together with checks/local/_deck.py in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "8de43cfab17e"
+answer = "Keep them apart and let the code link to the config: `[decks]` holds the tunables that checks/local/_deck.py reads, and the standard asks tunables to live in config; they co-changed in 93d580e (the deck checks), 7051815 (fixes) and eb49412 (a deck slot setting)."
+
+[[answer]]
+check = "co-change"
+path = "checks/config.toml"
+question = "changed together with checks/local/slide_type_size.py in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "8de43cfab17e"
+answer = "Keep them apart: the `[slide_type_size]` table is the only place the threshold lives and checks/local/slide_type_size.py reads it; both changed in 93d580e, 7051815 and eb49412 because a check and its setting are born together."
+
+[[answer]]
+check = "co-change"
+path = "checks/local/_deck.py"
+question = "changed together with checks/test_local_checks.py in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "a035b2bf6852"
+answer = "Keep them apart: `Shared by the deck checks in this folder`, while checks/test_local_checks.py tests all local checks and sits beside the folder; they co-changed in 93d580e, 7051815 and eb49412 because code and its tests change together, which a link or a naming match already shows."
+
+[[answer]]
+check = "co-change"
+path = "checks/local/slide_type_size.py"
+question = "changed together with checks/test_local_checks.py in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "bf6d277807b0"
+answer = "Keep them apart: the `min_px` check and the one test file for all local checks change together by design (93d580e, 7051815, eb49412); one test file for several checks is the reason it does not sit inside one check's folder."
+
+[[answer]]
+check = "co-change"
+path = "evidence/README.md"
+question = "changed together with evidence/presentations/README.md in 6 commits (86% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "78e1f138150f"
+answer = "Keep them apart: evidence/README.md is the index of topics and evidence/presentations/README.md the index of this one topic, and the co-change comes from the pinned release link (`v1.1.1`) bumped in ebbb88d and d7c3a4f, not from shared content."
+
+[[answer]]
+check = "co-change"
+path = "evidence/README.md"
+question = "changed together with evidence/presentations/baseline.md in 7 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "78e1f138150f"
+answer = "Keep them apart: evidence/README.md lists topics and baseline.md is one step of the presentations topic; the 7 shared commits (71e3ef1, ea5c834, e7661bd, 181eb9d, 13c0eeb, ebbb88d, d7c3a4f) are the topic growing and the release pin `v1.1.1` moving, so the index is rightly edited with the step."
+
+[[answer]]
+check = "co-change"
+path = "evidence/README.md"
+question = "changed together with evidence/presentations/frame.md in 5 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "78e1f138150f"
+answer = "Keep them apart: the index and the frame are different roles, and the 5 shared commits (including 71e3ef1, e7661bd, ebbb88d, d7c3a4f) are the topic's first review rounds and the version pin `v1.1.1`; the index already links the topic folder."
+
+[[answer]]
+check = "co-change"
+path = "evidence/README.md"
+question = "changed together with evidence/presentations/state-of-the-art.md in 4 commits (80% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "78e1f138150f"
+answer = "Keep them apart: evidence/README.md only indexes the topic; it shares 4 of 5 commits with state-of-the-art.md (ea5c834, e7661bd, 71e3ef1, 181eb9d) because each review round updated the index, and the file has no pin, the README it shares them with only describes the topic's files under `## Method`."
+
+[[answer]]
+check = "co-change"
+path = "principles/slide/claim-headline-with-evidence.md"
+question = "changed together with principles/talk/a-talk-is-not-a-paper.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "8793a744fc5b"
+answer = "Keep them apart: both are principles of one family and already link the same evidence (`[review, strand 2]`); they co-changed in 97af3a2, c00b630 (the casual context), ebbb88d and d7c3a4f, and a link between the files is not needed."
+
+[[answer]]
+check = "co-change"
+path = "principles/slide/claim-headline-with-evidence.md"
+question = "changed together with reader-styles/README.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "8793a744fc5b"
+answer = "Keep them apart: it is a principle and reader-styles/README.md is the context index, in a folder with the other contexts; the shared commits (97af3a2, c00b630, ebbb88d, d7c3a4f) are context edits and the release pin `v1.1.1`, and the principle already cites the evidence with `[review, strand 2]`."
+
+[[answer]]
+check = "co-change"
+path = "principles/talk/a-talk-is-not-a-paper.md"
+question = "changed together with reader-styles/README.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "e69726fb4293"
+answer = "Keep them apart: it is a principle (`[review, strand 5 and strand 6]`) and reader-styles/README.md lists contexts; their 3 shared commits (c00b630 the casual context, ebbb88d, d7c3a4f the release pin) are edits to a shared version link and a context, not shared content."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/presentations/position.md"
+question = "reads about equally as how-to and explanation: one mode per document?"
+file = "4ee92bb51315"
+answer = "One mode, understanding why (with look-up tables): `## Known` and `## Not known` state findings and the override tables compare rules; it never walks the reader through a task, which belongs to baseline.md."
+
+[[answer]]
+check = "name-content"
+path = "evidence/presentations/against.md"
+question = "the name 'against' and the opening are far apart in meaning (0.20): does the name predict the content?"
+file = "7d33d19eebfc"
+answer = "Yes: `# Evidence against and open controversies` is exactly what the name promises, and `against` is one step of the topic's fixed sequence listed in its README."
+
+[[answer]]
+check = "name-content"
+path = "evidence/presentations/frame.md"
+question = "the name 'frame' and the opening are far apart in meaning (0.05): does the name predict the content?"
+file = "9cdbfb2e5099"
+answer = "Yes: `# Frame: the problem and its names` opens with the problem in one sentence and lists what research and practice call its parts, which is the framing step the name says."
+
+[[answer]]
+check = "name-content"
+path = "evidence/presentations/position.md"
+question = "the name 'position' and the opening are far apart in meaning (0.16): does the name predict the content?"
+file = "4ee92bb51315"
+answer = "Yes: the opening says what is known, what is not, and what this repository adds, which is the position of the repository (`## Known`, `## Not known`); the name is short but is the step name used across the topic."
+
+[[answer]]
+check = "name-content"
+path = "evidence/presentations/review.md"
+question = "the name 'review' and the opening are far apart in meaning (0.18): does the name predict the content?"
+file = "349340499cd8"
+answer = "Yes: the opening says the file reviews the literature on presentations in strands, and the content is that review (`## 0. Existing reviews`, `## 1. Paced media: modality, redundancy, segmenting`)."
+
+[[answer]]
+check = "name-content"
+path = "evidence/presentations/state-of-the-art.md"
+question = "the name 'state' and the opening are far apart in meaning (0.01): does the name predict the content?"
+file = "086f37deecc5"
+answer = "Yes: `# State of the art, per sub-question` states the two records kept apart, `## Best evidence` and `## Most adopted`; the check read only the first word of the filename, `state`, which is why the distance is low."
+
+[[answer]]
+check = "deck-judgment"
+path = "shapes/example-talk.html"
+question = "Does any animation, video or live demo replace an explanation instead of adding to one?"
+file = "d4afebf86c03"
+answer = "No: the only motion is the list on the slide `Points shown as you say them are easier to follow` (`class=\"fragment\"`), which reveals lines that the notes say are spoken as they appear (`Reveal each line as you say it`); no video or demo exists to replace anything."
+
+[[answer]]
+check = "deck-judgment"
+path = "shapes/example-talk.html"
+question = "Is colour anywhere the only cue that tells two things apart, or does a data colour map run out of perceptual order?"
+file = "d4afebf86c03"
+answer = "No: on the slide `Words on screen should not repeat the voice` the two boxes also differ by their labels (`slide: key terms`, `voice: the sentence`), the headline-versus-bullets figure differs by shape (a graphic box against three bars), and the deck has no data colour map."
+
+[[answer]]
+check = "deck-judgment"
+path = "shapes/example-talk.html"
+question = "Do the speaker notes plan gestures that point at what is said, rather than a reading of the slides?"
+file = "d4afebf86c03"
+answer = "Yes: the notes plan gestures and pacing (`Point at the left box, then the right one`, `Reveal each line as you say it`) and speech that adds to the slide (`Say what is not known`), not a reading of the slide text; a few notes such as `The plan, said once.` are thin but still do not read the slide."
