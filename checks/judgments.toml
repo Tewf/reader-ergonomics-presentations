@@ -507,57 +507,57 @@ file = "af6f6798d838"
 answer = "Yes: the notes plan gestures and pacing (`Point at the left box, then the right one`, `Reveal each line as you say it`) and speech that adds to the slide (`Say what is not known`), not a reading of the slide text; a few notes such as `The plan, said once.` are thin but still do not read the slide."
 
 [[answer]]
+check = "name-content"
+path = "standard.md"
+question = "the name 'standard' and the opening are far apart in meaning (0.18): does the name predict the content?"
+file = "8e1f836e8a3c"
+answer = "Yes: the opening `# The presentations standard` names the file, and the file is the card of that standard: how to use it, and every principle with its grade."
+
+[[answer]]
 check = "co-change"
 path = "README.fr.md"
 question = "changed together with decisions/README.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "0e74155f4d88"
+file = "1349f63bf04a"
 answer = "Keep them apart: the French front page has one row per part, with its count (`les choix qui ont façonné ce dépôt, un enregistrement chacun`), and decisions/README.md lists the records themselves. They change together when a record is added and the count moves: a link and a number, not shared content."
 
 [[answer]]
 check = "co-change"
 path = "README.md"
 question = "changed together with decisions/0001-a-public-standard-and-private-styles.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "5c19ad71246d"
+file = "3a1ac2135de3"
 answer = "Keep them apart: README.md has its own role (`the choices that shaped this repository, one record each`) and decisions/0001-a-public-standard-and-private-styles.md another. They changed together in passes that touched every file at once, the release-link raises and the sentence pass of 2026-10-29, not through shared content."
 
 [[answer]]
 check = "co-change"
 path = "README.md"
 question = "changed together with decisions/0002-contexts-are-audiences.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "5c19ad71246d"
+file = "3a1ac2135de3"
 answer = "Keep them apart: README.md has its own role (`the choices that shaped this repository, one record each`) and decisions/0002-contexts-are-audiences.md another. They changed together in passes that touched every file at once, the release-link raises and the sentence pass of 2026-10-29, not through shared content."
 
 [[answer]]
 check = "co-change"
 path = "README.md"
 question = "changed together with decisions/0004-pin-reader-ergonomics-at-a-release.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "5c19ad71246d"
+file = "3a1ac2135de3"
 answer = "Keep them apart: README.md has its own role (`the choices that shaped this repository, one record each`) and decisions/0004-pin-reader-ergonomics-at-a-release.md another. They changed together in passes that touched every file at once, the release-link raises and the sentence pass of 2026-10-29, not through shared content."
 
 [[answer]]
 check = "co-change"
 path = "README.md"
 question = "changed together with decisions/0005-the-example-deck-is-not-named-after-its-shape.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "5c19ad71246d"
+file = "3a1ac2135de3"
 answer = "Keep them apart: README.md has its own role (`the choices that shaped this repository, one record each`) and decisions/0005-the-example-deck-is-not-named-after-its-shape.md another. They changed together in passes that touched every file at once, the release-link raises and the sentence pass of 2026-10-29, not through shared content."
 
 [[answer]]
 check = "co-change"
 path = "README.md"
 question = "changed together with decisions/0006-the-visual-standard-of-the-family.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "5c19ad71246d"
+file = "3a1ac2135de3"
 answer = "Keep them apart: the front page lists each part (`the choices that shaped this repository, one record each`) and states the repository's scope; decision 0006 records why that scope widened to figures. They changed together when the scope and its status were corrected, and the page links the record."
 
 [[answer]]
 check = "co-change"
 path = "README.md"
 question = "changed together with decisions/README.md in 4 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "5c19ad71246d"
+file = "3a1ac2135de3"
 answer = "Keep them apart: the front page has one row per part, with its count (`the choices that shaped this repository, one record each`), and decisions/README.md lists the records themselves. They change together when a record is added and the count on the front page moves: a link and a number, not shared content."
-
-[[answer]]
-check = "name-content"
-path = "standard.md"
-question = "the name 'standard' and the opening are far apart in meaning (0.18): does the name predict the content?"
-file = "8e1f836e8a3c"
-answer = "Yes: the opening `# The presentations standard` names the file, and the file is the card of that standard: how to use it, and every principle with its grade."

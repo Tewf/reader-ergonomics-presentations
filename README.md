@@ -9,6 +9,24 @@ whole family of repositories, also how to draw a figure or a diagram.
 It extends [reader-ergonomics](https://github.com/Tewf/reader-ergonomics). The principles, their grades and the checks
 live there and are not repeated here. This repository adds only what is particular to presentations.
 
+## Take it
+
+Copy the example deck, check it against the release of the standard this repository pins, then make it your talk:
+
+```sh
+git clone https://github.com/Tewf/reader-ergonomics-presentations presentations
+git clone https://github.com/Tewf/reader-ergonomics
+git -C reader-ergonomics checkout $(grep -m1 -o '[0-9a-f]\{40\}' presentations/.github/workflows/checks.yml)   # the release this repository pins
+mkdir -p my-talk/shapes my-talk/checks
+cp presentations/shapes/example-talk.* my-talk/shapes/
+cp -r presentations/checks/local presentations/checks/config.toml my-talk/checks/
+python3 reader-ergonomics/checks/run.py my-talk
+```
+
+Fix each error, fix or explain each warning, and answer the questions in `my-talk/checks/out/needs-judgment.md`. The
+same outline for any slide tool is [shapes/talk.md](shapes/talk.md). To disagree with a rule, open an issue here naming
+the rule and the evidence.
+
 > **Status:** work in progress. The [standard](standard.md) has seventeen principles in four groups: nine for a talk, with
 > three contexts, the talk shape and an example deck; eight for a figure in any document, with the figure shape. Eight
 > checks run here, seven on HTML decks and one judgment per figure. The deck checks were tried on three test decks, an

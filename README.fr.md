@@ -9,6 +9,24 @@ et, pour toute la famille de dépôts, comment dessiner une figure ou un diagram
 Ce dépôt étend [reader-ergonomics](https://github.com/Tewf/reader-ergonomics). Les principes, leurs niveaux de preuve
 et les vérifications y vivent et ne sont pas répétés ici. Ce dépôt n'ajoute que ce qui est propre aux présentations.
 
+## Le prendre
+
+Copiez le diaporama d'exemple, vérifiez-le avec la version du standard que ce dépôt épingle, puis faites-en votre exposé :
+
+```sh
+git clone https://github.com/Tewf/reader-ergonomics-presentations presentations
+git clone https://github.com/Tewf/reader-ergonomics
+git -C reader-ergonomics checkout $(grep -m1 -o '[0-9a-f]\{40\}' presentations/.github/workflows/checks.yml)   # la version que ce dépôt épingle
+mkdir -p mon-expose/shapes mon-expose/checks
+cp presentations/shapes/example-talk.* mon-expose/shapes/
+cp -r presentations/checks/local presentations/checks/config.toml mon-expose/checks/
+python3 reader-ergonomics/checks/run.py mon-expose
+```
+
+Corrigez chaque erreur, corrigez ou expliquez chaque avertissement, et répondez aux questions de
+`mon-expose/checks/out/needs-judgment.md`. Le même plan, pour tout logiciel de présentation, est
+[shapes/talk.md](shapes/talk.md). Pour contester une règle, ouvrez une issue ici en nommant la règle et la preuve.
+
 > **État :** en cours. Le [standard](standard.md) compte dix-sept principes en quatre groupes : neuf pour un exposé,
 > avec trois contextes, la forme d'un exposé et un diaporama d'exemple ; huit pour une figure de tout document, avec la
 > forme d'une figure. Huit vérifications s'exécutent ici, sept sur les diaporamas HTML et une question de jugement par
