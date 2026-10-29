@@ -270,20 +270,6 @@ answer = "One mode, understanding why with a rule, like every principle file: a 
 
 [[answer]]
 check = "figure-judgment"
-path = "evidence/figures/flow.svg"
-question = "Layout and labels: do links cross where another layout would avoid it, is any part named only through a legend that labels could replace, and is membership shown by colour alone anywhere?"
-file = "181da19148b2"
-answer = "No: the stages are a real sequence, each labelled at its left (`Result blocks screened`), and nothing crosses; the two columns are named by their headers, not by colour."
-
-[[answer]]
-check = "figure-judgment"
-path = "evidence/figures/flow.svg"
-question = "Message and decoration: does the caption or alt text state the figure's one message, is a quantity shown by area or angle where position would do, and does any decoration distort a quantity or compete with the message?"
-file = "181da19148b2"
-answer = "Yes: the alt text gives the counts at each stage and the total (`New in the review`); numbers are printed, not shown by area, and nothing is decoration."
-
-[[answer]]
-check = "figure-judgment"
 path = "evidence/presentations/casual-coverage.svg"
 question = "Layout and labels: do links cross where another layout would avoid it, is any part named only through a legend that labels could replace, and is membership shown by colour alone anywhere?"
 file = "3ff48703d359"
@@ -295,20 +281,6 @@ path = "evidence/presentations/casual-coverage.svg"
 question = "Message and decoration: does the caption or alt text state the figure's one message, is a quantity shown by area or angle where position would do, and does any decoration distort a quantity or compete with the message?"
 file = "3ff48703d359"
 answer = "Yes: the alt text states the message, that no live casual talk with a measured outcome was found (`what it does not cover`); nothing is decoration."
-
-[[answer]]
-check = "figure-judgment"
-path = "evidence/presentations/flow.svg"
-question = "Layout and labels: do links cross where another layout would avoid it, is any part named only through a legend that labels could replace, and is membership shown by colour alone anywhere?"
-file = "ab6966481b41"
-answer = "Partly: nothing crosses and each row is labelled at its left, but an arrow runs from `Included as new` to `Carried from the earlier pass`, which are added, not passed through in turn, so the arrows suggest stages that are not there. That belongs to the shared flow script and is reported to its owner."
-
-[[answer]]
-check = "figure-judgment"
-path = "evidence/presentations/flow.svg"
-question = "Message and decoration: does the caption or alt text state the figure's one message, is a quantity shown by area or angle where position would do, and does any decoration distort a quantity or compete with the message?"
-file = "ab6966481b41"
-answer = "Yes: the alt text gives the counts and the total; numbers are printed, not shown by area, and nothing is decoration (`Included as new`)."
 
 [[answer]]
 check = "figure-judgment"
@@ -491,3 +463,31 @@ path = "principles/slide/claim-headline-with-evidence.md"
 question = "changed together with reader-styles/README.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
 file = "36b77559dcc7"
 answer = "Keep them apart: the principle is one rule (`**Claim:**`) and reader-styles/README.md lists the contexts that override rules. They change together when a release link moves in both, as the raise to v1.7.0 did: a version in a link, not shared content."
+
+[[answer]]
+check = "figure-judgment"
+path = "evidence/figures/flow.svg"
+question = "Layout and labels: do links cross where another layout would avoid it, is any part named only through a legend that labels could replace, and is membership shown by colour alone anywhere?"
+file = "96002564264b"
+answer = "No: the stages are a real sequence, each labelled at its left (`Result blocks screened`), and nothing crosses; the two columns are named by their headers, not by colour."
+
+[[answer]]
+check = "figure-judgment"
+path = "evidence/figures/flow.svg"
+question = "Message and decoration: does the caption or alt text state the figure's one message, is a quantity shown by area or angle where position would do, and does any decoration distort a quantity or compete with the message?"
+file = "96002564264b"
+answer = "Yes: the alt text gives the counts at each stage and the total (`New in the review`); numbers are printed, not shown by area, and nothing is decoration."
+
+[[answer]]
+check = "figure-judgment"
+path = "evidence/presentations/flow.svg"
+question = "Layout and labels: do links cross where another layout would avoid it, is any part named only through a legend that labels could replace, and is membership shown by colour alone anywhere?"
+file = "a346295f49d6"
+answer = "No: arrows join only the stages a source passes through, and the counts that add up are joined by a plus sign to the total (`Carried from the earlier pass`); nothing crosses and each row is labelled at its left."
+
+[[answer]]
+check = "figure-judgment"
+path = "evidence/presentations/flow.svg"
+question = "Message and decoration: does the caption or alt text state the figure's one message, is a quantity shown by area or angle where position would do, and does any decoration distort a quantity or compete with the message?"
+file = "a346295f49d6"
+answer = "Yes: the alt text gives the counts and the total; numbers are printed, not shown by area, and nothing is decoration (`Included as new`)."
