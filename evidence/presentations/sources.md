@@ -102,7 +102,7 @@ Scores for the Q7 and Q8 round were read from the page or the PDF on 2026-10-28.
 | Dubois 1980 | formal | prior pool | measured, descriptive (title only) | review 5 |
 | Fiorella 2019 | formal | prior pool | supported with caveat | review 3 |
 | Garner 2013 | formal | prior pool | supported with caveat (one lab experiment) | review 2 |
-| Ginns 2005 | formal | prior pool | measured | review 1 |
+| Ginns 2005 | formal | prior pool | measured (full text) | review 1 |
 | Heidig 2024 | formal | E4 | supported with caveat (three field studies, small n) | review 0, 3 |
 | Henderson 2021 | formal | prior pool | measured (systematic review) | review 3 |
 | Hood 2005 | formal | prior pool | measured, descriptive (title only) | review 5 |
@@ -240,7 +240,7 @@ Rows to append to sources.md. Grey scores give the eight subtotals in the order 
 | Segel 2010 | formal, design-space study (author PDF read; the critique of it is secondary) | E18 | convention (taxonomy) | review 9d |
 | Kosara 2013 | formal, essay and research agenda (secondary) | E18 | convention, untested | review 9d |
 | Clingingsmith 2018 | formal, randomised field experiment (abstract read) | F3 | measured, details unread | review 9b |
-| Bernstein 2017 | formal, randomised field experiment (secondary) | F4 | measured | review 9b |
+| Bernstein 2017 | formal, randomised field experiment (full text) | F4 | measured | review 9b |
 | Kanze 2018 | formal, field study and experiment (abstract read) | F5 | measured | review 9b, 9d |
 | Britt 2003 | formal, three experiments (secondary, summary of abstract) | F6 | supported with caveat (short arguments) | review 9a |
 | Yates 2007 | formal, qualitative genre analysis (secondary) | F7 | supported with caveat | review 9c |
@@ -249,17 +249,17 @@ Rows to append to sources.md. Grey scores give the eight subtotals in the order 
 | Pollack 2012 | formal, observational, 113 funded pitches (abstract read) | seed | supported with caveat | review 9b |
 | Brooks 2014 | formal, field study and two experiments (abstract and full text read) | seed | measured | review 9b, 9d |
 | Huang 2015 | formal, three studies (abstract read) | seed | supported with caveat | review 9b |
-| Cardon 2017 | formal, empirical test of 72 angels (abstract read) | summary of Chen 2009 string | supported with caveat | against 9f |
+| Cardon 2017 | formal, empirical test of 72 angels (full text) | summary of Chen 2009 string | supported with caveat | against 9f |
 | Yang 2021 | formal, 79 VC-project pairs, Chinese VC setting (abstract read) | summary of Chen 2009 string | supported with caveat | against 9f |
 
-Counted new: 18 formal rows, of which 16 are core and 2 (Cardon 2017, Yang 2021) are abstract readings used only in against-q9.md. Held and linked, not re-reviewed: Kosslyn 2012, Garner 2013, Ginns 2005, Adesope 2012, Baker 2018, Rowley-Jolivet 2005.
+Counted new: 18 formal rows, of which 16 are core and 2 (Cardon 2017, Yang 2021) are readings used only in against-q9.md (Cardon 2017: full text; Yang 2021: abstract). Held and linked, not re-reviewed: Kosslyn 2012, Garner 2013, Ginns 2005, Adesope 2012, Baker 2018, Rowley-Jolivet 2005.
 
 ### Seen, not retrieved or not read
 
 | Item | Why | Effect |
 |---|---|---|
 | PNAS article full text (Brooks 2014) | HTTP 403; the repository mirror asks for a bot check, which was not passed | the numbers 90 pitches, 36% and 60% were read in the author copy (MIT DSpace) |
-| Journal of Finance full text (Bernstein 2017) | metadata request answered HTTP 429; no further attempt | 4,500 investors and about 17,000 emails are secondary |
+| Journal of Finance full text (Bernstein 2017) | metadata request answered HTTP 429; read in full on 2026-10-29 | counts confirmed in the full text: 4,494 investors and 16,981 emails |
 | Management Science full text (Clingingsmith 2018) | HTTP 403 | coefficients unread; only the abstract's four-hypothesis claim is used |
 | Academy of Management Journal text (Chen 2009, Kanze 2018) and ETP text (Pollack 2012) | paywalled | sample sizes of Chen 2009 unread; Kanze counts (140 VCs, 189 entrepreneurs) secondary |
 | AR 25-50, the US Army correspondence regulation | the official PDF link in a reference page returned 404 | BLUF origin rests on secondary pages; nothing quoted from it |

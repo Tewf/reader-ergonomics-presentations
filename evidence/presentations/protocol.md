@@ -303,7 +303,7 @@ Also found, and not included, since only a title or a summary was read:
 - Elsbach and Kramer: a study of Hollywood pitch meetings (2003);
 - Mitteness and colleagues: a study of angels and perceived passion (2012).
 
- Cardon 2017 and Yang 2021 are included as abstract readings for the passion debate.
+ Cardon 2017 (full text, read 2026-10-29) and Yang 2021 (abstract reading) are included for the passion debate.
 
 Forward and backward snowballing: not run (no citation index without an identity). Cardon 2017 and Yang 2021 came from the summary of the Chen 2009 string.
 

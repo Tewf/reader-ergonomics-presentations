@@ -17,7 +17,7 @@ This file gathers the evidence against the presentation rules: null results, dis
 
 - Most principle studies are short narrated lessons on a computer; a live talk adds a person, a room and questions.
 - Redundancy effects depend on prior knowledge and picture content (Adesope 2012); "never put text on the slide" overreaches.
-- The modality effect can reverse under self-pacing (secondary); a talk is system-paced, so that result fits it better than it fits a page.
+- The modality effect disappears under self-pacing (d = -0.14, 95% CI -0.32 to 0.04, 7 effects; full text); a talk is system-paced, so that result fits it better than it fits a page.
 - Segmenting helped more for high prior knowledge in one account (secondary).
 - Seductive details hurt (Sundararajan 2020), yet Wolfe 2023 reports that organiser graphics such as SmartArt can backfire, which supports testing images with an audience.
 
@@ -121,7 +121,7 @@ Section to append to against.md, in the same form.
 
 | Practice | Held evidence | Verdict |
 |---|---|---|
-| Dense text on investor decks, read alone | Redundancy effects (Adesope 2012, Yue 2013) hold for system-paced material | not a contradiction: a deck read alone is self-paced (Ginns 2005) |
+| Dense text on investor decks, read alone | Redundancy effects (Adesope 2012, Yue 2013) hold for system-paced material | not a contradiction: a deck read alone is self-paced, and Ginns 2005 finds the modality effect gone under self-pacing (it measures modality, not redundancy; full text) |
 | Memos replace slides because bullets hide weak reasoning | Baker 2018: no average difference; Garner 2013: assertion-evidence slides beat bullets | partial: the held evidence says the slide design matters, not the medium |
 | "Show passion" | Chen 2009: preparedness | practice runs ahead of, and partly against, the evidence |
 | "The content speaks for itself" | Clark 2008; Brooks 2014 | evidence against the practice |
