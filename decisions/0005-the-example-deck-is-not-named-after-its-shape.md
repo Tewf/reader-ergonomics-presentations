@@ -1,6 +1,6 @@
 # 0005: The example deck is not named after its shape
 
-**Decision:** The example deck is shapes/example-talk.html, so that Quarto's rendering of shapes/talk.md cannot overwrite it.
+**Decision:** The example deck is named shapes/example-talk.html so that Quarto cannot overwrite it when it renders shapes/talk.md.
 
 **Status:** accepted, 2026-10-29. **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/v1.10.0/shapes/decision-record.md).
 

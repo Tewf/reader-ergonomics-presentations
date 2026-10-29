@@ -18,7 +18,7 @@
 
 ## Why
 
-Colour-coding text and picture parts raised retention and transfer, and eye tracking showed faster location of corresponding parts (Ozcelik 2009, n = 52, abstract).
+Ozcelik 2009 (n = 52, abstract) found that colour-coding text and picture parts raised retention and transfer. Eye tracking showed that readers located the corresponding parts faster.
 
 Jet-like maps can distort over 7% of the displayed data variation. An estimated 8% of men and 0.5% of women have a colour-vision deficiency (Crameri 2020, full text). Viridis gave consistently low error in 56 subjects (Liu 2018, full text).
 

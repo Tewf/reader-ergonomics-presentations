@@ -1,6 +1,6 @@
 # Protocol
 
-This file records how the pool of sources for this topic was built, so that the search can be repeated.
+This file records how the pool of sources for this topic was built. With it, the search can be repeated.
 
 It follows Garousi 2019 for a multivocal literature review (MLR, defined in the [evidence README](../README.md)) in a lighter form.
 
@@ -18,7 +18,7 @@ Garousi 2019 was written for software engineering. Its guidelines are applied he
 | 6 | Synthesis useful to both communities | yes |
 | 7 | Many practitioner sources | yes: every grey string returned speaker guides and workshops |
 
-Seven of seven are yes, so grey literature is included. The same seven answers hold for Q7 (motion) and Q8 (colour): palettes, builds, demos and video style are mostly practice, and the experiments are few and small.
+Seven of seven are yes, so grey literature is included. Q7 (motion) and Q8 (colour) get the same seven answers: palettes, builds, demos and video style are mostly practice, and the experiments are few and small.
 
 ## 2. Questions
 
@@ -113,7 +113,7 @@ Engine for E, F and G strings: a general web search tool (one engine, US-based, 
 | V2 | `abs:"color vision deficiency" AND abs:visualization` | arXiv | 11 | 8 | 2 (Nunez 2018 through its preprint, Petroff 2021) |
 | V3 | `abs:"perceptually uniform" AND abs:colormap` | arXiv | 3 | 3 | 0 |
 
-The same strings in OpenAlex, counted on 2026-10-29 (H1 to H10 and M1 at 00:06 UTC, M2 to V3 at 10:12 UTC), each phrase quoted:
+OpenAlex counts for the same strings, each phrase quoted. H1 to H10 and M1 were counted at 00:06 UTC on 2026-10-29, and M2 to V3 at 10:12 UTC:
 
 | Id | OpenAlex count |
 |---|---|

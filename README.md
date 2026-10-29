@@ -3,7 +3,7 @@
 [![Checks against reader-ergonomics](https://github.com/Tewf/reader-ergonomics-presentations/actions/workflows/checks.yml/badge.svg?branch=master)](https://github.com/Tewf/reader-ergonomics-presentations/actions/workflows/checks.yml?query=branch%3Amaster)
 [![Site](https://github.com/Tewf/reader-ergonomics-presentations/actions/workflows/pages.yml/badge.svg)](https://tewf.github.io/reader-ergonomics-presentations/)
 
-How to build a presentation so that the listener, or the reader of a deck, follows and remembers it at the least cost.
+How to build a presentation that a listener, or the reader of a deck, follows and remembers at the least cost.
 
 It extends [reader-ergonomics](https://github.com/Tewf/reader-ergonomics). The principles, their grades and the checks
 live there and are not repeated here. This repository adds only what is particular to presentations.
@@ -71,8 +71,7 @@ What is new in a talk:
 - the speaker is part of the medium;
 - the room sets legibility, since slides are read from a distance.
 
-What is already in reader-ergonomics, such as signalling, a figure next to its text and typography, is linked, never
-copied.
+What reader-ergonomics already holds is linked, never copied: signalling, a figure next to its text, typography.
 
 ## Where it came from
 

@@ -6,7 +6,7 @@
 
 ## Context
 
-Text-art diagrams across the family's repositories hid half their content behind a scrollbar and read worse than a drawn figure would. The maintainer asked whether this repository covers visual appearance and its ergonomics; it covered slides, legibility, colour and motion, but not how a figure or a diagram is drawn. The evidence on diagram design sat in reader-ergonomics-software-design's diagram review.
+Across the family's repositories, text-art diagrams hid half their content behind a scrollbar; a drawn figure would have read better. The maintainer asked whether this repository covers visual appearance and its ergonomics; it covered slides, legibility, colour and motion, but not how a figure or a diagram is drawn. The evidence on diagram design sat in reader-ergonomics-software-design's diagram review.
 
 ## Decision
 
@@ -19,7 +19,7 @@ This repository owns the visual: slides as before, and figures and diagrams in a
 
 ## Consequences
 
-Principles about figures enter only from question 11, once audited. Software-design's diagram review is linked, not reviewed again. A figure rule here applies to every repository of the family through its link, once the principles exist.
+Principles about figures enter only from question 11, once audited. Software-design's diagram review is linked, not reviewed again. Once the principles exist, a figure rule here applies through its link to every repository of the family.
 
 The cost: every repository's figures now wait on this repository, on its review of question 11 and on its pace.
 

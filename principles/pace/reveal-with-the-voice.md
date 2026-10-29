@@ -16,9 +16,9 @@
 
 ## Why
 
-Key points appearing in step with the narration beat two other formats on post-test and efficiency. The other formats were the whole slide at once and narration followed by the picture (Liu 2022, n = 99).
+Liu 2022 (n = 99) found that key points shown in step with the narration beat two other formats on the post-test and on efficiency. The two others showed the whole slide at once, or the picture after the narration.
 
-A cumulative slide gave higher learning, d = 0.49, and earlier looks at the matching element, d = 1.76 (Ito 2026, n = 40, one biology lesson, abstract).
+Ito 2026 (n = 40, one biology lesson, abstract) found that a cumulative slide gave higher learning, d = 0.49, and earlier looks at the matching element, d = 1.76.
 
 ## Limits
 

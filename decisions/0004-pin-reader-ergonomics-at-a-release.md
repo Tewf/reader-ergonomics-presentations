@@ -10,7 +10,7 @@ This repository runs reader-ergonomics' checks and links its principles. Both ch
 
 ## Decision
 
-CI checks out reader-ergonomics by the commit of a release, since a tag can be moved. Text links name the same release (blob/<tag>), since a tag is readable and is never moved after it is published. The release in use is named in .github/workflows/checks.yml.
+A tag can be moved, so CI checks out reader-ergonomics by the commit of a release. Text links name the same release (blob/<tag>), since a tag is readable and is never moved after it is published. The release in use is named in .github/workflows/checks.yml.
 
 ## Alternatives rejected
 

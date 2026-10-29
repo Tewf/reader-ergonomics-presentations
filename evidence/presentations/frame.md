@@ -4,7 +4,7 @@ This file states the problem in one sentence and lists what research and practic
 
 ## The method has a name
 
-This review is a **multivocal literature review (MLR)**: a systematic review that adds **grey literature** (sources outside journals and books from academic presses) to the formal literature, after Garousi 2019. Grey sources come in three **tiers** by how much control the outlet exerts:
+This review is a **multivocal literature review (MLR)**, after Garousi 2019: a systematic review that adds **grey literature** to the formal literature. Grey literature is any source outside journals and books from academic presses. Grey sources come in three **tiers** by how much control the outlet exerts:
 
 - Tier 1: books, standards, government and official reports, white papers.
 - Tier 2: owner web guides, annual reports, presentations, videos, wiki pages.
@@ -14,7 +14,7 @@ How the pool was built is in [protocol](protocol.md); each source and its score 
 
 ## The problem in one sentence
 
-Decide what goes on the slides and what goes in the speaker's voice so that a listener, who cannot slow down or reread, understands and keeps the main points.
+So that a listener understands and keeps the main points, decide what the slides show and what the speaker says; the listener cannot slow down or reread.
 
 ## What is new against a page
 

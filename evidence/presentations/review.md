@@ -207,7 +207,7 @@ What changes from a self-paced page: the viewer cannot stop, step or replay, so 
 
 ## 9. Business presentations (added 2026-10-29)
 
-Section to append to review.md. Table form: `| Source | Claim | Grade |`. Sources under 10 of 20 are examples of practice only. Found with strings E14 to E18, F3 to F8, G32 to G37 (protocol.md).
+The sources of this strand were found with strings E14 to E18, F3 to F8 and G32 to G37 (protocol.md); those under 10 of 20 are examples of practice only.
 
 ### 9.0 Existing reviews
 
@@ -324,7 +324,11 @@ Detail in [against](against.md). In one line each:
 
 Search strings and scores are in [protocol](protocol.md) and [sources](sources.md). Grades: measured, supported with caveat, convention (untested), not supported. "(secondary)" marks a number read only in a summary.
 
-A casual talk is informal and voluntary: a meetup or club talk, a lightning talk, a talk to friends or classmates, a popular-science talk, a project explained to non-specialists.
+A casual talk is informal and voluntary:
+
+- a meetup or club talk, or a lightning talk;
+- a talk to friends or classmates;
+- a popular-science talk, or a project explained to non-specialists.
 
 ![The evidence on casual talks covers text, recorded lectures, classrooms, posts, surveys of attendees and online view counts of TED talks; it does not reach a live casual talk with a measured outcome, and none was found.](casual-coverage.svg)
 

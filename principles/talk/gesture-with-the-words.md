@@ -15,7 +15,7 @@
 
 ## Why
 
-Hostetter 2011 (63 samples) and Dargue 2019 (83 samples) each report a moderate gain in comprehension when gesture goes with speech. Hostetter 2011 found the gain larger for gesture that does not fully repeat the speech, for motor topics and for children.
+Hostetter 2011 (63 samples) and Dargue 2019 (83 samples) each report a moderate gain in comprehension when gesture goes with speech. Hostetter 2011 found the gain larger in three cases: gesture that does not fully repeat the speech, motor topics, and children.
 
 Drawing as you speak gave d = 0.54, and so did eye contact with the camera. Mere visibility did not help (Fiorella 2019).
 

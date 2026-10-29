@@ -34,7 +34,7 @@ The figure draws the stages of the table for presentations.
 
 ## Subtotals of grey sources
 
-Scores for the Q7 and Q8 round were read from the page or the PDF on 2026-10-28. The wide-use credit in the impact column rests on what the page says about itself unless a count is named. The quality field gives the eight subtotals in the order A to T defined in the [method](../README.md#method), then the total of 20. Books marked "catalogue page only" or "not read" are scored on what the page or earlier notes show.
+Scores for the Q7 and Q8 round were read from the page or the PDF on 2026-10-28. Each score's impact column credits wide use on what the page says about itself, unless a count is named. Each score's quality field gives the eight subtotals of the [method](../README.md#method) in its order, A to T, then the total out of 20. A book marked "catalogue page only" or "not read" is scored on what its page or earlier notes show.
 
 ## Grey sources
 
@@ -194,7 +194,7 @@ Scores for the Q7 and Q8 round were read from the page or the PDF on 2026-10-28.
 
 ## Q9 sources (added 2026-10-29)
 
-Grey scores give the eight subtotals in the order authority / methodology / objectivity / date / position / novelty / impact / outlet, then the total of 20.
+A grey score gives the eight subtotals of the [method](../README.md#method), in its order, then the total out of 20.
 
 ### Flow for Q9
 
@@ -271,7 +271,7 @@ Counted new: 18 formal rows, of which 16 are core and 2 (Cardon 2017, Yang 2021b
 
 ## Q10 sources (added 2026-10-29)
 
-Grey scores give the eight subtotals in the order authority / methodology / objectivity / date / position / novelty / impact / outlet, then the total of 20.
+A grey score gives the eight subtotals of the [method](../README.md#method), in its order, then the total out of 20.
 
 ### Flow for Q10
 

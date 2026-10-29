@@ -10,7 +10,7 @@ An academic talk and a business pitch follow the same base with a few changes. r
 
 ## Decision
 
-Each context is a file in reader-styles/, named by its audience (academic audience, business decision maker, casual audience), with the format of reader-ergonomics' template: who, overrides, thresholds, open questions.
+Each context is a file in reader-styles/ named by its audience: academic audience, business decision maker, casual audience. It has the format of reader-ergonomics' template: who, overrides, thresholds, open questions.
 
 ## Alternatives rejected
 
@@ -21,7 +21,7 @@ Each context is a file in reader-styles/, named by its audience (academic audien
 
 A context changes only what its evidence supports, and says so row by row. The extension contract needs no new mechanism.
 
-The cost: a talk to two audiences at once, such as a defence before a jury and guests, fits no single context.
+The cost: no single context fits a talk to two audiences at once, such as a defence before a jury and guests.
 
 ## See also
 
