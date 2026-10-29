@@ -4,11 +4,12 @@ message: >-
   work-in-progress synthesis of published research, written with Claude, an AI
   assistant by Anthropic. It is not an official standard, not peer-reviewed,
   and not a new result.
-title: "reader-ergonomics-presentations (work in progress, parked)"
+title: "reader-ergonomics-presentations (work in progress)"
 abstract: >-
-  How to build a presentation, academic or business, so that it is cheap
-  to follow and to remember. An extension of reader-ergonomics: the
-  evidence particular to presentations.
+  How to build a presentation, academic, business or casual, so that it is
+  cheap to follow and to remember, and how to draw a figure or a diagram in
+  any document. An extension of reader-ergonomics: the evidence particular
+  to presentations and to figures.
   Use it as a reading list and a starting point, not as an authority.
 type: software
 authors:

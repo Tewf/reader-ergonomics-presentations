@@ -3,14 +3,17 @@
 [![Checks against reader-ergonomics](https://github.com/Tewf/reader-ergonomics-presentations/actions/workflows/checks.yml/badge.svg?branch=master)](https://github.com/Tewf/reader-ergonomics-presentations/actions/workflows/checks.yml?query=branch%3Amaster)
 [![Site](https://github.com/Tewf/reader-ergonomics-presentations/actions/workflows/pages.yml/badge.svg)](https://tewf.github.io/reader-ergonomics-presentations/)
 
-How to build a presentation that a listener, or the reader of a deck, follows and remembers at the least cost.
+How to build a presentation that a listener, or the reader of a deck, follows and remembers at the least cost. For the
+whole family of repositories, also how to draw a figure or a diagram.
 
 It extends [reader-ergonomics](https://github.com/Tewf/reader-ergonomics). The principles, their grades and the checks
 live there and are not repeated here. This repository adds only what is particular to presentations.
 
-> **Status:** work in progress. The [standard](standard.md) has nine principles, three contexts and the shape of a
-> talk, with an example deck and seven checks that run on decks. It has been tested on three real talks, an academic, a
-> business and a casual one, which changed the checks. It is an informal reading of
+> **Status:** work in progress. The [standard](standard.md) has eighteen principles in four groups: nine for a talk, with
+> three contexts, the talk shape and an example deck; nine for a figure in any document, with the figure shape. Eight
+> checks run here, seven on HTML decks and one judgment per figure. The deck checks were tried on three test decks, an
+> academic, a business and a casual one, which changed them; those decks are not public, and no principle has been
+> tested on listeners. It is an informal reading of
 > published research and practice: not an official standard, not a peer-reviewed study, not a new result, and not a
 > claim to the state of the art.
 >
@@ -21,7 +24,8 @@ live there and are not repeated here. This repository adds only what is particul
 ## Scope
 
 One base, and contexts that override it, the way a reader style overrides the standard. Anyone's own way of
-presenting is a style of its own, kept by them, that overrides this standard in turn.
+presenting is a style of its own, kept by them, that overrides this standard in turn. Since 2026-10-29 it is also the
+family's standard for figures and diagrams in any document ([decision 0006](decisions/0006-the-visual-standard-of-the-family.md)).
 
 ![This standard holds a base, what any presentation is, and three contexts that override it: the academic talk, the business presentation and the casual talk; a person's own style overrides the whole standard in turn.](readme-scope.svg)
 
@@ -56,10 +60,10 @@ digraph scope {
 | Part | Holds | State |
 |---|---|---|
 | [standard.md](standard.md) | the card: how to use the standard, and every principle with its grade | written |
-| [principles/](principles/) | nine principles in three groups: pace, slide, talk | written; not yet tested on a real talk |
+| [principles/](principles/) | eighteen principles in four groups: pace, slide, talk, figure | written; tried on three test decks, not tested on listeners |
 | [reader-styles/](reader-styles/) | the contexts, as audiences: academic, business, casual | written |
-| [shapes/](shapes/) | the talk shape, and an example deck in HTML that obeys it | written |
-| [checks/](checks/) | seven checks that run on HTML decks, with their tests | written |
+| [shapes/](shapes/) | the talk shape with an example deck in HTML, and the figure shape with a worked example | written |
+| [checks/](checks/) | eight checks, seven on HTML decks and one judgment per figure, with their tests; the program checks of figures are reader-ergonomics' own | written |
 | [decisions/](decisions/) | the choices that shaped this repository, one record each | seven records |
 | [evidence/](evidence/) | two multivocal reviews: presentations, in ten questions from the voice and the slide to motion, colour, business and casual talks; and figures, how a figure or a diagram is drawn (question 11); 258 works | written, audited |
 
