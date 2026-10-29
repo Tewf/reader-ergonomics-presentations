@@ -34,7 +34,7 @@ answer = "One role: the record of how the pool of sources was built, `so that th
 check = "logical-lines"
 path = "evidence/presentations/review.md"
 question = "328 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "f4c4bf350365"
+file = "4007d8364276"
 answer = "One role: the reading of the literature strand by strand (`## 0. Existing reviews`, `## 8. Colour`), each strand ending in what carries over to a live talk. It stays whole."
 
 [[answer]]
@@ -48,14 +48,14 @@ answer = "One role: the scored list of sources and how each was found (`## Grey 
 check = "co-change"
 path = "checks/config.toml"
 question = "changed together with checks/local/_deck.py in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "8de43cfab17e"
+file = "677d55355f25"
 answer = "Keep them apart and let the code link to the config: `[decks]` holds the tunables that checks/local/_deck.py reads, and the standard asks tunables to live in config; they co-changed in 93d580e (the deck checks), 7051815 (fixes) and eb49412 (a deck slot setting)."
 
 [[answer]]
 check = "co-change"
 path = "checks/config.toml"
 question = "changed together with checks/local/slide_type_size.py in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "8de43cfab17e"
+file = "677d55355f25"
 answer = "Keep them apart: the `[slide_type_size]` table is the only place the threshold lives and checks/local/slide_type_size.py reads it; both changed in 93d580e, 7051815 and eb49412 because a check and its setting are born together."
 
 [[answer]]
@@ -153,7 +153,7 @@ answer = "Yes: the opening says what is known, what is not, and what this reposi
 check = "name-content"
 path = "evidence/presentations/review.md"
 question = "the name 'review' and the opening are far apart in meaning (0.18): does the name predict the content?"
-file = "f4c4bf350365"
+file = "4007d8364276"
 answer = "Yes: the opening says the file reviews the literature on presentations in strands, and the content is that review (`## 0. Existing reviews`, `## 1. Paced media: modality, redundancy, segmenting`)."
 
 [[answer]]

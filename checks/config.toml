@@ -31,6 +31,10 @@ short_slot_minutes = 10   # PROVISIONAL: the casual context's short slot (3 to 1
 [readable_measure]
 stylesheets = []   # the standard's site.css is not in this repository; its site borrows it at build time
 
+[figure_width]
+max_columns = 60   # PROVISIONAL: the narrow end of the readable measure, so a figure fits where its text fits
+exempt = ["evidence/bibliography.md"]
+
 [sufficient_contrast]
 stylesheets = ["shapes/example-talk.css"]
 surfaces = ["section"]   # a slide is a section, a surface the text sits on
