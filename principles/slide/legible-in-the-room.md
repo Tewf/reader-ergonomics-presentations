@@ -10,7 +10,7 @@
 ## What it asks
 
 - Use dark text on a light ground by default.
-- Reach a contrast ratio of at least 4.5:1, or 3:1 for text of 18 point or larger. The rule is [sufficient contrast](https://github.com/Tewf/reader-ergonomics/blob/master/principles/page/sufficient-contrast.md).
+- Reach a contrast ratio of at least 4.5:1, or 3:1 for text of 18 point or larger. The rule is [sufficient contrast](https://github.com/Tewf/reader-ergonomics/blob/v1.0.0/principles/page/sufficient-contrast.md).
 - Set type large: 18 point or larger (Microsoft 2026, convention), and count lines, 10 to 20 per slide (Beamer 2026, convention).
 - In rehearsal, read the slide from the farthest seat (TED 2026, example only).
 

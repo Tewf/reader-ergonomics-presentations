@@ -1,7 +1,7 @@
 # The presentations standard
 
 What any presentation shares, as far as the evidence goes: the rules for a talk given to a room, with slides or
-without. It extends [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/master/standard.md), the
+without. It extends [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/v1.0.0/standard.md), the
 standard for any reader: read that one first. This page adds only what a talk changes, since a listener cannot set
 the pace or read again.
 
@@ -30,7 +30,7 @@ the pace or read again.
 4. **Check:** the deck checks of `checks/local/` run with the standard's own, on every HTML deck named in
    `checks/config.toml`.
 
-Grades mean what they mean in [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/master/standard.md#grades):
+Grades mean what they mean in [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/v1.0.0/standard.md#grades):
 measured, supported with caveat, convention, not supported. Each principle states its grade and never claims more.
 
 ## Principles
