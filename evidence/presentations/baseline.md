@@ -42,7 +42,7 @@ Grades: **convention** means a number agreed by a body or by practice, **measure
 | Rule | Source | Grade |
 |---|---|---|
 | Every slide has a unique, non-empty title | Access Board 2017 (via WCAG); Microsoft 2026 (example only) | convention |
-| Text contrast at least 4.5:1, or 3:1 for text of 18 point or larger | W3C 2023 (WCAG 2.2) | convention |
+| Text contrast at least 4.5:1, or 3:1 for text of 18 point or larger | W3C 2023b (WCAG 2.2) | convention |
 | Body text 18 point or larger on a 16:9 slide, or at most 20 lines per slide | Beamer 2026; Microsoft 2026 and ACM 2026 (examples only); SSP 2026 differs (1/40 of slide height) | convention, untested at distance |
 | At most about 40 words per slide, 80 as a ceiling | Beamer 2026; Garner 2013 (21 against 41) | convention; one study measured |
 | Not more than one slide per minute | Beamer 2026 | convention |
@@ -55,7 +55,7 @@ Grades: **convention** means a number agreed by a body or by practice, **measure
 | No rainbow or jet map for ordered data; a perceptually uniform map instead | Crameri 2020; Borland 2007; Matplotlib 2026 | convention, argued; one model finds a use for rainbow (Reda 2021) |
 | A palette of at most 4 to 6 colours, one colour per category, in a fixed order | ScotGov 2024; Bramble 2026 (three colours) | convention |
 | Dark text on a light ground by default | Greco 2008; Beamer 2026 | measured (three experiments); advice for dark rooms differs |
-| No movement that starts alone, lasts over 5 seconds and sits beside other content without a way to stop it | W3C 2023b | convention |
+| No movement that starts alone, lasts over 5 seconds and sits beside other content without a way to stop it | W3C 2023d | convention |
 | No transition other than none or one plain kind used throughout | Beamer 2026 | convention, untested |
 
 ## Checklist (rules a person judges)

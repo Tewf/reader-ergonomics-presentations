@@ -139,42 +139,42 @@ answer = "Keep them apart: the principle lists the contexts that change it, and 
 check = "logical-lines"
 path = "evidence/presentations/against.md"
 question = "114 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "c40c35ed4edb"
+file = "c4495c65005b"
 answer = "One role: the evidence against the presentation rules, theme by theme (`## Against assertion-evidence`, `## Against the attention rule`). It stays whole."
 
 [[answer]]
 check = "logical-lines"
 path = "evidence/presentations/position.md"
 question = "122 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "a0b08dd56a64"
+file = "6ccfaf554e9a"
 answer = "One role: the repository's position, what is known and not known, with the overrides each context makes (`## Known`, `## The business context: candidate overrides`). It stays whole, though the two context sections are the first candidates to split if a fourth context arrives."
 
 [[answer]]
 check = "logical-lines"
 path = "evidence/presentations/protocol.md"
 question = "532 lines, past the ceiling of 500. Review it: split it only into pieces that change separately and each stay whole, or state why it stays one file."
-file = "415d1774f884"
+file = "91a2df5f61c3"
 answer = "It stays one file: it is the single record of one search, and its parts are rounds appended in order (`## Q9 business presentations (added 2026-10-29)`, `## Q10 casual talks (added 2026-10-29)`), each repeating the same steps such as `### Stopping rule (stated before the search, applied after)`. Overshoots the ceiling by 32 lines; splitting per round is the natural seam if it grows."
 
 [[answer]]
 check = "logical-lines"
 path = "evidence/presentations/protocol.md"
 question = "385 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "415d1774f884"
+file = "91a2df5f61c3"
 answer = "One role: the record of how the pool of sources was built, `so that the search can be repeated`. It stays whole."
 
 [[answer]]
 check = "logical-lines"
 path = "evidence/presentations/review.md"
 question = "328 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "3ab94f00ada5"
+file = "38a5a258bba1"
 answer = "One role: the reading of the literature strand by strand (`## 0. Existing reviews`, `## 8. Colour`), each strand ending in what carries over to a live talk. It stays whole."
 
 [[answer]]
 check = "logical-lines"
 path = "evidence/presentations/sources.md"
 question = "286 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "299c596749a2"
+file = "b7c19c5867fa"
 answer = "One role: the scored list of sources and how each was found (`## Grey sources`, `## Formal sources`). It stays whole."
 
 [[answer]]

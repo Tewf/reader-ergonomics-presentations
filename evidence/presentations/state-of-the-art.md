@@ -16,7 +16,7 @@ Two records are kept apart ([method](../README.md#method)): best evidence (a res
 | Q3 Gesture | Dargue 2019; Hostetter 2011 | meta-analyses, 83 and 63 samples |
 | Q3 Instructor visible in video | Henderson 2021; Polat 2022 | systematic reviews, 12 and 41 studies, no consistent learning effect |
 | Q6 Does fixed pacing (20 by 20) raise learning | Bakcek 2020 | randomised trial, n = 134, test scores equal |
-| Q4 Contrast floor | WCAG 2.2 (W3C 2023) | standard (a convention), not an experiment |
+| Q4 Contrast floor | WCAG 2.2 (W3C 2023b) | standard (a convention), not an experiment |
 | Q5 How talks are built | Rowley-Jolivet 2005 | move analysis of 44 talks in three fields |
 | Q7 Build steps that follow the voice | Liu 2022; Ito 2026 | randomised, n = 99; n = 40 with eye tracking, d = 0.49; both recorded narration |
 | Q7 Who sets the pace | Tabbers 2009 | learner-paced beat system-paced on transfer, at a large cost in time |
@@ -39,7 +39,7 @@ Two records are kept apart ([method](../README.md#method)): best evidence (a res
 | Accessible talks | Rector 2019 and the conference guides derived from it | three conference pages seen citing it; no evidence cited by the guide |
 | Replacing slides | Amazon narrative memo | one company's own report (Bezos 2018) |
 | Headlines as sentences | Assertion-evidence workshops; consulting action titles | no count of users found |
-| Build steps and Morph | PowerPoint's animation pane and Morph | a vendor page with no learning claim (Microsoft 2026b, 6 of 20: example only); no count of users |
+| Build steps and Morph | PowerPoint's animation pane and Morph | a vendor page with no learning claim (Microsoft 2026e, 6 of 20: example only); no count of users |
 | Live coding in teaching | Software Carpentry style workshops | a practice guide that says it is taught in instructor training (Nederbragt 2016, 11.5) |
 | Animated maths videos | 3Blue1Brown and its Manim library | over 3.3 million views of one video (Radmehr 2024); the owner's aim (Sanderson 2026, 8: example only) |
 | Colour defaults | the viridis family as a library default; the Okabe-Ito eight colours | a software manual (Matplotlib 2026, 14.5); the palette is copied from a column (Wong 2011) |

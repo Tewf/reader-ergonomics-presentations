@@ -105,7 +105,7 @@ The base is "what a presentation is". The academic talk and the business present
 |---|---|
 | Sentence headline stating the claim, a figure as the evidence | Garner 2013 (held). Consulting action titles already agree; nothing in Q9 contradicts it |
 | One claim per slide; no decorative images | Held (Sundararajan 2020); Millerd 2025 says the same as practice |
-| Contrast, colour not the only cue, legible type | Held (W3C 2023, Rector 2019); an investor's screen is still a screen |
+| Contrast, colour not the only cue, legible type | Held (W3C 2023b, Rector 2019); an investor's screen is still a screen |
 | Say the evidence and where it is weak | A buyer or an investor also asks; preparedness is what persuaded in Chen 2009 and Pollack 2012 |
 | Rehearse; test the room and the file | Preparedness is the best supported cue in Q9b |
 | A handout is a document of its own, not the slides read as notes | Said to agree with Yates 2007 (not verified: only a bibliographic record was reached): the leave-behind is a genre, built for reading |
@@ -148,7 +148,7 @@ What a casual talk is: see [the review, section 10](review.md).
 |---|---|
 | One claim per slide; sentence headline stating the claim; a figure as the evidence | Garner 2013 (held); the guides above ask for the same, less text and one thought per slide |
 | Words on screen add to the voice, not repeat it | Adesope 2012 (held; spoken plus written text beat spoken alone only for low prior knowledge, system-paced and picture-free material, and equalled written alone; it did not test adding against repeating), Noetel 2022 (held); nothing in Q10 contradicts it |
-| Contrast, legible type, colour never the only cue | A cafe or a classroom is still a room with a back row; W3C 2023, Rector 2019 (held) |
+| Contrast, legible type, colour never the only cue | A cafe or a classroom is still a room with a back row; W3C 2023b, Rector 2019 (held) |
 | Say where the evidence is weak | A lay audience cannot check; McCarthy 2025 counts a "general public" framing as simplistic |
 | Rehearse aloud and time it; test the room and the file | Guides agree (PyCon 2026, WooCommerce 2026); preparedness was the best supported cue in Q9 |
 | A conversational, first-person voice | Ginns 2013 (lessons on computer or paper, no live talk: applied here by analogy) and Mayer 2014c (held); the base already asks for a spoken, personal tone, so the casual talk differs in degree only |

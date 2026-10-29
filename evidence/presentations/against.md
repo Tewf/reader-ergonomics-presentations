@@ -58,7 +58,7 @@ This file gathers the evidence against the presentation rules: null results, dis
 - A slides-only video matched an animation, at lower cost (Pichler 2023).
 - Watching time is not learning (Guo 2014); its 6-minute rule comes from engagement logs in four edX courses (computer science, statistics, AI, chemistry).
 - Live coding did not beat static code on learning in one controlled study (Shah 2023). Active live coding did not beat traditional live coding (Shah 2025). The engagement gain is not a learning gain.
-- Accessibility guides ask for no animation (Rector 2019); the WCAG rule is only to allow pausing (W3C 2023b).
+- Accessibility guides ask for no animation (Rector 2019); the WCAG rule is only to allow pausing (W3C 2023d).
 
 ## Against colour claims
 
@@ -99,7 +99,7 @@ Section to append to against.md, in the same form.
 ### Against passion and for it
 
 - Chen 2009: preparedness, not passion, went with funding. Practice advice to "show passion" is not supported by that paper.
-- Yang 2021: enthusiasm and preparedness both raised willingness to invest (79 pairs, Chinese VC setting). Cardon 2017 found enthusiasm, preparedness and commitment behave as distinct cues, which sits against treating them as one passion construct (inference; the abstract does not mention Chen 2009).
+- Yang 2021b: enthusiasm and preparedness both raised willingness to invest (79 pairs, Chinese VC setting). Cardon 2017 found enthusiasm, preparedness and commitment behave as distinct cues, which sits against treating them as one passion construct (inference; the abstract does not mention Chen 2009).
 - Pollack 2012 uses funded pitches only, so the sample is cut on the outcome.
 
 ### Against pitching on merit
@@ -137,7 +137,7 @@ Each section: what practice says, what the evidence says, and what is left open.
 
 - Practice: PyCon says to use humour if you are funny (PyCon 2026); meetups suit entertaining talks (Hilton 2022).
 - Evidence: related humour is tied to perceived learning, attention and rapport, while gains in learning are mixed and mostly self-reported (Zhou 2025). Concept-related humour helped retention at six weeks, not immediate comprehension (Kaplan 1977, secondary).
-- Evidence against: interesting but irrelevant material lowers learning (Sundararajan 2020, held; Cheng 2026, g = -0.16 over 50 studies). Harsh satire, not gentle, lowered perceived message credibility (Freiling 2024).
+- Evidence against: interesting but irrelevant material lowers learning (Sundararajan 2020, held; Cheng 2026b, g = -0.16 over 50 studies). Harsh satire, not gentle, lowered perceived message credibility (Freiling 2024).
 - Frank 2025 measured likability and perceived legitimacy, not trust or learning; its authors warn of backfire effects from satire and did not test harsh satire.
 - Open: whether a joke in a live talk helps a lay listener remember the point.
 

@@ -86,7 +86,7 @@ Found with strings E1 to E6 (protocol.md, Garousi 2019 Guideline 2).
 
 ## 4. Legibility at a distance
 
-- Contrast: WCAG 2.2 (W3C 2023) sets 4.5:1 for text and 3:1 for large text, where large is 18 point or 14 point bold. Linked: [sufficient contrast](https://github.com/Tewf/reader-ergonomics/blob/v1.4.1/principles/page/sufficient-contrast.md) and Piepenbrock 2013.
+- Contrast: WCAG 2.2 (W3C 2023b) sets 4.5:1 for text and 3:1 for large text, where large is 18 point or 14 point bold. Linked: [sufficient contrast](https://github.com/Tewf/reader-ergonomics/blob/v1.4.1/principles/page/sufficient-contrast.md) and Piepenbrock 2013.
 - Section 508 (Access Board 2017): electronic content must meet WCAG 2.0 level A and AA (E205.4); non-web documents, which includes slide files, are exempt from four criteria.
 - Microsoft 2026 (8.5, example only): every slide gets a unique title, text at 18 point or larger, reading order set, alt text on visuals (read on the page). Its checker flags missing titles, order and contrast on solid backgrounds only.
 - Display sizing: AVIXA 2016 (ANSI/INFOCOMM V202.01) sizes an image from the farthest viewer. AVIXA's analytical calculator (now the 2026 edition) uses an acuity factor of 3438. The formula itself is in the paid standard (secondary, not checked).
@@ -137,7 +137,7 @@ What changes from a self-paced page: the viewer cannot stop, step or replay, so 
   - Ito 2026 (n = 40, one biology lesson): a cumulative slide gave higher learning, d = 0.49, and earlier looks at the matching element, d = 1.76 (abstract).
   - Miller 2011 (two semesters, astronomy): students judged animated slides more effective, exam scores were largely unaffected, and animating illustrations may do more than animating text (abstract).
   - Meij 2021: a whiteboard animation and a slideshow gave similar knowledge scores; the animation was rated higher, which the authors link to seductive details (abstract).
-- Transitions: no study was found. WCAG 2.2.2 asks for a way to pause movement that starts by itself, lasts over 5 seconds and sits beside other content (W3C 2023b).
+- Transitions: no study was found. WCAG 2.2.2 asks for a way to pause movement that starts by itself, lasts over 5 seconds and sits beside other content (W3C 2023d).
 - Video inside a talk:
   - Ljubojevic 2014: an educational clip placed in the middle of a lecture was the most efficient; an entertainment clip was less so (abstract).
   - Zureick 2017 (survey, N = 439): students who always attended live or always watched video scored higher than those who mixed; interruptions went with lower scores (correlational).
@@ -159,7 +159,7 @@ What changes from a self-paced page: the viewer cannot stop, step or replay, so 
 - Practice (all conventions; sources under 10 are examples only):
   - Beamer 2026: animate the dynamics of a system, not to attract attention; use dissolves sparingly. Bramble 2026: use animation for in-between states. Rector 2019: avoid animation unless described aloud.
   - Nederbragt 2016 (11.5): say aloud what is typed, go slowly, mirror the learners' screen. LornaJane 2017 (8.5) and Mozilla 2026 (6): demo only what shows moving parts, rehearse, or play a silent screencast while speaking.
-  - Microsoft 2026b (6) is a feature guide for Morph with no learning claim.
+  - Microsoft 2026e (6) is a feature guide for Morph with no learning claim.
   - Sanderson 2026 (8) states an aim, not a result; Simpleshow 2021 (4.5) reports its own study of twice the gain over slides.
 - Carries over: builds that follow the voice and show change have the best support; everything else about motion in a live room is untested.
 
@@ -242,7 +242,7 @@ Section to append to review.md. Table form: `| Source | Claim | Grade |`. Source
 | Clark 2008 | 24 UK angels rated three oral pitches on 32 aspects: higher overall presentation scores went with more interest; delivery style weighed most; angels gave market, product and funding as reasons and seemed unaware of the effect | supported with caveat |
 | Chen 2009 | in a lab experiment and a field study, VCs' funding decisions followed perceived preparedness, not perceived passion (abstract) | supported with caveat: sample sizes unread |
 | Cardon 2017 | 72 angels made 1,995 evaluations of 133 live pitches (1,966 decisions in the multilevel model): preparedness raised evaluations of funding potential, more so when the entrepreneur had put in more of their own money; enthusiasm had no main effect (full text); enthusiasm, preparedness and commitment behave as distinct cues (abstract) | supported with caveat |
-| Yang 2021 | 79 VC and project pairs in a Chinese VC setting: enthusiasm and preparedness both raised willingness to invest (abstract) | supported with caveat |
+| Yang 2021b | 79 VC and project pairs in a Chinese VC setting: enthusiasm and preparedness both raised willingness to invest (abstract) | supported with caveat |
 | Pollack 2012 | 113 funded pitches from 14 Shark Tank and 84 Dragons' Den episodes: preparedness raised perceived legitimacy, which raised the amount funded | supported with caveat: televised, funded pitches only |
 | Brooks 2014 | across three pitch competitions and two experiments, the same pitch content was more persuasive from a male presenter; attractiveness helped men, not women (abstract) | measured |
 | Brooks 2014 | 90 videoed pitches; voice-swap experiment favoured male-voiced plans (68%) (full text, author copy) | measured |
@@ -255,7 +255,7 @@ Section to append to review.md. Table form: `| Source | Claim | Grade |`. Source
 | (gap) | no study of executive or board briefings, or of what a buyer decides on in a presentation, was found | not tested |
 
 - Investors weigh the person and the preparation, and say they weigh the content. The same evidence (Clark 2008, Brooks 2014) says the presenter cannot be separated from the pitch.
-- Passion is the contested cue: Chen 2009 against Yang 2021, with Cardon 2017 saying the cues are separable.
+- Passion is the contested cue: Chen 2009 against Yang 2021b, with Cardon 2017 saying the cues are separable.
 
 ### 9.3 Formats (Q9c)
 
@@ -311,7 +311,7 @@ Detail in [against](against.md). In one line each:
 
 - Kernbach 2015 finds 18 constraining qualities of PowerPoint in business and education: cognitive, emotional and social.
 - Kosslyn 2012 finds flaws in business slides as in academic ones, and observers rarely name them.
-- Practice says "passion"; Chen 2009 found preparedness, and the matter is open (Yang 2021).
+- Practice says "passion"; Chen 2009 found preparedness, and the matter is open (Yang 2021b).
 - Practice says content decides; Clark 2008 and Brooks 2014 say delivery and presenter weigh in unnoticed.
 - Practice says memos beat slides; no study compares them.
 
@@ -381,7 +381,7 @@ what it does not cover
 | Zhou 2025 | In about 140 works, humour related to the content is linked to perceived learning, attention and rapport; actual learning gains are mixed; unrelated and aggressive humour is more variable or harmful; evidence is mostly self-report | supported with caveat |
 | Kaplan 1977, Suzuki 2014 (secondary); Garner 2006 | Kaplan 1977: concept-related humour helped retention at six weeks, only on the items tied to the humorous examples (Banas 2011 confirms both; that immediate comprehension did not change is not verified). Suzuki 2014 (165 participants): recognition, not recall, differed by condition (not verified: which condition, the abstract is cut off). Garner 2006, read in full: one randomised experiment on three recorded statistics lectures (94 analysed of 117); humour tied to the lecture, inserted three times, raised recall from 77.3 to 88.4 out of 100 at one test after the last lecture (F(1, 92) = 73.81, p < .001); no delayed test, no effect size printed | supported with caveat |
 | Banas 2011 (read in full) | A four-decade narrative review, with no effect sizes: the evidence that humour raises learning is mixed, and the clearest effects are on classroom climate. Related, nonaggressive humour is the appropriate kind; aggressive humour harms climate and motivation | supported with caveat |
-| Cheng 2026, Sundararajan 2020 (held); Rey 2012 | Interesting but irrelevant material lowers learning. Cheng 2026: g = -0.16 over 50 studies and 177 effect sizes (comprehension -0.19, recall -0.17, transfer -0.12). Sundararajan 2020, read in full: g = -0.33 (95% CI -0.48 to -0.18) over 68 effects from 58 papers and 7,521 participants, mostly on immediate tests. Rey 2012, read in full: retention d = 0.30 (34 experiments) and transfer d = 0.48 (21), a positive d meaning lower scores; journal articles only | measured: three meta-analyses, Cheng 2026 read at abstract level |
+| Cheng 2026b, Sundararajan 2020 (held); Rey 2012 | Interesting but irrelevant material lowers learning. Cheng 2026b: g = -0.16 over 50 studies and 177 effect sizes (comprehension -0.19, recall -0.17, transfer -0.12). Sundararajan 2020, read in full: g = -0.33 (95% CI -0.48 to -0.18) over 68 effects from 58 papers and 7,521 participants, mostly on immediate tests. Rey 2012, read in full: retention d = 0.30 (34 experiments) and transfer d = 0.48 (21), a positive d meaning lower scores; journal articles only | measured: three meta-analyses, Cheng 2026b read at abstract level |
 | Frank 2025 | In a survey experiment (2,212 analysed), mild humour raised mirth, and mirth predicted a scientist's likability (B = 0.48) and perceived legitimacy (B = 0.46); trust and credibility were not measured; mediation is correlational; one topic, one fictional scientist | supported with caveat |
 | Freiling 2024 (read in full) | In a US quota sample (N = 796) that heard a 1.5-minute podcast clip, gentle satire did not change how credible the information seemed (B = -.21, p = .09) and harsh satire lowered it (B = -.44, p < .001); harsh satire lowered intent to rely on the information only through that credibility. Trust in the scientist was not measured; one clip and one topic per condition | supported with caveat |
 | Dahlstrom 2014 | Narratives are associated with increased recall, ease of comprehension and shorter reading times, and raise interest and engagement; they are intrinsically persuasive, with ethical considerations (full text, read 2026-10-29). The "twice as fast, twice as well" figure compares narrative with expository text in earlier studies it cites (secondary), and a meta-analysis of health narratives it cites found mixed results (secondary) | supported with caveat |

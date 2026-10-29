@@ -57,7 +57,7 @@ Scores for the Q7 and Q8 round were read from the page or the PDF on 2026-10-28.
 | Minto 1987 | grey, book (tier 1), not read | prior pool | 3/2.5/0.5/1/0/1/0.5/1 = **9.5** (below 10) | review 6 |
 | Tufte 2003 | grey, book (tier 1), not read | prior pool | 3.5/3.5/1.5/1/0.5/1/0.5/1 = **12.5** | review 2, against |
 | CAIB 2003 | grey, government report (tier 1) | prior pool | 4/5.5/4/1/1/1/1/1 = **18.5** | review 2, against |
-| W3C 2023 | grey, standard (tier 1) | prior pool | 4/5/3/1/1/0.5/1/1 = **16.5** | review 4, baseline |
+| W3C 2023b | grey, standard (tier 1) | prior pool | 4/5/3/1/1/0.5/1/1 = **16.5** | review 4, baseline |
 | Access Board 2017 | grey, government standard (tier 1) | prior pool | 4/5.5/3.5/1/1/0.5/1/1 = **17.5** | review 4, baseline |
 | AVIXA 2016 | grey, standard (tier 1), formula via secondary | prior pool | 4/5/2.5/1/0.5/1/0.5/1 = **15.5** | review 4 |
 | Rector 2019 | grey, owner guide (tier 2) | G9; derived guides cite it | 4/4/2/1/0.5/1/1/0.5 = **14** | review 6, position, 7, 8 |
@@ -73,9 +73,9 @@ Scores for the Q7 and Q8 round were read from the page or the PDF on 2026-10-28.
 | LornaJane 2017 | grey, blog (tier 3) | G20 | 2.5/1.5/2/0.5/0.5/1/0.5/0 = **8.5** (below 10) | review 7 (example only) |
 | Mozilla 2026 | grey, wiki (tier 2) | G20 | 2/1/2.5/0/0/0/0/0.5 = **6** (below 10) | review 7 (example only) |
 | Nederbragt 2016 | grey, organisation blog (tier 2) | G23 | 3/2/3/0.5/1/1/0.5/0.5 = **11.5** | review 7 |
-| Microsoft 2026b | grey, support page (tier 2) | G19 | 2.5/1/0.5/0.5/0/0.5/0.5/0.5 = **6** (below 10) | review 7 (example only) |
+| Microsoft 2026e | grey, support page (tier 2) | G19 | 2.5/1/0.5/0.5/0/0.5/0.5/0.5 = **6** (below 10) | review 7 (example only) |
 | Sanderson 2026 | grey, owner page (tier 2) | G22 | 3/1/1/0.5/0/1/1/0.5 = **8** (below 10) | review 7 (example only) |
-| W3C 2023b | grey, standard (tier 1) | Q7, added directly | 4/5/3.5/1/1/0.5/1/1 = **17** | review 7, baseline |
+| W3C 2023d | grey, standard (tier 1) | Q7, added directly | 4/5/3.5/1/1/0.5/1/1 = **17** | review 7, baseline |
 | W3C 2023c | grey, standard (tier 1) | Q8, added directly | 4/5/3.5/1/1/0.5/1/1 = **17** | review 8, baseline |
 | Pichler 2023 | grey, thesis (tier 1) | E13 | 2.5/3.5/3.5/1/1/1/0/1 = **13.5** | review 7 |
 | Simpleshow 2021 | grey, company white paper (tier 2) | E13 | 1.5/1/0/0.5/0/0.5/0.5/0.5 = **4.5** (below 10) | review 7 (example only) |
@@ -250,9 +250,9 @@ Grey scores give the eight subtotals in the order authority / methodology / obje
 | Brooks 2014 | formal, field study and two experiments (abstract and full text read) | seed | measured | review 9b, 9d |
 | Huang 2015 | formal, three studies (abstract read) | seed | supported with caveat | review 9b |
 | Cardon 2017 | formal, empirical test of 72 angels (full text) | summary of Chen 2009 string | supported with caveat | against 9f |
-| Yang 2021 | formal, 79 VC-project pairs, Chinese VC setting (abstract read) | summary of Chen 2009 string | supported with caveat | against 9f |
+| Yang 2021b | formal, 79 VC-project pairs, Chinese VC setting (abstract read) | summary of Chen 2009 string | supported with caveat | against 9f |
 
-Counted new: 18 formal rows, of which 16 are core and 2 (Cardon 2017, Yang 2021) are readings used only in [against](against.md) (Cardon 2017: full text; Yang 2021: abstract). Held and linked, not re-reviewed: Kosslyn 2012, Garner 2013, Ginns 2005, Adesope 2012, Baker 2018, Rowley-Jolivet 2005.
+Counted new: 18 formal rows, of which 16 are core and 2 (Cardon 2017, Yang 2021b) are readings used only in [against](against.md) (Cardon 2017: full text; Yang 2021b: abstract). Held and linked, not re-reviewed: Kosslyn 2012, Garner 2013, Ginns 2005, Adesope 2012, Baker 2018, Rowley-Jolivet 2005.
 
 ### Seen, not retrieved or not read
 
@@ -322,7 +322,7 @@ Grey scores give the eight subtotals in the order authority / methodology / obje
 | Childers 2021 | formal, survey n = 124 and interviews n = 17 (read in full) | F16 | supported with caveat | review 10a |
 | Hunsu 2016 | formal, meta-analysis (read in full) | E24 | supported with caveat | review 10c |
 | Rey 2012 | formal, review and meta-analysis (read in full) | E25 | supported with caveat | review 10f |
-| Cheng 2026 | formal, multilevel meta-analysis (abstract read) | E25 | measured | review 10f |
+| Cheng 2026b | formal, multilevel meta-analysis (abstract read) | E25 | measured | review 10f |
 | Ginns 2013 | formal, meta-analysis (read in full) | E26 | measured | review 10c |
 | Rakedzon 2017 | formal, text analysis of 5,000 pairs of abstracts and lay summaries (full text) | F18 | supported with caveat | review 10a |
 
@@ -332,7 +332,7 @@ Grey scores give the eight subtotals in the order authority / methodology / obje
 |---|---|---|
 | Official Ma thèse en 180 secondes documents (a file of the Université de Lorraine dated 2026; rules from Lyon dated 2019) | HTTP 404 on both | the University of Queensland rules and judging pages (UQ 2026) answer and were read as the primary source for the rules (180 seconds, one slide, no props) |
 | Fischer and Thies on what makes a good science story (JCOM) | the search gave an abstract; the downloaded file was an EPUB that could not be read | not used; the claim that narrative depth did not change story quality is unverified |
-| Springer pages of Cheng 2026, Childers 2021 | an anonymous request returned HTTP 200 with the abstract and its numbers (Ginns 2013 also loaded) | numbers are primary at abstract level |
+| Springer pages of Cheng 2026b, Childers 2021 | an anonymous request returned HTTP 200 with the abstract and its numbers (Ginns 2013 also loaded) | numbers are primary at abstract level |
 | Elsevier page of Hunsu 2016 | the page held no abstract text | effect sizes later read in the full text; "small but significant" is the abstract's own wording |
 | Gesture counts of TED talks (465 against 272) | a popular source, no method read | not used |
 | A language-style study of TED talk views (2021) and the Lancaster press note | summary only | not used |

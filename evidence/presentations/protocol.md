@@ -199,7 +199,7 @@ Strings, N = 10 results screened per string (title and the engine's summary); pa
 | G16 | `rainbow colormap harmful viridis perceptually uniform scientific visualization guide` | 10 | 1 | 1 (EU 2023); Liu 2018 and Reda 2021 found |
 | G17 | `Okabe Ito colorblind friendly palette color universal design guide scientific figures` | 9 | 0 | 0 (the original page is gone; Wong 2011 found) |
 | G18 | `data visualisation colour guidance government analysis function palette categorical sequential diverging` | 9 | 1 | 1 (ScotGov 2024) |
-| G19 | `PowerPoint animation best practices presentation builds Morph transition when to use evidence` | 9 | 1 | 1 (Microsoft 2026b) |
+| G19 | `PowerPoint animation best practices presentation builds Morph transition when to use evidence` | 9 | 1 | 1 (Microsoft 2026e) |
 | G20 | `live demo conference talk advice pre-recorded video versus live demonstration technical presentation` | 10 | 2 | 2 (LornaJane 2017, Mozilla 2026) |
 | G21 | `Brame effective educational videos principles guidelines Vanderbilt Center for Teaching` | 10 | 0 | 0 (Brame 2016 taken as formal) |
 | G22 | `Grant Sanderson 3Blue1Brown Manim animation explain mathematics why animate talk interview process` | 10 | 1 | 1 (Sanderson 2026) |
@@ -214,7 +214,7 @@ Strings, N = 10 results screened per string (title and the engine's summary); pa
 | G31 | `use one accent color to highlight on slides gray everything else emphasis color presentation design` | 9 | 0 | 0 |
 
 - Added directly, not through a string: Wilke 2019 and Matplotlib 2026 (named practitioner references for colour in figures).
-- Also added directly: W3C 2023b and W3C 2023c (the WCAG criteria on moving content and on colour).
+- Also added directly: W3C 2023d and W3C 2023c (the WCAG criteria on moving content and on colour).
 - Pichler 2023 and Simpleshow 2021 came through E13.
 - Totals for G13 to G31: 179 results screened, 15 pages opened in full, 15 new grey sources (7 under 10 of 20). The advice on colour and animation in already scored sources was read again.
   - Beamer 2026, Bramble 2026, Rector 2019, ACM 2026, Microsoft 2026, SSP 2026 and TED 2026 carry some.
@@ -347,9 +347,9 @@ Also found, and not included, since only a title or a summary was read:
 - Elsbach and Kramer: a study of Hollywood pitch meetings (2003);
 - Mitteness and colleagues: a study of angels and perceived passion (2012).
 
- Cardon 2017 (full text, read 2026-10-29) and Yang 2021 (abstract reading) are included for the passion debate.
+ Cardon 2017 (full text, read 2026-10-29) and Yang 2021b (abstract reading) are included for the passion debate.
 
-Forward and backward snowballing: not run (no citation index without an identity). Cardon 2017 and Yang 2021 came from the summary of the Chen 2009 string.
+Forward and backward snowballing: not run (no citation index without an identity). Cardon 2017 and Yang 2021b came from the summary of the Chen 2009 string.
 
 ### G: grey
 
@@ -449,7 +449,7 @@ Seven of seven are yes, so grey literature is included.
 | E22 | `PechaKucha systematic review education students presentations` | 9 | 0 (no review exists in these results) |
 | E23 | `PechaKucha scoping review OR "systematic review" OR meta-analysis presentation format learning` | 9 | 0 (same result: primary studies only) |
 | E24 | `audience response systems clickers meta-analysis learning outcomes lecture questions to audience` | 10 | 1 (Hunsu 2016, later read in full) |
-| E25 | `seductive details meta-analysis learning Rey 2012 Educational Research Review` | 9 | 2 (Rey 2012, later read in full; Cheng 2026, abstract read); Sundararajan 2020 already held |
+| E25 | `seductive details meta-analysis learning Rey 2012 Educational Research Review` | 9 | 2 (Rey 2012, later read in full; Cheng 2026b, abstract read); Sundararajan 2020 already held |
 | E26 | `personalization principle meta-analysis conversational style multimedia learning Ginns 2013 Mayer personalization effect` | 20 | 1 (Ginns 2013, later read in full); Mayer 2014c already held |
 
 ### F: formal
@@ -527,6 +527,6 @@ Totals: E 86, F 141, G 84 = 311 result blocks screened, plus 57 ERIC titles.
 - One reviewer, no second rater for these scores.
 - One personalising search engine; results of 2026-10-29 may not repeat.
 - Screening used titles and the engine's summaries. Numbers read only in a summary are marked "(secondary)".
-- Seven of the 17 new formal sources were secondary. Five were later read in full (Banas 2011, Garner 2006, Freiling 2024, Hunsu 2016, Rey 2012); Kaplan 1977 and Suzuki 2014 remain secondary. An anonymous request to the Springer pages of Cheng 2026 and Childers 2021 returned their abstracts.
+- Seven of the 17 new formal sources were secondary. Five were later read in full (Banas 2011, Garner 2006, Freiling 2024, Hunsu 2016, Rey 2012); Kaplan 1977 and Suzuki 2014 remain secondary. An anonymous request to the Springer pages of Cheng 2026b and Childers 2021 returned their abstracts.
 - The studies of humour, narrative and personal tone are of text, recorded lectures, lessons on computer, screenshots of posts or surveys, not of live talks to voluntary audiences.
 - No query returned a study that measures what a lay audience keeps from a live casual talk.

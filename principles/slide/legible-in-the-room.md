@@ -18,7 +18,7 @@
 
 Across three experiments, dark text on a light ground read best, both on a laptop and projected under several room lights. Pleasantness followed legibility (Greco 2008, secondary).
 
-WCAG 2.2 asks for 4.5:1 on text and 3:1 on large text, meaning 18 point, or 14 point bold (W3C 2023, convention).
+WCAG 2.2 asks for 4.5:1 on text and 3:1 on large text, meaning 18 point, or 14 point bold (W3C 2023b, convention).
 
 ## Limits
 
