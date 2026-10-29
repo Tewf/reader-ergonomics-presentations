@@ -11,7 +11,7 @@
 
 - Use dark text on a light ground by default.
 - Reach a contrast ratio of at least 4.5:1, or 3:1 for text of 18 point or larger. The rule is [sufficient contrast](https://github.com/Tewf/reader-ergonomics/blob/v1.4.1/principles/page/sufficient-contrast.md).
-- Set type large: 18 point or larger (Microsoft 2026, convention), and count lines, 10 to 20 per slide (Beamer 2026, convention).
+- Set type large: 18 point or larger (Microsoft 2026d, convention), and count lines, 10 to 20 per slide (Beamer 2026, convention).
 - In rehearsal, read the slide from the farthest seat (TED 2026, example only).
 
 ## Why
@@ -24,7 +24,7 @@ WCAG 2.2 asks for 4.5:1 on text and 3:1 on large text, meaning 18 point, or 14 p
 
 - No study of projected size and comprehension in a room was found. Size research is for reading on a page or screen (Legge 2011; Rello 2016).
 - Every numeric size is a convention.
-  - 30 point (Kawasaki 2005), 17 point (Peyton Jones 1993), 18 point (Microsoft 2026).
+  - 30 point (Kawasaki 2005), 17 point (Peyton Jones 1993), 18 point (Microsoft 2026d).
   - Type of at least 1/40 of slide height, and a title of 6 words (SSP 2026).
 - Beamer 2026 itself says points mean little for projection.
 - Practice splits on the ground. TED 2026 says bold text on dark. Beamer 2026 warns that inverse video fails in bright rooms. Schwabish 2014 reports dark ground in a dark room as usual advice and finds no reason given.

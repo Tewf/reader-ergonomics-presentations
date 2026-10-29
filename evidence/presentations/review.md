@@ -88,7 +88,7 @@ Found with strings E1 to E6 (protocol.md, Garousi 2019 Guideline 2).
 
 - Contrast: WCAG 2.2 (W3C 2023b) sets 4.5:1 for text and 3:1 for large text, where large is 18 point or 14 point bold. Linked: [sufficient contrast](https://github.com/Tewf/reader-ergonomics/blob/v1.4.1/principles/page/sufficient-contrast.md) and Piepenbrock 2013.
 - Section 508 (Access Board 2017): electronic content must meet WCAG 2.0 level A and AA (E205.4); non-web documents, which includes slide files, are exempt from four criteria.
-- Microsoft 2026 (8.5, example only): every slide gets a unique title, text at 18 point or larger, reading order set, alt text on visuals (read on the page). Its checker flags missing titles, order and contrast on solid backgrounds only.
+- Microsoft 2026d (8.5, example only): every slide gets a unique title, text at 18 point or larger, reading order set, alt text on visuals (read on the page). Its checker flags missing titles, order and contrast on solid backgrounds only.
 - Display sizing: AVIXA 2016 (ANSI/INFOCOMM V202.01) sizes an image from the farthest viewer. AVIXA's analytical calculator (now the 2026 edition) uses an acuity factor of 3438. The formula itself is in the paid standard (secondary, not checked).
 - Size research is for reading, not projection: Legge 2011 (fluent range), Rello 2016 (18 and 26 point on screen). No study of projected size and comprehension in a room was found.
 - Beamer 2026 itself says points mean little for projection; it counts lines per slide, 10 to 20.
@@ -184,7 +184,7 @@ What changes from a self-paced page: the viewer cannot stop, step or replay, so 
   - Poor maps stay the default in software.
   - Liu 2018 (56 subjects, full text): viridis gave consistently low error; the diverging blue-orange scheme erred when a comparison crossed its centre (Figure 6, p. 6; p. 8). Reda 2021 (secondary): rainbow maps can help some inference tasks (see against.md).
   - Position and length before colour: [draw relations](https://github.com/Tewf/reader-ergonomics/blob/v1.4.1/principles/page/draw-relations.md).
-- Colour-vision deficiency: WCAG asks that colour not be the only cue (W3C 2023c). Wong 2011 is the source of a widely copied eight-colour palette (secondary). Rector 2019, ACM 2026 and Microsoft 2026 give the same rule for slides; ACM 2026 names a simulator.
+- Colour-vision deficiency: WCAG asks that colour not be the only cue (W3C 2023c). Wong 2011 is the source of a widely copied eight-colour palette (secondary). Rector 2019, ACM 2026 and Microsoft 2026d give the same rule for slides; ACM 2026 names a simulator.
 - Light against dark when projected:
   - Greco 2008 (three experiments, secondary): dark text on a light background was the most legible, on a laptop and projected under several room lights; pleasantness followed legibility.
   - Positive polarity in general: [sufficient contrast](https://github.com/Tewf/reader-ergonomics/blob/v1.4.1/principles/page/sufficient-contrast.md).

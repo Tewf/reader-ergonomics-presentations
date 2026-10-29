@@ -57,7 +57,7 @@ This file says what is known, what is not, and what this repository adds about p
 - The accessibility checker tests structure (titles, order, contrast), not whether a listener understands.
 - Dark ground in a dark room is the usual advice (Schwabish 2014, 5 of 20, example only); the one projection experiment found dark text on light best (Greco 2008). Practice also splits: TED 2026 says bold text on dark; Beamer 2026 warns against inverse video in bright rooms.
 - Rainbow-like maps remain software defaults although the evidence is against them (Crameri 2020).
-- Where they agree: colour never the only cue (W3C 2023c; Rector 2019; Microsoft 2026) matches the figure literature.
+- Where they agree: colour never the only cue (W3C 2023c; Rector 2019; Microsoft 2026d) matches the figure literature.
 
 ## Against the existing reviews
 

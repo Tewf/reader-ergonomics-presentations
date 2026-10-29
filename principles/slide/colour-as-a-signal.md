@@ -10,7 +10,7 @@
 ## What it asks
 
 - Give one colour to one kind of thing, and keep it across the deck.
-- Never let colour be the only cue. The slide stays readable in greyscale (W3C 2023c; Rector 2019; Microsoft 2026).
+- Never let colour be the only cue. The slide stays readable in greyscale (W3C 2023c; Rector 2019; Microsoft 2026d).
 - Use few colours: at most 4 colours per chart, one per category, in a fixed order (ScotGov 2024, convention).
 - For ordered data, choose a map by lightness, such as viridis, not a rainbow-like map (Crameri 2020; Matplotlib 2026).
 - Keep photographs in their real colours (Bramao 2011).

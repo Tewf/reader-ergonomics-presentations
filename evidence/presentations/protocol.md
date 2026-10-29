@@ -217,7 +217,7 @@ Strings, N = 10 results screened per string (title and the engine's summary); pa
 - Also added directly: W3C 2023d and W3C 2023c (the WCAG criteria on moving content and on colour).
 - Pichler 2023 and Simpleshow 2021 came through E13.
 - Totals for G13 to G31: 179 results screened, 15 pages opened in full, 15 new grey sources (7 under 10 of 20). The advice on colour and animation in already scored sources was read again.
-  - Beamer 2026, Bramble 2026, Rector 2019, ACM 2026, Microsoft 2026, SSP 2026 and TED 2026 carry some.
+  - Beamer 2026, Bramble 2026, Rector 2019, ACM 2026, Microsoft 2026d, SSP 2026 and TED 2026 carry some.
   - The pages of Duarte 2026 and Leonhard Center 2026 carry none.
 - Totals for G1 to G12: 149 results screened, 10 pages or abstracts opened in full, 8 new sources (4 grey, 4 formal). Duarte 2026 was also opened, for scoring only. E1 to E6 screened 57 results and F1, F2 19; the E and F strings added 8 formal sources.
 - Excluded without opening, by type: coach and template-vendor blogs (tier 3, repeating TED or Duarte); event listings and logistics pages; satire and course notes without authority; the same page found twice.

@@ -52,7 +52,7 @@ Scores for the Q7 and Q8 round were read from the page or the PDF on 2026-10-28.
 | Ignite 2026 | grey, owner page (tier 2) | prior pool; G8 | 2/2/0/0/0/0.5/0.5/0.5 = **5.5** (below 10) | review 6, state of the art |
 | Bezos 2018 | grey, annual report letter (tier 2) | prior pool; G6 | 4/3/0.5/1/0/1/0.5/0.5 = **10.5** | review 6, position |
 | Microsoft 2019 | grey, company blog (tier 3) | prior pool | 3/1.5/0/1/0/0.5/0.5/0 = **6.5** (below 10) | review 6, state of the art |
-| Microsoft 2026 | grey, support page (tier 2) | prior pool | 3/2.5/1.5/0/0/0.5/0.5/0.5 = **8.5** (below 10) | review 4, baseline, 8 |
+| Microsoft 2026d | grey, support page (tier 2) | prior pool | 3/2.5/1.5/0/0/0.5/0.5/0.5 = **8.5** (below 10) | review 4, baseline, 8 |
 | Leonhard Center 2026 | grey, owner site (tier 2) | prior pool; G5 | 4/3.5/0/0/0/0.5/0.5/0.5 = **9** (below 10) | against, position |
 | Minto 1987 | grey, book (tier 1), not read | prior pool | 3/2.5/0.5/1/0/1/0.5/1 = **9.5** (below 10) | review 6 |
 | Tufte 2003 | grey, book (tier 1), not read | prior pool | 3.5/3.5/1.5/1/0.5/1/0.5/1 = **12.5** | review 2, against |
