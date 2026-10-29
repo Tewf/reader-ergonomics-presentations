@@ -12,6 +12,8 @@ nothing else there.
 2. A principle belongs here only when a talk changes it: the listener cannot set the pace, the room sets what is
    legible, the speaker is part of the medium.
 3. An audience that changes a principle is a context in [reader-styles/](reader-styles/), not a new principle.
+4. A choice about this repository itself (its scope, its format, a pin) is a record in [decisions/](decisions/): a new
+   record replaces an old one, never an edit.
 
 ## Rules for claims
 

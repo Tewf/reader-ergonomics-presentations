@@ -40,7 +40,8 @@ presentations
 | [principles/](principles/) | nine principles in three groups: pace, slide, talk | written; not yet tested on a real talk |
 | [reader-styles/](reader-styles/) | the contexts, as audiences: academic, business | written; casual being reviewed |
 | [shapes/](shapes/) | the talk shape, and an example deck in HTML that obeys it | written |
-| [checks/](checks/) | six checks that run on HTML decks, with their tests | written |
+| [checks/](checks/) | seven checks that run on HTML decks, with their tests | written |
+| [decisions/](decisions/) | the choices that shaped this repository, one record each | five records |
 | [evidence/](evidence/) | one multivocal review in nine questions, from the voice and the slide to motion, colour and business presentations; 172 works | written, audited |
 
 ## What a presentation adds, and what it does not
