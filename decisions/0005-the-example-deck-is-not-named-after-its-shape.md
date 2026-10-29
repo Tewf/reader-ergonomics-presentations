@@ -1,6 +1,8 @@
-# The example deck is not named after its shape
+# 0005: The example deck is not named after its shape
 
-**Decided:** 2026-10-29.
+**Decision:** The example deck is shapes/example-talk.html, so that Quarto's rendering of shapes/talk.md cannot overwrite it.
+
+**Status:** accepted, 2026-10-29. **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/v1.4.1/shapes/decision-record.md).
 
 ## Context
 
@@ -10,10 +12,14 @@ Quarto renders shapes/talk.md to shapes/talk.html inside the source folder befor
 
 The example deck is shapes/example-talk.html, with example-talk.css, listed as resources in _quarto.yml.
 
+## Alternatives rejected
+
+- Excluding the deck from rendering: the overwrite comes from talk.md's output, not from the deck.
+
 ## Consequences
 
 No hand-made .html file may share its stem with a .md file in this repository.
 
-## Alternatives rejected
+## See also
 
-- Excluding the deck from rendering: the overwrite comes from talk.md's output, not from the deck.
+[Decisions](README.md); [The shapes](../shapes/).

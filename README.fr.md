@@ -44,7 +44,7 @@ présentations
 | [reader-styles/](reader-styles/) | les contextes, écrits comme des auditoires : académique, affaires, informel | écrit |
 | [shapes/](shapes/) | la forme d'un exposé, et un diaporama HTML d'exemple qui la suit | écrit |
 | [checks/](checks/) | sept vérifications qui s'exécutent sur les diaporamas HTML, avec leurs tests | écrit |
-| [decisions/](decisions/) | les choix qui ont façonné ce dépôt, un enregistrement chacun | cinq enregistrements |
+| [decisions/](decisions/) | les choix qui ont façonné ce dépôt, un enregistrement chacun | six enregistrements |
 | [evidence/](evidence/) | une revue multivocale en neuf questions ; 172 travaux | écrite, auditée |
 
 La version anglaise, [README.md](README.md), fait foi.

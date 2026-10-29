@@ -45,7 +45,7 @@ presentations
 | [reader-styles/](reader-styles/) | the contexts, as audiences: academic, business, casual | written |
 | [shapes/](shapes/) | the talk shape, and an example deck in HTML that obeys it | written |
 | [checks/](checks/) | seven checks that run on HTML decks, with their tests | written |
-| [decisions/](decisions/) | the choices that shaped this repository, one record each | five records |
+| [decisions/](decisions/) | the choices that shaped this repository, one record each | six records |
 | [evidence/](evidence/) | one multivocal review in nine questions, from the voice and the slide to motion, colour and business presentations; 172 works | written, audited |
 
 ## What a presentation adds, and what it does not

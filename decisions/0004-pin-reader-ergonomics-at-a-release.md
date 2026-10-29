@@ -1,6 +1,8 @@
-# Pin reader-ergonomics at a release
+# 0004: Pin reader-ergonomics at a release
 
-**Decided:** 2026-10-29, the maintainer.
+**Decision:** CI checks out reader-ergonomics by the commit of a release, and the text links name the same release.
+
+**Status:** accepted, 2026-10-29. **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/v1.4.1/shapes/decision-record.md).
 
 ## Context
 
@@ -8,13 +10,17 @@ This repository runs reader-ergonomics' checks and links its principles. Both ch
 
 ## Decision
 
-CI checks out reader-ergonomics by the commit of a release (v1.0.0, 40cd9fb), since a tag can be moved. Text links name the same release (blob/v1.0.0), since a tag is readable and is never moved after it is published.
-
-## Consequences
-
-An upstream change breaks nothing here until the pin is raised on purpose, in one commit that changes CI and links together.
+CI checks out reader-ergonomics by the commit of a release, since a tag can be moved. Text links name the same release (blob/<tag>), since a tag is readable and is never moved after it is published. The release in use is named in .github/workflows/checks.yml.
 
 ## Alternatives rejected
 
 - Following master: any upstream commit could turn CI red or break a link with nothing changed here.
 - Copying the standard in: every principle would live twice and drift.
+
+## Consequences
+
+An upstream change breaks nothing here until the pin is raised on purpose, in one commit that changes CI and links together.
+
+## See also
+
+[Decisions](README.md); [The workflow](../.github/workflows/checks.yml), reader-ergonomics' [extending.md](https://github.com/Tewf/reader-ergonomics/blob/v1.4.1/extending.md).

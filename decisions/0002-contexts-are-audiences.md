@@ -1,6 +1,8 @@
-# Contexts are written as audiences
+# 0002: Contexts are written as audiences
 
-**Decided:** 2026-10-29, the maintainer.
+**Decision:** Each context is a reader style named by its audience, so an academic talk, a business pitch and a casual talk override the base without a new mechanism.
+
+**Status:** accepted, 2026-10-29. **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/v1.4.1/shapes/decision-record.md).
 
 ## Context
 
@@ -10,11 +12,15 @@ An academic talk and a business pitch follow the same base with a few changes. r
 
 Each context is a file in reader-styles/, named by its audience (academic audience, business decision maker, casual audience), with the format of reader-ergonomics' template: who, overrides, thresholds, open questions.
 
-## Consequences
-
-A context changes only what its evidence supports, and says so row by row. The extension contract needs no new mechanism.
-
 ## Alternatives rejected
 
 - A principle per context: it would copy the base and blur what changes.
 - Contexts named by event (pitch, defence, meetup): one audience meets several events, and the audience is what changes the rules.
+
+## Consequences
+
+A context changes only what its evidence supports, and says so row by row. The extension contract needs no new mechanism.
+
+## See also
+
+[Decisions](README.md); [The contexts](../reader-styles/).
