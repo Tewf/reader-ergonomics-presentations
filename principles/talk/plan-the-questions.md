@@ -4,7 +4,7 @@
 
 - **Grade:** convention (the research is descriptive).
 - **Evidence:** [review, strand 5](../../evidence/presentations/review.md); [position, Not known](../../evidence/presentations/position.md).
-- **Check:** `talk-structure` (heuristic): a questions slide and backup slides after it.
+- **Check:** `talk-structure` (heuristic): a slide for questions or backup, known by its class or by a headline that names questions, backup or an appendix.
 - **Reader styles:** changed by [academic audience](../../reader-styles/academic-audience.md) (peers or a jury) [casual audience](../../reader-styles/casual-audience.md) (questions during the talk, in a small room), and [business decision maker](../../reader-styles/business-decision-maker.md) (the Q&A is part of the decision).
 
 ## What it asks

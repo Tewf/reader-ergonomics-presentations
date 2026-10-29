@@ -5,6 +5,18 @@ without. It extends [reader-ergonomics](https://github.com/Tewf/reader-ergonomic
 standard for any reader: read that one first. This page adds only what a talk changes, since a listener cannot set
 the pace or read again.
 
+## A talk in two weeks
+
+Five rules carry most of the evidence; the full list is below, with the figure rules last.
+
+1. **Show key terms, say the rest:** words on screen do not repeat the voice ([no script on screen](principles/pace/no-script-on-screen.md), measured).
+2. **Headline the claim:** each slide's headline is a sentence stating its claim, with the evidence below it ([claim headline with evidence](principles/slide/claim-headline-with-evidence.md)).
+3. **Reveal as you speak:** points appear when you say them, not a whole slide at once ([reveal with the voice](principles/pace/reveal-with-the-voice.md)).
+4. **Read from the back:** dark text on a light ground, in large type ([legible in the room](principles/slide/legible-in-the-room.md)).
+5. **Point first, point last:** say the point and the plan early, and end on the point ([a talk is not a paper](principles/talk/a-talk-is-not-a-paper.md)).
+
+Then start from the [talk shape](shapes/talk.md) and its [example deck](shapes/example-talk.html).
+
 ## How to use it
 
 ![Four steps: ask who listens and open their context, or keep the base alone; start from the talk shape; build the deck to the principles; run the checks, then fix each error, fix or explain each warning, and answer each judgment.](standard-how-to-use.svg)

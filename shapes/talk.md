@@ -103,3 +103,12 @@ On the slide: one slide per likely question, with its headline and its evidence.
 
 Say: nothing until a question needs the slide. Prepare the list of likely questions before the talk.
 ````
+
+## Rehearsal
+
+What no file shows, checked by running the talk once aloud, timed, before an honest listener:
+
+- the talk fits the slot, with time left for questions;
+- you point at each part of a figure as you name it;
+- you say the sentence and the screen keeps only its terms;
+- you repeat each question before you answer it.

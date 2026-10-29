@@ -4,7 +4,7 @@
 
 - **Grade:** measured.
 - **Evidence:** [review, strand 3](../../evidence/presentations/review.md); [position, Known](../../evidence/presentations/position.md).
-- **Check:** `deck-judgment` (judgment): in rehearsal, does the speaker point at what is being discussed?
+- **Check:** `deck-judgment` (judgment): do the speaker notes plan gestures that point at what is said? Whether the speaker does point is seen only in rehearsal, in the [talk shape's checklist](../../shapes/talk.md#rehearsal).
 - **Reader styles:** none changes it; the delivery row of the [business decision maker](../../reader-styles/business-decision-maker.md) is about the pitch, not gesture.
 
 ## What it asks

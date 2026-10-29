@@ -558,6 +558,6 @@ answer = "Keep them apart: the front page has one row per part, with its count (
 [[answer]]
 check = "name-content"
 path = "standard.md"
-question = "the name 'standard' and the opening are far apart in meaning (0.16): does the name predict the content?"
-file = "d84e52bef908"
+question = "the name 'standard' and the opening are far apart in meaning (0.18): does the name predict the content?"
+file = "8e1f836e8a3c"
 answer = "Yes: the opening `# The presentations standard` names the file, and the file is the card of that standard: how to use it, and every principle with its grade."
