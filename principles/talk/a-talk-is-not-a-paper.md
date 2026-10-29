@@ -25,7 +25,7 @@ Segmenting gave small to medium gains in retention and transfer across 56 studie
 
 - The genre research describes what speakers do. It does not show that the structure helps a listener.
 - No review of talk structure was found. Carter-Thomas 2003 is a methods paper; Hood 2005 and Dubois 1980 were found by title, not read.
-- Peyton Jones 1993 advises skipping the outline slide. That is advice from experience, untested, and it disagrees with a plan slide.
+- Peyton Jones 1993 advises skipping the outline slide, and placing a recap slide about a third of the way through. That is advice from experience, untested; it disagrees with a plan slide at the start, and agrees with returning to the point.
 - Ending on the point is a convention. A serial-position effect on recall might favour it, but no source for this was kept.
 - The belief that attention drops after 10 to 15 minutes has little primary support (Wilson 2007; Bradbury 2016), so it does not justify the repeats.
 - Experts agree on talk advice, but experiments are scarce (Blome 2017, 91 expert-opinion papers).

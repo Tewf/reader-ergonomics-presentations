@@ -52,7 +52,7 @@ This file says what is known, what is not, and what this repository adds about p
 
 - Defaults: the template deck is a topic title over bullets, which Garner 2013 used as its weaker arm.
 - Beamer 2026 advises phrases over sentences; Garner 2013 favoured sentence headlines. The two disagree on the headline, and agree on short slides.
-- Peyton Jones 1993 says skip the outline slide; this is advice from experience, untested.
+- Peyton Jones 1993 says skip the outline slide and put a recap slide about a third of the way through; this is advice from experience, untested.
 - Accessibility guides ask for slide text spoken aloud (Rector 2019); the redundancy result says verbatim text and voice do not help over text alone (Adesope 2012). The two have not been tested together.
 - The accessibility checker tests structure (titles, order, contrast), not whether a listener understands.
 - Dark ground in a dark room is the usual advice (Schwabish 2014, 5 of 20, example only); the one projection experiment found dark text on light best (Greco 2008). Practice also splits: TED 2026 says bold text on dark; Beamer 2026 warns against inverse video in bright rooms.
@@ -133,10 +133,10 @@ What a casual talk is: see [the review, section 10](review.md).
 | The audience shares the field's terms; prior knowledge is assumed | Assume none: say who the talk is for, define every term before its first use, and prefer a plain word to a technical one | McCarthy 2025 (audience seldom defined, "general public" framing); Rakedzon 2017 (lay summaries still above the 2% limit; the tool was also validated on lecture transcripts); Kalyuga 2014 (held; a chapter on redundancy, not on expertise reversal) | supported with caveat; the jargon limit comes from reading research; no source tests assuming none |
 | The audience stays; the talk starts with the problem and its background | The audience can leave and chose to come: open with why a non-specialist should care, in the first minute, before any background | Childers 2021 (attendees came for learning and company); Dahlstrom 2014 (narrative raises interest); no test of an opening | convention, untested |
 | Evidence is a result with its method; narrative is a framing device | A story is a legitimate carrier of the content for a lay audience: a person, a problem, what happened | Dahlstrom 2014 (recall, comprehension and reading time, full text; the health narratives it cites gave mixed results); Zebregs 2015 (held; health only; narrative moved intention, statistics moved belief) | supported with caveat |
-| Material not on the point is cut (coherence) | Humour or an anecdote is allowed when it is tied to the point; unrelated humour is cut like any other detail | Zhou 2025 (related humour helps perceived learning, rapport); Kaplan 1977, Suzuki 2014 (secondary; delayed retention, recognition); Sundararajan 2020 (held) | supported with caveat; affect is clear, learning mixed |
+| Material not on the point is cut (coherence) | Humour or an anecdote is allowed when it is tied to the point; unrelated humour is cut like any other detail | Zhou 2025 (related humour helps perceived learning, rapport); Kaplan 1977, Suzuki 2014 (secondary; delayed retention, recognition); Garner 2006 (one experiment: related humour raised recall); Sundararajan 2020 (held) | supported with caveat; affect is clear, learning mixed |
 | The slot is fixed by the conference; the talk fills it | The slot may be very short (3 to 10 minutes) and is a hard limit: one idea, no outline slide, nothing that needs a second idea to be understood | Bakcek 2020 (held; equal test scores); the competition rules and four guides (all examples); no test against a longer talk | convention, untested |
 | Slides support the talk | Slides are optional: none, one, or a few; a live demo is a choice with a stated risk | TED 2026; Baker 2018 (held; slides neutral on average, g = 0.067 with a CI through zero; K-12 gained); Savoy 2009 (not verified: abstract never reached); Shah 2023 (held; live code taught no more than static); PyCon 2026 (example; never do a live demo) | convention, untested for none; measured for "neutral on average" (Baker 2018) |
-| Questions come at the end | In a small room, questions may be taken during the talk, as discussion; the speaker repeats each question | Hunsu 2016 (secondary; not verified: no abstract was reached); Hilton 2022, PyCon 2026 (examples) | supported with caveat (classes); convention for talks |
+| Questions come at the end | In a small room, questions may be taken during the talk, as discussion; the speaker repeats each question | Hunsu 2016 (classes; the questions, not the device, carry the gain); Hilton 2022, PyCon 2026 (examples) | supported with caveat (classes); convention for talks |
 
 - Weakest rows: the opening, the short slot and slides-optional. Each has no test on a casual talk.
 - Strongest rows: assume no prior knowledge, and humour tied to the point. Each rests on reviews, though of text, recordings or posts.
@@ -151,7 +151,7 @@ What a casual talk is: see [the review, section 10](review.md).
 | Contrast, legible type, colour never the only cue | A cafe or a classroom is still a room with a back row; W3C 2023, Rector 2019 (held) |
 | Say where the evidence is weak | A lay audience cannot check; McCarthy 2025 counts a "general public" framing as simplistic |
 | Rehearse aloud and time it; test the room and the file | Guides agree (PyCon 2026, WooCommerce 2026); preparedness was the best supported cue in Q9 |
-| A conversational, first-person voice | Ginns 2013 and Mayer 2014c (held); the base already asks for a spoken, personal tone, so the casual talk differs in degree only |
+| A conversational, first-person voice | Ginns 2013 (lessons on computer or paper, no live talk: applied here by analogy) and Mayer 2014c (held); the base already asks for a spoken, personal tone, so the casual talk differs in degree only |
 | Segment long material | Rey 2019 (held); a casual slot is short, so the rule rarely applies |
 | Gesture and pointing | Dargue 2019, Hostetter 2011 (held); no casual-specific test |
 

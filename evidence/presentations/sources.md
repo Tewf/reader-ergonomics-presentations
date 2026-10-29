@@ -311,19 +311,19 @@ Grey scores give the eight subtotals in the order authority / methodology / obje
 | McCarthy 2025 | formal, systematic review of 1,360 articles plus a survey of 45 educators (full text) | E19 | measured, descriptive | review 10a, 10f |
 | Dahlstrom 2014 | formal, narrative review (full text read 2026-10-29) | F12 | supported with caveat | review 10c, 10f |
 | Zhou 2025 | formal, narrative review of about 140 works (first half of the text read) | E21 | supported with caveat | review 10c |
-| Banas 2011 | formal, review (secondary: summaries and reference lists) | E21 | supported with caveat | review 10c |
-| Garner 2006 | formal, study of curriculum-specific humour on retention and recall (secondary; design and result not verified: the abstract gives neither) | F14 | supported with caveat | review 10c |
+| Banas 2011 | formal, review (read in full) | E21 | supported with caveat | review 10c |
+| Garner 2006 | formal, study of curriculum-specific humour on retention and recall (read in full: randomised, 94 analysed of 117) | F14 | supported with caveat | review 10c |
 | Kaplan 1977 | formal, experiment on humorous examples (secondary) | F14 | supported with caveat | review 10c |
 | Suzuki 2014 | formal, experiment, 165 participants (secondary) | F14 | supported with caveat | review 10c |
 | Sugimoto 2013 | formal, observational, 1,202 talks (full text) | F10 | supported with caveat (observational) | review 10a, 10f |
 | Segal 2026 | formal, preprint, observational, 1,239 transcripts (abstract page read) | F9 | supported with caveat | review 10c, 10f |
 | Frank 2025 | formal, online experiment, 2,212 analysed (journal page read) | F15 | supported with caveat | review 10c |
-| Freiling 2024 | formal, survey experiment (secondary; N = 723 not verified: not in the abstract) | F15 | supported with caveat | review 10c, 10f |
-| Childers 2021 | formal, survey n = 124 and interviews n = 17 (abstract read) | F16 | supported with caveat | review 10a |
-| Hunsu 2016 | formal, meta-analysis (secondary; no abstract reached) | E24 | supported with caveat | review 10c |
-| Rey 2012 | formal, review and meta-analysis (secondary; abstract closed) | E25 | supported with caveat | review 10f |
+| Freiling 2024 | formal, survey experiment (read in full; N = 796) | F15 | supported with caveat | review 10c, 10f |
+| Childers 2021 | formal, survey n = 124 and interviews n = 17 (read in full) | F16 | supported with caveat | review 10a |
+| Hunsu 2016 | formal, meta-analysis (read in full) | E24 | supported with caveat | review 10c |
+| Rey 2012 | formal, review and meta-analysis (read in full) | E25 | supported with caveat | review 10f |
 | Cheng 2026 | formal, multilevel meta-analysis (abstract read) | E25 | measured | review 10f |
-| Ginns 2013 | formal, meta-analysis (abstract read) | E26 | measured | review 10c |
+| Ginns 2013 | formal, meta-analysis (read in full) | E26 | measured | review 10c |
 | Rakedzon 2017 | formal, text analysis of 5,000 pairs of abstracts and lay summaries (full text) | F18 | supported with caveat | review 10a |
 
 ### Seen, not retrieved or not read
@@ -333,7 +333,7 @@ Grey scores give the eight subtotals in the order authority / methodology / obje
 | Official Ma thèse en 180 secondes documents (a file of the Université de Lorraine dated 2026; rules from Lyon dated 2019) | HTTP 404 on both | the University of Queensland rules and judging pages (UQ 2026) answer and were read as the primary source for the rules (180 seconds, one slide, no props) |
 | Fischer and Thies on what makes a good science story (JCOM) | the search gave an abstract; the downloaded file was an EPUB that could not be read | not used; the claim that narrative depth did not change story quality is unverified |
 | Springer pages of Cheng 2026, Childers 2021 | an anonymous request returned HTTP 200 with the abstract and its numbers (Ginns 2013 also loaded) | numbers are primary at abstract level |
-| Elsevier page of Hunsu 2016 | the page held no abstract text | effect sizes unread; "small but significant" comes from a summary and is not verified |
+| Elsevier page of Hunsu 2016 | the page held no abstract text | effect sizes later read in the full text; "small but significant" is the abstract's own wording |
 | Gesture counts of TED talks (465 against 272) | a popular source, no method read | not used |
 | A language-style study of TED talk views (2021) and the Lancaster press note | summary only | not used |
 | Lightning-talk tips by Willison, Datawookie, Hackernoon, CIEP | seen in a summary, not opened | named only as practice that exists |

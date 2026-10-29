@@ -137,7 +137,7 @@ Each section: what practice says, what the evidence says, and what is left open.
 
 - Practice: PyCon says to use humour if you are funny (PyCon 2026); meetups suit entertaining talks (Hilton 2022).
 - Evidence: related humour is tied to perceived learning, attention and rapport, while gains in learning are mixed and mostly self-reported (Zhou 2025). Concept-related humour helped retention at six weeks, not immediate comprehension (Kaplan 1977, secondary).
-- Evidence against: interesting but irrelevant material lowers learning (Sundararajan 2020, held; Cheng 2026, g = -0.16 over 50 studies). Harsh satire, not gentle, lowered perceived message credibility (Freiling 2024, secondary).
+- Evidence against: interesting but irrelevant material lowers learning (Sundararajan 2020, held; Cheng 2026, g = -0.16 over 50 studies). Harsh satire, not gentle, lowered perceived message credibility (Freiling 2024).
 - Frank 2025 measured likability and perceived legitimacy, not trust or learning; its authors warn of backfire effects from satire and did not test harsh satire.
 - Open: whether a joke in a live talk helps a lay listener remember the point.
 
@@ -178,7 +178,7 @@ Each section: what practice says, what the evidence says, and what is left open.
 
 - Practice: popular talks are written for "the general public".
 - Evidence: 48% of science-communication articles use a general, non-specified or "public" framing, which the authors call simplistic, and only 4% define their audience (McCarthy 2025).
-- Attendees of science cafes came from learning and social motives (Childers 2021). That they are self-selected, and that a general audience is rarely the audience present, is the reviewer's inference.
+- Attendees of science cafes came from learning and social motives (Childers 2021). The authors say their respondents self-selected, and cite earlier work for cafes reaching mostly people already interested in science; that a general audience is rarely the audience present follows, and remains an inference.
 
 ### Where practice contradicts held evidence (Q1 to Q9)
 
@@ -187,8 +187,8 @@ Each section: what practice says, what the evidence says, and what is left open.
 | "No more than 60 seconds on any slide" for lightning talks (PyCon 2026; the blog tips were not opened) | numeric slide rules are conventions (position.md) | agree: both untested |
 | Humour as a rule | coherence principle (Sundararajan 2020) | partly contradicts: unrelated humour is detail |
 | Story first | Q9: numbers for belief, story for intent (Zebregs 2015) | partly contradicts for a talk meant to inform |
-| Drop the outline slide | Peyton Jones 1993 says the same (not verified: not opened); untested | untested |
-| Ask the audience during the talk | Q5: Q&A research is descriptive | no contradiction; classes only (Hunsu 2016, secondary; not verified: no abstract was reached) |
+| Drop the outline slide | Peyton Jones 1993 says the same (read in the paper), and puts a recap slide about a third of the way through instead; experience, untested | untested |
+| Ask the audience during the talk | Q5: Q&A research is descriptive | no contradiction; classes only (Hunsu 2016: the questions, not the device, carry the gain) |
 
 ### Notes
 

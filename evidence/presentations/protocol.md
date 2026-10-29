@@ -445,12 +445,12 @@ Seven of seven are yes, so grey literature is included.
 |---|---|---|---|
 | E19 | `systematic review science communication public talks audience effects meta-analysis` | 9 | 1 (McCarthy 2025); a review of written science communication seen, not used (text, not talks) |
 | E20 | `meta-analysis humor in instruction learning effect` | 10 | 0 (older meta-analyses named in a special-issue summary) |
-| E21 | `Banas 2011 review of humor in educational settings four decades of research Communication Education` | 10 | 2 (Banas 2011 as secondary; Zhou 2025) |
+| E21 | `Banas 2011 review of humor in educational settings four decades of research Communication Education` | 10 | 2 (Banas 2011, later read in full; Zhou 2025) |
 | E22 | `PechaKucha systematic review education students presentations` | 9 | 0 (no review exists in these results) |
 | E23 | `PechaKucha scoping review OR "systematic review" OR meta-analysis presentation format learning` | 9 | 0 (same result: primary studies only) |
-| E24 | `audience response systems clickers meta-analysis learning outcomes lecture questions to audience` | 10 | 1 (Hunsu 2016, secondary) |
-| E25 | `seductive details meta-analysis learning Rey 2012 Educational Research Review` | 9 | 2 (Rey 2012, secondary; Cheng 2026, abstract read); Sundararajan 2020 already held |
-| E26 | `personalization principle meta-analysis conversational style multimedia learning Ginns 2013 Mayer personalization effect` | 20 | 1 (Ginns 2013, abstract read); Mayer 2014c already held |
+| E24 | `audience response systems clickers meta-analysis learning outcomes lecture questions to audience` | 10 | 1 (Hunsu 2016, later read in full) |
+| E25 | `seductive details meta-analysis learning Rey 2012 Educational Research Review` | 9 | 2 (Rey 2012, later read in full; Cheng 2026, abstract read); Sundararajan 2020 already held |
+| E26 | `personalization principle meta-analysis conversational style multimedia learning Ginns 2013 Mayer personalization effect` | 20 | 1 (Ginns 2013, later read in full); Mayer 2014c already held |
 
 ### F: formal
 
@@ -461,9 +461,9 @@ Seven of seven are yes, so grey literature is included.
 | F11 | `TED talks rhetorical analysis experiment persuasion audience gestures humor storytelling study views peer-reviewed` | 20 | 0 (no experiment; the gesture counts come from a popular source) |
 | F12 | `storytelling narrative science communication effect on understanding engagement experiment Dahlstrom` | 10 | 1 (Dahlstrom 2014, full text) |
 | F13 | `Fischer Thies science story good narrative transportation topic interest experiment` | 9 | 0 (abstract only through the engine; the full file could not be read) |
-| F14 | `experiment humor in persuasive speech or lecture recall comprehension randomized relevant humor Garner humor in pedagogy` | 18 | 3 (Garner 2006, Kaplan 1977, Suzuki 2014, all secondary) |
-| F15 | `humour in science communication public audiences study effects on perceived scientist credibility engagement Riesch OR Yeo` | 18 | 2 (Frank 2025 read on the journal page; Freiling 2024 secondary) |
-| F16 | `science café OR "public lecture" audience survey who attends motivations evaluation study public engagement events` | 10 | 1 (Childers 2021, abstract read) |
+| F14 | `experiment humor in persuasive speech or lecture recall comprehension randomized relevant humor Garner humor in pedagogy` | 18 | 3 (Garner 2006, later read in full; Kaplan 1977 and Suzuki 2014, secondary) |
+| F15 | `humour in science communication public audiences study effects on perceived scientist credibility engagement Riesch OR Yeo` | 18 | 2 (Frank 2025 read on the journal page; Freiling 2024, later read in full) |
+| F16 | `science café OR "public lecture" audience survey who attends motivations evaluation study public engagement events` | 10 | 1 (Childers 2021, later read in full) |
 | F17 | `talk without slides versus PowerPoint audience experiment recall engagement chalk talk blackboard study` | 9 | 0 (no study of a slide-free live talk) |
 | F18 | `jargon barrier science communication lay audience experiment comprehension public talk Sharon Baram-Tsabari` | 20 | 1 (Rakedzon 2017, full text) |
 | F19 | `vulgarisation scientifique conférence grand public revue de littérature effets sur le public` | 9 | 0 (French: course pages and essays; no evaluation study) |
@@ -527,6 +527,6 @@ Totals: E 86, F 141, G 84 = 311 result blocks screened, plus 57 ERIC titles.
 - One reviewer, no second rater for these scores.
 - One personalising search engine; results of 2026-10-29 may not repeat.
 - Screening used titles and the engine's summaries. Numbers read only in a summary are marked "(secondary)".
-- Seven of the 17 new formal sources are secondary. An anonymous request to the Springer pages of Cheng 2026 and Childers 2021 returned their abstracts.
-- The studies of humour, narrative and personal tone are of text, recorded lectures, screenshots of posts or surveys, not of live talks to voluntary audiences.
+- Seven of the 17 new formal sources were secondary. Five were later read in full (Banas 2011, Garner 2006, Freiling 2024, Hunsu 2016, Rey 2012); Kaplan 1977 and Suzuki 2014 remain secondary. An anonymous request to the Springer pages of Cheng 2026 and Childers 2021 returned their abstracts.
+- The studies of humour, narrative and personal tone are of text, recorded lectures, lessons on computer, screenshots of posts or surveys, not of live talks to voluntary audiences.
 - No query returned a study that measures what a lay audience keeps from a live casual talk.
