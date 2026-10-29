@@ -1,10 +1,12 @@
 cff-version: 1.2.0
 message: >-
-  If this repository helps you, you may cite it as below. It is an informal,
-  work-in-progress synthesis of published research, written with Claude, an AI
-  assistant by Anthropic. It is not an official standard, not peer-reviewed,
+  If this repository helps you, you may cite it as below. It is an informal
+  synthesis of published research, written with Claude, an AI assistant by
+  Anthropic. It is not an official standard, not peer-reviewed,
   and not a new result.
-title: "reader-ergonomics-presentations (work in progress)"
+title: "reader-ergonomics-presentations"
+version: "1.0.0"
+date-released: "2026-10-29"
 abstract: >-
   How to build a presentation, academic, business or casual, so that it is
   cheap to follow and to remember, and how to draw a figure or a diagram in
