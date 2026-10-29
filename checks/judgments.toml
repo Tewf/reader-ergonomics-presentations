@@ -262,20 +262,6 @@ file = "d5ecce06c90e"
 answer = "Yes: the alt text gives the four steps and what to do with each finding (`answer it in checks/judgments.toml`); no quantity is drawn and nothing is decoration."
 
 [[answer]]
-check = "co-change"
-path = "checks/config.toml"
-question = "changed together with checks/local/_deck.py in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "90b6385a505e"
-answer = "Keep them apart and let the code link to the config: `[decks]` holds the tunables that checks/local/_deck.py reads, and the standard asks tunables to live in config; they co-changed in 93d580e (the deck checks), 7051815 (fixes) and eb49412 (a deck slot setting)."
-
-[[answer]]
-check = "co-change"
-path = "checks/config.toml"
-question = "changed together with checks/local/slide_type_size.py in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "90b6385a505e"
-answer = "Keep them apart: the `[slide_type_size]` table is the only place the threshold lives and checks/local/slide_type_size.py reads it; both changed in 93d580e, 7051815 and eb49412 because a check and its setting are born together."
-
-[[answer]]
 check = "document-mode"
 path = "principles/figure/drawn-from-source.md"
 question = "reads about equally as reference and how-to: one mode per document?"
@@ -561,3 +547,17 @@ path = "README.md"
 question = "changed together with decisions/README.md in 4 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
 file = "3a1ac2135de3"
 answer = "Keep them apart: the front page has one row per part, with its count (`the choices that shaped this repository, one record each`), and decisions/README.md lists the records themselves. They change together when a record is added and the count on the front page moves: a link and a number, not shared content."
+
+[[answer]]
+check = "co-change"
+path = "checks/config.toml"
+question = "changed together with checks/local/_deck.py in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "ca30d7131046"
+answer = "Keep them apart and let the code link to the config: `[decks]` holds the tunables that checks/local/_deck.py reads, and the standard asks tunables to live in config; they co-changed in 93d580e (the deck checks), 7051815 (fixes) and eb49412 (a deck slot setting)."
+
+[[answer]]
+check = "co-change"
+path = "checks/config.toml"
+question = "changed together with checks/local/slide_type_size.py in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "ca30d7131046"
+answer = "Keep them apart: the `[slide_type_size]` table is the only place the threshold lives and checks/local/slide_type_size.py reads it; both changed in 93d580e, 7051815 and eb49412 because a check and its setting are born together."
