@@ -8,8 +8,9 @@ How to build a presentation so that the listener, or the reader of a deck, follo
 It extends [reader-ergonomics](https://github.com/Tewf/reader-ergonomics). The principles, their grades and the checks
 live there and are not repeated here. This repository adds only what is particular to presentations.
 
-> **Status:** parked. The evidence is written and audited. The principles, the two contexts and the shape of a deck
-> are not started, and nothing more is built until the maintainer settles the scope. It is an informal reading of
+> **Status:** work in progress. The [standard](standard.md) has nine principles, two contexts and the shape of a talk,
+> with an example deck and checks that run on decks; a third context, the casual talk, is being reviewed. Each part is
+> to be tested on real talks before it is trusted. It is an informal reading of
 > published research and practice: not an official standard, not a peer-reviewed study, not a new result, and not a
 > claim to the state of the art.
 >
@@ -19,23 +20,28 @@ live there and are not repeated here. This repository adds only what is particul
 
 ## Scope
 
-One base, and two contexts that override it, the way a reader style overrides the standard:
+One base, and contexts that override it, the way a reader style overrides the standard. Anyone's own way of
+presenting is a style of its own, kept by them, that overrides this standard in turn.
 
 ```text
 presentations
  ├─ the base: what a presentation is      a paced medium, a speaker, a room
  └─ contexts that override the base
     ├─ the academic talk                  conference, seminar, defence
-    └─ the business presentation          pitch, sale, executive briefing
+    ├─ the business presentation          pitch, sale, executive briefing
+    └─ the casual talk                    meetup, club, friends (being reviewed)
 ```
 
 ## Contents
 
 | Part | Holds | State |
 |---|---|---|
-| [evidence/](evidence/) | one multivocal review in nine questions, from the voice and the slide to motion, colour and business presentations; 171 works | written, audited |
-| principles and contexts | the base, and what each context overrides | not started; candidate overrides in [position.md](evidence/presentations/position.md) |
-| shape of a deck | the skeleton of a talk's slides | not started |
+| [standard.md](standard.md) | the card: how to use the standard, and every principle with its grade | written |
+| [principles/](principles/) | nine principles in three groups: pace, slide, talk | written; not yet tested on a real talk |
+| [reader-styles/](reader-styles/) | the contexts, as audiences: academic, business | written; casual being reviewed |
+| [shapes/](shapes/) | the talk shape, and an example deck in HTML that obeys it | written |
+| [checks/](checks/) | six checks that run on HTML decks, with their tests | written |
+| [evidence/](evidence/) | one multivocal review in nine questions, from the voice and the slide to motion, colour and business presentations; 172 works | written, audited |
 
 ## What a presentation adds, and what it does not
 

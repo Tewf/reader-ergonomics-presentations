@@ -1,0 +1,40 @@
+# Presentations
+
+> What any presentation shares, by what research has measured: rules for a talk to a room, each with its grade of evidence, and the contexts that override them.
+
+Each page's markdown source is served at the same path with a .md extension.
+
+## Standard
+
+- [Standard](https://tewf.github.io/reader-ergonomics-presentations/standard.md): the one-page card to follow, with every principle and its grade
+- [Contributing](https://tewf.github.io/reader-ergonomics-presentations/AGENTS.md): rules for changing this repository
+
+## Pace: the listener cannot reread
+
+- [Motion adds, never replaces](https://tewf.github.io/reader-ergonomics-presentations/principles/pace/motion-adds-never-replaces.md): animation, video and live demos are added to an explanation, never in place of it.
+- [No script on screen](https://tewf.github.io/reader-ergonomics-presentations/principles/pace/no-script-on-screen.md): words on screen do not repeat the voice: show key terms and the evidence, and say the rest.
+- [Reveal with the voice](https://tewf.github.io/reader-ergonomics-presentations/principles/pace/reveal-with-the-voice.md): points appear as they are spoken, not a whole slide at once.
+
+## Slide: what the room sees
+
+- [Claim headline with evidence](https://tewf.github.io/reader-ergonomics-presentations/principles/slide/claim-headline-with-evidence.md): each slide's headline is a sentence stating its claim, and the slide shows the evidence.
+- [Colour as a signal](https://tewf.github.io/reader-ergonomics-presentations/principles/slide/colour-as-a-signal.md): colour links what belongs together and is never the only cue; data colour maps are perceptually ordered.
+- [Legible in the room](https://tewf.github.io/reader-ergonomics-presentations/principles/slide/legible-in-the-room.md): text is readable from the back of the room: dark on light, high contrast, large type.
+
+## Talk: the speaker and the hour
+
+- [A talk is not a paper](https://tewf.github.io/reader-ergonomics-presentations/principles/talk/a-talk-is-not-a-paper.md): a talk is its own genre: it says its point and plan early, returns to them, and ends on the point.
+- [Gesture with the words](https://tewf.github.io/reader-ergonomics-presentations/principles/talk/gesture-with-the-words.md): the speaker gestures at what is said; a visible face adds nothing consistent.
+- [Plan the questions](https://tewf.github.io/reader-ergonomics-presentations/principles/talk/plan-the-questions.md): the questions are part of the talk: the likely ones are prepared, with backup slides.
+
+## Reader styles
+
+- [Reader styles](https://tewf.github.io/reader-ergonomics-presentations/reader-styles/README.md): how a known reader changes the optimum
+- [Reader style: academic audience](https://tewf.github.io/reader-ergonomics-presentations/reader-styles/academic-audience.md)
+- [Reader style: business decision maker](https://tewf.github.io/reader-ergonomics-presentations/reader-styles/business-decision-maker.md)
+
+## Optional
+
+- [Evidence](https://tewf.github.io/reader-ergonomics-presentations/evidence/README.md): one literature review per topic, with the evidence against
+- [Bibliography](https://tewf.github.io/reader-ergonomics-presentations/evidence/bibliography.md): every cited work, once
+- [Shapes](https://tewf.github.io/reader-ergonomics-presentations/shapes/README.md): skeletons for kinds of documents

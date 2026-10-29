@@ -1,0 +1,10 @@
+# Reader styles
+
+The [standard](https://github.com/Tewf/reader-ergonomics/blob/master/standard.md) and the [principles](../principles/README.md) assume a general audience. A context says what moves when the audience is known. Each lists only overrides; everything else holds.
+
+| File | The context |
+|---|---|
+| [academic-audience.md](academic-audience.md) | conference and seminar talks, and the defence of a thesis or an internship report |
+| [business-decision-maker.md](business-decision-maker.md) | a pitch, a sales presentation or a decision deck, for someone who will decide |
+
+The format is the [template](https://github.com/Tewf/reader-ergonomics/blob/master/reader-styles/template.md) of reader-ergonomics.
