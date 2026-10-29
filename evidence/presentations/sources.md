@@ -309,7 +309,7 @@ Grey scores give the eight subtotals in the order authority / methodology / obje
 | Key | Kind | Found via | Quality | Used in |
 |---|---|---|---|---|
 | McCarthy 2025 | formal, systematic review of 1,360 articles plus a survey of 45 educators (full text) | E19 | measured, descriptive | review 10a, 10f |
-| Dahlstrom 2014 | formal, narrative review (abstract read; full text not reached: bot checks) | F12 | supported with caveat | review 10c, 10f |
+| Dahlstrom 2014 | formal, narrative review (full text read 2026-10-29) | F12 | supported with caveat | review 10c, 10f |
 | Zhou 2025 | formal, narrative review of about 140 works (first half of the text read) | E21 | supported with caveat | review 10c |
 | Banas 2011 | formal, review (secondary: summaries and reference lists) | E21 | supported with caveat | review 10c |
 | Garner 2006 | formal, study of curriculum-specific humour on retention and recall (secondary; design and result not verified: the abstract gives neither) | F14 | supported with caveat | review 10c |
