@@ -3,6 +3,13 @@
 Every release of this repository, newest first, in the form of
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.1] - 2026-11-04
+
+### Changed
+
+- The citation file and the Status line now cite the repository as release 1.0.0, no longer work in progress.
+- Tag v1.0.1 and a GitHub release of the same name.
+
 ## [1.0.0] - 2026-10-29
 
 ### Changed
