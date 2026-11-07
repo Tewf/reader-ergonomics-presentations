@@ -3,6 +3,12 @@
 Every release of this repository, newest first, in the form of
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.2] - 2026-11-07
+
+### Changed
+
+- Pinned reader-ergonomics v1.22.1 (`0206e69`), from v1.18.2 (`bfbe9f7`): front matter skipped and LaTeX maths blanked, a shape's skeleton skipped by duplication, escaped-pipe wikilinks resolved, `run.py --out`, `release-version`, and `standard-pin` moves a pin.
+
 ## [1.0.1] - 2026-11-04
 
 ### Changed
